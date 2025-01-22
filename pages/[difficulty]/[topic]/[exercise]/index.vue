@@ -1,3 +1,4 @@
+# pages/[difficulty]/[topic]/[exercise]/index.vue
 <template>
   <div class="p-6">
     <div class="flex items-center justify-between mb-6">
@@ -11,11 +12,10 @@
         Back to {{ difficultySelected.label }}
       </button>
     </div>
-    <pre>
-      <code>
-        {{ exerciseSelected }}
-      </code>
-    </pre>
+    <TfsExerciseList 
+      v-if="exerciseSelected.items"
+      :exercises="exerciseSelected.items" 
+    />
   </div>
 </template>
 
@@ -25,14 +25,13 @@ import { useExerciseStore } from '~/stores/exercises';
 const exerciseStore = useExerciseStore();
 
 defineOptions({
-  name: 'BasicDifficulty',
+  name: 'ExercisePage',
 });
 
 const router = useRouter();
+const route = useRoute();
 
-const route = useRoute()
-
-const { difficulty, topic, exercise } = route.params
+const { difficulty, topic, exercise } = route.params;
 
 const difficultySelected = computed(() => {
   return exerciseStore.difficulties[difficulty] || {};

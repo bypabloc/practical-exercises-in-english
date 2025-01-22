@@ -1,3 +1,4 @@
+# components/ExerciseList.vue
 <template>
   <div class="max-w-4xl mx-auto p-6">
     <form @submit.prevent="validateAnswers" class="space-y-8">
@@ -76,7 +77,7 @@
                 </p>
               </div>
 
-              <!-- Practice Button (shown for all answers after validation) -->
+              <!-- Practice Button -->
               <button
                 type="button"
                 class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
@@ -104,27 +105,26 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
-import { useExerciseStore } from '~/stores/exercises';
+import { onMounted, ref } from 'vue';
+
+const props = defineProps({
+  exercises: {
+    type: Array,
+    required: true
+  }
+});
 
 const nuxtApp = useNuxtApp();
-
 const { $textToSpeech } = nuxtApp;
-
-// Store initialization
-const store = useExerciseStore();
-const exercises = computed(() => 
-  store.exercises.basic.topics['complete-with-the-correct-verb'].items
-);
 
 // Component state
 const userAnswers = ref([]);
 const showResults = ref(false);
 const selectedExercises = ref([]);
 
-// Select 10 random exercises
+// Select 10 random exercises on mount
 onMounted(() => {
-  const shuffled = [...exercises.value]
+  const shuffled = [...props.exercises]
     .sort(() => Math.random() - 0.5)
     .slice(0, 10);
   selectedExercises.value = shuffled;
@@ -146,17 +146,6 @@ const getFullSentence = (exercise) => {
 const validateAnswers = () => {
   showResults.value = true;
 };
-
-const synth = window.speechSynthesis;
-let voices = [];
-PopulateVoices();
-if(speechSynthesis !== undefined){
-    speechSynthesis.onvoiceschanged = PopulateVoices;
-}
-function PopulateVoices(){
-    voices = synth.getVoices();
-    voices.forEach((item, index) => console.log(item.name, index));
-}
 
 // Practice pronunciation of the exercise
 const practicePronunciation = (index) => {
