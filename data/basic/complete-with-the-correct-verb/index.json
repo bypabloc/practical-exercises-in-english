@@ -1,452 +1,377 @@
 [
   {
-    "question": "He _____ (work) at a hospital.",
+    "question": "He {_____} at a hospital.",
     "answer": "works",
-    "translation": "Él trabaja en un hospital",
-    "pronunciation": "hi wərks æt ə ˈhɑːspɪtəl"
+    "translation": "Él trabaja en un hospital"
   },
   {
-    "question": "They _____ (live) in New York.",
+    "question": "They {_____} (live) in New York.",
     "answer": "live",
-    "translation": "Ellos viven en Nueva York",
-    "pronunciation": "ðeɪ lɪv ɪn nuː jɔːrk"
+    "translation": "Ellos viven en Nueva York"
   },
   {
-    "question": "She _____ (study) English every day.",
+    "question": "She {_____} (study) English every day.",
     "answer": "studies",
-    "translation": "Ella estudia inglés todos los días",
-    "pronunciation": "ʃi ˈstʌdiz ˈɪŋɡlɪʃ ˈevri deɪ"
+    "translation": "Ella estudia inglés todos los días"
   },
   {
-    "question": "The sun _____ (rise) in the east.",
+    "question": "The sun {_____} (rise) in the east.",
     "answer": "rises",
-    "translation": "El sol sale por el este",
-    "pronunciation": "ðə sʌn ˈraɪzɪz ɪn ði iːst"
+    "translation": "El sol sale por el este"
   },
   {
-    "question": "We _____ (go) to school by bus.",
+    "question": "We {_____} (go) to school by bus.",
     "answer": "go",
-    "translation": "Nosotros vamos a la escuela en autobús",
-    "pronunciation": "wi ɡoʊ tu skuːl baɪ bʌs"
+    "translation": "Nosotros vamos a la escuela en autobús"
   },
   {
-    "question": "The dog _____ (bark) at night.",
+    "question": "The dog {_____} (bark) at night.",
     "answer": "barks",
-    "translation": "El perro ladra por la noche",
-    "pronunciation": "ðə dɔːɡ bɑːks æt naɪt"
+    "translation": "El perro ladra por la noche"
   },
   {
-    "question": "I _____ (speak) three languages.",
+    "question": "I {_____} (speak) three languages.",
     "answer": "speak",
-    "translation": "Yo hablo tres idiomas",
-    "pronunciation": "aɪ spiːk θriː ˈlæŋɡwɪdʒɪz"
+    "translation": "Yo hablo tres idiomas"
   },
   {
-    "question": "The birds _____ (sing) in the morning.",
+    "question": "The birds {_____} (sing) in the morning.",
     "answer": "sing",
-    "translation": "Los pájaros cantan en la mañana",
-    "pronunciation": "ðə bɜːdz sɪŋ ɪn ðə ˈmɔːrnɪŋ"
+    "translation": "Los pájaros cantan en la mañana"
   },
   {
-    "question": "She _____ (teach) mathematics.",
+    "question": "She {_____} (teach) mathematics.",
     "answer": "teaches",
-    "translation": "Ella enseña matemáticas",
-    "pronunciation": "ʃi ˈtiːtʃɪz ˌmæθəˈmætɪks"
+    "translation": "Ella enseña matemáticas"
   },
   {
-    "question": "The train _____ (leave) at 8 PM.",
+    "question": "The train {_____} (leave) at 8 PM.",
     "answer": "leaves",
-    "translation": "El tren sale a las 8 PM",
-    "pronunciation": "ðə treɪn liːvz æt eɪt piː em"
+    "translation": "El tren sale a las 8 PM"
   },
   {
-    "question": "My brother _____ (play) soccer.",
+    "question": "My brother {_____} (play) soccer.",
     "answer": "plays",
-    "translation": "Mi hermano juega fútbol",
-    "pronunciation": "maɪ ˈbrʌðər pleɪz ˈsɑkər"
+    "translation": "Mi hermano juega fútbol"
   },
   {
-    "question": "They _____ (watch) TV every evening.",
+    "question": "They {_____} (watch) TV every evening.",
     "answer": "watch",
-    "translation": "Ellos miran TV todas las tardes",
-    "pronunciation": "ðeɪ wɑtʃ ˌtiːˈviː ˈevri ˈiːvnɪŋ"
+    "translation": "Ellos miran TV todas las tardes"
   },
   {
-    "question": "The cat _____ (sleep) on the sofa.",
+    "question": "The cat {_____} (sleep) on the sofa.",
     "answer": "sleeps",
-    "translation": "El gato duerme en el sofá",
-    "pronunciation": "ðə kæt sliːps ɒn ðə ˈsoʊfə"
+    "translation": "El gato duerme en el sofá"
   },
   {
-    "question": "We _____ (eat) breakfast at 7 AM.",
+    "question": "We {_____} (eat) breakfast at 7 AM.",
     "answer": "eat",
-    "translation": "Nosotros desayunamos a las 7 AM",
-    "pronunciation": "wi iːt ˈbrekfəst æt ˈsevən eɪ em"
+    "translation": "Nosotros desayunamos a las 7 AM"
   },
   {
-    "question": "He _____ (drive) to work.",
+    "question": "He {_____} (drive) to work.",
     "answer": "drives",
-    "translation": "Él conduce al trabajo",
-    "pronunciation": "hi draɪvz tu wɜːk"
+    "translation": "Él conduce al trabajo"
   },
   {
-    "question": "The store _____ (open) at 9 AM.",
+    "question": "The store {_____} (open) at 9 AM.",
     "answer": "opens",
-    "translation": "La tienda abre a las 9 AM",
-    "pronunciation": "ðə stɔːr ˈoʊpənz æt naɪn eɪ em"
+    "translation": "La tienda abre a las 9 AM"
   },
   {
-    "question": "I _____ (like) chocolate ice cream.",
+    "question": "I {_____} (like) chocolate ice cream.",
     "answer": "like",
-    "translation": "Me gusta el helado de chocolate",
-    "pronunciation": "aɪ laɪk ˈtʃɑːklət aɪs kriːm"
+    "translation": "Me gusta el helado de chocolate"
   },
   {
-    "question": "The movie _____ (start) at 6 PM.",
+    "question": "The movie {_____} (start) at 6 PM.",
     "answer": "starts",
-    "translation": "La película empieza a las 6 PM",
-    "pronunciation": "ðə ˈmuːvi stɑːrts æt sɪks piː em"
+    "translation": "La película empieza a las 6 PM"
   },
   {
-    "question": "They _____ (dance) very well.",
+    "question": "They {_____} (dance) very well.",
     "answer": "dance",
-    "translation": "Ellos bailan muy bien",
-    "pronunciation": "ðeɪ dæns ˈveri wel"
+    "translation": "Ellos bailan muy bien"
   },
   {
-    "question": "She _____ (read) books every night.",
+    "question": "She {_____} (read) books every night.",
     "answer": "reads",
-    "translation": "Ella lee libros todas las noches",
-    "pronunciation": "ʃi riːdz bʊks ˈevri naɪt"
+    "translation": "Ella lee libros todas las noches"
   },
   {
-    "question": "The clock _____ (tick) loudly.",
+    "question": "The clock {_____} (tick) loudly.",
     "answer": "ticks",
-    "translation": "El reloj hace tictac fuertemente",
-    "pronunciation": "ðə klɑk tɪks ˈlaʊdli"
+    "translation": "El reloj hace tictac fuertemente"
   },
   {
-    "question": "We _____ (run) in the park.",
+    "question": "We {_____} (run) in the park.",
     "answer": "run",
-    "translation": "Nosotros corremos en el parque",
-    "pronunciation": "wi rʌn ɪn ðə pɑːk"
+    "translation": "Nosotros corremos en el parque"
   },
   {
-    "question": "The baby _____ (cry) at night.",
+    "question": "The baby {_____} (cry) at night.",
     "answer": "cries",
-    "translation": "El bebé llora por la noche",
-    "pronunciation": "ðə ˈbeɪbi kraɪz æt naɪt"
+    "translation": "El bebé llora por la noche"
   },
   {
-    "question": "I _____ (write) letters to my friends.",
+    "question": "I {_____} (write) letters to my friends.",
     "answer": "write",
-    "translation": "Yo escribo cartas a mis amigos",
-    "pronunciation": "aɪ raɪt ˈletərz tu maɪ frendz"
+    "translation": "Yo escribo cartas a mis amigos"
   },
   {
-    "question": "The phone _____ (ring) often.",
+    "question": "The phone {_____} (ring) often.",
     "answer": "rings",
-    "translation": "El teléfono suena frecuentemente",
-    "pronunciation": "ðə foʊn rɪŋz ˈɔːfən"
+    "translation": "El teléfono suena frecuentemente"
   },
   {
-    "question": "She _____ (cook) dinner every day.",
+    "question": "She {_____} (cook) dinner every day.",
     "answer": "cooks",
-    "translation": "Ella cocina la cena todos los días",
-    "pronunciation": "ʃi kʊks ˈdɪnər ˈevri deɪ"
+    "translation": "Ella cocina la cena todos los días"
   },
   {
-    "question": "The wind _____ (blow) strongly.",
+    "question": "The wind {_____} (blow) strongly.",
     "answer": "blows",
-    "translation": "El viento sopla fuertemente",
-    "pronunciation": "ðə wɪnd bloʊz ˈstrɔːŋli"
+    "translation": "El viento sopla fuertemente"
   },
   {
-    "question": "They _____ (swim) in the pool.",
+    "question": "They {_____} (swim) in the pool.",
     "answer": "swim",
-    "translation": "Ellos nadan en la piscina",
-    "pronunciation": "ðeɪ swɪm ɪn ðə puːl"
+    "translation": "Ellos nadan en la piscina"
   },
   {
-    "question": "The teacher _____ (explain) the lesson.",
+    "question": "The teacher {_____} (explain) the lesson.",
     "answer": "explains",
-    "translation": "El profesor explica la lección",
-    "pronunciation": "ðə ˈtiːtʃər ɪkˈspleɪnz ðə ˈlesən"
+    "translation": "El profesor explica la lección"
   },
   {
-    "question": "We _____ (walk) to school.",
+    "question": "We {_____} (walk) to school.",
     "answer": "walk",
-    "translation": "Nosotros caminamos a la escuela",
-    "pronunciation": "wi wɔːk tu skuːl"
+    "translation": "Nosotros caminamos a la escuela"
   },
   {
-    "question": "The bird _____ (fly) high in the sky.",
+    "question": "The bird {_____} (fly) high in the sky.",
     "answer": "flies",
-    "translation": "El pájaro vuela alto en el cielo",
-    "pronunciation": "ðə bɜːd flaɪz haɪ ɪn ðə skaɪ"
+    "translation": "El pájaro vuela alto en el cielo"
   },
   {
-    "question": "I _____ (drink) coffee in the morning.",
+    "question": "I {_____} (drink) coffee in the morning.",
     "answer": "drink",
-    "translation": "Yo bebo café en la mañana",
-    "pronunciation": "aɪ drɪŋk ˈkɔːfi ɪn ðə ˈmɔːrnɪŋ"
+    "translation": "Yo bebo café en la mañana"
   },
   {
-    "question": "The door _____ (close) automatically.",
+    "question": "The door {_____} (close) automatically.",
     "answer": "closes",
-    "translation": "La puerta se cierra automáticamente",
-    "pronunciation": "ðə dɔːr ˈkloʊzɪz ɔːˈtɑːmətɪkli"
+    "translation": "La puerta se cierra automáticamente"
   },
   {
-    "question": "She _____ (paint) beautiful pictures.",
+    "question": "She {_____} (paint) beautiful pictures.",
     "answer": "paints",
-    "translation": "Ella pinta hermosos cuadros",
-    "pronunciation": "ʃi peɪnts ˈbjuːtəfəl ˈpɪktʃərz"
+    "translation": "Ella pinta hermosos cuadros"
   },
   {
-    "question": "The bus _____ (stop) here.",
+    "question": "The bus {_____} (stop) here.",
     "answer": "stops",
-    "translation": "El autobús se detiene aquí",
-    "pronunciation": "ðə bʌs stɑps hɪr"
+    "translation": "El autobús se detiene aquí"
   },
   {
-    "question": "They _____ (sell) fresh bread.",
+    "question": "They {_____} (sell) fresh bread.",
     "answer": "sell",
-    "translation": "Ellos venden pan fresco",
-    "pronunciation": "ðeɪ sel freʃ bred"
+    "translation": "Ellos venden pan fresco"
   },
   {
-    "question": "The radio _____ (play) music.",
+    "question": "The radio {_____} (play) music.",
     "answer": "plays",
-    "translation": "La radio toca música",
-    "pronunciation": "ðə ˈreɪdioʊ pleɪz ˈmjuːzɪk"
+    "translation": "La radio toca música"
   },
   {
-    "question": "We _____ (meet) every weekend.",
+    "question": "We {_____} (meet) every weekend.",
     "answer": "meet",
-    "translation": "Nos reunimos cada fin de semana",
-    "pronunciation": "wi miːt ˈevri ˌwiːkˈend"
+    "translation": "Nos reunimos cada fin de semana"
   },
   {
-    "question": "The light _____ (shine) brightly.",
+    "question": "The light {_____} (shine) brightly.",
     "answer": "shines",
-    "translation": "La luz brilla intensamente",
-    "pronunciation": "ðə laɪt ʃaɪnz ˈbraɪtli"
+    "translation": "La luz brilla intensamente"
   },
   {
-    "question": "I _____ (help) my mother.",
+    "question": "I {_____} (help) my mother.",
     "answer": "help",
-    "translation": "Yo ayudo a mi madre",
-    "pronunciation": "aɪ help maɪ ˈmʌðər"
+    "translation": "Yo ayudo a mi madre"
   },
   {
-    "question": "The water _____ (boil) at 100 degrees.",
+    "question": "The water {_____} (boil) at 100 degrees.",
     "answer": "boils",
-    "translation": "El agua hierve a 100 grados",
-    "pronunciation": "ðə ˈwɔːtər bɔɪlz æt wʌn ˈhʌndrəd dɪˈɡriːz"
+    "translation": "El agua hierve a 100 grados"
   },
   {
-    "question": "She _____ (clean) her room.",
+    "question": "She {_____} (clean) her room.",
     "answer": "cleans",
-    "translation": "Ella limpia su habitación",
-    "pronunciation": "ʃi kliːnz hər ruːm"
+    "translation": "Ella limpia su habitación"
   },
   {
-    "question": "The bell _____ (ring) at noon.",
+    "question": "The bell {_____} (ring) at noon.",
     "answer": "rings",
-    "translation": "La campana suena al mediodía",
-    "pronunciation": "ðə bel rɪŋz æt nuːn"
+    "translation": "La campana suena al mediodía"
   },
   {
-    "question": "They _____ (work) together.",
+    "question": "They {_____} (work) together.",
     "answer": "work",
-    "translation": "Ellos trabajan juntos",
-    "pronunciation": "ðeɪ wɜːk təˈɡeðər"
+    "translation": "Ellos trabajan juntos"
   },
   {
-    "question": "The grass _____ (grow) quickly.",
+    "question": "The grass {_____} (grow) quickly.",
     "answer": "grows",
-    "translation": "El césped crece rápidamente",
-    "pronunciation": "ðə ɡræs ɡroʊz ˈkwɪkli"
+    "translation": "El césped crece rápidamente"
   },
   {
-    "question": "I _____ (need) your help.",
+    "question": "I {_____} (need) your help.",
     "answer": "need",
-    "translation": "Necesito tu ayuda",
-    "pronunciation": "aɪ niːd jʊr help"
+    "translation": "Necesito tu ayuda"
   },
   {
-    "question": "The car _____ (move) slowly.",
+    "question": "The car {_____} (move) slowly.",
     "answer": "moves",
-    "translation": "El coche se mueve lentamente",
-    "pronunciation": "ðə kɑr muːvz ˈsloʊli"
+    "translation": "El coche se mueve lentamente"
   },
   {
-    "question": "We _____ (learn) Spanish.",
+    "question": "We {_____} (learn) Spanish.",
     "answer": "learn",
-    "translation": "Nosotros aprendemos español",
-    "pronunciation": "wi lɜːn ˈspænɪʃ"
+    "translation": "Nosotros aprendemos español"
   },
   {
-    "question": "The boy _____ (jump) high.",
+    "question": "The boy {_____} (jump) high.",
     "answer": "jumps",
-    "translation": "El niño salta alto",
-    "pronunciation": "ðə bɔɪ dʒʌmps haɪ"
+    "translation": "El niño salta alto"
   },
   {
-    "question": "She _____ (wait) for the bus.",
+    "question": "She {_____} (wait) for the bus.",
     "answer": "waits",
-    "translation": "Ella espera el autobús",
-    "pronunciation": "ʃi weɪts fɔr ðə bʌs"
+    "translation": "Ella espera el autobús"
   },
   {
-    "question": "The rain _____ (fall) heavily.",
+    "question": "The rain {_____} (fall) heavily.",
     "answer": "falls",
-    "translation": "La lluvia cae fuertemente",
-    "pronunciation": "ðə reɪn fɔːlz ˈhevɪli"
+    "translation": "La lluvia cae fuertemente"
   },
   {
-    "question": "They _____ (speak) English at work.",
+    "question": "They {_____} (speak) English at work.",
     "answer": "speak",
-    "translation": "Ellos hablan inglés en el trabajo",
-    "pronunciation": "ðeɪ spiːk ˈɪŋɡlɪʃ æt wɜːk"
+    "translation": "Ellos hablan inglés en el trabajo"
   },
   {
-    "question": "The snow _____ (melt) in spring.",
+    "question": "The snow {_____} (melt) in spring.",
     "answer": "melts",
-    "translation": "La nieve se derrite en primavera",
-    "pronunciation": "ðə snoʊ melts ɪn sprɪŋ"
+    "translation": "La nieve se derrite en primavera"
   },
   {
-    "question": "I _____ (love) chocolate.",
+    "question": "I {_____} (love) chocolate.",
     "answer": "love",
-    "translation": "Amo el chocolate",
-    "pronunciation": "aɪ lʌv ˈtʃɑːklət"
+    "translation": "Amo el chocolate"
   },
   {
-    "question": "The moon _____ (shine) at night.",
+    "question": "The moon {_____} (shine) at night.",
     "answer": "shines",
-    "translation": "La luna brilla en la noche",
-    "pronunciation": "ðə muːn ʃaɪnz æt naɪt"
+    "translation": "La luna brilla en la noche"
   },
   {
-    "question": "She _____ (buy) fresh vegetables.",
+    "question": "She {_____} (buy) fresh vegetables.",
     "answer": "buys",
-    "translation": "Ella compra vegetales frescos",
-    "pronunciation": "ʃi baɪz freʃ ˈvedʒtəbəlz"
+    "translation": "Ella compra vegetales frescos"
   },
   {
-    "question": "The dog _____ (chase) the cat.",
+    "question": "The dog {_____} (chase) the cat.",
     "answer": "chases",
-    "translation": "El perro persigue al gato",
-    "pronunciation": "ðə dɔːɡ ˈtʃeɪsɪz ðə kæt"
+    "translation": "El perro persigue al gato"
   },
   {
-    "question": "We _____ (enjoy) the party.",
+    "question": "We {_____} (enjoy) the party.",
     "answer": "enjoy",
-    "translation": "Nosotros disfrutamos la fiesta",
-    "pronunciation": "wi ɪnˈdʒɔɪ ðə ˈpɑːrti"
+    "translation": "Nosotros disfrutamos la fiesta"
   },
   {
-    "question": "The fire _____ (burn) brightly.",
+    "question": "The fire {_____} (burn) brightly.",
     "answer": "burns",
-    "translation": "El fuego arde intensamente",
-    "pronunciation": "ðə ˈfaɪər bɜːrnz ˈbraɪtli"
+    "translation": "El fuego arde intensamente"
   },
   {
-    "question": "They _____ (play) music.",
+    "question": "They {_____} (play) music.",
     "answer": "play",
-    "translation": "Ellos tocan música",
-    "pronunciation": "ðeɪ pleɪ ˈmjuːzɪk"
+    "translation": "Ellos tocan música"
   },
   {
-    "question": "The river _____ (flow) to the sea.",
+    "question": "The river {_____} (flow) to the sea.",
     "answer": "flows",
-    "translation": "El río fluye hacia el mar",
-    "pronunciation": "ðə ˈrɪvər floʊz tu ðə siː"
+    "translation": "El río fluye hacia el mar"
   },
   {
-    "question": "I _____ (make) my bed every morning.",
+    "question": "I {_____} (make) my bed every morning.",
     "answer": "make",
-    "translation": "Hago mi cama cada mañana",
-    "pronunciation": "aɪ meɪk maɪ bed ˈevri ˈmɔːrnɪŋ"
+    "translation": "Hago mi cama cada mañana"
   },
   {
-    "question": "The wind _____ (move) the leaves.",
+    "question": "The wind {_____} (move) the leaves.",
     "answer": "moves",
-    "translation": "El viento mueve las hojas",
-    "pronunciation": "ðə wɪnd muːvz ðə liːvz"
+    "translation": "El viento mueve las hojas"
   },
   {
-    "question": "She _____ (sing) in the choir.",
+    "question": "She {_____} (sing) in the choir.",
     "answer": "sings",
-    "translation": "Ella canta en el coro",
-    "pronunciation": "ʃi sɪŋz ɪn ðə kwaɪər"
+    "translation": "Ella canta en el coro"
   },
   {
-    "question": "The clock _____ (show) the time.",
+    "question": "The clock {_____} (show) the time.",
     "answer": "shows",
-    "translation": "El reloj muestra la hora",
-    "pronunciation": "ðə klɑk ʃoʊz ðə taɪm"
+    "translation": "El reloj muestra la hora"
   },
   {
-    "question": "We _____ (drink) water.",
+    "question": "We {_____} (drink) water.",
     "answer": "drink",
-    "translation": "Nosotros bebemos agua",
-    "pronunciation": "wi drɪŋk ˈwɔːtər"
+    "translation": "Nosotros bebemos agua"
   },
   {
-    "question": "The bird _____ (build) a nest.",
+    "question": "The bird {_____} (build) a nest.",
     "answer": "builds",
-    "translation": "El pájaro construye un nido",
-    "pronunciation": "ðə bɜːd bɪldz ə nest"
+    "translation": "El pájaro construye un nido"
   },
   {
-    "question": "They _____ (sleep) early.",
+    "question": "They {_____} (sleep) early.",
     "answer": "sleep",
-    "translation": "Ellos duermen temprano",
-    "pronunciation": "ðeɪ sliːp ˈɜːrli"
+    "translation": "Ellos duermen temprano"
   },
   {
-    "question": "The plant _____ (need) water.",
+    "question": "The plant {_____} (need) water.",
     "answer": "needs",
-    "translation": "La planta necesita agua",
-    "pronunciation": "ðə plænt niːdz ˈwɔːtər"
+    "translation": "La planta necesita agua"
   },
   {
-    "question": "I _____ (take) the bus to work.",
+    "question": "I {_____} (take) the bus to work.",
     "answer": "take",
-    "translation": "Tomo el autobús al trabajo",
-    "pronunciation": "aɪ teɪk ðə bʌs tu wɜːk"
+    "translation": "Tomo el autobús al trabajo"
   },
   {
-    "question": "The sun _____ (set) in the west.",
+    "question": "The sun {_____} (set) in the west.",
     "answer": "sets",
-    "translation": "El sol se pone en el oeste",
-    "pronunciation": "ðə sʌn sets ɪn ðə west"
+    "translation": "El sol se pone en el oeste"
   },
   {
-    "question": "She _____ (listen) to music.",
+    "question": "She {_____} (listen) to music.",
     "answer": "listens",
-    "translation": "Ella escucha música",
-    "pronunciation": "ʃi ˈlɪsənz tu ˈmjuːzɪk"
+    "translation": "Ella escucha música"
   },
   {
-    "question": "The cat _____ (catch) mice.",
+    "question": "The cat {_____} (catch) mice.",
     "answer": "catches",
-    "translation": "El gato atrapa ratones",
-    "pronunciation": "ðə kæt ˈkætʃɪz maɪs"
+    "translation": "El gato atrapa ratones"
   },
   {
-    "question": "We _____ (watch) movies.",
+    "question": "We {_____} (watch) movies.",
     "answer": "watch",
-    "translation": "Nosotros vemos películas",
-    "pronunciation": "wi wɑːtʃ ˈmuːviz"
+    "translation": "Nosotros vemos películas"
   },
   {
-    "question": "The teacher _____ (ask) questions.",
+    "question": "The teacher {_____} (ask) questions.",
     "answer": "asks",
-    "translation": "El profesor hace preguntas",
-    "pronunciation": "ðə ˈtiːtʃər æsks ˈkwestʃənz"
+    "translation": "El profesor hace preguntas"
   }
 ]

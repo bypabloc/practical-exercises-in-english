@@ -1,3 +1,4 @@
+# pages/basic/complete-with-the-correct-verb/index.vue
 <template>
   <div class="p-6">
     <div class="flex items-center justify-between mb-6">
@@ -11,19 +12,17 @@
         Basic
       </button>
     </div>
+    
+    <TfsExerciseList />
   </div>
 </template>
 
 <script setup>
-import { useExerciseStore } from '~/stores/exercises';
-
 defineOptions({
   name: 'CompleteWithTheCorrectVerb',
 });
 
 const router = useRouter();
-
-const { exercisesStore } = useExerciseStore();
 
 const backTo = () => {
   router.push('/basic');
