@@ -11,12 +11,15 @@
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
       <button
-        v-for="level in levelsActive"
+        v-for="level in levels"
         :key="level.name"
-        @click="navigateToLevel(level.route)"
-        class="p-4 text-lg rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+        @click="level.isActive ? navigateToLevel(level.route) : null"
+        :class="[
+          level.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600',
+        ]"
+        class="p-4 text-lg rounded-lg transition-colors"
       >
-        {{ level.label }}
+        {{ level.name }}
       </button>
     </div>
   </div>
@@ -29,7 +32,7 @@ defineOptions({
   name: 'Basic',
 });
 
-const store = useExerciseStore();
+const exerciseStore = useExerciseStore();
 const router = useRouter();
 
 const exercises = computed(() => 

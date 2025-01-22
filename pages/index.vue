@@ -4,15 +4,15 @@
     
     <div class="flex flex-col gap-4 w-full max-w-md">
       <button
-        v-for="level in levels"
-        :key="level.name"
-        @click="level.isActive ? navigateToLevel(level.route) : null"
+        v-for="difficulty in difficulties"
+        :key="difficulty.name"
+        @click="difficulty.isActive ? navigateToLevel(difficulty.route) : null"
         :class="[
-          level.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-none',
+          difficulty.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
         ]"
         class="p-4 text-lg rounded-lg transition-colors"
       >
-        {{ level.name }}
+        {{ difficulty.name }}
       </button>
     </div>
   </div>
@@ -24,19 +24,20 @@ import { useExerciseStore } from '~/stores/exercises';
 const exerciseStore = useExerciseStore();
 const router = useRouter();
 
-const levels = computed(() => {
-  const exercises = Object.keys(exerciseStore.exercises).map((level) => {
+const difficulties = computed(() => {
+  const difficulties = Object.keys(exerciseStore.difficulties).map((difficulty) => {
     return {
-      name: exerciseStore.exercises[level].label,
-      route: exerciseStore.exercises[level].route,
-      order: exerciseStore.exercises[level].order,
-      isActive: exerciseStore.exercises[level].isActive,
+      name: exerciseStore.difficulties[difficulty].label,
+      route: `/${difficulty}`,
+      order: exerciseStore.difficulties[difficulty].order,
+      isActive: exerciseStore.difficulties[difficulty].isActive,
     };
   });
-  return exercises.sort((a, b) => a.order - b.order);
+  return difficulties.sort((a, b) => a.order - b.order);
 });
 
 const navigateToLevel = (route) => {
+  console.log(route);
   router.push(route);
 };
 </script>

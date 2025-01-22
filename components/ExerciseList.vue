@@ -114,7 +114,7 @@ const { $textToSpeech } = nuxtApp;
 // Store initialization
 const store = useExerciseStore();
 const exercises = computed(() => 
-  store.exercises.basic.items['complete-with-the-correct-verb'].items
+  store.exercises.basic.topics['complete-with-the-correct-verb'].items
 );
 
 // Component state

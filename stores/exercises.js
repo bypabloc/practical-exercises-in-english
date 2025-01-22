@@ -5,15 +5,13 @@ export const useExerciseStore = defineStore('exercises', {
   state: () => ({
     selectedType: null,
     showAnswers: false,
-    exercises: {
+    difficulties: {
       basic: {
         label: 'Básico',
         explanation: 'En esta sección encontrarás ejercicios para practicar los conceptos básicos.',
         order: 1,
         isActive: true,
-        route: '/basic',
-        items: {
-          // saludos y presentaciones
+        topics: {
           'greetings-and-introductions': {
             label: 'Saludos y Presentaciones',
             explanation: 'En esta sección encontrarás ejercicios para practicar saludos y presentaciones.',
@@ -21,42 +19,51 @@ export const useExerciseStore = defineStore('exercises', {
             order: 1,
             isActive: true,
           },
-          // pronombres personales
           'personal-pronouns': {
+            label: 'Pronombres Personales',
             order: 2,
             isActive: false,
           },
-          // Rutinas Diarias
           'daily-routines': {
+            label: 'Rutinas Diarias',
             order: 3,
             isActive: false,
           },
-          // Presente Simple
           'simple-present': {
+            label: 'Presente Simple',
             order: 4,
             isActive: false,
           },
-          // Negaciones
           'negatives': {
+            label: 'Negativos',
             order: 5,
             isActive: false,
           },
-          // Presente Continuo
           'present-continuous': {
+            label: 'Presente Continuo',
             order: 6,
             isActive: false,
           },
-          // Diferenciación de Tiempos
           'time-differentiation': {
+            label: 'Diferenciación de Tiempos',
             order: 7,
-            isActive: false,
-            'complete-with-the-correct-verb': {
-              items: basicExercisesData.items
-            },
-            'multiple-choice': {},
+            isActive: true,
+            exercises: {
+              'complete-with-the-correct-verb': {
+                label: 'Completa con el verbo correcto',
+                isActive: true,
+                order: 1,
+                items: basicExercisesData.items,
+              },
+              'multiple-choice': {
+                label: 'Selección Múltiple',
+                order: 2,
+                isActive: false,
+              },
+            }
           },
-          // Palabras Indicadoras
           'indicating-words': {
+            label: 'Palabras Indicadoras',
             order: 8,
             isActive: false,
           },
@@ -69,14 +76,12 @@ export const useExerciseStore = defineStore('exercises', {
         explanation: 'En esta otra sección un poco más avanzados que los básicos.',
         order: 2,
         isActive: false,
-        route: '/intermediate',
       },
       advanced: {
         label: 'Avanzado',
         explanation: 'En esta sección encontrarás ejercicios para practicar los conceptos avanzados.',
         order: 3,
         isActive: false,
-        route: '/advanced',
       },
     }
   }),
