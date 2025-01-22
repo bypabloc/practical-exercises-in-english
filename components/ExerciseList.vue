@@ -107,6 +107,10 @@
 import { computed, onMounted, ref } from 'vue';
 import { useExerciseStore } from '~/stores/exercises';
 
+const nuxtApp = useNuxtApp();
+
+const { $textToSpeech } = nuxtApp;
+
 // Store initialization
 const store = useExerciseStore();
 const exercises = computed(() => 
@@ -124,7 +128,7 @@ onMounted(() => {
     .sort(() => Math.random() - 0.5)
     .slice(0, 10);
   selectedExercises.value = shuffled;
-  userAnswers.value = new Array(10).fill('');
+  userAnswers.value = Array.from({ length: 10 }, () => '');
 });
 
 // Check if an answer is correct
@@ -143,9 +147,20 @@ const validateAnswers = () => {
   showResults.value = true;
 };
 
-// Handle pronunciation practice
+const synth = window.speechSynthesis;
+let voices = [];
+PopulateVoices();
+if(speechSynthesis !== undefined){
+    speechSynthesis.onvoiceschanged = PopulateVoices;
+}
+function PopulateVoices(){
+    voices = synth.getVoices();
+    voices.forEach((item, index) => console.log(item.name, index));
+}
+
+// Practice pronunciation of the exercise
 const practicePronunciation = (index) => {
-  // This function will be implemented later as requested
-  console.log('Practice pronunciation for exercise:', index);
+  const exercise = selectedExercises.value[index];
+  $textToSpeech.speak(exercise.pronunciation);
 };
 </script>
