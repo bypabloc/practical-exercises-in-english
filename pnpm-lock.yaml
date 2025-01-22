@@ -56,6 +56,10 @@ importers:
       yup:
         specifier: ^1.6.1
         version: 1.6.1
+    devDependencies:
+      '@modyfi/vite-plugin-yaml':
+        specifier: ^1.1.0
+        version: 1.1.0(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.7)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))
 
 packages:
 
@@ -712,6 +716,11 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  '@modyfi/vite-plugin-yaml@1.1.0':
+    resolution: {integrity: sha512-L26xfzkSo1yamODCAtk/ipVlL6OEw2bcJ92zunyHu8zxi7+meV0zefA9xscRMDCsMY8xL3C3wi3DhMiPxcbxbw==, tarball: https://registry.npmjs.org/@modyfi/vite-plugin-yaml/-/vite-plugin-yaml-1.1.0.tgz}
+    peerDependencies:
+      vite: ^3.2.7 || ^4.0.5 || ^5.0.5
+
   '@netlify/functions@2.8.2':
     resolution: {integrity: sha512-DeoAQh8LuNPvBE4qsKlezjKj0PyXDryOFJfJKo3Z1qZLKzQ21sT314KQKPVjfvw6knqijj+IO+0kHXy/TJiqNA==, tarball: https://registry.npmjs.org/@netlify/functions/-/functions-2.8.2.tgz}
     engines: {node: '>=14.0.0'}
@@ -947,6 +956,15 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
+  '@rollup/pluginutils@5.1.0':
+    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==, tarball: https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.1.0.tgz}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
@@ -3267,6 +3285,10 @@ packages:
   toposort@2.0.2:
     resolution: {integrity: sha512-0a5EOkAUp8D4moMi2W8ZF8jcga7BgZd91O/yabJCFY8az+XSzeGyTKs0Aoo897iV1Nj6guFq8orWDS96z91oGg==, tarball: https://registry.npmjs.org/toposort/-/toposort-2.0.2.tgz}
 
+  tosource@2.0.0-alpha.3:
+    resolution: {integrity: sha512-KAB2lrSS48y91MzFPFuDg4hLbvDiyTjOVgaK7Erw+5AmZXNq4sFRVn8r6yxSLuNs15PaokrDRpS61ERY9uZOug==, tarball: https://registry.npmjs.org/tosource/-/tosource-2.0.0-alpha.3.tgz}
+    engines: {node: '>=10'}
+
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==, tarball: https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz}
     engines: {node: '>=6'}
@@ -4270,6 +4292,15 @@ snapshots:
       - encoding
       - supports-color
 
+  '@modyfi/vite-plugin-yaml@1.1.0(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.7)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))':
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.31.0)
+      js-yaml: 4.1.0
+      tosource: 2.0.0-alpha.3
+      vite: 6.0.11(@types/node@22.10.7)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0)
+    transitivePeerDependencies:
+      - rollup
+
   '@netlify/functions@2.8.2':
     dependencies:
       '@netlify/serverless-functions-api': 1.26.1
@@ -4664,6 +4695,14 @@ snapshots:
       serialize-javascript: 6.0.2
       smob: 1.5.0
       terser: 5.37.0
+    optionalDependencies:
+      rollup: 4.31.0
+
+  '@rollup/pluginutils@5.1.0(rollup@4.31.0)':
+    dependencies:
+      '@types/estree': 1.0.6
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
     optionalDependencies:
       rollup: 4.31.0
 
@@ -7380,6 +7419,8 @@ snapshots:
   toidentifier@1.0.1: {}
 
   toposort@2.0.2: {}
+
+  tosource@2.0.0-alpha.3: {}
 
   totalist@3.0.1: {}
 

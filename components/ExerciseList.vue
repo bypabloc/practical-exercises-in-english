@@ -24,6 +24,7 @@
                   {{ userAnswers[index] || '________' }}
                 </span>
                 {{ exercise.question.split('{_____}')[1] }}
+                <span class="text-sm text-gray-500 ml-2">({{ exercise.clue }})</span>
               </p>
               
               <!-- Answer Input -->
@@ -39,7 +40,6 @@
                   :disabled="showResults"
                   placeholder="Type the answer here"
                 />
-                <span class="text-sm text-gray-500">({{ exercise.question.match(/\((.*?)\)/)[1] }})</span>
               </div>
             </div>
 

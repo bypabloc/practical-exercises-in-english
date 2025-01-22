@@ -1,4 +1,5 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import ViteYaml from "@modyfi/vite-plugin-yaml";
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   ssr: false,
@@ -48,6 +49,7 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [
+      ViteYaml(),
       process.env.ENV === "local" &&
         require("vite-plugin-inspect")({
           build: true,

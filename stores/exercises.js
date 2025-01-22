@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import exercises from '~/data/basic/complete-with-the-correct-verb/index.json'
+import basicExercisesData from '~/data/basic/complete-with-the-correct-verb/index.yml'
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -9,7 +9,7 @@ export const useExerciseStore = defineStore('exercises', {
       basic: {
         items: {
           'complete-with-the-correct-verb': {
-            items: exercises
+            items: basicExercisesData.items
           },
           'multiple-choice': {
             items: [
