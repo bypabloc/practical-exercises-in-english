@@ -4,10 +4,13 @@
     
     <div class="flex flex-col gap-4 w-full max-w-md">
       <button
-        v-for="level in levelsActive"
+        v-for="level in levels"
         :key="level.name"
-        @click="navigateToLevel(level.route)"
-        class="p-4 text-lg rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+        @click="level.isActive ? navigateToLevel(level.route) : null"
+        :class="[
+          level.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-none',
+        ]"
+        class="p-4 text-lg rounded-lg transition-colors"
       >
         {{ level.name }}
       </button>
@@ -16,15 +19,22 @@
 </template>
 
 <script setup>
+import { useExerciseStore } from '~/stores/exercises';
+
+const exerciseStore = useExerciseStore();
 const router = useRouter();
 
-const levels = [
-  { name: 'Basic', route: '/basic', isActive: true },
-  { name: 'Intermediate', route: '/intermediate', isActive: false },
-  { name: 'Advanced', route: '/advanced', isActive: false },
-];
-
-const levelsActive = computed(() => levels.filter((level) => level.isActive));
+const levels = computed(() => {
+  const exercises = Object.keys(exerciseStore.exercises).map((level) => {
+    return {
+      name: exerciseStore.exercises[level].label,
+      route: exerciseStore.exercises[level].route,
+      order: exerciseStore.exercises[level].order,
+      isActive: exerciseStore.exercises[level].isActive,
+    };
+  });
+  return exercises.sort((a, b) => a.order - b.order);
+});
 
 const navigateToLevel = (route) => {
   router.push(route);

@@ -23,11 +23,18 @@
 </template>
 
 <script setup>
+import { useExerciseStore } from '~/stores/exercises';
+
 defineOptions({
   name: 'Basic',
 });
 
+const store = useExerciseStore();
 const router = useRouter();
+
+const exercises = computed(() => 
+  store.exercises['basic']
+);
 
 const levels = [
   {
