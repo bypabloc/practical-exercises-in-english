@@ -127,7 +127,7 @@ const navigateToLevel = (route) => {
   router.push(route);
 };
 
-const practicePronunciation = ({ pronunciation }) => {
-  $textToSpeech.speak(pronunciation);
+const practicePronunciation = ({ english }) => {
+  $textToSpeech.speak(english, { rate: 0.7 });
 };
 </script>

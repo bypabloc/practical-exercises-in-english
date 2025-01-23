@@ -1,8 +1,8 @@
 import { defineNuxtPlugin } from "nuxt/app";
 
 const languages = {
-  microsoftRaul: 0, // Spanish (Mexico)
-  microsoftSabina: 1, // Spanish (Mexico)
+  microsoftRaul: 0, // Spanish (Mexico) (Male)
+  microsoftSabina: 1, // Spanish (Mexico) (Female)
   googleGerman: 2, // German
   googleUsEnglish: 3, // US English
   googleUkEnglishFemale: 4, // UK English (Female)
@@ -42,11 +42,21 @@ export default defineNuxtPlugin({
     }
 
     const textToSpeech = {
-      speak: (text, lang = "googleUsSpanish") => {
+      speak: (
+        text,
+        options = {},
+      ) => {
         const toSpeak = new SpeechSynthesisUtterance(text);
+        const lang = options.lang || "googleUsEnglish";
+        const rate = options.rate || 1;
 
+        // Set rate (speed) - default is 1, range is 0.1 to 10
+        toSpeak.rate = rate;
+
+        // Set voice
         const voice = languages[lang] || 7;
         toSpeak.voice = voices[voice];
+        
         synth.speak(toSpeak);
       }
     }
