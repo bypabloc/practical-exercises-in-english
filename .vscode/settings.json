@@ -27,8 +27,7 @@
         ".env",
         ".serverless",
         "__pycache__",
-        ".pytest_cache",
-        "data"
+        ".pytest_cache"
       ],
       "files": [
         "*.log",

@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia'
+import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
+import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
 import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
@@ -9,7 +11,7 @@ export const useExerciseStore = defineStore('exercises', {
     difficulties: {
       basic: {
         label: 'Basic',
-        explanation: '', // explanation here
+        explanation: '',
         order: 1,
         isActive: true,
         topics: {
@@ -65,6 +67,20 @@ export const useExerciseStore = defineStore('exercises', {
                 component: 'MultipleChoice',
                 items: basicGreetingAndIntroductionsMultipleChoice.items,
               },
+              'fill-in-the-blanks': {
+                label: 'Rellena los Espacios',
+                order: 2,
+                isActive: true,
+                component: 'FillInTheBlanks',
+                items: basicGreetingAndIntroductionsFillInTheBlanks.items,
+              },
+              'matching': {
+                label: 'Emparejamiento',
+                order: 3,
+                isActive: true,
+                component: 'Matching',
+                items: basicGreetingAndIntroductionsMatchingExercises.items,
+              },
             },
             order: 1,
             isActive: true,
@@ -118,8 +134,6 @@ export const useExerciseStore = defineStore('exercises', {
             order: 8,
             isActive: false,
           },
-
-
         },
       },
       intermediate: {
