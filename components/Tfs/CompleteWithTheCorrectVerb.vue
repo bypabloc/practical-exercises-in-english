@@ -150,6 +150,7 @@ const validateAnswers = () => {
 // Practice pronunciation of the exercise
 const practicePronunciation = (index) => {
   const exercise = selectedExercises.value[index];
-  $textToSpeech.speak(exercise.pronunciation);
+  const fullSentence = getFullSentence(exercise);
+  $textToSpeech.speak(fullSentence, { rate: 0.7 });
 };
 </script>

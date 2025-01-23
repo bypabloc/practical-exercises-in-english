@@ -146,7 +146,7 @@ const validateAnswers = () => {
 };
 
 // Practice pronunciation of the exercise
-const practicePronunciation = (exercise) => {
-  $textToSpeech.speak(exercise.pronunciation);
+const practicePronunciation = ({ answer }) => {
+  $textToSpeech.speak(answer, { rate: 0.7 });
 };
 </script>
