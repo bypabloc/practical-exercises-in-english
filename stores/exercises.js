@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
-import basicExercisesData from '~/data/basic/complete-with-the-correct-verb/index.yml'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
+import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -104,7 +104,7 @@ export const useExerciseStore = defineStore('exercises', {
                 isActive: true,
                 order: 1,
                 component: 'CompleteWithTheCorrectVerb',
-                items: basicExercisesData.items,
+                items: basicTimeDifferentiationCompleteWithTheCorrectVerb.items,
               },
               'multiple-choice': {
                 label: 'Selección Múltiple',
