@@ -1,12 +1,20 @@
 <template>
   <NuxtLayout>
-    <Analytics />
+    <Analytics
+      v-if="ENV === 'prod'"
+    />
     <NuxtPage />
   </NuxtLayout>
 </template>
 
 <script setup>
 import { Analytics } from '@vercel/analytics/nuxt'
+
+const nuxtApp = useNuxtApp();
+
+const { $config, $logger, $fetch } = nuxtApp;
+
+const { ENV } = $config?.public || {};
 </script>
 
 <style>

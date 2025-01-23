@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import basicExercisesData from '~/data/basic/complete-with-the-correct-verb/index.yml'
+import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -7,15 +8,64 @@ export const useExerciseStore = defineStore('exercises', {
     showAnswers: false,
     difficulties: {
       basic: {
-        label: 'Básico',
-        explanation: 'En esta sección encontrarás ejercicios para practicar los conceptos básicos.',
+        label: 'Basic',
+        explanation: '', // explanation here
         order: 1,
         isActive: true,
         topics: {
           'greetings-and-introductions': {
-            label: 'Saludos y Presentaciones',
-            explanation: 'En esta sección encontrarás ejercicios para practicar saludos y presentaciones.',
-            examples: [],
+            label: 'Greetings and Introductions',
+            explanation: `In English, greetings and introductions are more natural and flexible than traditional textbook dialogues. While schools often teach formal patterns like "Student A: My name is... Student B: My name is...", real conversations are more dynamic. There are many ways to greet people and introduce yourself, from formal to informal situations. The key is to sound natural and appropriate for the context.`,
+            details: [
+              "Instead of always using 'My name is...', you can simply say your name directly - it sounds more natural",
+              "There are many variations of 'Nice to meet you': 'Pleased to meet you', 'Lovely to meet you', 'Good to meet you', 'Great to meet you'",
+              "Pay attention to pronunciation, especially in phrases like 'pleased to meet you' where 'pleased' ends with a 'd' sound, not 't'",
+              "Use natural sounds like 'oh', 'ah', 'um' to make your English sound more authentic",
+              "The formality of your greeting should match the situation - formal for business, casual for friends",
+              "Remember that English speakers often add little expressions to sound friendlier"
+            ],
+            examples: [
+              {
+                english: "Hi, I'm Kim",
+                translation: "Hola, soy Kim",
+                pronunciation: "jai, aim Kim"
+              },
+              {
+                english: "Nice to meet you",
+                translation: "Encantado de conocerte",
+                pronunciation: "nais tu mit yu"
+              },
+              {
+                english: "Pleased to meet you",
+                translation: "Encantado de conocerte",
+                pronunciation: "plisd tu mit yu"
+              },
+              {
+                english: "Good to meet you",
+                translation: "Encantado de conocerte",
+                pronunciation: "gud tu mit yu"
+              },
+              {
+                english: "Lovely to meet you",
+                translation: "Encantado de conocerte",
+                pronunciation: "lávli tu mit yu",
+                note: "Remember 'lovely' comes from 'love' + 'ly', don't pronounce it as 'love-ely'"
+              },
+              {
+                english: "It's wonderful to make your acquaintance",
+                translation: "Es maravilloso conocerte (formal)",
+                pronunciation: "its uánderful tu meik yor akuéintans"
+              }
+            ],
+            exercises: {
+              'multiple-choice': {
+                label: 'Selección Múltiple',
+                order: 1,
+                isActive: true,
+                component: 'MultipleChoice',
+                items: basicGreetingAndIntroductionsMultipleChoice.items,
+              },
+            },
             order: 1,
             isActive: true,
           },
@@ -53,6 +103,7 @@ export const useExerciseStore = defineStore('exercises', {
                 label: 'Completa con el verbo correcto',
                 isActive: true,
                 order: 1,
+                component: 'CompleteWithTheCorrectVerb',
                 items: basicExercisesData.items,
               },
               'multiple-choice': {
