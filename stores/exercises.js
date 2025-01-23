@@ -1,7 +1,9 @@
 import { defineStore } from 'pinia'
+import basicGreetingAndIntroductionsErrorIdentification from '~/data/basic/greetings-and-introductions/error-identification.yml'
 import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
 import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
+
 import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
 export const useExerciseStore = defineStore('exercises', {
@@ -80,6 +82,13 @@ export const useExerciseStore = defineStore('exercises', {
                 isActive: true,
                 component: 'Matching',
                 items: basicGreetingAndIntroductionsMatchingExercises.items,
+              },
+              'error-identification': {
+                label: 'Identificación de Errores',
+                order: 4,
+                isActive: true,
+                component: 'ErrorIdentification',
+                items: basicGreetingAndIntroductionsErrorIdentification.items,
               },
             },
             order: 1,
