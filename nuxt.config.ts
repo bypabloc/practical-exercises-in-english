@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   ssr: false,
   devtools: { enabled: false },
-  components: [{ path: "~/components", extensions: [".vue"], prefix: "Tfs" }],
+  components: [{ path: "~/components", extensions: [".vue"] }],
 
   experimental: {
     asyncEntry: true,
@@ -46,6 +46,15 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@unocss/nuxt", "@vueuse/nuxt", "@pinia/nuxt"],
+
+  runtimeConfig: {
+    public: {
+      ENV: process.env.ENV || "prod",
+    },
+    private: {
+      ENV: process.env.ENV || "prod",
+    },
+  },
 
   vite: {
     plugins: [

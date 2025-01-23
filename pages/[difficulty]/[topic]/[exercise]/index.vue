@@ -1,4 +1,3 @@
-# pages/[difficulty]/[topic]/[exercise]/index.vue
 <template>
   <div class="p-6">
     <div class="flex items-center justify-between mb-6">
@@ -6,20 +5,27 @@
         {{ exerciseSelected.label }}
       </h1>
       <button 
-        @click="router.push(`/${difficulty}`)"
+        @click="router.push(`/${difficulty}/${topic}`)"
         class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300"
       >
-        Back to {{ difficultySelected.label }}
+        Back to {{ topicSelected.label }}
       </button>
     </div>
-    <TfsExerciseList 
-      v-if="exerciseSelected.items"
-      :exercises="exerciseSelected.items" 
-    />
+
+    <!-- Dynamic Exercise Component -->
+    <Suspense v-if="exerciseSelected.items && ExerciseComponent">
+      <ExerciseComponent :exercises="exerciseSelected.items" />
+      <template #fallback>
+        <div class="flex justify-center items-center p-8">
+          <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
+        </div>
+      </template>
+    </Suspense>
   </div>
 </template>
 
 <script setup>
+import { defineAsyncComponent, markRaw } from 'vue';
 import { useExerciseStore } from '~/stores/exercises';
 
 const exerciseStore = useExerciseStore();
@@ -45,7 +51,11 @@ const exerciseSelected = computed(() => {
   return topicSelected.value.exercises?.[exercise] || {};
 });
 
-const navigateToLevel = (route) => {
-  router.push(route);
-};
+const ExerciseComponent = computed(() => {
+  if (!exerciseSelected.value.component) return null;
+  
+  return markRaw(defineAsyncComponent(() => 
+    import(`~/components/Tfs/${exerciseSelected.value.component}.vue`)
+  ));
+});
 </script>
