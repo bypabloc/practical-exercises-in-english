@@ -1,71 +1,95 @@
 import { defineNuxtPlugin } from "nuxt/app";
 
-const languages = {
-  microsoftRaul: 0, // Spanish (Mexico) (Male)
-  microsoftSabina: 1, // Spanish (Mexico) (Female)
-  googleGerman: 2, // German
-  googleUsEnglish: 3, // US English
-  googleUkEnglishFemale: 4, // UK English (Female)
-  googleUkEnglishMale: 5, // UK English (Male)
-  googleSpanish: 6, // Spanish
-  googleUsSpanish: 7, // Spanish (United States)
-  googleFrench: 8, // French
-  googleHindi: 9, // Hindi
-  googleIndonesian: 10, // Indonesian
-  googleItalian: 11, // Italian
-  googleJapanese: 12, // Japanese
-  googleKorean: 13, // Korean
-  googleDutch: 14, // Dutch
-  googlePolish: 15, // Polish
-  googleBrazilianPortuguese: 16, // Portuguese (Brazil)
-  googleRussian: 17, // Russian
-  googleMandarinChina: 18, // Mandarin (China)
-  googleCantoneseHongKong: 19, // Cantonese (Hong Kong)
-  googleMandarinTaiwan: 20 // Mandarin (Taiwan)
-};
+const synth = window.speechSynthesis;
+let voices = [];
+
+// This will try to find an appropriate English voice with consistent characteristics
+function findEnglishVoice() {
+  // Get all voices
+  const availableVoices = synth.getVoices();
+  
+  // First try to find Microsoft English voices as they tend to be more consistent
+  let voice = availableVoices.find(v => 
+    v.name.includes('Microsoft') && 
+    v.name.toLowerCase().includes('english') &&
+    v.name.toLowerCase().includes('(united states)')
+  );
+
+  // If no Microsoft voice, try Google US English
+  if (!voice) {
+    voice = availableVoices.find(v => 
+      v.name.includes('Google US English') || 
+      (v.name.toLowerCase().includes('english') && 
+       v.lang.startsWith('en-US'))
+    );
+  }
+
+  // If still no voice found, use any English voice
+  if (!voice) {
+    voice = availableVoices.find(v => 
+      v.lang.startsWith('en-')
+    );
+  }
+
+  // Fallback to the first available voice if no English voice found
+  return voice || availableVoices[0];
+}
+
+// Initialize voices and handle the onvoiceschanged event
+function initVoices() {
+  voices = synth.getVoices();
+  if (process.env.NODE_ENV === 'development') {
+    console.log('Available voices:', voices.map(v => ({
+      name: v.name,
+      lang: v.lang
+    })));
+  }
+}
+
+// Initial population of voices
+initVoices();
+
+// Set up the voices changed event listener
+if (speechSynthesis !== undefined) {
+  speechSynthesis.onvoiceschanged = initVoices;
+}
 
 export default defineNuxtPlugin({
   name: "$textToSpeech",
   enforce: "pre",
   async setup(nuxtApp) {
-    // const config = nuxtApp?.$config?.public;
-
-    const synth = window.speechSynthesis;
-    let voices = [];
-    PopulateVoices();
-    if (speechSynthesis !== undefined) {
-      speechSynthesis.onvoiceschanged = PopulateVoices;
-    }
-    function PopulateVoices() {
-      voices = synth.getVoices();
-      voices.forEach((item, index) => console.log(item.name, index));
-    }
-
     const textToSpeech = {
-      speak: (
-        text,
-        options = {},
-      ) => {
-        const toSpeak = new SpeechSynthesisUtterance(text);
-        const lang = options.lang || "googleUsEnglish";
-        const rate = options.rate || 1;
+      speak: (text, options = {}) => {
+        // Cancel any ongoing speech
+        synth.cancel();
 
+        const utterance = new SpeechSynthesisUtterance(text);
+        
         // Set rate (speed) - default is 1, range is 0.1 to 10
-        toSpeak.rate = rate;
+        utterance.rate = options.rate || 1;
 
         // Set voice
-        const voice = languages[lang] || 7;
-        toSpeak.voice = voices[voice];
-        
-        synth.speak(toSpeak);
+        utterance.voice = findEnglishVoice();
+
+        // Additional settings for consistency
+        utterance.pitch = 1;  // Default pitch
+        utterance.volume = 1; // Full volume
+
+        // Log voice selection in development
+        if (process.env.NODE_ENV === 'development') {
+          console.log('Selected voice:', utterance.voice?.name);
+        }
+
+        // Speak the text
+        synth.speak(utterance);
       }
-    }
+    };
+
     nuxtApp.provide("textToSpeech", textToSpeech);
   },
   hooks: {
     "app:created"() {
-      // const nuxtApp = useNuxtApp();
-      // const { $textToSpeech } = nuxtApp;
+      // Hook implementation if needed
     },
   },
   env: {
