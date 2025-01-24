@@ -59,6 +59,7 @@ export default defineNuxtPlugin({
   enforce: "pre",
   async setup(nuxtApp) {
     const textToSpeech = {
+      // Enhanced speak method with more voice control
       speak: (text, options = {}) => {
         // Cancel any ongoing speech
         synth.cancel();
@@ -68,12 +69,16 @@ export default defineNuxtPlugin({
         // Set rate (speed) - default is 1, range is 0.1 to 10
         utterance.rate = options.rate || 1;
 
-        // Set voice
-        utterance.voice = findEnglishVoice();
+        // Use provided voice or fall back to default selection method
+        if (options.voice) {
+          utterance.voice = options.voice;
+        } else {
+          utterance.voice = findEnglishVoice();
+        }
 
         // Additional settings for consistency
-        utterance.pitch = 1;  // Default pitch
-        utterance.volume = 1; // Full volume
+        utterance.pitch = options.pitch || 1;  // Default pitch
+        utterance.volume = options.volume || 1; // Full volume
 
         // Log voice selection in development
         if (process.env.NODE_ENV === 'development') {
@@ -82,6 +87,11 @@ export default defineNuxtPlugin({
 
         // Speak the text
         synth.speak(utterance);
+      },
+
+      // Expose method to get all available voices
+      getVoices: () => {
+        return synth.getVoices();
       }
     };
 
