@@ -46,8 +46,8 @@ Each topic includes:
 
 The platform offers various exercise formats to accommodate different learning styles:
 
-1. Fill in the Blanks
-2. Multiple Choice
+1. Multiple Choice
+2. Fill in the Blanks
 3. Matching Exercises
 4. Error Identification
 5. Sentence Completion

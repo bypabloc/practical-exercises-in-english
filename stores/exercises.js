@@ -1,6 +1,12 @@
 import { defineStore } from 'pinia'
-import basicExercisesData from '~/data/basic/complete-with-the-correct-verb/index.yml'
+import basicGreetingAndIntroductionsErrorIdentification from '~/data/basic/greetings-and-introductions/error-identification.yml'
+import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
+import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
+import basicGreetingAndIntroductionsSentenceCompletion from '~/data/basic/greetings-and-introductions/sentence-completion.yml'
+import basicGreetingAndIntroductionsTrueOrFalse from '~/data/basic/greetings-and-introductions/true-or-false.yml'
+
+import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -9,7 +15,7 @@ export const useExerciseStore = defineStore('exercises', {
     difficulties: {
       basic: {
         label: 'Basic',
-        explanation: '', // explanation here
+        explanation: '',
         order: 1,
         isActive: true,
         topics: {
@@ -65,6 +71,41 @@ export const useExerciseStore = defineStore('exercises', {
                 component: 'MultipleChoice',
                 items: basicGreetingAndIntroductionsMultipleChoice.items,
               },
+              'fill-in-the-blanks': {
+                label: 'Rellena los Espacios',
+                order: 2,
+                isActive: true,
+                component: 'FillInTheBlanks',
+                items: basicGreetingAndIntroductionsFillInTheBlanks.items,
+              },
+              'matching': {
+                label: 'Emparejamiento',
+                order: 3,
+                isActive: true,
+                component: 'Matching',
+                items: basicGreetingAndIntroductionsMatchingExercises.items,
+              },
+              'error-identification': {
+                label: 'Identificación de Errores',
+                order: 4,
+                isActive: true,
+                component: 'ErrorIdentification',
+                items: basicGreetingAndIntroductionsErrorIdentification.items,
+              },
+              'sentence-completion': {
+                label: 'Completar Oraciones',
+                order: 5,
+                isActive: true,
+                component: 'SentenceCompletion',
+                items: basicGreetingAndIntroductionsSentenceCompletion.items,
+              },
+              'true-or-false': {
+                label: 'Verdadero o Falso',
+                order: 6,
+                isActive: true,
+                component: 'TrueOrFalse',
+                items: basicGreetingAndIntroductionsTrueOrFalse.items,
+              },
             },
             order: 1,
             isActive: true,
@@ -104,7 +145,7 @@ export const useExerciseStore = defineStore('exercises', {
                 isActive: true,
                 order: 1,
                 component: 'CompleteWithTheCorrectVerb',
-                items: basicExercisesData.items,
+                items: basicTimeDifferentiationCompleteWithTheCorrectVerb.items,
               },
               'multiple-choice': {
                 label: 'Selección Múltiple',
@@ -118,8 +159,6 @@ export const useExerciseStore = defineStore('exercises', {
             order: 8,
             isActive: false,
           },
-
-
         },
       },
       intermediate: {
