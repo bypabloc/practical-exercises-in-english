@@ -69,6 +69,9 @@ export default defineNuxtPlugin({
         // Set rate (speed) - default is 1, range is 0.1 to 10
         utterance.rate = options.rate || 1;
 
+        // pitch: 0 to 2, 1 is default
+        utterance.pitch = options.pitch || 1;
+
         // Use provided voice or fall back to default selection method
         if (options.voice) {
           utterance.voice = options.voice;
