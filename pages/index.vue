@@ -14,15 +14,33 @@
       >
         {{ difficulty.name }}
       </button>
+
+      <!-- Voice Selection Button -->
+      <button
+        @click="openVoiceModal"
+        class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
+      >
+        <i class="i-mdi-volume-high"></i>
+        Test Text-to-Speech Voices
+      </button>
     </div>
+
+    <!-- Voice Selection Modal -->
+    <TfsModalLanguageSelection 
+      :is-open="isVoiceModalOpen" 
+      @close="closeVoiceModal"
+    />
   </div>
 </template>
 
 <script setup>
-import { useExerciseStore } from '~/stores/exercises';
+import { ref } from 'vue'
+import { useExerciseStore } from '~/stores/exercises'
 
-const exerciseStore = useExerciseStore();
-const router = useRouter();
+const exerciseStore = useExerciseStore()
+const router = useRouter()
+
+const isVoiceModalOpen = ref(false)
 
 const difficulties = computed(() => {
   const difficulties = Object.keys(exerciseStore.difficulties).map((difficulty) => {
@@ -37,7 +55,14 @@ const difficulties = computed(() => {
 });
 
 const navigateToLevel = (route) => {
-  console.log(route);
   router.push(route);
 };
+
+const openVoiceModal = () => {
+  isVoiceModalOpen.value = true
+}
+
+const closeVoiceModal = () => {
+  isVoiceModalOpen.value = false
+}
 </script>
