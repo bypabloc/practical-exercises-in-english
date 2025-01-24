@@ -1,0 +1,240 @@
+items:
+    - sentence: "It's appropriate to say 'Good evening' at 7 PM."
+      isTrue: true
+      explanation: "'Good evening' is used from around 6 PM onwards"
+      translation: "Es apropiado decir 'Good evening' a las 7 PM"
+      pronunciation: "gud ívning"
+
+    - sentence: "'How do you do?' is an informal greeting."
+      isTrue: false
+      explanation: "'How do you do?' is a very formal greeting, typically used when being introduced to someone in a formal setting"
+      translation: "'How do you do?' es un saludo formal"
+      pronunciation: "jau du yu du"
+
+    - sentence: "You should respond to 'Nice to meet you' with just 'Thank you'."
+      isTrue: false
+      explanation: "The appropriate response is 'Nice to meet you too' or a similar phrase reciprocating the sentiment"
+      translation: "Debes responder 'Nice to meet you' solo con 'Gracias'"
+      pronunciation: "nais tu mit yu tu"
+
+    - sentence: "'Good night' is appropriate when greeting someone in the evening."
+      isTrue: false
+      explanation: "'Good night' is used when saying goodbye, not as a greeting. Use 'Good evening' for greeting in the evening"
+      translation: "'Good night' es apropiado como saludo por la noche"
+      pronunciation: "gud náit / gud ívning"
+
+    - sentence: "It's acceptable to say 'Hey' to your university professor."
+      isTrue: false
+      explanation: "'Hey' is too informal for addressing a professor. Use 'Hello' or 'Good morning/afternoon' instead"
+      translation: "Es aceptable decir 'Hey' a tu profesor universitario"
+      pronunciation: "jei / jeló / gud mórning"
+
+    - sentence: "'Pleased to meet you' is more formal than 'Nice to meet you'."
+      isTrue: true
+      explanation: "'Pleased to meet you' is indeed slightly more formal than 'Nice to meet you'"
+      translation: "'Pleased to meet you' es más formal que 'Nice to meet you'"
+      pronunciation: "plisd tu mit yu / nais tu mit yu"
+
+    - sentence: "You should always use 'Mr./Mrs.' when introduced to someone for the first time in a business setting."
+      isTrue: true
+      explanation: "Using titles in business settings shows respect and professionalism until told otherwise"
+      translation: "Siempre debes usar 'Sr./Sra.' cuando te presentan a alguien por primera vez en un entorno de negocios"
+      pronunciation: "míster/mísiz"
+
+    - sentence: "'Good afternoon' is appropriate at 11:30 AM."
+      isTrue: false
+      explanation: "'Good afternoon' is used from noon (12 PM) onwards. Before noon, use 'Good morning'"
+      translation: "'Good afternoon' es apropiado a las 11:30 AM"
+      pronunciation: "gud afternún / gud mórning"
+
+    - sentence: "When someone says 'How are you?', you should always give a detailed answer about your life."
+      isTrue: false
+      explanation: "In most contexts, a brief response like 'Fine, thank you. And you?' is more appropriate"
+      translation: "Cuando alguien dice '¿Cómo estás?', siempre debes dar una respuesta detallada sobre tu vida"
+      pronunciation: "jau ar yu / fain, zenk yu, and yu"
+
+    - sentence: "It's appropriate to use first names immediately after meeting someone in a business context in English-speaking countries."
+      isTrue: false
+      explanation: "In business contexts, wait for an invitation to use first names or follow the lead of your counterpart"
+      translation: "Es apropiado usar nombres de pila inmediatamente después de conocer a alguien en un contexto empresarial en países de habla inglesa"
+      pronunciation: "férst neim"
+
+    - sentence: "'What's up?' is an appropriate greeting for a job interview."
+      isTrue: false
+      explanation: "'What's up?' is very informal and should not be used in professional situations like job interviews"
+      translation: "'What's up?' es un saludo apropiado para una entrevista de trabajo"
+      pronunciation: "uáts ap"
+
+    - sentence: "When introducing yourself, it's correct to say 'I'm called John' in casual situations."
+      isTrue: false
+      explanation: "While grammatically correct, 'I'm called John' sounds formal or outdated. 'I'm John' is more natural"
+      translation: "Al presentarte, es correcto decir 'I'm called John' en situaciones informales"
+      pronunciation: "aim kold yon / aim yon"
+
+    - sentence: "You should always shake hands when meeting someone for the first time in English-speaking countries."
+      isTrue: false
+      explanation: "While handshakes are common in business settings, they're not always expected in casual situations"
+      translation: "Siempre debes dar la mano al conocer a alguien por primera vez en países de habla inglesa"
+      pronunciation: "sheik jands"
+
+    - sentence: "It's polite to wait for someone to finish their introduction before introducing yourself."
+      isTrue: true
+      explanation: "Letting someone complete their introduction shows respect and good manners"
+      translation: "Es educado esperar a que alguien termine su presentación antes de presentarte"
+      pronunciation: "introdákshon"
+
+    - sentence: "'Good morning' can be used any time before noon."
+      isTrue: true
+      explanation: "'Good morning' is appropriate from early morning until 12:00 PM (noon)"
+      translation: "'Good morning' se puede usar en cualquier momento antes del mediodía"
+      pronunciation: "gud mórning"
+
+    - sentence: "When someone thanks you for meeting them, 'You're welcome' is the only correct response."
+      isTrue: false
+      explanation: "You can say 'You're welcome', 'It's my pleasure', or 'The pleasure is mine'"
+      translation: "Cuando alguien te agradece por reunirte con ellos, 'You're welcome' es la única respuesta correcta"
+      pronunciation: "yur uélcom / its mai plésher / da plésher is main"
+
+    - sentence: "It's appropriate to use 'Sir' or 'Madam' when addressing strangers in formal situations."
+      isTrue: true
+      explanation: "Using 'Sir' or 'Madam' shows respect when addressing strangers in formal contexts"
+      translation: "Es apropiado usar 'Sir' o 'Madam' al dirigirse a extraños en situaciones formales"
+      pronunciation: "ser / mádam"
+
+    - sentence: "'Hi there' is appropriate for formal business emails."
+      isTrue: false
+      explanation: "'Hi there' is too casual for formal business communications. Use 'Dear Mr./Ms.' or 'Hello'"
+      translation: "'Hi there' es apropiado para correos electrónicos formales de negocios"
+      pronunciation: "jai der"
+
+    - sentence: "You should always give your full name when introducing yourself casually."
+      isTrue: false
+      explanation: "In casual situations, first names are usually sufficient. Full names are more common in formal settings"
+      translation: "Siempre debes dar tu nombre completo al presentarte informalmente"
+      pronunciation: "ful neim / ferst neim"
+
+    - sentence: "It's appropriate to say 'Lovely to meet you' after being introduced to someone."
+      isTrue: true
+      explanation: "'Lovely to meet you' is a perfectly acceptable and friendly response to an introduction"
+      translation: "Es apropiado decir 'Lovely to meet you' después de ser presentado a alguien"
+      pronunciation: "lávli tu mit yu"
+
+    - sentence: "You should always ask 'How are you?' after someone introduces themselves."
+      isTrue: false
+      explanation: "While common, it's not mandatory - sometimes a simple 'Nice to meet you' is sufficient"
+      translation: "Siempre debes preguntar '¿Cómo estás?' después de que alguien se presente"
+      pronunciation: "jau ar yu / nais tu mit yu"
+
+    - sentence: "'Pleased to make your acquaintance' is too formal for any modern situation."
+      isTrue: false
+      explanation: "While formal, it's still appropriate in very formal business or diplomatic situations"
+      translation: "'Pleased to make your acquaintance' es demasiado formal para cualquier situación moderna"
+      pronunciation: "plisd tu meik yor akuéintans"
+
+    - sentence: "When someone says 'How do you do?', you should explain how you are feeling."
+      isTrue: false
+      explanation: "The traditional response to 'How do you do?' is to repeat 'How do you do?' back - it's a greeting, not a question"
+      translation: "Cuando alguien dice 'How do you do?', debes explicar cómo te sientes"
+      pronunciation: "jau du yu du"
+
+    - sentence: "It's appropriate to introduce yourself with just your first name in a job interview."
+      isTrue: false
+      explanation: "In job interviews, you should use your full name for proper professional introduction"
+      translation: "Es apropiado presentarte solo con tu nombre de pila en una entrevista de trabajo"
+      pronunciation: "ferst neim / ful neim"
+
+    - sentence: "'Good day' is commonly used as a greeting in modern English."
+      isTrue: false
+      explanation: "'Good day' is somewhat old-fashioned and rarely used in modern English except in very formal situations"
+      translation: "'Good day' se usa comúnmente como saludo en inglés moderno"
+      pronunciation: "gud dei"
+
+    - sentence: "It's acceptable to say 'Hey guys' when addressing a mixed professional group."
+      isTrue: false
+      explanation: "'Hey guys' is too informal for professional settings and may not be inclusive. Use 'Hello everyone' instead"
+      translation: "Es aceptable decir 'Hey guys' cuando te diriges a un grupo profesional mixto"
+      pronunciation: "jei gais / jeló évriwuan"
+
+    - sentence: "You should always include your job title when introducing yourself in a business meeting."
+      isTrue: false
+      explanation: "While common, it depends on the context and whether others are doing so - follow the lead of others"
+      translation: "Siempre debes incluir tu título profesional al presentarte en una reunión de negocios"
+      pronunciation: "yob táitol"
+
+    - sentence: "'Great to meet you' is an acceptable alternative to 'Nice to meet you'."
+      isTrue: true
+      explanation: "'Great to meet you' is a perfectly natural and friendly variation of 'Nice to meet you'"
+      translation: "'Great to meet you' es una alternativa aceptable a 'Nice to meet you'"
+      pronunciation: "greit tu mit yu"
+
+    - sentence: "When introducing a colleague, you should always mention their job title."
+      isTrue: false
+      explanation: "While appropriate in business contexts, it's not always necessary - context determines what details to include"
+      translation: "Al presentar a un colega, siempre debes mencionar su título profesional"
+      pronunciation: "kólig / yob táitol"
+
+    - sentence: "It's appropriate to use 'Goodbye' when leaving a casual conversation with friends."
+      isTrue: false
+      explanation: "'Goodbye' can sound too formal among friends. 'Bye' or 'See you' are more natural"
+      translation: "Es apropiado usar 'Goodbye' al terminar una conversación casual con amigos"
+      pronunciation: "gudbái / bai / si yu"
+
+    - sentence: "You should always respond to 'How are you?' with 'How are you?'"
+      isTrue: false
+      explanation: "You should first answer the question ('Fine, thanks') and then you can ask 'And you?'"
+      translation: "Siempre debes responder a '¿Cómo estás?' con '¿Cómo estás?'"
+      pronunciation: "jau ar yu / fain zenks / and yu"
+
+    - sentence: "It's appropriate to say 'Good morning' until 11:59 AM."
+      isTrue: true
+      explanation: "'Good morning' can be used until noon (12:00 PM)"
+      translation: "Es apropiado decir 'Good morning' hasta las 11:59 AM"
+      pronunciation: "gud mórning"
+
+    - sentence: "'Take care' is too informal for business emails."
+      isTrue: false
+      explanation: "'Take care' can be appropriate in business emails, especially with people you know well"
+      translation: "'Take care' es demasiado informal para correos electrónicos de negocios"
+      pronunciation: "teik ker"
+
+    - sentence: "When someone introduces themselves as 'Dr. Smith', you should call them 'Smith'."
+      isTrue: false
+      explanation: "You should use their title (Dr.) unless they specifically invite you to use their first name"
+      translation: "Cuando alguien se presenta como 'Dr. Smith', debes llamarlos 'Smith'"
+      pronunciation: "dóctor smiz"
+
+    - sentence: "It's acceptable to skip introducing yourself if others in a group already know you."
+      isTrue: false
+      explanation: "You should still introduce yourself for the benefit of those who don't know you"
+      translation: "Es aceptable no presentarte si otros en un grupo ya te conocen"
+      pronunciation: "introdius yorself"
+
+    - sentence: "'See you later' always means you plan to meet again the same day."
+      isTrue: false
+      explanation: "'See you later' is a general farewell and doesn't necessarily imply meeting again the same day"
+      translation: "'See you later' siempre significa que planeas volver a verte el mismo día"
+      pronunciation: "si yu léiter"
+
+    - sentence: "You can say 'Nice meeting you' both during and at the end of a first meeting."
+      isTrue: true
+      explanation: "'Nice meeting you' can be used during the conversation or as a farewell in a first meeting"
+      translation: "Puedes decir 'Nice meeting you' tanto durante como al final de una primera reunión"
+      pronunciation: "nais míting yu"
+
+    - sentence: "It's appropriate to use someone's first name as soon as they tell it to you."
+      isTrue: false
+      explanation: "In formal situations, continue using titles unless invited to use first names"
+      translation: "Es apropiado usar el nombre de pila de alguien tan pronto como te lo dicen"
+      pronunciation: "ferst neim"
+
+    - sentence: "'How's it going?' is appropriate for formal business meetings."
+      isTrue: false
+      explanation: "'How's it going?' is too casual for formal business meetings. Use 'How are you?' instead"
+      translation: "'How's it going?' es apropiado para reuniones formales de negocios"
+      pronunciation: "jaus it góing / jau ar yu"
+
+    - sentence: "You should always answer 'I'm fine' when asked 'How are you?'"
+      isTrue: false
+      explanation: "While 'I'm fine' is common, you can also say 'I'm good', 'Very well', or other appropriate responses"
+      translation: "Siempre debes responder 'I'm fine' cuando te preguntan '¿Cómo estás?'"
+      pronunciation: "aim fain / aim gud / véri uel"

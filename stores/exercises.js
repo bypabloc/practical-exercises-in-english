@@ -3,6 +3,8 @@ import basicGreetingAndIntroductionsErrorIdentification from '~/data/basic/greet
 import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
 import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
+import basicGreetingAndIntroductionsSentenceCompletion from '~/data/basic/greetings-and-introductions/sentence-completion.yml'
+import basicGreetingAndIntroductionsTrueOrFalse from '~/data/basic/greetings-and-introductions/true-or-false.yml'
 
 import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
@@ -89,6 +91,20 @@ export const useExerciseStore = defineStore('exercises', {
                 isActive: true,
                 component: 'ErrorIdentification',
                 items: basicGreetingAndIntroductionsErrorIdentification.items,
+              },
+              'sentence-completion': {
+                label: 'Completar Oraciones',
+                order: 5,
+                isActive: true,
+                component: 'SentenceCompletion',
+                items: basicGreetingAndIntroductionsSentenceCompletion.items,
+              },
+              'true-or-false': {
+                label: 'Verdadero o Falso',
+                order: 6,
+                isActive: true,
+                component: 'TrueOrFalse',
+                items: basicGreetingAndIntroductionsTrueOrFalse.items,
               },
             },
             order: 1,
