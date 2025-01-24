@@ -8,22 +8,21 @@
     <template #default>
       <!-- Voice Selection -->
       <div class="space-y-2">
-        <div 
-          v-for="(voice, index) in availableVoices" 
-          :key="index" 
-          class="bg-gray-100 rounded-lg p-3 flex items-center justify-between cursor-pointer hover:bg-blue-50 transition-colors"
-          @click="selectVoice(voice)"
+        <label class="block text-sm font-medium text-gray-700">
+          Select Voice
+        </label>
+        <select 
+          v-model="selectedVoice" 
+          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-          <div>
-            <p class="font-medium text-gray-800">{{ voice.name }}</p>
-            <p class="text-sm text-gray-600">{{ voice.lang }}</p>
-          </div>
-          <input 
-            type="radio" 
-            :checked="selectedVoice === voice" 
-            class="form-radio text-blue-500"
-          />
-        </div>
+          <option 
+            v-for="(voice, index) in availableVoices" 
+            :key="index" 
+            :value="voice"
+          >
+            {{ voice.name }} ({{ voice.lang }})
+          </option>
+        </select>
       </div>
 
       <!-- Test Voice Input -->
@@ -37,6 +36,19 @@
           placeholder="Enter text to test pronunciation" 
           class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
+        
+        <div>
+          <label for="rate">Rate</label>
+          <input type="range" min="0.5" max="2" v-model="rate" step="0.1" id="rate" />
+          <div class="rate-value">{{ rate }}</div>
+          <div class="clearfix"></div>
+        </div>
+        <div>
+          <label for="pitch">Pitch</label>
+          <input type="range" min="0" max="2" v-model="pitch" step="0.1" id="pitch" />
+          <div class="pitch-value">{{ pitch }}</div>
+          <div class="clearfix"></div>
+        </div>
       </div>
     </template>
 
@@ -74,7 +86,9 @@ const emit = defineEmits(['close'])
 
 const availableVoices = ref([])
 const selectedVoice = ref(null)
-const testText = ref('')
+const testText = ref('Nice to meet you')
+const rate = ref(1)
+const pitch = ref(1)
 
 const nuxtApp = useNuxtApp()
 const { $textToSpeech } = nuxtApp
@@ -86,7 +100,8 @@ const selectVoice = (voice) => {
 const testVoicePronunciation = () => {
   if (selectedVoice.value && testText.value) {
     $textToSpeech.speak(testText.value, { 
-      rate: 0.7,
+      rate: rate.value,
+      pitch: pitch.value,
       voice: selectedVoice.value.originalVoice
     })
   }
