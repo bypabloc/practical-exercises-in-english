@@ -63,6 +63,12 @@
                 </div>
               </div>
 
+              <!-- Explanation Section -->
+              <div v-if="exercise.explanation" class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-medium text-gray-700 mb-2">Explicación:</h4>
+                <p class="text-gray-600">{{ exercise.explanation }}</p>
+              </div>
+
               <!-- Translation & Pronunciation -->
               <div class="text-sm text-gray-600 space-y-1 pl-2 border-l-4 border-gray-200">
                 <p class="flex gap-2">

@@ -1,10 +1,13 @@
 import { defineStore } from 'pinia'
+
+import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
 import basicGreetingAndIntroductionsErrorIdentification from '~/data/basic/greetings-and-introductions/error-identification.yml'
 import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
 import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
-import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
 import basicGreetingAndIntroductionsSentenceCompletion from '~/data/basic/greetings-and-introductions/sentence-completion.yml'
 import basicGreetingAndIntroductionsTrueOrFalse from '~/data/basic/greetings-and-introductions/true-or-false.yml'
+
+import basicPersonalPronounsMultipleChoice from '~/data/basic/personal-pronouns/multiple-choice.yml'
 
 import basicTimeDifferentiationCompleteWithTheCorrectVerb from '~/data/basic/time-differentiation/complete-with-the-correct-verb.yml'
 
@@ -112,8 +115,51 @@ export const useExerciseStore = defineStore('exercises', {
           },
           'personal-pronouns': {
             label: 'Pronombres Personales',
+            explanation: `Los pronombres personales en inglés son fundamentales y siguen reglas mecánicas muy específicas. A diferencia del español, donde podemos omitir pronombres, en inglés son obligatorios. Hay dos tipos principales: pronombres sujeto (que realizan la acción) y pronombres objeto (que reciben la acción).`,
+            details: [
+              "Los pronombres sujeto siempre van antes del verbo: I, you, he, she, it, we, they",
+              "Los pronombres objeto reciben la acción: me, you, him, her, it, us, them",
+              "El pronombre 'it' se usa para objetos y animales, no para personas",
+              "A diferencia del español, en inglés no se puede omitir el pronombre sujeto",
+              "El género en inglés es natural - 'he' para hombres, 'she' para mujeres, 'it' para cosas"
+            ],
+            examples: [
+              {
+                english: "I play basketball",
+                spanish: "Yo juego baloncesto",
+                pronunciation: "ai plei básketbol",
+                note: "En español podríamos decir solo 'juego baloncesto', pero en inglés el 'I' es obligatorio"
+              },
+              {
+                english: "He loves music",
+                spanish: "Él ama la música",
+                pronunciation: "ji lavs miúsik",
+                note: "El pronombre 'he' es necesario y va seguido del verbo con 's' en presente simple"
+              },
+              {
+                english: "They gave him the book",
+                spanish: "Ellos le dieron el libro",
+                pronunciation: "dei geiv jim da buk",
+                note: "Aquí 'they' es pronombre sujeto y 'him' es pronombre objeto"
+              },
+              {
+                english: "The cat is hungry. It wants food",
+                spanish: "El gato tiene hambre. Quiere comida",
+                pronunciation: "da cat is jangri. It wonts fud",
+                note: "Para animales usamos 'it', no 'he' o 'she' (a menos que sea una mascota de la que conocemos el género)"
+              }
+            ],
+            exercises: {
+              'multiple-choice': {
+                label: 'Selección Múltiple',
+                order: 1,
+                isActive: true,
+                component: 'MultipleChoice',
+                items: basicPersonalPronounsMultipleChoice.items,
+              },
+            },
             order: 2,
-            isActive: false,
+            isActive: true,
           },
           'daily-routines': {
             label: 'Rutinas Diarias',

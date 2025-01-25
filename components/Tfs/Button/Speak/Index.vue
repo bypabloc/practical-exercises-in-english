@@ -3,12 +3,10 @@
     v-if="!isMobile || textToSpeechStatus === 'is-enabled'"
     size="sm"
     variant="primary"
-    icon="i-mdi-volume-high"
+    icon="mdi-speakerphone"
     :disabled="isDisabled"
     @click="speak"
-  >
-    {{ label || 'Practice Pronunciation' }}
-  </TfsButton>
+  />
 </template>
 
 <script setup>
