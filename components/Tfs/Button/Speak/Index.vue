@@ -1,6 +1,6 @@
 <template>
   <TfsButton
-    v-if="textToSpeechStatus === 'is-enabled'"
+    v-if="!isMobile || textToSpeechStatus === 'is-enabled'"
     size="sm"
     variant="primary"
     icon="i-mdi-volume-high"
@@ -12,6 +12,7 @@
 
 <script setup>
 import { useCookieStore } from '~/stores/cookies'
+const { isMobile } = useUi()
 
 const props = defineProps({
   text: {

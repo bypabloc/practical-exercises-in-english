@@ -17,7 +17,7 @@
 
       <!-- Voice Selection Button -->
       <button
-        v-if="textToSpeechStatus === 'is-enabled'"
+        v-if="!isMobile || textToSpeechStatus === 'is-enabled'"
         @click="openVoiceModal"
         class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
       >
@@ -28,7 +28,7 @@
 
     <!-- Voice Selection Modal -->
     <TfsModalLanguageSelection
-      v-if="textToSpeechStatus === 'is-enabled'"
+      v-if="!isMobile || textToSpeechStatus === 'is-enabled'"
       :is-open="isVoiceModalOpen" 
       @close="closeVoiceModal"
     />
@@ -40,6 +40,7 @@
 import { ref } from 'vue'
 import { useExerciseStore } from '~/stores/exercises'
 import { useCookieStore } from '~/stores/cookies'
+const { isMobile } = useUi()
 
 const exerciseStore = useExerciseStore()
 const router = useRouter()
