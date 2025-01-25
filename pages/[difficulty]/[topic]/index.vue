@@ -61,17 +61,16 @@
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <button
+      <TfsButton
         v-for="exercise in exercises"
         :key="exercise.name"
         @click="exercise.isActive ? navigateToLevel(exercise.route) : null"
-        :class="[
-          exercise.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-        ]"
-        class="p-4 text-lg rounded-lg transition-colors"
+        :variant="exercise.isActive ? 'primary' : 'secondary'"
+        :disabled="!exercise.isActive"
+        class="p-4 text-lg rounded-lg"
       >
         {{ exercise.name }}
-      </button>
+      </TfsButton>
     </div>
   </div>
 </template>
@@ -87,8 +86,6 @@ defineOptions({
 
 const router = useRouter();
 const route = useRoute();
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 const { difficulty, topic } = route.params;
 
@@ -115,9 +112,5 @@ const exercises = computed(() => {
 
 const navigateToLevel = (route) => {
   router.push(route);
-};
-
-const practicePronunciation = ({ english }) => {
-  $textToSpeech.speak(english, { rate: 0.7 });
 };
 </script>

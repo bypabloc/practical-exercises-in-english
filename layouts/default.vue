@@ -2,13 +2,14 @@
   <div class="min-h-screen grid grid-layout" :class="{ 'sidebar-collapsed': !isSidebarOpen }">
     <!-- Navbar -->
     <nav class="bg-blue-500 text-white p-4 flex items-center gap-4">
-      <button 
+      <TfsButton
+        icon="mdi-menu"
+        iconClasses="text-gray-600"
         @click="toggleSidebar"
-        class="text-white hover:text-blue-100 focus:outline-none"
+        variant="ghost"
+        class="text-gray-600 hover:text-gray-800 focus:outline-none"
         aria-label="Toggle sidebar"
-      >
-        <i class="i-mdi-menu text-2xl"></i>
-      </button>
+      />
       
       <div class="text-xl font-bold">TFS - Practical Exercises in English</div>
     </nav>
@@ -27,19 +28,20 @@
         @click.stop
         class="bg-white fixed inset-0 z-50 overflow-y-auto"
         :class="[
-          isSmaller?.md ? 'w-full' : 'w-[300px] border-r'
+          isSmaller?.md ? 'w-full md:w-64' : 'w-64 border-r'
         ]"
       >
         <!-- Sidebar Header -->
         <div class="flex justify-between items-center p-4 border-b bg-gray-50 sticky top-0">
           <h2 class="font-bold text-xl text-gray-800">Menu</h2>
-          <button 
+          <TfsButton
+            icon="mdi-close"
+            iconClasses="text-gray-600"
             @click="closeSidebar"
+            variant="ghost"
             class="p-2 hover:bg-gray-200 rounded-full transition-colors focus:outline-none"
             aria-label="Close menu"
-          >
-            <i class="i-mdi-close text-2xl text-gray-600"></i>
-          </button>
+          />
         </div>
 
         <!-- Sidebar Content -->
@@ -49,7 +51,7 @@
             <div 
               class="font-medium text-gray-700 p-2 hover:bg-gray-200 rounded cursor-pointer"
               :class="{ 'opacity-50 cursor-not-allowed': !difficulty.isActive }"
-              @click="difficulty.isActive && navigateToPage(`/${diffKey}`)"
+              @click="handleNavigation(`/${diffKey}`, difficulty.isActive)"
             >
               {{ difficulty.label }}
             </div>
@@ -60,7 +62,7 @@
                 <div 
                   class="text-gray-600 p-2 hover:bg-gray-200 rounded cursor-pointer"
                   :class="{ 'opacity-50 cursor-not-allowed': !topic.isActive }"
-                  @click="topic.isActive && navigateToPage(`/${diffKey}/${topicKey}`)"
+                  @click="handleNavigation(`/${diffKey}/${topicKey}`, topic.isActive)"
                 >
                   {{ topic.label }}
                 </div>
@@ -71,7 +73,7 @@
                     <div 
                       class="text-sm text-gray-500 p-2 hover:bg-gray-200 rounded cursor-pointer"
                       :class="{ 'opacity-50 cursor-not-allowed': !exercise.isActive }"
-                      @click="exercise.isActive && navigateToPage(`/${diffKey}/${topicKey}/${exerciseKey}`)"
+                      @click="handleNavigation(`/${diffKey}/${topicKey}/${exerciseKey}`, exercise.isActive)"
                     >
                       {{ exercise.label }}
                     </div>
@@ -129,7 +131,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-200 p-4 text-center text-gray-600">
-      <p>&copy; 2024 TFS - Practical Exercises in English. All rights reserved.</p>
+      <p>&copy; 2024 Practical Exercises in English. All rights reserved.</p>
       <p class="mt-2">
         Desarrollado por 
         <a 
@@ -177,6 +179,13 @@ const toggleSidebar = () => {
 
 const closeSidebar = () => {
   isSidebarOpen.value = false
+}
+
+const handleNavigation = (path, isActive) => {
+  if (isActive) {
+    navigateToPage(path)
+    isSidebarOpen.value = false
+  }
 }
 
 watch(() => isSmaller.value?.md, (isMobile) => {

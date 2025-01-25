@@ -3,27 +3,25 @@
     <h1 class="text-3xl font-bold mb-10">English Practice Exercises</h1>
     
     <div class="flex flex-col gap-4 w-full max-w-md">
-      <button
+      <TfsButton
         v-for="difficulty in difficulties"
         :key="difficulty.name"
         @click="difficulty.isActive ? navigateToLevel(difficulty.route) : null"
-        :class="[
-          difficulty.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-        ]"
-        class="p-4 text-lg rounded-lg transition-colors"
+        :variant="difficulty.isActive ? 'primary' : 'secondary'"
+        :disabled="!difficulty.isActive"
+        class="p-4 text-lg rounded-lg"
       >
         {{ difficulty.name }}
-      </button>
+      </TfsButton>
 
       <!-- Voice Selection Button -->
-      <button
+      <TfsButton
         v-if="!isMobile || textToSpeechStatus === 'is-enabled'"
         @click="openVoiceModal"
-        class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
+        class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors"
       >
-        <i class="i-mdi-volume-high"></i>
         Test Text-to-Speech Voices
-      </button>
+      </TfsButton>
     </div>
 
     <!-- Voice Selection Modal -->

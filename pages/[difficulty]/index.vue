@@ -6,17 +6,16 @@
       </h1>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-      <button
+      <TfsButton
         v-for="topic in topics"
         :key="topic.name"
         @click="topic.isActive ? navigateToLevel(topic.route) : null"
-        :class="[
-          topic.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-        ]"
-        class="p-4 text-lg rounded-lg transition-colors"
+        :variant="topic.isActive ? 'primary' : 'secondary'"
+        :disabled="!topic.isActive"
+        class="p-4 text-lg rounded-lg"
       >
         {{ topic.name }}
-      </button>
+      </TfsButton>
     </div>
   </div>
 </template>

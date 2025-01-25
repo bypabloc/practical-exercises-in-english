@@ -91,18 +91,25 @@
         </div>
       </div>
 
+      <!-- Message for incomplete answers -->
+      <div v-if="!showResults" class="text-center">
+        <p v-if="!canSubmit" class="text-sm text-gray-500">
+          Selecciona el error en cada oración antes de verificar las respuestas
+        </p>
+      </div>
+
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
+        <TfsButton
           type="submit"
-          class="px-6 py-3 rounded-lg transition-colors text-lg font-medium"
-          :class="[
-            canSubmit ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-          ]"
           :disabled="showResults || !canSubmit"
+          :class="{
+            'opacity-50': !canSubmit && !showResults
+          }"
+          :variant="showResults ? 'success' : 'primary'"
         >
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -117,9 +124,6 @@ const props = defineProps({
     required: true
   }
 });
-
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 // Component state
 const selectedExercises = ref([]);
@@ -190,11 +194,5 @@ const getSentenceWithCorrection = (exercise) => {
 const validateAnswers = () => {
   if (!canSubmit.value) return;
   showResults.value = true;
-};
-
-// Practice pronunciation
-const practicePronunciation = (exercise) => {
-  const correctSentence = getSentenceWithCorrection(exercise);
-  $textToSpeech.speak(correctSentence, { rate: 0.7 });
 };
 </script>
