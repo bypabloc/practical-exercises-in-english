@@ -7,47 +7,67 @@
   >
     <template #default>
       <!-- Voice Selection -->
-      <div class="space-y-2">
-        <label class="block text-sm font-medium text-gray-700">
-          Select Voice
-        </label>
-        <select 
-          v-model="selectedVoice" 
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option 
-            v-for="(voice, index) in availableVoices" 
-            :key="index" 
-            :value="voice"
+      <div class="space-y-4">
+        <div class="space-y-2">
+          <label class="block text-sm font-medium text-gray-700">
+            Select Voice
+          </label>
+          <select 
+            v-model="selectedVoice" 
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            {{ voice.name }} ({{ voice.lang }})
-          </option>
-        </select>
-      </div>
-
-      <!-- Test Voice Input -->
-      <div class="mt-4 space-y-2">
-        <label class="block text-sm font-medium text-gray-700">
-          Test Voice Pronunciation
-        </label>
-        <input 
-          v-model="testText" 
-          type="text" 
-          placeholder="Enter text to test pronunciation" 
-          class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        
-        <div>
-          <label for="rate">Rate</label>
-          <input type="range" min="0.5" max="2" v-model="rate" step="0.1" id="rate" />
-          <div class="rate-value">{{ rate }}</div>
-          <div class="clearfix"></div>
+            <option 
+              v-for="(voice, index) in processedVoices" 
+              :key="index" 
+              :value="voice"
+            >
+              {{ voice.name }} ({{ voice.lang }})
+              {{ voice.localService ? '- Local' : '- Network' }}
+              {{ voice.default ? '- Default' : '' }}
+            </option>
+          </select>
         </div>
-        <div>
-          <label for="pitch">Pitch</label>
-          <input type="range" min="0" max="2" v-model="pitch" step="0.1" id="pitch" />
-          <div class="pitch-value">{{ pitch }}</div>
-          <div class="clearfix"></div>
+
+        <!-- Test Voice Input -->
+        <div class="mt-4 space-y-2">
+          <label class="block text-sm font-medium text-gray-700">
+            Test Voice Pronunciation
+          </label>
+          <input 
+            v-model="testText" 
+            type="text" 
+            placeholder="Enter text to test pronunciation" 
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          
+          <div class="grid grid-cols-2 gap-4 mt-4">
+            <div>
+              <label for="rate" class="block text-sm font-medium text-gray-700">Rate</label>
+              <input 
+                type="range" 
+                min="0.5" 
+                max="2" 
+                v-model.number="rate" 
+                step="0.1" 
+                id="rate" 
+                class="w-full"
+              />
+              <div class="text-center text-sm text-gray-600">{{ rate }}</div>
+            </div>
+            <div>
+              <label for="pitch" class="block text-sm font-medium text-gray-700">Pitch</label>
+              <input 
+                type="range" 
+                min="0" 
+                max="2" 
+                v-model.number="pitch" 
+                step="0.1" 
+                id="pitch" 
+                class="w-full"
+              />
+              <div class="text-center text-sm text-gray-600">{{ pitch }}</div>
+            </div>
+          </div>
         </div>
       </div>
     </template>
@@ -84,36 +104,36 @@ const props = defineProps({
 
 const emit = defineEmits(['close'])
 
-const availableVoices = ref([])
+const nuxtApp = useNuxtApp()
+const { $textToSpeech } = nuxtApp
+
+// Processed voices for display
+const processedVoices = ref([])
 const selectedVoice = ref(null)
 const testText = ref('Nice to meet you')
 const rate = ref(1)
 const pitch = ref(1)
 
-const nuxtApp = useNuxtApp()
-const { $textToSpeech } = nuxtApp
+// Populate voices on component mount
+onMounted(() => {
+  // Get available voices 
+  const voices = $textToSpeech.getVoices()
+  processedVoices.value = voices
 
-const selectVoice = (voice) => {
-  selectedVoice.value = voice
-}
+  // Auto-select first voice if available
+  if (voices.length > 0) {
+    selectedVoice.value = voices[0]
+  }
+})
 
 const testVoicePronunciation = () => {
   if (selectedVoice.value && testText.value) {
+    // Use the plugin's speak method with full options
     $textToSpeech.speak(testText.value, { 
       rate: rate.value,
       pitch: pitch.value,
-      voice: selectedVoice.value.originalVoice
+      voice: selectedVoice.value
     })
   }
 }
-
-onMounted(() => {
-  // Get available voices from speech synthesis
-  const voices = window.speechSynthesis.getVoices()
-  availableVoices.value = voices.map(voice => ({
-    name: voice.name,
-    lang: voice.lang,
-    originalVoice: voice
-  }))
-})
 </script>

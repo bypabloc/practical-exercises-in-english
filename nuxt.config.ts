@@ -71,4 +71,8 @@ export default defineNuxtConfig({
       cssCodeSplit: true,
     },
   },
+
+  future: {
+    compatibilityVersion: 4,
+  },
 });

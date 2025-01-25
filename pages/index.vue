@@ -17,6 +17,7 @@
 
       <!-- Voice Selection Button -->
       <button
+        v-if="!textToSpeechIsDisabled"
         @click="openVoiceModal"
         class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
       >
@@ -26,7 +27,8 @@
     </div>
 
     <!-- Voice Selection Modal -->
-    <TfsModalLanguageSelection 
+    <TfsModalLanguageSelection
+      v-if="!textToSpeechIsDisabled"
       :is-open="isVoiceModalOpen" 
       @close="closeVoiceModal"
     />
@@ -36,9 +38,17 @@
 <script setup>
 import { ref } from 'vue'
 import { useExerciseStore } from '~/stores/exercises'
+import { useCookieStore } from '~/stores/cookies'
 
 const exerciseStore = useExerciseStore()
 const router = useRouter()
+
+const cookieStore = useCookieStore()
+const textToSpeech = cookieStore.get('text-to-speech')
+
+const textToSpeechIsDisabled = computed(() => {
+  return textToSpeech === 'is-disabled'
+})
 
 const isVoiceModalOpen = ref(false)
 

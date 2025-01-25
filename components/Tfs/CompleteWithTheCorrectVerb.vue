@@ -78,13 +78,9 @@
               </div>
 
               <!-- Practice Button -->
-              <button
-                type="button"
-                class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                @click="practicePronunciation(index)"
-              >
-                Practice Pronunciation
-              </button>
+              <TfsButtonSpeak
+                :text="getFullSentence(exercise)"
+              />
             </div>
           </div>
         </div>
@@ -145,12 +141,5 @@ const getFullSentence = (exercise) => {
 // Validate all answers
 const validateAnswers = () => {
   showResults.value = true;
-};
-
-// Practice pronunciation of the exercise
-const practicePronunciation = (index) => {
-  const exercise = selectedExercises.value[index];
-  const fullSentence = getFullSentence(exercise);
-  $textToSpeech.speak(fullSentence, { rate: 0.7 });
 };
 </script>
