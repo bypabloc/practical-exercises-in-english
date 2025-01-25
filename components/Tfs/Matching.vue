@@ -102,13 +102,9 @@
                       <span class="font-medium">Pronunciation:</span>
                       <span>{{ exercise.pronunciation }}</span>
                     </p>
-                    <button
-                      type="button"
-                      class="px-3 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                      @click="practicePronunciation(index)"
-                    >
-                      Practice
-                    </button>
+                    <TfsButtonSpeak
+                      :text="`${exercise.left} - ${exercise.right}`"
+                    />
                   </div>
                 </div>
               </div>

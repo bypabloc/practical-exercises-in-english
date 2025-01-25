@@ -3,55 +3,39 @@ import { defineNuxtPlugin } from "nuxt/app";
 const synth = window.speechSynthesis;
 let voices = [];
 
-// This will try to find an appropriate English voice with consistent characteristics
-function findEnglishVoice() {
-  // Get all voices
-  const availableVoices = synth.getVoices();
-  
-  // First try to find Microsoft English voices as they tend to be more consistent
-  let voice = availableVoices.find(v => 
-    v.name.includes('Microsoft') && 
-    v.name.toLowerCase().includes('english') &&
-    v.name.toLowerCase().includes('(united states)')
-  );
-
-  // If no Microsoft voice, try Google US English
-  if (!voice) {
-    voice = availableVoices.find(v => 
-      v.name.includes('Google US English') || 
-      (v.name.toLowerCase().includes('english') && 
-       v.lang.startsWith('en-US'))
-    );
-  }
-
-  // If still no voice found, use any English voice
-  if (!voice) {
-    voice = availableVoices.find(v => 
-      v.lang.startsWith('en-')
-    );
-  }
-
-  // Fallback to the first available voice if no English voice found
-  return voice || availableVoices[0];
-}
-
-// Initialize voices and handle the onvoiceschanged event
-function initVoices() {
+// Enhanced voice selection strategy
+function findAppropriateVoice(options = {}) {
+  // Ensure voices are populated
   voices = synth.getVoices();
-  if (process.env.NODE_ENV === 'development') {
-    console.log('Available voices:', voices.map(v => ({
-      name: v.name,
-      lang: v.lang
-    })));
+
+  // Prioritization strategy for voice selection
+  const voicePriorities = [
+    // 1. Specific voice name match
+    v => options.voiceName && v.name.toLowerCase() === options.voiceName.toLowerCase(),
+    
+    // 2. Language-specific voices with preference for English
+    v => v.lang.toLowerCase().startsWith('en-us'),
+    v => v.lang.toLowerCase().startsWith('en-'),
+    
+    // 3. Google or Microsoft voices
+    v => v.name.toLowerCase().includes('google us english'),
+    v => v.name.toLowerCase().includes('microsoft'),
+    
+    // 4. Any English voice
+    v => /^en-/i.test(v.lang),
+    
+    // 5. Fallback: first available voice
+    () => true
+  ];
+
+  // Try each priority strategy
+  for (const priorityCheck of voicePriorities) {
+    const matchedVoice = voices.find(priorityCheck);
+    if (matchedVoice) return matchedVoice;
   }
-}
 
-// Initial population of voices
-initVoices();
-
-// Set up the voices changed event listener
-if (speechSynthesis !== undefined) {
-  speechSynthesis.onvoiceschanged = initVoices;
+  // Absolute fallback
+  return voices[0] || null;
 }
 
 export default defineNuxtPlugin({
@@ -59,8 +43,10 @@ export default defineNuxtPlugin({
   enforce: "pre",
   async setup(nuxtApp) {
     const textToSpeech = {
-      // Enhanced speak method with more voice control
       speak: (text, options = {}) => {
+        // Ensure voices are up to date
+        voices = synth.getVoices();
+
         // Cancel any ongoing speech
         synth.cancel();
 
@@ -69,43 +55,67 @@ export default defineNuxtPlugin({
         // Set rate (speed) - default is 1, range is 0.1 to 10
         utterance.rate = options.rate || 1;
 
-        // pitch: 0 to 2, 1 is default
+        // Pitch: 0 to 2, 1 is default
         utterance.pitch = options.pitch || 1;
 
-        // Use provided voice or fall back to default selection method
-        if (options.voice) {
-          utterance.voice = options.voice;
-        } else {
-          utterance.voice = findEnglishVoice();
+        // Sophisticated voice selection
+        try {
+          // If a specific voice is provided, try to use it
+          if (options.voice) {
+            utterance.voice = options.voice;
+          } else {
+            // Find an appropriate voice using advanced selection
+            const selectedVoice = findAppropriateVoice({
+              voiceName: options.voiceName
+            });
+
+            if (selectedVoice) {
+              utterance.voice = selectedVoice;
+            }
+          }
+
+          // Additional settings for consistency
+          utterance.volume = options.volume || 1; // Full volume
+
+          // Debugging for development
+          if (process.env.NODE_ENV === 'development') {
+            console.log('Selected voice:', {
+              name: utterance.voice?.name,
+              lang: utterance.voice?.lang,
+              localService: utterance.voice?.localService
+            });
+          }
+
+          // Speak the text
+          synth.speak(utterance);
+        } catch (error) {
+          console.error('Text-to-Speech Error:', error);
         }
-
-        // Additional settings for consistency
-        utterance.pitch = options.pitch || 1;  // Default pitch
-        utterance.volume = options.volume || 1; // Full volume
-
-        // Log voice selection in development
-        if (process.env.NODE_ENV === 'development') {
-          console.log('Selected voice:', utterance.voice?.name);
-        }
-
-        // Speak the text
-        synth.speak(utterance);
       },
 
-      // Expose method to get all available voices
+      // Enhanced method to get voices with additional filtering
       getVoices: () => {
-        return synth.getVoices();
+        let availableVoices = synth.getVoices();
+        
+        // Filter for English voices and provide more details
+        return availableVoices
+          .filter(voice => voice.lang.toLowerCase().startsWith('en-'))
+          .map(voice => ({
+            name: voice.name,
+            lang: voice.lang,
+            localService: voice.localService,
+            default: voice.default
+          }));
       }
     };
 
+    // Ensure voices are populated on first load
+    if (synth.onvoiceschanged !== undefined) {
+      synth.onvoiceschanged = () => {
+        voices = synth.getVoices();
+      };
+    }
+
     nuxtApp.provide("textToSpeech", textToSpeech);
-  },
-  hooks: {
-    "app:created"() {
-      // Hook implementation if needed
-    },
-  },
-  env: {
-    islands: true,
-  },
+  }
 });
