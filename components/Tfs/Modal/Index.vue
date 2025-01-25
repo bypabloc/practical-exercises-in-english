@@ -30,14 +30,15 @@
           </slot>
           
           <!-- Close Button -->
-          <button 
-            v-if="closeable" 
-            @click="closeModal" 
+          <TfsButton
+            v-if="closeable"
+            icon="mdi-close"
+            iconClasses="text-gray-600"
+            @click="closeModal"
+            variant="ghost"
             class="text-gray-600 hover:text-gray-800 focus:outline-none"
             aria-label="Close modal"
-          >
-            <i class="i-mdi-close text-2xl"></i>
-          </button>
+          />
         </div>
 
         <!-- Content -->
@@ -58,20 +59,20 @@
             v-if="$slots.footer || (confirmText || cancelText)" 
             class="flex justify-end p-6 pt-0 space-x-3"
           >
-            <button 
-              v-if="cancelText" 
-              @click="cancel" 
-              class="px-4 py-2 text-gray-600 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+            <TfsButton
+              v-if="cancelText"
+              @click="cancel"
+              variant="secondary"
             >
               {{ cancelText }}
-            </button>
-            <button 
-              v-if="confirmText" 
-              @click="confirm" 
-              class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+            </TfsButton>
+            <TfsButton
+              v-if="confirmText"
+              @click="confirm"
+              variant="primary"
             >
               {{ confirmText }}
-            </button>
+            </TfsButton>
           </div>
         </slot>
       </div>

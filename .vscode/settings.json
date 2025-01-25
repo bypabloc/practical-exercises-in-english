@@ -1,11 +1,4 @@
 {
-  // Formateo general
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
-  },
-
   "cSpell.words": ["unocss", "vueuse"],
   "faststruct.config": {
     "debug": true,

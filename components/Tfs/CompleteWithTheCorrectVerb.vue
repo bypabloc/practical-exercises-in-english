@@ -78,13 +78,9 @@
               </div>
 
               <!-- Practice Button -->
-              <button
-                type="button"
-                class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                @click="practicePronunciation(index)"
-              >
-                Practice Pronunciation
-              </button>
+              <TfsButtonSpeak
+                :text="getFullSentence(exercise)"
+              />
             </div>
           </div>
         </div>
@@ -92,13 +88,9 @@
 
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
-          type="submit"
-          class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-lg font-medium"
-          :disabled="showResults"
-        >
+        <TfsButton variant="primary" :disabled="showResults">
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -113,9 +105,6 @@ const props = defineProps({
     required: true
   }
 });
-
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 // Component state
 const userAnswers = ref([]);
@@ -145,12 +134,5 @@ const getFullSentence = (exercise) => {
 // Validate all answers
 const validateAnswers = () => {
   showResults.value = true;
-};
-
-// Practice pronunciation of the exercise
-const practicePronunciation = (index) => {
-  const exercise = selectedExercises.value[index];
-  const fullSentence = getFullSentence(exercise);
-  $textToSpeech.speak(fullSentence, { rate: 0.7 });
 };
 </script>

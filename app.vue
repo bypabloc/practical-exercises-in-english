@@ -12,7 +12,7 @@ import { Analytics } from '@vercel/analytics/nuxt'
 
 const nuxtApp = useNuxtApp();
 
-const { $config, $logger, $fetch } = nuxtApp;
+const { $config, $logger } = nuxtApp;
 
 const { ENV } = $config?.public || {};
 </script>

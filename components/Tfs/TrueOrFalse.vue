@@ -72,13 +72,9 @@
                     <span class="font-medium">Pronunciation:</span>
                     <span>{{ exercise.pronunciation }}</span>
                   </p>
-                  <button
-                    type="button"
-                    class="px-3 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                    @click="practicePronunciation(exercise)"
-                  >
-                    Practice
-                  </button>
+                  <TfsButtonSpeak
+                    :text="exercise.sentence"
+                  />
                 </div>
               </div>
             </div>
@@ -86,18 +82,24 @@
         </div>
       </div>
 
+      <!-- Message for incomplete answers -->
+      <div v-if="!showResults" class="text-center">
+        <p v-if="!allQuestionsAnswered" class="text-sm text-gray-500">
+          Selecciona True o False para cada oración antes de verificar
+        </p>
+      </div>
+
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
+        <TfsButton
           type="submit"
-          class="px-6 py-3 rounded-lg transition-colors text-lg font-medium"
-          :class="[
-            allQuestionsAnswered ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default'
-          ]"
           :disabled="showResults || !allQuestionsAnswered"
+          :class="{
+            'opacity-50': !allQuestionsAnswered && !showResults
+          }"
         >
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -112,9 +114,6 @@ const props = defineProps({
     required: true
   }
 });
-
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 // Component state
 const selectedExercises = ref([]);
@@ -140,21 +139,9 @@ const isCorrect = (index) => {
   return userAnswers.value[index] === selectedExercises.value[index].isTrue;
 };
 
-// Get user's score
-const getScore = () => {
-  return selectedExercises.value.reduce((score, _, index) => {
-    return score + (isCorrect(index) ? 1 : 0);
-  }, 0);
-};
-
 // Validate all answers
 const validateAnswers = () => {
   if (!allQuestionsAnswered.value) return;
   showResults.value = true;
-};
-
-// Practice pronunciation
-const practicePronunciation = (exercise) => {
-  $textToSpeech.speak(exercise.sentence, { rate: 0.7 });
 };
 </script>

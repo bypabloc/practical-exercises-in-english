@@ -75,13 +75,9 @@
                     <span class="font-medium">Pronunciation:</span>
                     <span>{{ exercise.pronunciation }}</span>
                   </p>
-                  <button
-                    type="button"
-                    class="px-3 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                    @click="practicePronunciation(exercise)"
-                  >
-                    Practice
-                  </button>
+                  <TfsButtonSpeak
+                    :text="getCompleteSentence(exercise)"
+                  />
                 </div>
               </div>
             </div>
@@ -89,18 +85,24 @@
         </div>
       </div>
 
+      <!-- Message for incomplete answers -->
+      <div v-if="!showResults" class="text-center">
+        <p v-if="!allQuestionsAnswered" class="text-sm text-gray-500">
+          Selecciona una respuesta para cada pregunta antes de verificar
+        </p>
+      </div>
+
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
+        <TfsButton
           type="submit"
-          class="px-6 py-3 rounded-lg transition-colors text-lg font-medium"
-          :class="[
-            allQuestionsAnswered ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default'
-          ]"
           :disabled="showResults || !allQuestionsAnswered"
+          :class="{
+            'opacity-50': !allQuestionsAnswered && !showResults
+          }"
         >
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -116,9 +118,6 @@ const props = defineProps({
   }
 });
 
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
-
 // Component state
 const selectedExercises = ref([]);
 const userAnswers = ref([]);
@@ -133,11 +132,6 @@ onMounted(() => {
   userAnswers.value = Array(shuffled.length).fill('');
 });
 
-// Check if all questions have been answered
-const allQuestionsAnswered = computed(() => {
-  return userAnswers.value.every(answer => answer !== '');
-});
-
 // Check if an answer is correct
 const isCorrect = (index) => {
   return userAnswers.value[index] === selectedExercises.value[index].answer;
@@ -148,15 +142,13 @@ const getCompleteSentence = (exercise) => {
   return exercise.sentence.replace('_____', exercise.answer);
 };
 
+const allQuestionsAnswered = computed(() => {
+  return userAnswers.value.every(answer => answer !== '');
+});
+
 // Validate all answers
 const validateAnswers = () => {
   if (!allQuestionsAnswered.value) return;
   showResults.value = true;
-};
-
-// Practice pronunciation
-const practicePronunciation = (exercise) => {
-  const correctSentence = getCompleteSentence(exercise);
-  $textToSpeech.speak(correctSentence, { rate: 0.7 });
 };
 </script>

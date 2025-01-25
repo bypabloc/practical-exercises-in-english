@@ -76,13 +76,9 @@
               </div>
 
               <!-- Practice Button -->
-              <button
-                type="button"
-                class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                @click="practicePronunciation(exercise)"
-              >
-                Practice Pronunciation
-              </button>
+              <TfsButtonSpeak
+                :text="getCompleteSentence(exercise)"
+              />
             </div>
           </div>
         </div>
@@ -90,13 +86,15 @@
 
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
-          type="submit"
-          class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors text-lg font-medium"
-          :disabled="showResults"
+        <TfsButton
+          :disabled="showResults || !allFieldsFilled"
+          @click="validateAnswers"
+          :class="{
+            'opacity-50': !allFieldsFilled && !showResults
+          }"
         >
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -112,9 +110,6 @@ const props = defineProps({
   }
 });
 
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
-
 // Component state
 const userAnswers = ref([]);
 const showResults = ref(false);
@@ -127,6 +122,10 @@ onMounted(() => {
     .slice(0, 10);
   selectedExercises.value = shuffled;
   userAnswers.value = Array(shuffled.length).fill('');
+});
+
+const allFieldsFilled = computed(() => {
+  return userAnswers.value.every(answer => answer?.trim() !== '');
 });
 
 // Helper functions to split question around blank
@@ -152,12 +151,8 @@ const isCorrect = (index) => {
 
 // Validate all answers
 const validateAnswers = () => {
-  showResults.value = true;
-};
-
-// Practice pronunciation of the complete sentence
-const practicePronunciation = (exercise) => {
-  const completeSentence = getCompleteSentence(exercise);
-  $textToSpeech.speak(completeSentence, { rate: 0.7 });
+  if (allFieldsFilled.value) {
+    showResults.value = true;
+  }
 };
 </script>

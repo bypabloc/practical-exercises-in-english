@@ -4,12 +4,6 @@
       <h1 class="text-2xl font-bold">
         {{ topicSelected.label }}
       </h1>
-      <button 
-        @click="router.push(`/${difficulty}`)"
-        class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300"
-      >
-        Back to {{ difficultySelected.label }}
-      </button>
     </div>
 
     <!-- Topic Explanation -->
@@ -49,13 +43,9 @@
               <p v-if="example.note"><span class="font-medium">Note:</span> {{ example.note }}</p>
 
               <!-- Practice Button -->
-              <button
-                type="button"
-                class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-                @click="practicePronunciation(example)"
-              >
-                Practice Pronunciation
-              </button>
+              <TfsButtonSpeak
+                :text="example.english"
+              />
             </div>
           </div>
         </div>
@@ -71,17 +61,16 @@
     </div>
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <button
+      <TfsButton
         v-for="exercise in exercises"
         :key="exercise.name"
         @click="exercise.isActive ? navigateToLevel(exercise.route) : null"
-        :class="[
-          exercise.isActive ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-        ]"
-        class="p-4 text-lg rounded-lg transition-colors"
+        :variant="exercise.isActive ? 'primary' : 'secondary'"
+        :disabled="!exercise.isActive"
+        class="p-4 text-lg rounded-lg"
       >
         {{ exercise.name }}
-      </button>
+      </TfsButton>
     </div>
   </div>
 </template>
@@ -97,8 +86,6 @@ defineOptions({
 
 const router = useRouter();
 const route = useRoute();
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 const { difficulty, topic } = route.params;
 
@@ -125,9 +112,5 @@ const exercises = computed(() => {
 
 const navigateToLevel = (route) => {
   router.push(route);
-};
-
-const practicePronunciation = ({ english }) => {
-  $textToSpeech.speak(english, { rate: 0.7 });
 };
 </script>
