@@ -1,0 +1,335 @@
+items:
+  # Ejercicios con pronombres sujeto básicos
+  - question: "_____ am studying English."
+    options:
+      - "I"
+      - "He"
+      - "They"
+      - "You"
+    answer: "I"
+    explanation: "El pronombre 'I' (yo) es el único que se puede usar con 'am' en presente continuo."
+    translation: "Yo estoy estudiando inglés."
+    pronunciation: "ai am stáding ínglish"
+
+  - question: "_____ likes to play soccer every weekend."
+    options:
+      - "They"
+      - "He"
+      - "I"
+      - "We"
+    answer: "He"
+    explanation: "Usamos 'he' para un sujeto masculino singular. El verbo lleva 's' porque es tercera persona singular."
+    translation: "A él le gusta jugar fútbol cada fin de semana."
+    pronunciation: "ji laiks tu plei sóker évri wíkend"
+
+  - question: "_____ works in a hospital."
+    options:
+      - "She"
+      - "We"
+      - "They"
+      - "I"
+    answer: "She"
+    explanation: "Usamos 'she' para un sujeto femenino singular. Como es tercera persona, el verbo lleva 's'."
+    translation: "Ella trabaja en un hospital."
+    pronunciation: "shi wérks in a jóspital"
+
+  - question: "The book is on the table. _____ is blue."
+    options:
+      - "It"
+      - "He"
+      - "She"
+      - "They"
+    answer: "It"
+    explanation: "Para objetos inanimados siempre usamos 'it', nunca 'he' o 'she' como en español."
+    translation: "El libro está sobre la mesa. Es azul."
+    pronunciation: "da buk is on da téibol. It is blu"
+
+  - question: "_____ are going to the movies tonight."
+    options:
+      - "We"
+      - "He"
+      - "I"
+      - "She"
+    answer: "We"
+    explanation: "Usamos 'we' para hablar de un grupo que incluye a la persona que habla."
+    translation: "Nosotros vamos al cine esta noche."
+    pronunciation: "wi ar góing tu da múvis tunáit"
+
+  - question: "_____ are students in this class."
+    options:
+      - "They"
+      - "He"
+      - "She"
+      - "It"
+    answer: "They"
+    explanation: "Usamos 'they' para referirnos a múltiples personas o cosas en tercera persona."
+    translation: "Ellos son estudiantes en esta clase."
+    pronunciation: "dei ar stiúdents in dis klas"
+
+  # Ejercicios con pronombres objeto
+  - question: "Sarah gave _____ the book."
+    options:
+      - "me"
+      - "I"
+      - "my"
+      - "mine"
+    answer: "me"
+    explanation: "Después de un verbo, usamos el pronombre objeto 'me', no el sujeto 'I'."
+    translation: "Sarah me dio el libro."
+    pronunciation: "sára geiv mi da buk"
+
+  - question: "Can you help _____ with this exercise?"
+    options:
+      - "him"
+      - "he"
+      - "his"
+      - "it"
+    answer: "him"
+    explanation: "Como pronombre objeto para un hombre, usamos 'him', no 'he'."
+    translation: "¿Puedes ayudarlo con este ejercicio?"
+    pronunciation: "ken yu jelp jim wid dis éksersais"
+
+  - question: "The teacher asked _____ to study more."
+    options:
+      - "us"
+      - "we"
+      - "our"
+      - "ours"
+    answer: "us"
+    explanation: "Después de verbos, usamos el pronombre objeto 'us', no el sujeto 'we'."
+    translation: "El profesor nos pidió estudiar más."
+    pronunciation: "da tícher askt as tu stádi mor"
+
+  - question: "I don't know _____ very well."
+    options:
+      - "them"
+      - "they"
+      - "their"
+      - "theirs"
+    answer: "them"
+    explanation: "Como objeto del verbo 'know', usamos el pronombre objeto 'them', no el sujeto 'they'."
+    translation: "No los conozco muy bien."
+    pronunciation: "ai dont nou dem véri wel"
+
+  # Ejercicios de contraste sujeto/objeto
+  - question: "_____ gave the homework to _____."
+    options:
+      - "He ... me"
+      - "Him ... I"
+      - "He ... I"
+      - "Him ... me"
+    answer: "He ... me"
+    explanation: "El primer espacio necesita un pronombre sujeto (he) y el segundo un pronombre objeto (me)."
+    translation: "Él me dio la tarea."
+    pronunciation: "ji geiv da jómwerk tu mi"
+
+  - question: "_____ teach _____ English every day."
+    options:
+      - "We ... them"
+      - "Us ... they"
+      - "We ... they"
+      - "Us ... them"
+    answer: "We ... them"
+    explanation: "Como sujeto usamos 'we' y como objeto directo 'them'."
+    translation: "Nosotros les enseñamos inglés todos los días."
+    pronunciation: "wi tich dem ínglish évri dei"
+
+  - question: "_____ helps _____ with mathematics."
+    options:
+      - "She ... him"
+      - "Her ... he"
+      - "She ... he"
+      - "Her ... him"
+    answer: "She ... him"
+    explanation: "Necesitamos 'she' como sujeto y 'him' como objeto del verbo 'helps'."
+    translation: "Ella lo ayuda con matemáticas."
+    pronunciation: "shi jelps jim wid mázematiks"
+
+  # Ejercicios con 'it'
+  - question: "The phone is new. _____ works perfectly."
+    options:
+      - "It"
+      - "He"
+      - "They"
+      - "She"
+    answer: "It"
+    explanation: "Para objetos inanimados siempre usamos 'it', independientemente de su género en español."
+    translation: "El teléfono es nuevo. Funciona perfectamente."
+    pronunciation: "da foun is niu. It werks pérfektli"
+
+  - question: "Look at the cat! _____ is sleeping."
+    options:
+      - "It"
+      - "He"
+      - "She"
+      - "They"
+    answer: "It"
+    explanation: "Para animales usamos 'it' a menos que conozcamos y queramos enfatizar su género."
+    translation: "¡Mira el gato! Está durmiendo."
+    pronunciation: "luk at da kat! It is slíping"
+
+  # Ejercicios de uso obligatorio del pronombre
+  - question: "_____ is raining today."
+    options:
+      - "It"
+      - "He"
+      - "This"
+      - "-"
+    answer: "It"
+    explanation: "En inglés, a diferencia del español, necesitamos usar 'it' con expresiones climáticas."
+    translation: "Está lloviendo hoy."
+    pronunciation: "it is réining tudéi"
+
+  - question: "_____ am happy to see you."
+    options:
+      - "I"
+      - "-"
+      - "Me"
+      - "Mine"
+    answer: "I"
+    explanation: "En inglés siempre necesitamos usar el pronombre sujeto, no se puede omitir como en español."
+    translation: "Estoy feliz de verte."
+    pronunciation: "ai am jápi tu si yu"
+
+  # Ejercicios de distinción they/it para plural
+  - question: "There are three books on the table. _____ are new."
+    options:
+      - "They"
+      - "It"
+      - "He"
+      - "She"
+    answer: "They"
+    explanation: "Para objetos en plural usamos 'they', aunque sean objetos inanimados."
+    translation: "Hay tres libros en la mesa. Son nuevos."
+    pronunciation: "der ar zri buks on da téibol. dei ar niu"
+
+  # Ejercicios de uso formal vs informal de you
+  - question: "Good morning, Professor Smith. Are _____ ready to start the class?"
+    options:
+      - "you"
+      - "thou"
+      - "ye"
+      - "thee"
+    answer: "you"
+    explanation: "En inglés moderno, 'you' se usa tanto para situaciones formales como informales."
+    translation: "Buenos días, Profesor Smith. ¿Está listo para comenzar la clase?"
+    pronunciation: "gud mórning, profésor smiz. ar yu rédi tu start da klas"
+
+  # Ejercicios con verbos comunes
+  - question: "_____ want to go to the party tonight?"
+    options:
+      - "Do you"
+      - "Does you"
+      - "Are you"
+      - "Is you"
+    answer: "Do you"
+    explanation: "Para preguntas en presente simple con 'you', usamos 'do you'."
+    translation: "¿Quieres ir a la fiesta esta noche?"
+    pronunciation: "du yu wont tu gou tu da párti tunáit"
+
+# Ejercicios con pronombres mezclados en oraciones complejas
+  - question: "_____ and _____ are going to help _____ with the project."
+    options:
+      - "She ... I ... them"
+      - "Her ... me ... they"
+      - "She ... me ... them"
+      - "Her ... I ... their"
+    answer: "She ... I ... them"
+    explanation: "Cuando unimos dos sujetos, ambos deben ser pronombres sujeto (she, I). Como objeto usamos 'them'."
+    translation: "Ella y yo vamos a ayudarlos con el proyecto."
+    pronunciation: "shi and ai ar góing tu jelp dem wid da próyekt"
+
+  - question: "Neither _____ nor _____ knows what happened to _____."
+    options:
+      - "he ... she ... it"
+      - "him ... her ... it"
+      - "he ... she ... its"
+      - "him ... she ... them"
+    answer: "he ... she ... it"
+    explanation: "Con 'neither...nor', ambos pronombres son sujetos. El verbo va en singular cuando los sujetos están unidos así."
+    translation: "Ni él ni ella saben qué le pasó."
+    pronunciation: "náider ji nor shi nous wat jápend tu it"
+
+  # Ejercicios con pronombres en cláusulas subordinadas
+  - question: "The person _____ helped _____ yesterday thanked _____ today."
+    options:
+      - "who ... me ... them"
+      - "whom ... I ... they"
+      - "which ... me ... him"
+      - "that ... I ... they"
+    answer: "who ... me ... them"
+    explanation: "Usamos 'who' como pronombre relativo para personas, seguido de pronombres objeto en las posiciones correctas."
+    translation: "La persona que me ayudó ayer les agradeció hoy."
+    pronunciation: "da pérson ju jelpt mi yésterdei zankt dem tudéi"
+
+  # Ejercicios con pronombres en construcciones reflexivas
+  - question: "Though _____ hurt _____, _____ managed to drive _____ to the hospital."
+    options:
+      - "she ... herself ... she ... herself"
+      - "her ... herself ... she ... herself"
+      - "she ... herself ... her ... herself"
+      - "her ... herself ... her ... herself"
+    answer: "she ... herself ... she ... herself"
+    explanation: "Como sujeto usamos 'she', y para acciones reflexivas usamos 'herself'. La estructura se mantiene en ambas cláusulas."
+    translation: "Aunque ella se lastimó, logró conducir ella misma hasta el hospital."
+    pronunciation: "dou shi jert jersélf, shi mánaydt tu draiv jersélf tu da jóspital"
+
+  # Ejercicios con pronombres en estructuras paralelas
+  - question: "Not only did _____ help _____, but _____ also taught _____ how to do it ______."
+    options:
+      - "they ... us ... they ... us ... ourselves"
+      - "them ... we ... they ... us ... ourselves"
+      - "they ... us ... them ... we ... ourselves"
+      - "them ... us ... they ... we ... ourselves"
+    answer: "they ... us ... they ... us ... ourselves"
+    explanation: "En estructuras paralelas 'not only...but also', mantenemos la consistencia de los pronombres sujeto y objeto."
+    translation: "No solo nos ayudaron, sino que también nos enseñaron cómo hacerlo nosotros mismos."
+    pronunciation: "not ónli did dei jelp as, bat dei ólso tot as jau tu du it auarsélvs"
+
+  # Ejercicios con pronombres en voz pasiva
+  - question: "The prize was given to _____ by _____, who had received _____ from _____."
+    options:
+      - "him ... her ... it ... them"
+      - "he ... she ... it ... they"
+      - "him ... she ... it ... them"
+      - "he ... her ... its ... they"
+    answer: "him ... her ... it ... them"
+    explanation: "En voz pasiva, el receptor va con pronombre objeto (him). El agente también usa pronombre objeto después de 'by'."
+    translation: "El premio le fue dado a él por ella, quien lo había recibido de ellos."
+    pronunciation: "da praiz woz gíven tu jim bai jer, ju jad risívd it from dem"
+
+  # Ejercicios con pronombres en condicionales mixtos
+  - question: "If _____ were _____, _____ would have helped _____ yesterday."
+    options:
+      - "I ... she ... I ... her"
+      - "me ... her ... I ... she"
+      - "I ... her ... I ... she"
+      - "me ... she ... me ... her"
+    answer: "I ... she ... I ... her"
+    explanation: "En condicionales, mantenemos los pronombres sujeto en las cláusulas principales y usamos objeto donde corresponde."
+    translation: "Si yo fuera ella, yo la habría ayudado ayer."
+    pronunciation: "if ai wer shi, ai wud jav jelpt jer yésterdei"
+
+  # Ejercicios con pronombres posesivos y reflexivos combinados
+  - question: "_____ found _____ in _____ house, using _____ computer without permission."
+    options:
+      - "They ... him ... their ... their"
+      - "Them ... he ... their ... theirs"
+      - "They ... himself ... their ... theirs"
+      - "Them ... him ... they're ... their"
+    answer: "They ... him ... their ... their"
+    explanation: "Usamos pronombre sujeto para quien encuentra, objeto para quien es encontrado, y posesivos para las posesiones."
+    translation: "Ellos lo encontraron en su casa, usando su computadora sin permiso."
+    pronunciation: "dei faund jim in der jaus, yúsing der kompiúter widáut permíshon"
+
+  # Ejercicios con pronombres en reported speech
+  - question: "'_____ will help _____,' _____ said to _____, but _____ didn't believe _____."
+    options:
+      - "I ... you ... he ... her ... she ... him"
+      - "he ... her ... he ... she ... she ... him"
+      - "I ... her ... he ... she ... she ... him"
+      - "he ... she ... he ... her ... she ... him"
+    answer: "I ... you ... he ... her ... she ... him"
+    explanation: "En reported speech, debemos mantener la coherencia entre el discurso directo y los pronombres que lo reportan."
+    translation: "'Yo te ayudaré,' él le dijo a ella, pero ella no le creyó."
+    pronunciation: "ai wil jelp yu, ji sed tu jer, bat shi dídnt bilív jim"

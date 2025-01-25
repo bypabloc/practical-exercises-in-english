@@ -90,6 +90,17 @@
                   </div>
                 </div>
 
+                <!-- Complete Pair -->
+                <div class="pl-4 border-l-4 border-gray-200">
+                  ... (existing pair display)
+                  
+                  <!-- Add Explanation -->
+                  <div v-if="exercise.explanation" class="mt-3 bg-gray-50 p-4 rounded-lg">
+                    <h4 class="font-medium text-gray-700 mb-2">Explicación:</h4>
+                    <p class="text-gray-600">{{ exercise.explanation }}</p>
+                  </div>
+                </div>
+
                 <!-- Translation & Pronunciation -->
                 <div class="text-sm text-gray-600 space-y-1 pl-4 border-l-4 border-gray-200 mt-4">
                   <p class="flex gap-2">
