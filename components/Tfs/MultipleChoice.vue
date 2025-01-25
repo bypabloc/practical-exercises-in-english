@@ -42,6 +42,7 @@
             <!-- Results Section -->
             <div v-if="showResults" class="mt-4 space-y-3">
               <div class="flex items-center gap-2">
+
                 <!-- Result Icon and Message -->
                 <div v-if="isCorrect(index)" class="text-green-500 flex items-center gap-2">
                   <i class="i-mdi-check-circle text-xl"></i>
@@ -51,6 +52,12 @@
                   <i class="i-mdi-close-circle text-xl"></i>
                   <span>Incorrect</span>
                 </div>
+              </div>
+
+              <!-- Explanation Section -->
+              <div v-if="exercise.explanation" class="bg-gray-50 p-4 rounded-lg">
+                <h4 class="font-medium text-gray-700 mb-2">Explicación:</h4>
+                <p class="text-gray-600">{{ exercise.explanation }}</p>
               </div>
 
               <!-- Translation & Pronunciation -->
