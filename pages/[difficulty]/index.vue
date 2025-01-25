@@ -4,12 +4,6 @@
       <h1 class="text-2xl font-bold">
         {{ difficultySelected.label }}
       </h1>
-      <button 
-        @click="router.push('/')"
-        class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300"
-      >
-        Back to Difficulties
-      </button>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
       <button

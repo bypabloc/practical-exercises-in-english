@@ -15,7 +15,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 
     // Buscamos una línea que corresponda a un archivo .js o .vue dentro de _nuxt
     for (const line of filteredStackLines) {
-      const match = line.match(/\/_nuxt\/([\w-/.]+\.(js|vue))/)
+      const match = line?.match && (line.match(/\/_nuxt\/([\w-/.]+\.(js|vue))/)) || []
       if (match && match[1]) {
         // Eliminamos los parámetros de query
         const path = match[1].replace(/\?.*$/, '')

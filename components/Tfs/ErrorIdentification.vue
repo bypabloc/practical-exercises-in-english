@@ -137,7 +137,7 @@ onMounted(() => {
 // Split sentence into words while preserving spacing and punctuation
 const splitSentence = (sentence) => {
   // First split the sentence into tokens, preserving spaces and punctuation
-  const matches = sentence.match(/[\w']+|[.,!?;]|\s+/g) || [];
+  const matches = sentence?.match && (sentence.match(/[\w']+|[.,!?;]|\s+/g) || []);
   
   // Map each token to an object with properties indicating if it's selectable
   return matches.map((token, index) => {
