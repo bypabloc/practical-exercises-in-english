@@ -1,6 +1,6 @@
 <template>
   <TfsButton
-    v-if="!isDisabled"
+    v-if="textToSpeechStatus === 'is-enabled'"
     size="sm"
     variant="primary"
     icon="i-mdi-volume-high"
@@ -36,11 +36,7 @@ const nuxtApp = useNuxtApp()
 const { $textToSpeech } = nuxtApp
 
 const cookieStore = useCookieStore()
-const textToSpeech = cookieStore.get('text-to-speech')
-
-const isDisabled = computed(() => {
-  return textToSpeech === 'is-disabled'
-})
+const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const speak = () => {
   $textToSpeech.speak(props.text, {

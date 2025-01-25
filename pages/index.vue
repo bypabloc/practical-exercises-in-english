@@ -17,7 +17,7 @@
 
       <!-- Voice Selection Button -->
       <button
-        v-if="!textToSpeechIsDisabled"
+        v-if="textToSpeechStatus === 'is-enabled'"
         @click="openVoiceModal"
         class="p-4 text-lg rounded-lg bg-green-500 text-white hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
       >
@@ -28,10 +28,11 @@
 
     <!-- Voice Selection Modal -->
     <TfsModalLanguageSelection
-      v-if="!textToSpeechIsDisabled"
+      v-if="textToSpeechStatus === 'is-enabled'"
       :is-open="isVoiceModalOpen" 
       @close="closeVoiceModal"
     />
+
   </div>
 </template>
 
@@ -44,11 +45,8 @@ const exerciseStore = useExerciseStore()
 const router = useRouter()
 
 const cookieStore = useCookieStore()
-const textToSpeech = cookieStore.get('text-to-speech')
 
-const textToSpeechIsDisabled = computed(() => {
-  return textToSpeech === 'is-disabled'
-})
+const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const isVoiceModalOpen = ref(false)
 
