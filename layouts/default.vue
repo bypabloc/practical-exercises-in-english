@@ -130,6 +130,17 @@
     <!-- Footer -->
     <footer class="bg-gray-200 p-4 text-center text-gray-600">
       <p>&copy; 2024 TFS - Practical Exercises in English. All rights reserved.</p>
+      <p class="mt-2">
+        Desarrollado por 
+        <a 
+          href="https://the-full-stack.com/bypabloc?utm_source=practical-exercises-in-english&utm_medium=web&utm_campaign=footer" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="text-blue-600 hover:text-blue-800"
+        >
+          TheFullStack - Pablo Contreras
+        </a>
+      </p>
     </footer>
   </div>
 </template>
@@ -211,7 +222,8 @@ const breadcrumbs = computed(() => {
     "footer";
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -221,6 +233,7 @@ const breadcrumbs = computed(() => {
       "sidebar main"
       "footer footer";
     grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr auto;
   }
 
   .grid-layout.sidebar-collapsed {
@@ -235,16 +248,17 @@ nav {
   z-index: 40;
 }
 
-
 aside {
   grid-area: sidebar;
-  height: 100vh;
-  top: 0;
+  position: fixed;
+  height: calc(100vh - var(--nav-height));
+  top: var(--nav-height);
 }
 
 @media (min-width: 768px) {
   aside {
     width: 300px;
+    position: sticky;
   }
 }
 
@@ -252,6 +266,8 @@ main {
   grid-area: main;
   position: relative;
   z-index: 1;
+  min-height: 0; /* Importante: permite que el contenido se ajuste */
+  height: 100%; /* Toma el espacio disponible en el grid */
 }
 
 footer {

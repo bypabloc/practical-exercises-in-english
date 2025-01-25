@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen p-6">
+  <div class="flex flex-col items-center justify-center p-6">
     <h1 class="text-3xl font-bold mb-10">English Practice Exercises</h1>
     
     <div class="flex flex-col gap-4 w-full max-w-md">
