@@ -121,13 +121,6 @@ const isCorrect = (index) => {
   return userAnswers.value[index] === selectedExercises.value[index].answer;
 };
 
-// Get user's score
-const getScore = () => {
-  return selectedExercises.value.reduce((score, _, index) => {
-    return score + (isCorrect(index) ? 1 : 0);
-  }, 0);
-};
-
 // Validate all answers
 const validateAnswers = () => {
   if (!allQuestionsAnswered.value) return;
