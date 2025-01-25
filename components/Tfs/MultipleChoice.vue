@@ -76,16 +76,12 @@
 
       <!-- Submit Button -->
       <div class="flex justify-center">
-        <button
-          type="submit"
-          class="px-6 py-3 rounded-lg transition-colors text-lg font-medium"
-          :class="[
-            allQuestionsAnswered ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-          ]"
-          :disabled="showResults || !allQuestionsAnswered"
+        <TfsButton
+          :disabled="!allQuestionsAnswered"
+          @click="validateAnswers"
         >
           {{ showResults ? 'Completed' : 'Check Answers' }}
-        </button>
+        </TfsButton>
       </div>
     </form>
   </div>
@@ -100,9 +96,6 @@ const props = defineProps({
     required: true
   }
 });
-
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
 
 // Component state
 const userAnswers = ref([]);
@@ -139,10 +132,5 @@ const getScore = () => {
 const validateAnswers = () => {
   if (!allQuestionsAnswered.value) return;
   showResults.value = true;
-};
-
-// Practice pronunciation of the exercise
-const practicePronunciation = ({ answer }) => {
-  $textToSpeech.speak(answer, { rate: 0.7 });
 };
 </script>

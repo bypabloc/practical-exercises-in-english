@@ -4,6 +4,7 @@
     size="sm"
     variant="primary"
     icon="i-mdi-volume-high"
+    :disabled="isDisabled"
     @click="speak"
   >
     {{ label || 'Practice Pronunciation' }}
@@ -19,9 +20,17 @@ const props = defineProps({
     type: String,
     required: true
   },
+  isDisabled: {
+    type: Boolean,
+    default: false
+  },
   label: {
     type: String,
     default: ''
+  },
+  pitch: {
+    type: Number,
+    default: 1
   },
   rate: {
     type: Number,
@@ -42,6 +51,7 @@ const textToSpeechStatus = cookieStore.get('text-to-speech')
 const speak = () => {
   $textToSpeech.speak(props.text, {
     rate: props.rate,
+    pitch: props.pitch,
     voice: props.voice
   })
 }

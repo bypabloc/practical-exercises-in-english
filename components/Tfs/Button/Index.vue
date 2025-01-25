@@ -4,19 +4,36 @@
     :disabled="disabled"
     :class="[
       baseClasses,
-      variantClasses[variant],
+      !disabled ? variantClasses[variant] : 'bg-gray-300 text-gray-600',
       sizeClasses[size],
       disabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer',
+      isIconOnly ? 'p-2' : sizeClasses[size],
       additionalClasses,
     ]"
     @click="$emit('click', $event)"
   >
-    <i v-if="icon" :class="icon" class="mr-2"></i>
-    <slot></slot>
+    <i 
+      v-if="icon" 
+      :class="[
+        `i-${icon}`,
+        !isIconOnly && $slots.default ? 'mr-2' : '',
+        iconClasses
+      ]"
+    ></i>
+    <span 
+      v-if="$slots.default"
+      :class="[
+        isIconOnly ? 'sr-only' : ''
+      ]"
+    >
+      <slot></slot>
+    </span>
   </button>
 </template>
 
 <script setup>
+import { computed } from 'vue'
+
 const props = defineProps({
   type: {
     type: String,
@@ -25,7 +42,7 @@ const props = defineProps({
   variant: {
     type: String,
     default: 'primary',
-    validator: value => ['primary', 'secondary', 'success', 'danger'].includes(value)
+    validator: value => ['primary', 'secondary', 'success', 'danger', 'ghost'].includes(value)
   },
   size: {
     type: String,
@@ -40,6 +57,14 @@ const props = defineProps({
     type: String,
     default: ''
   },
+  iconClasses: {
+    type: String,
+    default: ''
+  },
+  isIconOnly: {
+    type: Boolean,
+    default: false
+  },
   additionalClasses: {
     type: String,
     default: ''
@@ -48,13 +73,21 @@ const props = defineProps({
 
 defineEmits(['click'])
 
-const baseClasses = 'inline-flex items-center justify-center font-medium transition-colors rounded-md focus:outline-none'
+const baseClasses = computed(() => {
+  let classes = 'inline-flex items-center justify-center font-medium focus:outline-none'
+  // Solo agregar bordes y redondeo si no es ghost
+  if (props.variant !== 'ghost') {
+    classes += ' rounded-md'
+  }
+  return classes
+})
 
 const variantClasses = {
   primary: 'bg-blue-500 text-white hover:bg-blue-600',
   secondary: 'bg-gray-200 text-gray-600 hover:bg-gray-300',
   success: 'bg-green-500 text-white hover:bg-green-600',
-  danger: 'bg-red-500 text-white hover:bg-red-600'
+  danger: 'bg-red-500 text-white hover:bg-red-600',
+  ghost: 'bg-transparent border border-transparent'
 }
 
 const sizeClasses = {

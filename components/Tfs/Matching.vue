@@ -1,4 +1,3 @@
-# components/Tfs/Matching.vue
 <template>
   <div class="max-w-4xl mx-auto p-6">
     <form @submit.prevent="validateAnswers" class="space-y-8">
@@ -112,18 +111,25 @@
           </div>
         </div>
 
+        <!-- Message for incomplete answers -->
+        <div v-if="!showResults" class="text-center">
+          <p v-if="!allAnswered" class="text-sm text-gray-500">
+            Completa todos los emparejamientos antes de verificar las respuestas
+          </p>
+        </div>
+
         <!-- Submit Button -->
         <div class="flex justify-center">
-          <button
+          <TfsButton
             type="submit"
-            class="px-6 py-3 rounded-lg transition-colors text-lg font-medium"
-            :class="[
-              allAnswered ? 'bg-blue-500 text-white hover:bg-blue-600 cursor-pointer' : 'bg-blue-200 text-gray-600 cursor-default',
-            ]"
             :disabled="showResults || !allAnswered"
+            :class="{
+              'opacity-50': !allAnswered && !showResults
+            }"
+            @click="validateAnswers"
           >
             {{ showResults ? 'Completed' : 'Check Answers' }}
-          </button>
+          </TfsButton>
         </div>
       </div>
     </form>
@@ -140,9 +146,6 @@ const props = defineProps({
   }
 });
 
-const nuxtApp = useNuxtApp();
-const { $textToSpeech } = nuxtApp;
-
 // Component state
 const selectedExercises = ref([]);
 const userAnswers = ref([]);
@@ -157,6 +160,10 @@ onMounted(() => {
   selectedExercises.value = shuffled;
   userAnswers.value = Array(shuffled.length).fill(null);
   dropZoneClasses.value = Array(shuffled.length).fill('');
+});
+
+const allAnswered = computed(() => {
+  return userAnswers.value.every(answer => answer !== null);
 });
 
 // Compute shuffled right options
@@ -202,11 +209,6 @@ const handleDrop = (event, index) => {
   dropZoneClasses.value[index] = '';
 };
 
-// Check if all questions have been answered
-const allAnswered = computed(() => {
-  return userAnswers.value.every(answer => answer !== null);
-});
-
 // Check if an answer is correct
 const isCorrect = (index) => {
   return userAnswers.value[index] === selectedExercises.value[index].right;
@@ -223,12 +225,5 @@ const getScore = () => {
 const validateAnswers = () => {
   if (!allAnswered.value) return;
   showResults.value = true;
-};
-
-// Practice pronunciation
-const practicePronunciation = (index) => {
-  const exercise = selectedExercises.value[index];
-  const fullText = `${exercise.left} - ${exercise.right}`;
-  $textToSpeech.speak(fullText, { rate: 0.7 });
 };
 </script>

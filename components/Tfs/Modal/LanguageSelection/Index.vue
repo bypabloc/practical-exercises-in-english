@@ -74,19 +74,20 @@
 
     <template #footer>
       <div class="flex justify-between w-full">
-        <button
-          @click="testVoicePronunciation"
-          :disabled="!testText || !selectedVoice"
-          class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors disabled:bg-blue-200 disabled:cursor-not-allowed"
-        >
-          Test Pronunciation
-        </button>
-        <button 
+        <TfsButtonSpeak
+          label="Test Pronunciation"
+          :text="testText"
+          :rate="rate"
+          :pitch="pitch"
+          :is-disabled="!selectedVoice"
+        />
+        <TfsButton
           @click="$emit('close')"
-          class="px-4 py-2 text-gray-600 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+          variant="ghost"
+          :disabled="!selectedVoice"
         >
           Close
-        </button>
+        </TfsButton>
       </div>
     </template>
   </TfsModal>
@@ -125,15 +126,4 @@ onMounted(() => {
     selectedVoice.value = voices[0]
   }
 })
-
-const testVoicePronunciation = () => {
-  if (selectedVoice.value && testText.value) {
-    // Use the plugin's speak method with full options
-    $textToSpeech.speak(testText.value, { 
-      rate: rate.value,
-      pitch: pitch.value,
-      voice: selectedVoice.value
-    })
-  }
-}
 </script>

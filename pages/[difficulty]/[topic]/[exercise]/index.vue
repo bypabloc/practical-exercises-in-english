@@ -4,12 +4,6 @@
       <h1 class="text-2xl font-bold">
         {{ exerciseSelected.label }}
       </h1>
-      <button 
-        @click="router.push(`/${difficulty}/${topic}`)"
-        class="px-4 py-2 bg-gray-200 rounded-lg hover:bg-gray-300"
-      >
-        Back to {{ topicSelected.label }}
-      </button>
     </div>
 
     <!-- Dynamic Exercise Component -->
