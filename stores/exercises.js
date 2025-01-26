@@ -14,6 +14,28 @@ import basicPersonalPronounsMatching from '~/data/basic/personal-pronouns/matchi
 import basicPersonalPronounsSentenceCompletion from '~/data/basic/personal-pronouns/sentence-completion.yml'
 import basicPersonalPronounsTrueOrFalse from '~/data/basic/personal-pronouns/true-or-false.yml'
 
+import basicDailyRoutinesMultipleChoice from '~/data/basic/daily-routines/multiple-choice.yml'
+import basicDailyRoutinesErrorIdentification from '~/data/basic/daily-routines/error-identification.yml'
+import basicDailyRoutinesFillInTheBlanks from '~/data/basic/daily-routines/fill-in-the-blanks.yml'
+import basicDailyRoutinesMatching from '~/data/basic/daily-routines/matching.yml'
+import basicDailyRoutinesSentenceCompletion from '~/data/basic/daily-routines/sentence-completion.yml'
+import basicDailyRoutinesTrueOrFalse from '~/data/basic/daily-routines/true-or-false.yml'
+
+import basicSimplePresentMultipleChoice from '~/data/basic/simple-present/multiple-choice.yml'
+import basicSimplePresentErrorIdentification from '~/data/basic/simple-present/error-identification.yml'
+import basicSimplePresentFillInTheBlanks from '~/data/basic/simple-present/fill-in-the-blanks.yml'
+import basicSimplePresentMatching from '~/data/basic/simple-present/matching.yml'
+import basicSimplePresentSentenceCompletion from '~/data/basic/simple-present/sentence-completion.yml'
+import basicSimplePresentTrueOrFalse from '~/data/basic/simple-present/true-or-false.yml'
+
+import basicNegativesMultipleChoice from '~/data/basic/negatives/multiple-choice.yml'
+import basicNegativesErrorIdentification from '~/data/basic/negatives/error-identification.yml'
+import basicNegativesFillInTheBlanks from '~/data/basic/negatives/fill-in-the-blanks.yml'
+import basicNegativesMatching from '~/data/basic/negatives/matching.yml'
+import basicNegativesSentenceCompletion from '~/data/basic/negatives/sentence-completion.yml'
+import basicNegativesTrueOrFalse from '~/data/basic/negatives/true-or-false.yml'
+
+
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
     selectedType: null,
@@ -228,42 +250,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicDailyRoutinesMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicDailyRoutinesFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicDailyRoutinesMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicDailyRoutinesErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicDailyRoutinesSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicDailyRoutinesTrueOrFalse.items,
               },
             },
             order: 30,
@@ -306,42 +328,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicSimplePresentMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicSimplePresentFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicSimplePresentMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicSimplePresentErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicSimplePresentSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicSimplePresentTrueOrFalse.items,
               },
             },
             order: 40,
@@ -384,42 +406,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicNegativesMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicNegativesFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicNegativesMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicNegativesErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicNegativesSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicNegativesTrueOrFalse.items,
               },
             },
             order: 50,

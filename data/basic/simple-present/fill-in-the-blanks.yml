@@ -1,0 +1,155 @@
+# Ejercicios de Presente Simple - Fill in the Blanks
+items:
+    # NIVEL FÁCIL
+    - question: "She {_____} coffee every morning."
+      clue: "drink + s"
+      answer: "drinks"
+      translation: "Ella toma café cada mañana"
+      pronunciation: "shi drinks cofi évri mórning"
+
+    - question: "They {_____} to school by bus."
+      clue: "go (base form)"
+      answer: "go"
+      translation: "Ellos van a la escuela en autobús"
+      pronunciation: "dei gou tu skul bai bas"
+
+    - question: "John {_____} breakfast at 8 AM."
+      clue: "have + s"
+      answer: "has"
+      translation: "John desayuna a las 8 AM"
+      pronunciation: "yon jas brékfast at eit ei em"
+
+    - question: "We {_____} English every day."
+      clue: "study (base form)"
+      answer: "study"
+      translation: "Nosotros estudiamos inglés todos los días"
+      pronunciation: "ui stádi ínglish évri dei"
+
+    - question: "The dog {_____} in the garden."
+      clue: "play + s"
+      answer: "plays"
+      translation: "El perro juega en el jardín"
+      pronunciation: "da dog pleis in da gárden"
+
+    # NIVEL MEDIO
+    - question: "My sister {_____} TV while she {_____} dinner."
+      clue: "watch+s, eat+s"
+      answer: "watches, eats"
+      translation: "Mi hermana mira TV mientras cena"
+      pronunciation: "mai síster uóches tívi uail shi íts díner"
+
+    - question: "The train {_____} at 3 PM and {_____} at 7 PM."
+      clue: "leave+s, arrive+s"
+      answer: "leaves, arrives"
+      translation: "El tren sale a las 3 PM y llega a las 7 PM"
+      pronunciation: "da trein lívs at zri pi em and aráivs at séven pi em"
+
+    - question: "He {_____} a new car but {_____} to work."
+      clue: "have+s, walk+s"
+      answer: "has, walks"
+      translation: "Él tiene un auto nuevo pero camina al trabajo"
+      pronunciation: "ji jas a niu kar bat uólks tu uork"
+
+    - question: "The museum {_____} at 9 AM and {_____} at 6 PM."
+      clue: "open+s, close+s"
+      answer: "opens, closes"
+      translation: "El museo abre a las 9 AM y cierra a las 6 PM"
+      pronunciation: "da miúsium óupens at náin ei em and klóuses at siks pi em"
+
+    - question: "She {_____} Spanish but {_____} English very well."
+      clue: "not speak+s, speak+s"
+      answer: "doesn't speak, speaks"
+      translation: "Ella no habla español pero habla inglés muy bien"
+      pronunciation: "shi dásent spik spánish bat spiks ínglish véri uel"
+
+    # NIVEL DIFÍCIL
+    - question: "Neither of them {_____} what the teacher {_____}."
+      clue: "understand+s, say+s"
+      answer: "understands, says"
+      translation: "Ninguno de ellos entiende lo que dice el profesor"
+      pronunciation: "náider of dem ánderstands uát da tícher sés"
+
+    - question: "The company {_____} when its CEO {_____} decisions."
+      clue: "suffer+s, make+s"
+      answer: "suffers, makes"
+      translation: "La compañía sufre cuando su CEO toma decisiones"
+      pronunciation: "da kámpani sáfers uen its sí-i-ou méiks disíshons"
+
+    - question: "Each of the students {_____} when the bell {_____}."
+      clue: "leave+s, ring+s"
+      answer: "leaves, rings"
+      translation: "Cada uno de los estudiantes se va cuando suena la campana"
+      pronunciation: "ich of da stiúdents lívs uen da bel rings"
+
+    - question: "The committee {_____} until everyone {_____} to the terms."
+      clue: "wait+s, agree+s"
+      answer: "waits, agrees"
+      translation: "El comité espera hasta que todos estén de acuerdo con los términos"
+      pronunciation: "da komíti ueits antil évriwuan agrís tu da terms"
+
+    - question: "The data {_____} that productivity {_____} over time."
+      clue: "show+s, increase+s"
+      answer: "shows, increases"
+      translation: "Los datos muestran que la productividad aumenta con el tiempo"
+      pronunciation: "da déita shous dat produktíviti inkrísis óuver taim"
+
+    - question: "Every one of the machines {_____} when the power {_____}."
+      clue: "stop+s, fail+s"
+      answer: "stops, fails"
+      translation: "Cada una de las máquinas se detiene cuando falla la energía"
+      pronunciation: "évri uan of da mashíns stops uen da páuer feils"
+
+    - question: "The quality of these products {_____} what customers {_____}."
+      clue: "not match+s, expect+s"
+      answer: "doesn't match, expect"
+      translation: "La calidad de estos productos no coincide con lo que los clientes esperan"
+      pronunciation: "da kuóliti of dís pródakts dásent mach uát kástomers ekspékt"
+
+    - question: "The number of participants {_____} as the day {_____}."
+      clue: "grow+s, progress+s"
+      answer: "grows, progresses"
+      translation: "El número de participantes crece conforme avanza el día"
+      pronunciation: "da námber of partísipants gróus as da dei progrés"
+
+    - question: "None of this evidence {_____} what the witness {_____}."
+      clue: "support+s, claim+s"
+      answer: "supports, claims"
+      translation: "Ninguna de esta evidencia respalda lo que el testigo afirma"
+      pronunciation: "nan of dis évidents sapórts uát da uítnes kleims"
+
+    - question: "His means of income {_____} while his expenses {_____}."
+      clue: "vary+s, increase+s"
+      answer: "varies, increases"
+      translation: "Sus medios de ingreso varían mientras sus gastos aumentan"
+      pronunciation: "jis míns of ínkam véris uail jis ekspénses inkrísis"
+
+    # NIVEL MUY DIFÍCIL
+    - question: "A variety of factors {_____} while the main issue {_____} constant."
+      clue: "change, remain+s"
+      answer: "change, remains"
+      translation: "Una variedad de factores cambian mientras el problema principal permanece constante"
+      pronunciation: "a veráieti of fáktors cheinch uail da mein íshu riméins kónstant"
+
+    - question: "The United States {_____} while each member state {_____}."
+      clue: "negotiate+s, adapt+s"
+      answer: "negotiates, adapts"
+      translation: "Estados Unidos negocia mientras cada estado miembro se adapta"
+      pronunciation: "da yunáited steits negóshieits uail ich mémber steit adápts"
+
+    - question: "Mathematics {_____} easy but physics {_____} challenging."
+      clue: "be verb, prove+s"
+      answer: "is, proves"
+      translation: "Las matemáticas son fáciles pero la física resulta desafiante"
+      pronunciation: "mazamátiks is ísi bat físiks pruvs chálenying"
+
+    - question: "A series of events {_____} before the solution {_____} clear."
+      clue: "occur, become+s"
+      answer: "occur, becomes"
+      translation: "Una serie de eventos ocurren antes de que la solución se vuelva clara"
+      pronunciation: "a síris of ivénts óker bifór da solúshon bikáms klir"
+
+    - question: "The criteria he {_____} {_____} too strict for most applicants."
+      clue: "use+s, be verb"
+      answer: "uses, are"
+      translation: "Los criterios que él usa son demasiado estrictos para la mayoría de los solicitantes"
+      pronunciation: "da kraitíria ji yúses ar tu strikt for moust áplikants"

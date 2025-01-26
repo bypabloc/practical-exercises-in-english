@@ -1,0 +1,223 @@
+items:
+    # NIVEL FÁCIL (5 ejercicios)
+    - sentence: "My sister {_____} to work every day."
+      options:
+        - "goes"
+        - "go"
+        - "going"
+        - "went"
+      answer: "goes"
+      explanation: "Para tercera persona singular, se usa 'goes'"
+      translation: "Mi hermana va al trabajo todos los días"
+      pronunciation: "mai síster gouz tu werk évri dei"
+
+    - sentence: "They {_____} basketball on weekends."
+      options:
+        - "plays"
+        - "play"
+        - "playing"
+        - "played"
+      answer: "play"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Juegan baloncesto los fines de semana"
+      pronunciation: "zei plei básketbol on uíkends"
+
+    - sentence: "He {_____} coffee every morning."
+      options:
+        - "drink"
+        - "drinks"
+        - "drinking"
+        - "drank"
+      answer: "drinks"
+      explanation: "Con tercera persona singular, se añade -s al verbo"
+      translation: "Toma café todas las mañanas"
+      pronunciation: "ji drinks cofi évri mórning"
+
+    - sentence: "We {_____} to the gym regularly."
+      options:
+        - "go"
+        - "goes"
+        - "going"
+        - "went"
+      answer: "go"
+      explanation: "Con 'we', el verbo está en su forma base"
+      translation: "Vamos al gimnasio regularmente"
+      pronunciation: "ui gou tu da yim régularli"
+
+    - sentence: "It {_____} in the forest."
+      options:
+        - "rain"
+        - "rains"
+        - "raining"
+        - "rained"
+      answer: "rains"
+      explanation: "Con 'it', se añade -s al verbo"
+      translation: "Llueve en el bosque"
+      pronunciation: "it reins in da forest"
+
+    # NIVEL MEDIO (5 ejercicios)
+    - sentence: "The company {_____} innovative technology."
+      options:
+        - "develop"
+        - "develops"
+        - "developing"
+        - "developed"
+      answer: "develops"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "La empresa desarrolla tecnología innovadora"
+      pronunciation: "da kómpani divélops inóvative teknóloji"
+
+    - sentence: "Scientists {_____} complex research questions."
+      options:
+        - "investigate"
+        - "investigates"
+        - "investigating"
+        - "investigated"
+      answer: "investigate"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los científicos investigan preguntas de investigación complejas"
+      pronunciation: "sáientists invéstigeit kompleks ríserdj kuéschons"
+
+    - sentence: "The restaurant {_____} delicious meals every day."
+      options:
+        - "serve"
+        - "serves"
+        - "serving"
+        - "served"
+      answer: "serves"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "El restaurante sirve comidas deliciosas todos los días"
+      pronunciation: "da restoran sérves delishus mils évri dei"
+
+    - sentence: "Birds {_____} south during winter."
+      options:
+        - "migrate"
+        - "migrates"
+        - "migrating"
+        - "migrated"
+      answer: "migrate"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los pájaros migran hacia el sur durante el invierno"
+      pronunciation: "berdz máigret sáuz dúring uínter"
+
+    - sentence: "The library {_____} free resources to students."
+      options:
+        - "provide"
+        - "provides"
+        - "providing"
+        - "provided"
+      answer: "provides"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "La biblioteca proporciona recursos gratuitos a los estudiantes"
+      pronunciation: "da láibreri provái des frí résources tu stúdents"
+
+    # NIVEL DIFÍCIL (10 ejercicios)
+    - sentence: "Environmental activists {_____} for sustainable practices."
+      options:
+        - "advocate"
+        - "advocates"
+        - "advocating"
+        - "advocated"
+      answer: "advocate"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los activistas ambientales abogan por prácticas sostenibles"
+      pronunciation: "envairánmental áktivist ádvokeitei for sasteinábel práktises"
+
+    - sentence: "Medical professionals {_____} complex health conditions."
+      options:
+        - "diagnose"
+        - "diagnoses"
+        - "diagnosing"
+        - "diagnosed"
+      answer: "diagnose"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los profesionales médicos diagnostican condiciones de salud complejas"
+      pronunciation: "médical proféshonals daiagnóz kompleks jelz kondíshons"
+
+    - sentence: "The company {_____} cutting-edge technology solutions."
+      options:
+        - "develop"
+        - "develops"
+        - "developing"
+        - "developed"
+      answer: "develops"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "La empresa desarrolla soluciones de tecnología de vanguardia"
+      pronunciation: "da kómpani divélops kating-edj teknóloji solúshons"
+
+    - sentence: "Entrepreneurs {_____} innovative solutions to everyday problems."
+      options:
+        - "create"
+        - "creates"
+        - "creating"
+        - "created"
+      answer: "create"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los emprendedores crean soluciones innovadoras para problemas cotidianos"
+      pronunciation: "entrepranéurs kriéit inóvative solúshons tu évridei próblems"
+
+    - sentence: "The museum {_____} historical artifacts from different cultures."
+      options:
+        - "preserve"
+        - "preserves"
+        - "preserving"
+        - "preserved"
+      answer: "preserves"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "El museo preserva artefactos históricos de diferentes culturas"
+      pronunciation: "da mjúziem prezérves jistórikal ártifakts from diférent kálchers"
+
+    - sentence: "Social media platforms {_____} people across different continents."
+      options:
+        - "connect"
+        - "connects"
+        - "connecting"
+        - "connected"
+      answer: "connect"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Las plataformas de redes sociales conectan personas a través de diferentes continentes"
+      pronunciation: "sóshol mídia pláatforms konékt píple acrós diférent kóntinents"
+
+    - sentence: "The research team {_____} learning strategies in education."
+      options:
+        - "analyze"
+        - "analyzes"
+        - "analyzing"
+        - "analyzed"
+      answer: "analyzes"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "El equipo de investigación analiza estrategias de aprendizaje en educación"
+      pronunciation: "da ríserdj tim ánalaiz lérning straténies in edjukéishon"
+
+    - sentence: "Meteorologists {_____} weather patterns and climate trends."
+      options:
+        - "predict"
+        - "predicts"
+        - "predicting"
+        - "predicted"
+      answer: "predict"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Los meteorólogos predicen patrones climáticos y tendencias del clima"
+      pronunciation: "mítirolodists pridíkt uéder páterns and kláimet trénds"
+
+    - sentence: "The local community {_____} sustainable living practices."
+      options:
+        - "promote"
+        - "promotes"
+        - "promoting"
+        - "promoted"
+      answer: "promotes"
+      explanation: "Con sujetos de tercera persona singular, se añade -s"
+      translation: "La comunidad local promueve prácticas de vida sostenible"
+      pronunciation: "da lókal komyúniti promouvz sasteinábel líving práktises"
+
+    - sentence: "Cultural institutions {_____} traditional knowledge and practices."
+      options:
+        - "preserve"
+        - "preserves"
+        - "preserving"
+        - "preserved"
+      answer: "preserve"
+      explanation: "Con 'they', el verbo permanece en su forma base"
+      translation: "Las instituciones culturales preservan conocimiento y prácticas tradicionales"
+      pronunciation: "kálchural institudshons prezérv tradíshonal nólej and práktises"

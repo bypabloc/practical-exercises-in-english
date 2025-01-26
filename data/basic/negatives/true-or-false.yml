@@ -1,0 +1,184 @@
+# Ejercicios de Negativos - True or False
+items:
+    # NIVEL FÁCIL (7 ejercicios)
+    - sentence: "In negative sentences, we always add 'not' directly after the main verb."
+      isTrue: false
+      explanation: "In negative sentences, 'not' is used with an auxiliary verb (do/does/did)"
+      translation: "En oraciones negativas, no siempre se agrega 'not' directamente después del verbo principal"
+      pronunciation: "in negativ séntences, ui olueiz ad not direktli áfter da mein verb"
+
+    - sentence: "We use 'do not' for third-person singular subjects in negative sentences."
+      isTrue: false
+      explanation: "For third-person singular, we use 'does not' instead of 'do not'"
+      translation: "Usamos 'do not' para sujetos de tercera persona singular en oraciones negativas"
+      pronunciation: "ui yuz du not for zerd-person síngular sábjects in negativ séntences"
+
+    - sentence: "Negative sentences always require an auxiliary verb."
+      isTrue: true
+      explanation: "Auxiliary verbs (do/does/did) are necessary to form negative sentences in simple tenses"
+      translation: "Las oraciones negativas siempre requieren un verbo auxiliar"
+      pronunciation: "negativ séntences olueiz rikuáir an oksiliéri verb"
+
+    - sentence: "The base form of the verb is used after 'does not'."
+      isTrue: true
+      explanation: "After 'does not', the main verb remains in its base form"
+      translation: "La forma base del verbo se usa después de 'does not'"
+      pronunciation: "da beis form of da verb iz yuzd áfter daz not"
+
+    - sentence: "You can form a negative sentence by simply adding 'not' before the verb."
+      isTrue: false
+      explanation: "Negative sentences require an auxiliary verb (do/does/did)"
+      translation: "Se puede formar una oración negativa simplemente agregando 'not' antes del verbo"
+      pronunciation: "yu kan form a negativ séntence bai símply ading not bifór da verb"
+
+    - sentence: "Different subjects require different auxiliary verbs in negative sentences."
+      isTrue: true
+      explanation: "Different subjects use different auxiliary verbs (do/does/did)"
+      translation: "Diferentes sujetos requieren diferentes verbos auxiliares en oraciones negativas"
+      pronunciation: "diférent sábjects rikuáir diférent oksiliéri verbs in negativ séntences"
+
+    - sentence: "In negative sentences, the verb always changes its form."
+      isTrue: false
+      explanation: "In negative sentences, the main verb remains in its base form"
+      translation: "En oraciones negativas, el verbo siempre cambia su forma"
+      pronunciation: "in negativ séntences, da verb olueiz chéinjes its form"
+
+    # NIVEL MEDIO (7 ejercicios)
+    - sentence: "The auxiliary verb 'do' is always used in negative sentences."
+      isTrue: false
+      explanation: "The auxiliary verb changes based on the subject (do/does/did)"
+      translation: "El verbo auxiliar 'do' siempre se usa en oraciones negativas"
+      pronunciation: "di oksiliéri verb du iz olueiz yuzd in negativ séntences"
+
+    - sentence: "Negative questions follow the same structure as negative statements."
+      isTrue: true
+      explanation: "Negative questions use the same auxiliary verb structure as negative statements"
+      translation: "Las preguntas negativas siguen la misma estructura que las oraciones negativas"
+      pronunciation: "negativ kuéschons fólou da seim strukchur az negativ stétments"
+
+    - sentence: "Stative verbs cannot be used in negative sentences."
+      isTrue: false
+      explanation: "Stative verbs can be used in negative sentences with appropriate auxiliary verbs"
+      translation: "Los verbos estativos no pueden usarse en oraciones negativas"
+      pronunciation: "stéitiv verbs kanot bi yuzd in negativ séntences"
+
+    - sentence: "Modal verbs use a different negative formation."
+      isTrue: true
+      explanation: "Modal verbs have unique negative formations (e.g., cannot, will not)"
+      translation: "Los verbos modales usan una formación negativa diferente"
+      pronunciation: "móudal verbs yuz a diférent negativ formáishon"
+
+    - sentence: "The negative form always reduces the verb with an apostrophe."
+      isTrue: false
+      explanation: "While contractions exist (doesn't, don't), full forms are also correct"
+      translation: "La forma negativa siempre reduce el verbo con un apóstrofo"
+      pronunciation: "da negativ form olueiz ridúces da verb uiz an apóstrafi"
+
+    - sentence: "Negative sentences cannot express habitual actions."
+      isTrue: false
+      explanation: "Negative sentences can describe habitual actions and routines"
+      translation: "Las oraciones negativas no pueden expresar acciones habituales"
+      pronunciation: "negativ séntences kanot ékspres jábitual ákshons"
+
+    - sentence: "The position of 'not' is always fixed in a sentence."
+      isTrue: false
+      explanation: "The position of 'not' can vary depending on the type of verb and sentence structure"
+      translation: "La posición de 'not' siempre está fija en una oración"
+      pronunciation: "da pozíshon of not iz olueiz fíksd in a séntence"
+
+    # NIVEL DIFÍCIL (26 ejercicios)
+    - sentence: "Collective nouns always require plural negative verb forms."
+      isTrue: false
+      explanation: "Collective nouns typically use singular verb forms in negative sentences"
+      translation: "Los sustantivos colectivos siempre requieren formas verbales negativas plurales"
+      pronunciation: "kolektiv náuns olueiz rikuáir plúral negativ verb forms"
+
+    - sentence: "The word 'none' always requires a singular verb in negative sentences."
+      isTrue: true
+      explanation: "'None' is typically treated as singular in negative constructions"
+      translation: "La palabra 'none' siempre requiere un verbo singular en oraciones negativas"
+      pronunciation: "da werd nan olueiz rikuáirs a síngular verb in negativ séntences"
+
+    - sentence: "Negative sentences cannot express future intentions."
+      isTrue: false
+      explanation: "Negative sentences can express future plans and intentions"
+      translation: "Las oraciones negativas no pueden expresar intenciones futuras"
+      pronunciation: "negativ séntences kanot ékspres fjúcher intenshons"
+
+    - sentence: "Every negative sentence must contain the word 'not'."
+      isTrue: false
+      explanation: "Some negative sentences use words like 'no', 'never', or 'neither'"
+      translation: "Toda oración negativa debe contener la palabra 'not'"
+      pronunciation: "évri negativ séntence mast kontein da werd not"
+
+    - sentence: "Negative sentences always indicate a complete absence."
+      isTrue: false
+      explanation: "Negative sentences can indicate partial or temporary negation"
+      translation: "Las oraciones negativas siempre indican una ausencia completa"
+      pronunciation: "negativ séntences olueiz indikiet a komplít absens"
+
+    - sentence: "The auxiliary verb changes based on the tense of the sentence."
+      isTrue: true
+      explanation: "Auxiliary verbs change between do/does/did depending on the tense"
+      translation: "El verbo auxiliar cambia según el tiempo de la oración"
+      pronunciation: "di oksiliéri verb chéinjes beised on da tens of da séntence"
+
+    - sentence: "'Everyone' always takes a plural negative verb form."
+      isTrue: false
+      explanation: "'Everyone' is treated as singular and requires a singular verb form"
+      translation: "'Everyone' siempre toma una forma verbal negativa plural"
+      pronunciation: "évriwuan olueiz teiks a plúral negativ verb form"
+
+    - sentence: "Negative sentences cannot express general truths."
+      isTrue: false
+      explanation: "Negative sentences can express general truths and scientific facts"
+      translation: "Las oraciones negativas no pueden expresar verdades generales"
+      pronunciation: "negativ séntences kanot ékspres djenéral trúzs"
+
+    - sentence: "The word 'neither' always requires a plural verb."
+      isTrue: false
+      explanation: "'Neither' is typically treated as singular and takes a singular verb"
+      translation: "La palabra 'neither' siempre requiere un verbo plural"
+      pronunciation: "da werd náider olueiz rikuáirs a plúral verb"
+
+    - sentence: "Negative sentences always reduce the complexity of communication."
+      isTrue: false
+      explanation: "Negative sentences can be just as complex as affirmative sentences"
+      translation: "Las oraciones negativas siempre reducen la complejidad de la comunicación"
+      pronunciation: "negativ séntences olueiz ridúce da kompleksiti of komyunikéishon"
+
+    - sentence: "Academic research cannot be expressed in negative sentences."
+      isTrue: false
+      explanation: "Academic research frequently uses negative sentence structures"
+      translation: "La investigación académica no puede expresarse en oraciones negativas"
+      pronunciation: "akadémik ríserdj kanot bi éksprest in negativ séntences"
+
+    - sentence: "Negative sentences always imply a lack of value or importance."
+      isTrue: false
+      explanation: "Negative sentences can be neutral or even emphasize a point"
+      translation: "Las oraciones negativas siempre implican una falta de valor o importancia"
+      pronunciation: "negativ séntences olueiz implái a lak of váliu or impórtans"
+
+    - sentence: "The structure of negative questions is completely different from negative statements."
+      isTrue: false
+      explanation: "Negative questions follow similar structural principles as negative statements"
+      translation: "La estructura de las preguntas negativas es completamente diferente de las oraciones negativas"
+      pronunciation: "da strukchur of negativ kuéschons iz komplítli diférent frum negativ stétments"
+
+    - sentence: "Technological complexity always prevents clear negative communication."
+      isTrue: false
+      explanation: "Negative sentences can be precise and clear in complex contexts"
+      translation: "La complejidad tecnológica siempre impide una comunicación negativa clara"
+      pronunciation: "teknológikal kompleksiti olueiz privent klir negativ komyunikéishon"
+
+    - sentence: "Interdisciplinary research cannot use negative sentence structures."
+      isTrue: false
+      explanation: "Interdisciplinary research frequently employs negative sentence constructions"
+      translation: "La investigación interdisciplinaria no puede usar estructuras de oraciones negativas"
+      pronunciation: "interdisiplináry ríserdj kanot yuz negativ séntence strukchurs"
+
+    - sentence: "Philosophical debates are impossible in negative sentence forms."
+      isTrue: false
+      explanation: "Philosophical discussions often use complex negative sentence structures"
+      translation: "Los debates filosóficos son imposibles en formas de oraciones negativas"
+      pronunciation: "filósofical dibéits ar impósibel in negativ séntence forms"
