@@ -3,11 +3,16 @@ import { defineStore } from 'pinia'
 import basicGreetingAndIntroductionsMultipleChoice from '~/data/basic/greetings-and-introductions/multiple-choice.yml'
 import basicGreetingAndIntroductionsErrorIdentification from '~/data/basic/greetings-and-introductions/error-identification.yml'
 import basicGreetingAndIntroductionsFillInTheBlanks from '~/data/basic/greetings-and-introductions/fill-in-the-blanks.yml'
-import basicGreetingAndIntroductionsMatchingExercises from '~/data/basic/greetings-and-introductions/matching-exercises.yml'
+import basicGreetingAndIntroductionsMatching from '~/data/basic/greetings-and-introductions/matching.yml'
 import basicGreetingAndIntroductionsSentenceCompletion from '~/data/basic/greetings-and-introductions/sentence-completion.yml'
 import basicGreetingAndIntroductionsTrueOrFalse from '~/data/basic/greetings-and-introductions/true-or-false.yml'
 
 import basicPersonalPronounsMultipleChoice from '~/data/basic/personal-pronouns/multiple-choice.yml'
+import basicPersonalPronounsErrorIdentification from '~/data/basic/personal-pronouns/error-identification.yml'
+import basicPersonalPronounsFillInTheBlanks from '~/data/basic/personal-pronouns/fill-in-the-blanks.yml'
+import basicPersonalPronounsMatching from '~/data/basic/personal-pronouns/matching.yml'
+import basicPersonalPronounsSentenceCompletion from '~/data/basic/personal-pronouns/sentence-completion.yml'
+import basicPersonalPronounsTrueOrFalse from '~/data/basic/personal-pronouns/true-or-false.yml'
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -84,7 +89,7 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                items: basicGreetingAndIntroductionsMatchingExercises.items,
+                items: basicGreetingAndIntroductionsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
@@ -155,35 +160,35 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicPersonalPronounsFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicPersonalPronounsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicPersonalPronounsErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicPersonalPronounsSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicPersonalPronounsTrueOrFalse.items,
               },
             },
             order: 20,

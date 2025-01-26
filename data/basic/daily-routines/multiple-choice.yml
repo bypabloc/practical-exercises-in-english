@@ -1,0 +1,228 @@
+items:
+  # Basic Daily Activities
+  - question: "What is the correct way to say 'Me despierto a las 7'?"
+    options:
+      - "I wake up at 7"
+      - "I waking up at 7"
+      - "I am wake up at 7"
+      - "Me wake up at 7"
+    answer: "I wake up at 7"
+    explanation: "Para rutinas diarias usamos el presente simple. El sujeto 'I' es necesario y el verbo va en su forma base."
+    translation: "Me despierto a las 7"
+    pronunciation: "ai weik ap at seven"
+
+  - question: "Select the correct sentence for 'Ella desayuna a las 8:30':"
+    options:
+      - "She breakfast at 8:30"
+      - "She has breakfast at 8:30"
+      - "She eat breakfast at 8:30"
+      - "She having breakfast at 8:30"
+    answer: "She has breakfast at 8:30"
+    explanation: "La expresión correcta es 'have breakfast'. Como es tercera persona singular (she), el verbo 'have' cambia a 'has'."
+    translation: "Ella desayuna a las 8:30"
+    pronunciation: "shi jas brekfast at eit therti"
+
+  - question: "How do you say 'Tomo una ducha todos los días'?"
+    options:
+      - "I having a shower every day"
+      - "I take a shower every day"
+      - "I am taking a shower every day"
+      - "I does take a shower every day"
+    answer: "I take a shower every day"
+    explanation: "Para rutinas usamos presente simple. 'Take a shower' es la expresión correcta para 'tomar una ducha'."
+    translation: "Tomo una ducha todos los días"
+    pronunciation: "ai teik a shauer evri dei"
+
+  - question: "Which is correct for 'Él va al trabajo en bus'?"
+    options:
+      - "He go to work by bus"
+      - "He goes to work by bus"
+      - "He going to work by bus"
+      - "He is go to work by bus"
+    answer: "He goes to work by bus"
+    explanation: "En tercera persona singular (he/she/it) añadimos -s al verbo en presente simple. 'By bus' es la forma correcta de decir 'en bus'."
+    translation: "Él va al trabajo en bus"
+    pronunciation: "ji gous tu work bai bas"
+
+  - question: "How do you express 'Almuerzo a la 1:00'?"
+    options:
+      - "I lunch at 1:00"
+      - "I having lunch at 1:00"
+      - "I have lunch at 1:00"
+      - "I am lunch at 1:00"
+    answer: "I have lunch at 1:00"
+    explanation: "Usamos 'have lunch' para decir 'almorzar'. En presente simple y primera persona no se modifica el verbo."
+    translation: "Almuerzo a la 1:00"
+    pronunciation: "ai jav lanch at wan"
+
+  # Time Expressions
+  - question: "What's the correct way to say 'Estudio inglés los lunes'?"
+    options:
+      - "I study English in Mondays"
+      - "I study English at Mondays"
+      - "I study English on Mondays"
+      - "I study English Mondays"
+    answer: "I study English on Mondays"
+    explanation: "Con días de la semana usamos la preposición 'on'. El verbo va en presente simple para rutinas."
+    translation: "Estudio inglés los lunes"
+    pronunciation: "ai stadi inglish on mandeis"
+
+  - question: "Select the correct form: 'Ella trabaja de 9 a 5':"
+    options:
+      - "She works since 9 to 5"
+      - "She works from 9 to 5"
+      - "She works between 9 to 5"
+      - "She works 9 until 5"
+    answer: "She works from 9 to 5"
+    explanation: "Para expresar un rango de tiempo usamos 'from... to...'. El verbo lleva -s por ser tercera persona singular."
+    translation: "Ella trabaja de 9 a 5"
+    pronunciation: "shi works from nain tu faiv"
+
+  - question: "How do you say 'Me acuesto temprano entre semana'?"
+    options:
+      - "I go to bed early in weekdays"
+      - "I go to bed early on weekdays"
+      - "I go to bed early at weekdays"
+      - "I go to bed early during weekdays"
+    answer: "I go to bed early on weekdays"
+    explanation: "Usamos 'go to bed' para 'acostarse' y 'on weekdays' para 'entre semana'."
+    translation: "Me acuesto temprano entre semana"
+    pronunciation: "ai gou tu bed erli on wikdeis"
+
+  # Frequency Expressions
+  - question: "Which is correct for 'Siempre llego tarde al trabajo'?"
+    options:
+      - "I always arriving late to work"
+      - "I always arrive late to work"
+      - "Always I arrive late to work"
+      - "I arrive always late to work"
+    answer: "I always arrive late to work"
+    explanation: "Los adverbios de frecuencia como 'always' van antes del verbo principal pero después del verbo 'to be'."
+    translation: "Siempre llego tarde al trabajo"
+    pronunciation: "ai olweis araiv leit tu work"
+
+  - question: "What's the correct form of 'Nunca como carne'?"
+    options:
+      - "I never eating meat"
+      - "I never eat meat"
+      - "Never I eat meat"
+      - "I eat never meat"
+    answer: "I never eat meat"
+    explanation: "El adverbio de frecuencia 'never' va entre el sujeto y el verbo principal."
+    translation: "Nunca como carne"
+    pronunciation: "ai never it mit"
+
+  # Compound Activities
+  - question: "Choose the correct sentence for 'Me cepillo los dientes después de desayunar':"
+    options:
+      - "I brush my teeth after I had breakfast"
+      - "I brush my teeth after having breakfast"
+      - "I brush my teeth after I having breakfast"
+      - "I brush my teeth after have breakfast"
+    answer: "I brush my teeth after having breakfast"
+    explanation: "Después de 'after' usamos la forma -ing del verbo (gerundio)."
+    translation: "Me cepillo los dientes después de desayunar"
+    pronunciation: "ai brash mai tith after javing brekfast"
+
+  - question: "Select the correct way to say 'Leo el periódico mientras desayuno':"
+    options:
+      - "I read the newspaper while I having breakfast"
+      - "I read the newspaper while having breakfast"
+      - "I read the newspaper during I have breakfast"
+      - "I read the newspaper meanwhile I have breakfast"
+    answer: "I read the newspaper while having breakfast"
+    explanation: "Después de 'while' podemos usar el gerundio (-ing) para la acción simultánea."
+    translation: "Leo el periódico mientras desayuno"
+    pronunciation: "ai rid da niuspeiper wail javing brekfast"
+
+  # Household Activities
+  - question: "How do you say 'Hago la cama todas las mañanas'?"
+    options:
+      - "I do the bed every mornings"
+      - "I make the bed every morning"
+      - "I making the bed every morning"
+      - "I do make the bed every morning"
+    answer: "I make the bed every morning"
+    explanation: "La expresión correcta es 'make the bed'. Para rutinas usamos el presente simple."
+    translation: "Hago la cama todas las mañanas"
+    pronunciation: "ai meik da bed evri morning"
+
+  - question: "Which is correct for 'Ella limpia la casa los sábados'?"
+    options:
+      - "She clean the house on Saturdays"
+      - "She cleans the house on Saturdays"
+      - "She cleaning the house on Saturdays"
+      - "She is clean the house on Saturdays"
+    answer: "She cleans the house on Saturdays"
+    explanation: "En tercera persona singular añadimos -s al verbo. Con días de la semana usamos 'on'."
+    translation: "Ella limpia la casa los sábados"
+    pronunciation: "shi klins da jaus on saterdeis"
+
+  # Evening Routines
+  - question: "What's the correct way to say 'Ceno a las 7:30'?"
+    options:
+      - "I dinner at 7:30"
+      - "I have dinner at 7:30"
+      - "I eat dinner at 7:30"
+      - "I am having dinner at 7:30"
+    answer: "I have dinner at 7:30"
+    explanation: "La expresión correcta es 'have dinner'. Para rutinas usamos presente simple."
+    translation: "Ceno a las 7:30"
+    pronunciation: "ai jav diner at seven therti"
+
+  - question: "Choose the correct form of 'Veo televisión después de cenar':"
+    options:
+      - "I watch TV after dinner"
+      - "I watch TV after I dinner"
+      - "I seeing TV after dinner"
+      - "I look TV after dinner"
+    answer: "I watch TV after dinner"
+    explanation: "El verbo correcto es 'watch' para ver TV. Podemos usar el sustantivo 'dinner' directamente después de 'after'."
+    translation: "Veo televisión después de cenar"
+    pronunciation: "ai wach tivi after diner"
+
+  # Weekend Activities
+  - question: "How do you express 'Duermo hasta tarde los domingos'?"
+    options:
+      - "I sleep late on Sundays"
+      - "I sleep in on Sundays"
+      - "I sleeping late on Sundays"
+      - "I am sleeping late on Sundays"
+    answer: "I sleep in on Sundays"
+    explanation: "'Sleep in' es la expresión correcta para 'dormir hasta tarde'. Usamos 'on' con días de la semana."
+    translation: "Duermo hasta tarde los domingos"
+    pronunciation: "ai slip in on sandeis"
+
+  - question: "Select the correct sentence for 'Los fines de semana salgo con amigos':"
+    options:
+      - "In weekends I go out with friends"
+      - "At weekends I go out with friends"
+      - "On weekends I go out with friends"
+      - "During weekends I go out with friends"
+    answer: "On weekends I go out with friends"
+    explanation: "Usamos 'on weekends' para 'los fines de semana'. 'Go out' significa 'salir'."
+    translation: "Los fines de semana salgo con amigos"
+    pronunciation: "on wikends ai gou aut wid frends"
+
+  # Morning Preparations
+  - question: "Which is correct for 'Me visto después de ducharme'?"
+    options:
+      - "I dress after shower"
+      - "I get dressed after showering"
+      - "I dress after I shower"
+      - "I getting dressed after shower"
+    answer: "I get dressed after showering"
+    explanation: "Usamos 'get dressed' para 'vestirse' y después de 'after' el gerundio (-ing)."
+    translation: "Me visto después de ducharme"
+    pronunciation: "ai get drest after shauering"
+
+  - question: "How do you say 'Preparo el almuerzo la noche anterior'?"
+    options:
+      - "I prepare lunch the night before"
+      - "I prepare lunch the before night"
+      - "I preparing lunch the night before"
+      - "I make ready lunch the night before"
+    answer: "I prepare lunch the night before"
+    explanation: "'The night before' significa 'la noche anterior'. Usamos presente simple para rutinas."
+    translation: "Preparo el almuerzo la noche anterior"
+    pronunciation: "ai priper lanch da nait bifor"
