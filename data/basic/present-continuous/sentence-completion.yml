@@ -1,0 +1,503 @@
+items:
+    # NIVEL FÁCIL (10 ejercicios)
+    - sentence: "I {_____} a book."
+      options:
+        - "am reading"
+        - "is reading"
+        - "are reading"
+        - "reading"
+      answer: "am reading"
+      translation: "Estoy leyendo un libro."
+      pronunciation: "ai am ríding a buk"
+
+    - sentence: "She {_____} dinner."
+      options:
+        - "am cooking"
+        - "is cooking"
+        - "are cooking"
+        - "cooking"
+      answer: "is cooking"
+      translation: "Ella está cocinando la cena."
+      pronunciation: "shi is kúking díner"
+
+    - sentence: "They {_____} football."
+      options:
+        - "am playing"
+        - "is playing"
+        - "are playing"
+        - "playing"
+      answer: "are playing"
+      translation: "Ellos están jugando fútbol."
+      pronunciation: "dei ar pléing fútbol"
+
+    - sentence: "We {_____} a movie."
+      options:
+        - "am watching"
+        - "is watching"
+        - "are watching"
+        - "watching"
+      answer: "are watching"
+      translation: "Estamos viendo una película."
+      pronunciation: "uí ar uóching a múvi"
+
+    - sentence: "He {_____} a shower."
+      options:
+        - "am taking"
+        - "is taking"
+        - "are taking"
+        - "taking"
+      answer: "is taking"
+      translation: "Él está tomando una ducha."
+      pronunciation: "ji is téiking a sháuer"
+
+    - sentence: "The dog {_____} a cat."
+      options:
+        - "am chasing"
+        - "is chasing"
+        - "are chasing"
+        - "chasing"
+      answer: "is chasing"
+      translation: "El perro está persiguiendo a un gato."
+      pronunciation: "da dog is chéising a kat"
+
+    - sentence: "The children {_____} in the park."
+      options:
+        - "am playing"
+        - "is playing"
+        - "are playing"
+        - "playing"
+      answer: "are playing"
+      translation: "Los niños están jugando en el parque."
+      pronunciation: "da chíldren ar pléing in da park"
+
+    - sentence: "The sun {_____} brightly."
+      options:
+        - "am shining"
+        - "is shining"
+        - "are shining"
+        - "shining"
+      answer: "is shining"
+      translation: "El sol está brillando intensamente."
+      pronunciation: "da san is sháining bráitli"
+
+    - sentence: "The birds {_____} in the trees."
+      options:
+        - "am singing"
+        - "is singing"
+        - "are singing"
+        - "singing"
+      answer: "are singing"
+      translation: "Los pájaros están cantando en los árboles."
+      pronunciation: "da berds ar síging in da trís"
+
+    - sentence: "The baby {_____} loudly."
+      options:
+        - "am crying"
+        - "is crying"
+        - "are crying" 
+        - "crying"
+      answer: "is crying"
+      translation: "El bebé está llorando fuerte."
+      pronunciation: "da béibi is kráing láudli"
+
+    # NIVEL MEDIO (10 ejercicios)
+    - sentence: "The cake {_____} in the oven."
+      options:
+        - "am baking"
+        - "is baking"
+        - "are baking"
+        - "baking"
+      answer: "is baking"
+      translation: "El pastel se está horneando en el horno."
+      pronunciation: "da kéik is béiking in di óven"
+
+    - sentence: "The plane {_____} on the runway."
+      options:
+        - "am landing"
+        - "is landing" 
+        - "are landing"
+        - "landing"
+      answer: "is landing"
+      translation: "El avión está aterrizando en la pista."
+      pronunciation: "da pléin is lánding on da ránuei"
+
+    - sentence: "The leaves {_____} from the trees."
+      options:
+        - "am falling"
+        - "is falling"
+        - "are falling"
+        - "falling"
+      answer: "are falling"
+      translation: "Las hojas están cayendo de los árboles."
+      pronunciation: "da lívs ar fóling from da tris"
+
+    - sentence: "The flowers {_____} in the garden."
+      options:
+        - "am blooming"
+        - "is blooming" 
+        - "are blooming"
+        - "blooming" 
+      answer: "are blooming"
+      translation: "Las flores están floreciendo en el jardín."
+      pronunciation: "da fláuers ar blúming in da gárden"
+
+    - sentence: "The cat {_____} on the couch."
+      options:
+        - "am napping"
+        - "is napping"
+        - "are napping"
+        - "napping"
+      answer: "is napping"
+      translation: "El gato está tomando una siesta en el sofá."
+      pronunciation: "da kat is náping on da káuch"
+      
+    - sentence: "The students {_____} for the exam."
+      options:  
+        - "am studying"
+        - "is studying"
+        - "are studying"
+        - "studying"
+      answer: "are studying" 
+      translation: "Los estudiantes están estudiando para el examen."
+      pronunciation: "da stiúdents ar stádiing for di eksám"
+
+    - sentence: "The chef {_____} a special dish."
+      options:
+        - "am preparing" 
+        - "is preparing"
+        - "are preparing"
+        - "preparing"
+      answer: "is preparing"
+      translation: "El chef está preparando un plato especial."
+      pronunciation: "da shef is pripéring a spéshal dish"
+
+    - sentence: "The stars {_____} in the sky."
+      options: 
+        - "am twinkling"
+        - "is twinkling"
+        - "are twinkling"
+        - "twinkling"
+      answer: "are twinkling"
+      translation: "Las estrellas están titilando en el cielo."
+      pronunciation: "da stars ar tuínkling in da skái"
+
+    - sentence: "The crowd {_____} for the team."
+      options:
+        - "am cheering" 
+        - "is cheering"
+        - "are cheering"
+        - "cheering"
+      answer: "is cheering" 
+      translation: "La multitud está vitoreando al equipo."
+      pronunciation: "da kráud is chíring for da tím"
+
+    - sentence: "The rain {_____} heavily outside."
+      options:
+        - "am pouring"
+        - "is pouring" 
+        - "are pouring"
+        - "pouring"
+      answer: "is pouring"
+      translation: "La lluvia está cayendo fuertemente afuera."
+      pronunciation: "da réin is póring jévili áutsaid"
+
+    # NIVEL DIFÍCIL (30 ejercicios)  
+    - sentence: "The committee {_____} the new proposal."
+      options:
+        - "am discussing"
+        - "is discussing"
+        - "are discussing" 
+        - "discussing"
+      answer: "is discussing"
+      translation: "El comité está discutiendo la nueva propuesta." 
+      pronunciation: "da komíti is diskásing da niú propóusel"
+
+    - sentence: "The jury {_____} on the verdict."
+      options:  
+        - "am deliberating"
+        - "is deliberating"
+        - "are deliberating"
+        - "deliberating"
+      answer: "is deliberating"
+      translation: "El jurado está deliberando sobre el veredicto."
+      pronunciation: "da júri is dilíbereiting on da vérdikt"
+
+    - sentence: "The team {_____} for the championship."
+      options:
+        - "am practicing" 
+        - "is practicing"
+        - "are practicing"
+        - "practicing" 
+      answer: "is practicing"
+      translation: "El equipo está practicando para el campeonato."
+      pronunciation: "da tím is práktising for da chámpionship"
+
+    - sentence: "The orchestra {_____} a symphony."
+      options:
+        - "am performing"
+        - "is performing" 
+        - "are performing" 
+        - "performing"
+      answer: "is performing"
+      translation: "La orquesta está interpretando una sinfonía." 
+      pronunciation: "di órkestra is perfórming a símfoni"
+
+    - sentence: "The politicians {_____} the new legislation."
+      options:
+        - "am debating"
+        - "is debating"
+        - "are debating" 
+        - "debating"
+      answer: "are debating" 
+      translation: "Los políticos están debatiendo la nueva legislación."
+      pronunciation: "da políshons ar dibéiting da niú leyisléishon"
+
+    - sentence: "The scientists {_____} an experiment."
+      options:   
+        - "am conducting"
+        - "is conducting"
+        - "are conducting"
+        - "conducting"
+      answer: "are conducting"
+      translation: "Los científicos están realizando un experimento." 
+      pronunciation: "da sáientists ar kondákting an ekspériment"
+
+    - sentence: "The leaves {_____} in the wind."
+      options:
+        - "am rustling" 
+        - "is rustling"
+        - "are rustling"
+        - "rustling"
+      answer: "are rustling" 
+      translation: "Las hojas están crujiendo en el viento."
+      pronunciation: "da lívs ar rásling in da uínd"
+
+    - sentence: "The waves {_____} on the shore."
+      options:
+        - "am crashing" 
+        - "is crashing"
+        - "are crashing"
+        - "crashing"
+      answer: "are crashing"
+      translation: "Las olas están rompiendo en la orilla." 
+      pronunciation: "da uéivs ar kráshing on da shór"
+
+    - sentence: "The journalists {_____} the scandal."
+      options:  
+        - "am investigating"
+        - "is investigating"
+        - "are investigating"
+        - "investigating"
+      answer: "are investigating"
+      translation: "Los periodistas están investigando el escándalo."
+      pronunciation: "da jérnalists ar invéstigueiting da skándal"
+
+    - sentence: "The firefighters {_____} the blaze."
+      options:
+        - "am battling" 
+        - "is battling"
+        - "are battling"
+        - "battling"
+      answer: "are battling"
+      translation: "Los bomberos están luchando contra el incendio."
+      pronunciation: "da fáierfaiters ar bátling da bléiz"
+
+    - sentence: "The actors {_____} for the play."  
+      options:
+        - "am rehearsing"
+        - "is rehearsing"
+        - "are rehearsing"
+        - "rehearsing" 
+      answer: "are rehearsing"
+      translation: "Los actores están ensayando para la obra."
+      pronunciation: "di áktors ar rijérsing for da pléi"
+
+    - sentence: "The students {_____} on a project."
+      options:
+        - "am collaborating"
+        - "is collaborating" 
+        - "are collaborating"
+        - "collaborating"
+      answer: "are collaborating" 
+      translation: "Los estudiantes están colaborando en un proyecto."
+      pronunciation: "da stiúdents ar koláboreiting on a prójekt"
+
+    - sentence: "The machine {_____} the data."
+      options:  
+        - "am processing"
+        - "is processing" 
+        - "are processing"
+        - "processing" 
+      answer: "is processing"
+      translation: "La máquina está procesando los datos."
+      pronunciation: "da mashín is prósesing da déita"
+
+    - sentence: "The audience {_____} the performance."
+      options:
+        - "am applauding" 
+        - "is applauding"
+        - "are applauding"
+        - "applauding"
+      answer: "is applauding" 
+      translation: "El público está aplaudiendo la actuación."
+      pronunciation: "di ódiens is apláuding da perfórmans"
+
+    - sentence: "The artist {_____} a portrait."
+      options:
+        - "am painting"
+        - "is painting" 
+        - "are painting"
+        - "painting"
+      answer: "is painting"
+      translation: "El artista está pintando un retrato."
+      pronunciation: "di ártist is péinting a pórtrait"
+
+    - sentence: "The construction workers {_____} a skyscraper."
+      options:
+        - "am building"
+        - "is building"
+        - "are building" 
+        - "building"  
+      answer: "are building"
+      translation: "Los obreros están construyendo un rascacielos."
+      pronunciation: "da konstrákshon uérkers ar bílding a skáiskreiper"
+
+    - sentence: "The tourists {_____} the ancient ruins."
+      options:
+        - "am exploring"
+        - "is exploring" 
+        - "are exploring"
+        - "exploring"
+      answer: "are exploring"
+      translation: "Los turistas están explorando las ruinas antiguas."
+      pronunciation: "da túrists ar eksplóring di énshent rúins"
+
+    - sentence: "The children {_____} at the cartoon."
+      options:
+        - "am giggling" 
+        - "is giggling"
+        - "are giggling"
+        - "giggling"
+      answer: "are giggling" 
+      translation: "Los niños se están riendo del dibujo animado."
+      pronunciation: "da chíldren ar gígling at da kartún"
+
+    - sentence: "The athletes {_____} in the marathon."
+      options:
+        - "am competing"
+        - "is competing"
+        - "are competing"
+        - "competing"
+      answer: "are competing"  
+      translation: "Los atletas están compitiendo en el maratón."
+      pronunciation: "di ázlits ar kompíting in da márathon"
+
+    - sentence: "The musicians {_____} their instruments."
+      options:
+        - "am tuning"
+        - "is tuning" 
+        - "are tuning"
+        - "tuning"
+      answer: "are tuning" 
+      translation: "Los músicos están afinando sus instrumentos."
+      pronunciation: "da miúsishons ar túning der ínstruments"
+
+    - sentence: "The chefs {_____} the vegetables."
+      options: 
+        - "am chopping"
+        - "is chopping"
+        - "are chopping"
+        - "chopping"
+      answer: "are chopping"
+      translation: "Los chefs están cortando las verduras."
+      pronunciation: "da shefs ar chóping da védytabels"
+
+    - sentence: "The sailors {_____} the rough seas."
+      options:
+        - "am navigating"
+        - "is navigating" 
+        - "are navigating"
+        - "navigating" 
+      answer: "are navigating"
+      translation: "Los marineros están navegando por los mares agitados."
+      pronunciation: "da séilors ar návigueiting da raf sís"
+
+    - sentence: "The designers {_____} a new fashion line."
+      options:
+        - "am creating"  
+        - "is creating"
+        - "are creating"
+        - "creating"
+      answer: "are creating"
+      translation: "Los diseñadores están creando una nueva línea de moda."
+      pronunciation: "da disáiners ar kriéiting a niú fásion lain"
+
+    - sentence: "The engineers {_____} a new software."
+      options:
+        - "am developing"
+        - "is developing"
+        - "are developing"
+        - "developing"
+      answer: "are developing"
+      translation: "Los ingenieros están desarrollando un nuevo software."
+      pronunciation: "di ényineers ar divéloping a niú sóftwer"
+
+    - sentence: "The doctors {_____} a surgery."
+      options: 
+        - "am performing"
+        - "is performing"
+        - "are performing" 
+        - "performing"
+      answer: "are performing"
+      translation: "Los médicos están realizando una cirugía."
+      pronunciation: "da dóktors ar perfórming a séryeri"  
+
+    - sentence: "The lawyers {_____} a case in court."
+      options:
+        - "am arguing"
+        - "is arguing"
+        - "are arguing" 
+        - "arguing"
+      answer: "are arguing"
+      translation: "Los abogados están argumentando un caso en la corte."  
+      pronunciation: "da lóyers ar árgiuing a kéis in kort"
+
+    - sentence: "The protesters {_____} for their rights."
+      options: 
+        - "am marching"
+        - "is marching"
+        - "are marching"
+        - "marching" 
+      answer: "are marching"
+      translation: "Los manifestantes están marchando por sus derechos."
+      pronunciation: "da protésters ar márching for der ráits"  
+
+    - sentence: "The gardeners {_____} new flowers."
+      options:
+        - "am planting"
+        - "is planting"
+        - "are planting" 
+        - "planting"
+      answer: "are planting"
+      translation: "Los jardineros están plantando nuevas flores."
+      pronunciation: "da gárdeners ar plánting niú fláuers"
+
+    - sentence: "The astronomers {_____} the stars."
+      options:
+        - "am observing" 
+        - "is observing"  
+        - "are observing"
+        - "observing"
+      answer: "are observing"
+      translation: "Los astrónomos están observando las estrellas."
+      pronunciation: "di astrónomers ar obsérving da stars"  
+
+    - sentence: "The archaeologists {_____} an ancient site."
+      options:
+        - "am excavating"
+        - "is excavating"
+        - "are excavating"
+        - "excavating"
+      answer: "are excavating" 
+      translation: "Los arqueólogos están excavando un sitio antiguo." 
+      pronunciation: "di arkiólogists ar ékskaveiting an énshent sáit"
