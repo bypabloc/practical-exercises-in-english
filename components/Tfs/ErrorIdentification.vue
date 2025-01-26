@@ -83,6 +83,7 @@
                       label="Practice"
                       :text="getSentenceWithCorrection(exercise)"
                     />
+                    <TfsButtonPractice :text="exercise.answer" />
                   </div>
                 </div>
               </div>

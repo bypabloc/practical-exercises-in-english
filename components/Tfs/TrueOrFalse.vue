@@ -75,6 +75,7 @@
                   <TfsButtonSpeak
                     :text="exercise.sentence"
                   />
+                  <TfsButtonPractice :text="exercise.answer" />
                 </div>
               </div>
             </div>

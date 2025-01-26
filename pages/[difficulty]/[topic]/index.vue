@@ -43,9 +43,10 @@
               <p v-if="example.note"><span class="font-medium">Note:</span> {{ example.note }}</p>
 
               <!-- Practice Button -->
-              <TfsButtonSpeak
-                :text="example.english"
-              />
+              <div class="flex items-center gap-2">
+                <TfsButtonSpeak :text="example.english" />
+                <TfsButtonPractice :example="example" />
+              </div>
             </div>
           </div>
         </div>
