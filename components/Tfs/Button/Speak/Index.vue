@@ -6,7 +6,10 @@
     icon="mdi-speakerphone"
     :disabled="isDisabled"
     @click="speak"
-  />
+  >
+    <span v-if="label">{{ label }}</span>
+    <span v-else>Speak</span>
+  </TfsButton>
 </template>
 
 <script setup>

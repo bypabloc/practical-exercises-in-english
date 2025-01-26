@@ -1,0 +1,280 @@
+# Ejercicios de Presente Simple - Multiple Choice
+items:
+    # NIVEL FÁCIL
+    - question: "What ___ John do every morning?"
+      options:
+        - "does"
+        - "do"
+        - "is"
+        - "are"
+      answer: "does"
+      explanation: "Usamos 'does' para preguntas en presente simple con he/she/it"
+      translation: "¿Qué hace John cada mañana?"
+      pronunciation: "uát das yon du évri mórning"
+
+    - question: "She ___ coffee every morning."
+      options:
+        - "drinks"
+        - "drink"
+        - "drinking"
+        - "drinked"
+      answer: "drinks"
+      explanation: "Con he/she/it añadimos -s al verbo en presente simple"
+      translation: "Ella toma café cada mañana"
+      pronunciation: "shi drinks cofi évri mórning"
+
+    - question: "They ___ to school by bus."
+      options:
+        - "go"
+        - "goes"
+        - "going"
+        - "went"
+      answer: "go"
+      explanation: "Con they usamos la forma base del verbo sin -s"
+      translation: "Ellos van a la escuela en autobús"
+      pronunciation: "dei gou tu skul bai bas"
+
+    - question: "I ___ breakfast at 7 AM."
+      options:
+        - "have"
+        - "has"
+        - "having"
+        - "had"
+      answer: "have"
+      explanation: "Con I usamos la forma base del verbo sin -s"
+      translation: "Yo desayuno a las 7 AM"
+      pronunciation: "ai jav brékfast at séven ei em"
+
+    - question: "My sister ___ tennis on weekends."
+      options:
+        - "plays"
+        - "play"
+        - "playing"
+        - "played"
+      answer: "plays"
+      explanation: "Con he/she/it añadimos -s al verbo en presente simple"
+      translation: "Mi hermana juega tenis los fines de semana"
+      pronunciation: "mai síster pleis ténis on uíkends"
+
+    # NIVEL MEDIO
+    - question: "Tom ___ to work, but his wife ___ at home."
+      options:
+        - "drives, stays"
+        - "drive, stay"
+        - "drives, stay"
+        - "drive, stays"
+      answer: "drives, stays"
+      explanation: "Ambos sujetos (Tom y his wife) requieren -s en el verbo"
+      translation: "Tom conduce al trabajo, pero su esposa se queda en casa"
+      pronunciation: "tom draivs tu uork, bat jis uaif steis at joum"
+
+    - question: "The sun ___ in the east and ___ in the west."
+      options:
+        - "rises, sets"
+        - "rise, set"
+        - "rises, set"
+        - "rise, sets"
+      answer: "rises, sets"
+      explanation: "El sol (it) requiere -s en ambos verbos"
+      translation: "El sol sale por el este y se pone por el oeste"
+      pronunciation: "da san ráises in di ist and sets in da uest"
+
+    - question: "My mother ___ dinner while we ___ homework."
+      options:
+        - "cooks, do"
+        - "cook, does"
+        - "cooks, does"
+        - "cook, do"
+      answer: "cooks, do"
+      explanation: "'Mother' requiere -s, pero 'we' usa la forma base"
+      translation: "Mi madre cocina la cena mientras nosotros hacemos la tarea"
+      pronunciation: "mai máder kuks díner uail ui du jómwork"
+
+    - question: "___ your brother ___ to the gym regularly?"
+      options:
+        - "Does, go"
+        - "Do, go"
+        - "Does, goes"
+        - "Do, goes"
+      answer: "Does, go"
+      explanation: "Usamos 'does' con he/she/it, pero el verbo principal va sin -s"
+      translation: "¿Va tu hermano al gimnasio regularmente?"
+      pronunciation: "das yor bráder gou tu da yim régulerli"
+
+    - question: "The news ___ good, but it ___ people happy."
+      options:
+        - "is, makes"
+        - "are, make"
+        - "is, make"
+        - "are, makes"
+      answer: "is, makes"
+      explanation: "'News' es singular y usa 'is', 'it' requiere -s en el verbo"
+      translation: "Las noticias son buenas y hace feliz a la gente"
+      pronunciation: "da nius is gud, bat it meiks pípol jápi"
+
+    # NIVEL DIFÍCIL
+    - question: "Neither of the students ___ what the teacher ___."
+      options:
+        - "understands, explains"
+        - "understand, explains"
+        - "understands, explain"
+        - "understand, explain"
+      answer: "understands, explains"
+      explanation: "'Neither' es singular y requiere -s, 'teacher' también es singular"
+      translation: "Ninguno de los estudiantes entiende lo que el profesor explica"
+      pronunciation: "náider of da stiúdents anderstands uát da tícher ekspleins"
+
+    - question: "Everyone in the offices ___ when the manager ___ a meeting."
+      options:
+        - "complains, calls"
+        - "complain, calls"
+        - "complains, call"
+        - "complain, call"
+      answer: "complains, calls"
+      explanation: "'Everyone' es singular y requiere -s, 'manager' también es singular"
+      translation: "Todos en las oficinas se quejan cuando el gerente convoca una reunión"
+      pronunciation: "évriwuan in di ófises kompléins uen da mánayer kols a míting"
+
+    - question: "The quality of these products ___ not ___ to our standards."
+      options:
+        - "does, measure"
+        - "do, measure"
+        - "does, measures"
+        - "do, measures"
+      answer: "does, measure"
+      explanation: "'Quality' es el sujeto singular, usamos 'does' pero el verbo va sin -s"
+      translation: "La calidad de estos productos no alcanza nuestros estándares"
+      pronunciation: "da kuóliti of dís pródakts das not méshur tu aur stándards"
+
+    - question: "Each of the paintings ___ a different story and ___ unique emotions."
+      options:
+        - "tells, evokes"
+        - "tell, evokes"
+        - "tells, evoke"
+        - "tell, evoke"
+      answer: "tells, evokes"
+      explanation: "'Each' es singular y requiere -s en ambos verbos"
+      translation: "Cada una de las pinturas cuenta una historia diferente y evoca emociones únicas"
+      pronunciation: "ich of da péintings tels a dífrent stóri and ivóuks yuník imóushons"
+
+    - question: "The committee ___ until everyone ___ with the decision."
+      options:
+        - "waits, agrees"
+        - "wait, agrees"
+        - "waits, agree"
+        - "wait, agree"
+      answer: "waits, agrees"
+      explanation: "'Committee' es singular colectivo, 'everyone' también es singular"
+      translation: "El comité espera hasta que todos estén de acuerdo con la decisión"
+      pronunciation: "da komíti ueits antil évriwuan agrís uiz da disíshon"
+
+    - question: "The data ___ that customer satisfaction ___ each year."
+      options:
+        - "shows, increases"
+        - "show, increases"
+        - "shows, increase"
+        - "show, increase"
+      answer: "shows, increases"
+      explanation: "'Data' en inglés moderno se trata como singular, 'satisfaction' es singular"
+      translation: "Los datos muestran que la satisfacción del cliente aumenta cada año"
+      pronunciation: "da déita shous dat kástomer satisfákshon inkrísis ich yir"
+
+    - question: "Every one of the employees ___ when the system ___ down."
+      options:
+        - "worries, breaks"
+        - "worry, breaks"
+        - "worries, break"
+        - "worry, break"
+      answer: "worries, breaks"
+      explanation: "'Every one' es singular, 'system' también es singular"
+      translation: "Cada uno de los empleados se preocupa cuando el sistema se cae"
+      pronunciation: "évri uan of di emploíis uóris uen da sístem breiks daun"
+
+    - question: "None of the evidence ___ what the witness ___."
+      options:
+        - "supports, claims"
+        - "support, claims"
+        - "supports, claim"
+        - "support, claim"
+      answer: "supports, claims"
+      explanation: "'None' como singular requiere -s, 'witness' es singular"
+      translation: "Ninguna de las evidencias respalda lo que el testigo afirma"
+      pronunciation: "nan of di évidents sapórts uát da uítnes kleims"
+
+    - question: "The number of students who ___ to college ___ each year."
+      options:
+        - "applies, increases"
+        - "apply, increase"
+        - "applies, increase"
+        - "apply, increases"
+      answer: "applies, increases"
+      explanation: "'The number' es singular, por lo que ambos verbos llevan -s"
+      translation: "El número de estudiantes que aplica a la universidad aumenta cada año"
+      pronunciation: "da námber of stiúdents ju apláis tu kólich inkrísis ich yir"
+
+    - question: "Either of the solutions ___ when the temperature ___."
+      options:
+        - "works, rises"
+        - "work, rises"
+        - "works, rise"
+        - "work, rise"
+      answer: "works, rises"
+      explanation: "'Either' es singular, 'temperature' es singular"
+      translation: "Cualquiera de las soluciones funciona cuando la temperatura sube"
+      pronunciation: "áider of da solúshons uorks uen da témpracher ráises"
+
+    # NIVEL MUY DIFÍCIL - Casos especiales y excepciones
+    - question: "The majority of the team ___ what the coach ___, but one player ___."
+      options:
+        - "accepts, suggests, doesn't"
+        - "accept, suggest, don't"
+        - "accepts, suggest, doesn't"
+        - "accept, suggests, don't"
+      answer: "accepts, suggests, doesn't"
+      explanation: "'Majority' como singular requiere -s, 'coach' es singular, 'player' es singular"
+      translation: "La mayoría del equipo acepta lo que el entrenador sugiere, pero un jugador no"
+      pronunciation: "da mayóriti of da tim aksépts uát da kouch sayésts, bat uan pléier dásnt"
+
+    - question: "Mathematics ___ easy for some, but statistics ___ more challenging."
+      options:
+        - "is, proves"
+        - "are, prove"
+        - "is, prove"
+        - "are, proves"
+      answer: "is, proves"
+      explanation: "'Mathematics' se trata como singular, 'statistics' como sujeto es singular"
+      translation: "Las matemáticas son fáciles para algunos, pero la estadística resulta más desafiante"
+      pronunciation: "mazamátiks is ísi for sam, bat statístiks pruvs mor chálenying"
+
+    - question: "A number of factors ___ to success, but the number of attempts ___."
+      options:
+        - "contribute, matters"
+        - "contributes, matter"
+        - "contribute, matter"
+        - "contributes, matters"
+      answer: "contribute, matters"
+      explanation: "'A number of' es plural, pero 'the number' es singular"
+      translation: "Varios factores contribuyen al éxito, pero el número de intentos importa"
+      pronunciation: "a námber of fáktors kontribiut tu saksés, bat da námber of atémpts máters"
+
+    - question: "The United States ___ trade policies while each country in Europe ___."
+      options:
+        - "changes, adapts"
+        - "change, adapt"
+        - "changes, adapt"
+        - "change, adapts"
+      answer: "changes, adapts"
+      explanation: "'United States' es singular a pesar de terminar en s, 'each country' es singular"
+      translation: "Estados Unidos cambia las políticas comerciales mientras cada país en Europa se adapta"
+      pronunciation: "da yunáited steits chéinyes treid pólisis uail ich kántri in iúrop adápts"
+
+    - question: "His means of transportation ___, but his ethics ___ the same."
+      options:
+        - "varies, remain"
+        - "vary, remains"
+        - "varies, remains"
+        - "vary, remain"
+      answer: "varies, remain"
+      explanation: "'Means' como singular lleva -s, 'ethics' es plural"
+      translation: "Su medio de transporte varía, pero su ética permanece igual"
+      pronunciation: "jis míns of transportéishon véris, bat jis éziks rimein da seim"

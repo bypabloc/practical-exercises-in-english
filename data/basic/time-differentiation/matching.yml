@@ -1,0 +1,198 @@
+items:
+    # NIVEL FÁCIL (7 ejercicios)
+    - left: "I play tennis"
+      right: "Every weekend with my friends"
+      translation: "Juego tenis"
+      pronunciation: "ai plei ténis"
+
+    - left: "She works"
+      right: "In a big technology company"
+      translation: "Ella trabaja en una gran empresa tecnológica"
+      pronunciation: "shi werks in a big teknóloji kómpani"
+
+    - left: "They study"
+      right: "English language at the local university"
+      translation: "Estudian idioma inglés en la universidad local"
+      pronunciation: "zei stádi ínglish láñguej at da lókal yunivérsiti"
+
+    - left: "He cooks"
+      right: "Traditional meals on Sunday afternoons"
+      translation: "Cocina comidas tradicionales los domingos por la tarde"
+      pronunciation: "ji kuks tradíshonal mils on sándi áfternuns"
+
+    - left: "We watch movies"
+      right: "On Friday nights with family"
+      translation: "Vemos películas los viernes por la noche con la familia"
+      pronunciation: "ui uoch móvies on fráidei naits uiz fámili"
+
+    - left: "The team develops"
+      right: "Innovative software solutions"
+      translation: "El equipo desarrolla soluciones de software innovadoras"
+      pronunciation: "da tim divélops inóvative súftuer solúshons"
+
+    - left: "I travel"
+      right: "To different countries during summer vacations"
+      translation: "Viajo a diferentes países durante las vacaciones de verano"
+      pronunciation: "ai trávl tu diférent kántris dúring sámer vakéishons"
+
+    # NIVEL MEDIO (7 ejercicios)
+    - left: "The teacher explains"
+      right: "Complex mathematical concepts to advanced students"
+      translation: "El maestro explica conceptos matemáticos complejos a estudiantes avanzados"
+      pronunciation: "da títcher ekspleins kompleks mazamátical kóncepts tu advánst stúdents"
+
+    - left: "Researchers investigate"
+      right: "Emerging trends in artificial intelligence"
+      translation: "Los investigadores investigan tendencias emergentes en inteligencia artificial"
+      pronunciation: "ríserdjes invéstigeit imérjing trénds in ártifishol intelídgens"
+
+    - left: "The company adapts"
+      right: "To rapidly changing market conditions"
+      translation: "La empresa se adapta a condiciones de mercado que cambian rápidamente"
+      pronunciation: "da kómpani adápts tu rápidli chéinying márket kondíshons"
+
+    - left: "Environmental activists promote"
+      right: "Sustainable practices and climate awareness"
+      translation: "Activistas ambientales promueven prácticas sostenibles y conciencia climática"
+      pronunciation: "envairánmental áktivist promóut sasteinábel práktises and kláimet auarnes"
+
+    - left: "Cultural institutions preserve"
+      right: "Historical artifacts and traditional knowledge"
+      translation: "Instituciones culturales preservan artefactos históricos y conocimiento tradicional"
+      pronunciation: "kálchural institudshons prezérv jistórikal ártifakts and tradíshonal nólej"
+
+    - left: "Social entrepreneurs address"
+      right: "Community challenges with innovative solutions"
+      translation: "Emprendedores sociales abordan desafíos comunitarios con soluciones innovadoras"
+      pronunciation: "sóshol entreprenérs adréses komyúniti chálendjes uiz inóvative solúshons"
+
+    - left: "The library offers"
+      right: "Free educational resources to the local community"
+      translation: "La biblioteca ofrece recursos educativos gratuitos a la comunidad local"
+      pronunciation: "da láibreri óffers frí edjukéishonal résources tu da lókal komyúniti"
+
+    # NIVEL DIFÍCIL (26 ejercicios)
+    - left: "Scientists research"
+      right: "Innovative solutions to global challenges"
+      translation: "Científicos investigan soluciones innovadoras para desafíos globales"
+      pronunciation: "sáientists ríserdj inóvative solúshons tu glóbal chálendjes"
+
+    - left: "The technology company develops"
+      right: "Cutting-edge artificial intelligence technologies"
+      translation: "La empresa tecnológica desarrolla tecnologías de inteligencia artificial de vanguardia"
+      pronunciation: "da teknóloji kómpani divélops kating-edj ártifishol intelídgens teknológies"
+
+    - left: "Urban planners analyze"
+      right: "Sustainable development strategies for modern cities"
+      translation: "Urbanistas analizan estrategias de desarrollo sostenible para ciudades modernas"
+      pronunciation: "árben pláners ánalaiz sasteinábel divélopment straténies for módren sities"
+
+    - left: "Medical professionals investigate"
+      right: "Complex health conditions using advanced technologies"
+      translation: "Profesionales médicos investigan condiciones de salud complejas usando tecnologías avanzadas"
+      pronunciation: "médical proféshonals invéstigeit kompleks jelz kondíshons yúzing advánst teknológies"
+
+    - left: "Environmental organizations monitor"
+      right: "Climate change impacts and ecosystem transformations"
+      translation: "Organizaciones ambientales monitorean impactos del cambio climático y transformaciones de ecosistemas"
+      pronunciation: "envairánmental órganaizéishons mónitore kláimet cheinj ímpakts and ékosistem transforméishons"
+
+    - left: "Educational researchers analyze"
+      right: "Learning strategies and student performance patterns"
+      translation: "Investigadores educativos analizan estrategias de aprendizaje y patrones de desempeño estudiantil"
+      pronunciation: "edjukéishonal risérchers ánalaiz lérning straténies and stúdent performáns páterns"
+
+    - left: "Cultural anthropologists study"
+      right: "Societal changes and cultural transformation processes"
+      translation: "Antropólogos culturales estudian cambios sociales y procesos de transformación cultural"
+      pronunciation: "kálchural antropológists stádi sosáietal cheinjes and kálchural transforméishon próses"
+
+    - left: "Technology experts explore"
+      right: "Emerging digital trends and future technological innovations"
+      translation: "Expertos en tecnología exploran tendencias digitales emergentes e innovaciones tecnológicas futuras"
+      pronunciation: "teknóloji éksperts éksplorz imérjing dídyital trénds and fjúcher teknológical inovéishons"
+
+    - left: "Social media platforms analyze"
+      right: "User behavior and communication pattern dynamics"
+      translation: "Plataformas de redes sociales analizan dinámicas de comportamiento y patrones de comunicación de usuarios"
+      pronunciation: "sóshol mídia pláatforms ánalaiz yúzer bejéivior and komyunikéishon pátern daiámiks"
+
+    - left: "Entrepreneurial innovators identify"
+      right: "Market opportunities and potential disruptive solutions"
+      translation: "Innovadores emprendedores identifican oportunidades de mercado y soluciones potencialmente disruptivas"
+      pronunciation: "entrepranéurial inóvators aidéntifai márket opportjúnities and potenshol disráptiv solúshons"
+
+    - left: "Global research teams investigate"
+      right: "Interconnected challenges across multiple disciplines"
+      translation: "Equipos de investigación global investigan desafíos interconectados a través de múltiples disciplinas"
+      pronunciation: "glóbal ríserdj tims invéstigeit interkónekted chálendjes acrós múltipol disipláins"
+
+    - left: "Artificial intelligence systems process"
+      right: "Complex data sets and generate predictive insights"
+      translation: "Sistemas de inteligencia artificial procesan conjuntos de datos complejos y generan ideas predictivas"
+      pronunciation: "ártifishol intelídgens sístems próses kompleks déita sets and jéneret pridíktiv ínzaits"
+
+    - left: "International policy makers address"
+      right: "Global economic and environmental sustainability challenges"
+      translation: "Formuladores de políticas internacionales abordan desafíos de sostenibilidad económica y ambiental global"
+      pronunciation: "intérnashonal pólisi meikors adréses glóbal ikónomik and envairánmental sasteinábiliti chálendjes"
+
+    - left: "Biodiversity researchers monitor"
+      right: "Ecosystem changes and species adaptation patterns"
+      translation: "Investigadores de biodiversidad monitorean cambios en ecosistemas y patrones de adaptación de especies"
+      pronunciation: "baiodivérsiti risérchers mónitore ékosistem cheinjes and spísies adapteishon páterns"
+
+    - left: "Renewable energy innovators develop"
+      right: "Sustainable technologies for clean energy solutions"
+      translation: "Innovadores de energía renovable desarrollan tecnologías sostenibles para soluciones de energía limpia"
+      pronunciation: "rinúeable énerdji inóvators divélop sasteinábel teknológies for klín énerdji solúshons"
+
+    - left: "Digital transformation experts analyze"
+      right: "Organizational change processes and technological integration strategies"
+      translation: "Expertos en transformación digital analizan procesos de cambio organizacional y estrategias de integración tecnológica"
+      pronunciation: "dídyital transforméishon éksperts ánalaiz órganizashonal cheinj próses and teknológical integrashon straténies"
+
+    - left: "Quantum computing researchers explore"
+      right: "Breakthrough computational approaches and theoretical frontiers"
+      translation: "Investigadores de computación cuántica exploran enfoques computacionales revolucionarios y fronteras teóricas"
+      pronunciation: "kuántum komputíng risérchers éksplorz brékzru kompjutashonal aprócjes and zeoretikl fróntirs"
+
+    - left: "Space exploration teams investigate"
+      right: "Astronomical phenomena and potential extraterrestrial habitats"
+      translation: "Equipos de exploración espacial investigan fenómenos astronómicos y posibles hábitats extraterrestres"
+      pronunciation: "speis éksplorashon tims invéstigeit astronómikl fenómena and potenshol ekstrateréshriol jábitats"
+
+    - left: "Climate adaptation specialists develop"
+      right: "Resilience strategies for vulnerable communities and ecosystems"
+      translation: "Especialistas en adaptación climática desarrollan estrategias de resiliencia para comunidades y ecosistemas vulnerables"
+      pronunciation: "kláimet adapteishon spéshalists divéloprizíliens straténies for válnerebel komyúnities and ékosistems"
+
+    - left: "Neuroscience researchers analyze"
+      right: "Brain function patterns and cognitive processing mechanisms"
+      translation: "Investigadores de neurociencia analizan patrones de función cerebral y mecanismos de procesamiento cognitivo"
+      pronunciation: "njurósciens risérchers ánalaiz brein fánkshon páterns and kognítiv próses mékánizms"
+
+    - left: "Cybersecurity experts investigate"
+      right: "Emerging digital threats and innovative protection technologies"
+      translation: "Expertos en ciberseguridad investigan amenazas digitales emergentes y tecnologías de protección innovadoras"
+      pronunciation: "sáibersekjúriti éksperts invéstigeit imérjing dídyital zreits and inóvative protékshon teknológies"
+
+    - left: "Sustainable agriculture innovators develop"
+      right: "Eco-friendly farming techniques and food production solutions"
+      translation: "Innovadores de agricultura sostenible desarrollan técnicas de cultivo ecológicas y soluciones de producción alimentaria"
+      pronunciation: "sasteinábel ágrikulcher inóvators divélop íko-frendli fárming tékniks and fud prodákshon solúshons"
+
+    - left: "Human rights organizations monitor"
+      right: "Global social justice trends and systemic inequality challenges"
+      translation: "Organizaciones de derechos humanos monitorean tendencias de justicia social global y desafíos de desigualdad sistémica"
+      pronunciation: "hjúman raits órganizéishons mónitore glóbal sóshol jástis trénds and sistémik inekuáliti chálendjes"
+
+    - left: "Biotechnology researchers investigate"
+      right: "Genetic modification possibilities and ethical implications"
+      translation: "Investigadores de biotecnología investigan posibilidades de modificación genética e implicaciones éticas"
+      pronunciation: "baioteknóloji risérchers invéstigeit jenétik modifikéishon posibílities and ézikl implikalshons"
+
+    - left: "Urban mobility experts analyze"
+      right: "Transportation infrastructure and sustainable mobility solutions"
+      translation: "Expertos en movilidad urbana analizan infraestructura de transporte y soluciones de movilidad sostenible"
+      pronunciation: "árben móbiliti éksperts ánalaiz transpotéishon infraestrúkcher and sasteinábel móbiliti solúshons"

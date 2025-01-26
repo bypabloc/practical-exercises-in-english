@@ -5,18 +5,13 @@
         {{ difficultySelected.label }}
       </h1>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-      <TfsButton
-        v-for="topic in topics"
-        :key="topic.name"
-        @click="topic.isActive ? navigateToLevel(topic.route) : null"
-        :variant="topic.isActive ? 'primary' : 'secondary'"
-        :disabled="!topic.isActive"
-        class="p-4 text-lg rounded-lg"
-      >
-        {{ topic.name }}
-      </TfsButton>
-    </div>
+
+    <!-- Usar el componente NavigationList -->
+    <TfsNavigationList 
+      :items="activeTopics" 
+      :showList="hasActiveTopics"
+      @navigate="navigateToLevel"
+    />
   </div>
 </template>
 
@@ -26,14 +21,13 @@ import { useExerciseStore } from '~/stores/exercises';
 const exerciseStore = useExerciseStore();
 
 defineOptions({
-  name: 'BasicDifficulty',
+  name: 'DifficultyPage',
 });
 
 const router = useRouter();
+const route = useRoute();
 
-const route = useRoute()
-
-const { difficulty } = route.params
+const { difficulty } = route.params;
 
 const difficultySelected = computed(() => {
   return exerciseStore.difficulties[difficulty] || {};
@@ -50,6 +44,16 @@ const topics = computed(() => {
     };
   });
   return topicsArray.sort((a, b) => a.order - b.order);
+});
+
+// Filtrar temas activos
+const activeTopics = computed(() => {
+  return topics.value.filter(topic => topic.isActive);
+});
+
+// Validar si hay temas activos
+const hasActiveTopics = computed(() => {
+  return activeTopics.value.length > 0;
 });
 
 const navigateToLevel = (route) => {

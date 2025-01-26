@@ -1,0 +1,253 @@
+items:
+    # NIVEL FÁCIL (10 ejercicios)
+    - left: "I am"
+      right: "reading a book"
+      translation: "Estoy leyendo un libro"
+      pronunciation: "ai am ríding a buk"
+
+    - left: "She is"
+      right: "cooking dinner"
+      translation: "Ella está cocinando la cena"
+      pronunciation: "shi is kúking díner"
+
+    - left: "They are" 
+      right: "playing football"
+      translation: "Ellos están jugando fútbol"  
+      pronunciation: "dei ar pléing fútbol"
+
+    - left: "We are"
+      right: "watching a movie" 
+      translation: "Estamos viendo una película"
+      pronunciation: "uí ar uóching a múvi"
+
+    - left: "He is"
+      right: "taking a shower"
+      translation: "Él está tomando una ducha"  
+      pronunciation: "ji is téiking a sháuer"
+
+    - left: "The dog is"
+      right: "chasing a cat" 
+      translation: "El perro está persiguiendo a un gato"
+      pronunciation: "da dog is chéising a kat"  
+
+    - left: "The children are"
+      right: "playing in the park"
+      translation: "Los niños están jugando en el parque"  
+      pronunciation: "da chíldren ar pléing in da park"
+
+    - left: "The sun is" 
+      right: "shining brightly"
+      translation: "El sol está brillando intensamente"
+      pronunciation: "da san is sháining bráitli"
+
+    - left: "The birds are"
+      right: "singing in the trees" 
+      translation: "Los pájaros están cantando en los árboles"
+      pronunciation: "da berds ar síging in da trís" 
+
+    - left: "The baby is"
+      right: "crying loudly"
+      translation: "El bebé está llorando fuerte"  
+      pronunciation: "da béibi is kráing láudli"
+
+    # NIVEL MEDIO (10 ejercicios)
+    - left: "The cake is"
+      right: "baking in the oven"
+      translation: "El pastel se está horneando en el horno" 
+      pronunciation: "da keik is béiking in di óven"
+
+    - left: "The plane is"
+      right: "landing on the runway"
+      translation: "El avión está aterrizando en la pista"  
+      pronunciation: "da plein is lánding on da ránuei"
+
+    - left: "The leaves are"
+      right: "falling from the trees" 
+      translation: "Las hojas están cayendo de los árboles"
+      pronunciation: "da lívs ar fóling from da trís"  
+
+    - left: "The flowers are"
+      right: "blooming in the garden"
+      translation: "Las flores están floreciendo en el jardín"
+      pronunciation: "da fláuers ar blúming in da gárden" 
+
+    - left: "The cat is"  
+      right: "napping on the couch"
+      translation: "El gato está tomando una siesta en el sofá"
+      pronunciation: "da kat is náping on da káuch"
+
+    - left: "The students are" 
+      right: "studying for the exam"
+      translation: "Los estudiantes están estudiando para el examen"  
+      pronunciation: "da stiúdents ar stádiing for di eksám"
+
+    - left: "The chef is"
+      right: "preparing a special dish"
+      translation: "El chef está preparando un plato especial"  
+      pronunciation: "da shef is pripéring a spéshal dish"
+
+    - left: "The stars are"
+      right: "twinkling in the sky" 
+      translation: "Las estrellas están titilando en el cielo"
+      pronunciation: "da stars ar tuínkling in da skái" 
+
+    - left: "The crowd is"
+      right: "cheering for the team"
+      translation: "La multitud está vitoreando al equipo"
+      pronunciation: "da kráud is chíring for da tim"  
+
+    - left: "The rain is" 
+      right: "pouring heavily outside"
+      translation: "La lluvia está cayendo fuertemente afuera" 
+      pronunciation: "da rein is póring jévili áutsaid"
+
+    # NIVEL DIFÍCIL (30 ejercicios) 
+    - left: "The committee is"
+      right: "discussing the new proposal"
+      translation: "El comité está discutiendo la nueva propuesta"
+      pronunciation: "da komíti is diskásing da niu propóuzal"
+
+    - left: "The jury is" 
+      right: "deliberating on the verdict"
+      translation: "El jurado está deliberando sobre el veredicto"  
+      pronunciation: "da júri is dilíbereiting on da vérdikt"
+
+    - left: "The team is"
+      right: "practicing for the championship"
+      translation: "El equipo está practicando para el campeonato"
+      pronunciation: "da tim is práktising for da chámpiónship"  
+
+    - left: "The orchestra is"
+      right: "performing a symphony" 
+      translation: "La orquesta está interpretando una sinfonía"
+      pronunciation: "di órkestra is perfórming a símfoni" 
+
+    - left: "The politicians are"
+      right: "debating the new legislation"
+      translation: "Los políticos están debatiendo la nueva legislación"  
+      pronunciation: "da políshons ar dibéiting da niu leyisléishon"
+
+    - left: "The scientists are"
+      right: "conducting an experiment" 
+      translation: "Los científicos están realizando un experimento"
+      pronunciation: "da sáientists ar kondákting an ekspériment"
+
+    - left: "The leaves are" 
+      right: "rustling in the wind"
+      translation: "Las hojas están crujiendo en el viento"
+      pronunciation: "da lívs ar rásling in da uínd"  
+
+    - left: "The waves are"
+      right: "crashing on the shore"
+      translation: "Las olas están rompiendo en la orilla" 
+      pronunciation: "da ueivs ar kráshing on da shor"
+
+    - left: "The journalists are"
+      right: "investigating the scandal"
+      translation: "Los periodistas están investigando el escándalo"
+      pronunciation: "da jérnalists ar invéstigueiting da skándal"
+
+    - left: "The firefighters are"  
+      right: "battling the blaze"
+      translation: "Los bomberos están luchando contra el incendio"
+      pronunciation: "da fáirfaiters ar bátling da bleiz"
+
+    - left: "The actors are"
+      right: "rehearsing for the play" 
+      translation: "Los actores están ensayando para la obra"
+      pronunciation: "di áktors ar rijérsing for da plei"  
+
+    - left: "The students are"
+      right: "collaborating on a project"
+      translation: "Los estudiantes están colaborando en un proyecto"
+      pronunciation: "da stiúdents ar koláboreitin on a pródyekt" 
+
+    - left: "The machine is"
+      right: "processing the data"
+      translation: "La máquina está procesando los datos" 
+      pronunciation: "da mashín is prósesing da déita" 
+
+    - left: "The audience is"
+      right: "applauding the performance"
+      translation: "El público está aplaudiendo la actuación"  
+      pronunciation: "di ódiens is apláuding da perfórmans"
+
+    - left: "The artist is" 
+      right: "painting a portrait"
+      translation: "El artista está pintando un retrato"
+      pronunciation: "di ártist is péinting a pórtrait"
+
+    - left: "The construction workers are" 
+      right: "building a skyscraper"
+      translation: "Los obreros están construyendo un rascacielos"
+      pronunciation: "da konstrákshon uérkers ar bílding a skáiskreiper" 
+
+    - left: "The tourists are"
+      right: "exploring the ancient ruins"
+      translation: "Los turistas están explorando las ruinas antiguas"  
+      pronunciation: "da túrists ar eksplóring di énshent rúins"
+
+    - left: "The children are"
+      right: "giggling at the cartoon" 
+      translation: "Los niños se están riendo del dibujo animado"
+      pronunciation: "da chíldren ar gígling at da kartún"
+
+    - left: "The athletes are"
+      right: "competing in the marathon"
+      translation: "Los atletas están compitiendo en el maratón"  
+      pronunciation: "di ázlits ar kompíting in da márathon"
+
+    - left: "The musicians are"
+      right: "tuning their instruments" 
+      translation: "Los músicos están afinando sus instrumentos"
+      pronunciation: "da miúsishons ar túning der ínstruments"
+
+    - left: "The chefs are" 
+      right: "chopping the vegetables"
+      translation: "Los chefs están cortando las verduras"
+      pronunciation: "da shefs ar chóping da védytabels"  
+
+    - left: "The sailors are"
+      right: "navigating the rough seas"
+      translation: "Los marineros están navegando por los mares agitados"
+      pronunciation: "da séilors ar návigueiting da raf sis" 
+
+    - left: "The designers are"
+      right: "creating a new fashion line"
+      translation: "Los diseñadores están creando una nueva línea de moda"  
+      pronunciation: "da disáiners ar kriéiting a niu fáshon lain"
+
+    - left: "The engineers are"
+      right: "developing a new software" 
+      translation: "Los ingenieros están desarrollando un nuevo software"
+      pronunciation: "di ényineers ar devéloping a niu sóftwer"
+
+    - left: "The doctors are"
+      right: "performing a surgery"
+      translation: "Los médicos están realizando una cirugía"
+      pronunciation: "da dóktors ar perfórming a séryeri" 
+
+    - left: "The lawyers are"
+      right: "arguing a case in court"
+      translation: "Los abogados están argumentando un caso en la corte"  
+      pronunciation: "da lóyers ar árgiuing a keis in kort"
+
+    - left: "The protesters are"
+      right: "marching for their rights" 
+      translation: "Los manifestantes están marchando por sus derechos"
+      pronunciation: "da protésters ar márching for der ráits"
+
+    - left: "The gardeners are"
+      right: "planting new flowers"
+      translation: "Los jardineros están plantando nuevas flores"  
+      pronunciation: "da gárdeners ar plánting niu fláuers"
+
+    - left: "The astronomers are"
+      right: "observing the stars" 
+      translation: "Los astrónomos están observando las estrellas"
+      pronunciation: "di astrónomers ar obsérving da stars"
+
+    - left: "The archaeologists are" 
+      right: "excavating an ancient site"
+      translation: "Los arqueólogos están excavando un sitio antiguo"
+      pronunciation: "di arkiólogists ar ékskaveiting an énshent sáit"

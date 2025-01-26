@@ -1,0 +1,223 @@
+items:
+    # Easy Level (5)
+    - question: "What's the correct way to say your morning wake-up time?"
+      options:
+        - "I wake up at 7 AM every day"
+        - "I wake up in 7 AM every day"
+        - "I wake at 7 AM all days"
+        - "I waking up at 7 AM every day"
+      answer: "I wake up at 7 AM every day"
+      explanation: "Use 'at' with specific times and 'every day' for daily routines"
+      translation: "Me despierto a las 7 AM todos los días"
+      pronunciation: "ai ueik ap at séven ei em évri dei"
+
+    - question: "Which sentence correctly describes eating breakfast?"
+      options:
+        - "I have breakfast every morning"
+        - "I eat the breakfast every morning"
+        - "I taking breakfast every morning"
+        - "I breakfast every morning"
+      answer: "I have breakfast every morning"
+      explanation: "In English, we say 'have breakfast' rather than 'eat breakfast' or 'take breakfast'"
+      translation: "Desayuno todas las mañanas"
+      pronunciation: "ai jav brékfast évri mórning"
+
+    - question: "How do you say when you go to bed?"
+      options:
+        - "I go to bed at 10 PM"
+        - "I go to sleep in 10 PM"
+        - "I going to bed at 10 PM"
+        - "I sleep at 10 PM"
+      answer: "I go to bed at 10 PM"
+      explanation: "'Go to bed' is the correct phrase for describing your bedtime routine"
+      translation: "Me voy a la cama a las 10 PM"
+      pronunciation: "ai gou tu bed at ten pi em"
+
+    - question: "Which is correct for describing your lunch routine?"
+      options:
+        - "I have lunch at noon"
+        - "I eat the lunch at noon"
+        - "I lunch at noon"
+        - "I having lunch at noon"
+      answer: "I have lunch at noon"
+      explanation: "Like breakfast, we use 'have lunch' rather than other variations"
+      translation: "Almuerzo al mediodía"
+      pronunciation: "ai jav lanch at nun"
+
+    - question: "How do you express taking a shower in the morning?"
+      options:
+        - "I take a shower in the morning"
+        - "I do a shower in the morning"
+        - "I have shower in the morning"
+        - "I make shower in the morning"
+      answer: "I take a shower in the morning"
+      explanation: "'Take a shower' is the correct phrase in English"
+      translation: "Me ducho por la mañana"
+      pronunciation: "ai teik a sháuer in da mórning"
+
+    # Medium Level (5)
+    - question: "Which sentence correctly describes your work commute?"
+      options:
+        - "I catch the bus to work at 8 AM"
+        - "I take the bus for work at 8 AM"
+        - "I go with bus to work at 8 AM"
+        - "I ride in the bus to work at 8 AM"
+      answer: "I catch the bus to work at 8 AM"
+      explanation: "'Catch the bus' is a common phrase for taking public transportation"
+      translation: "Tomo el autobús al trabajo a las 8 AM"
+      pronunciation: "ai catch da bas tu uork at eit ei em"
+
+    - question: "How do you describe your exercise routine?"
+      options:
+        - "I work out three times a week"
+        - "I make exercise three times a week"
+        - "I do sports three times a week"
+        - "I training three times a week"
+      answer: "I work out three times a week"
+      explanation: "'Work out' is the most common way to describe regular exercise"
+      translation: "Hago ejercicio tres veces por semana"
+      pronunciation: "ai uork áut zri taims a uik"
+
+    - question: "Which sentence correctly describes checking emails?"
+      options:
+        - "I check my emails first thing in the morning"
+        - "I look my emails first thing in the morning"
+        - "I review the emails first thing in the morning"
+        - "I read mails first thing in the morning"
+      answer: "I check my emails first thing in the morning"
+      explanation: "'Check emails' is the standard phrase, and 'first thing in the morning' is a common time expression"
+      translation: "Reviso mis correos a primera hora de la mañana"
+      pronunciation: "ai chek mai ímeils ferst zing in da mórning"
+
+    - question: "How do you describe your evening cooking routine?"
+      options:
+        - "I cook dinner around 7 PM"
+        - "I make the dinner around 7 PM"
+        - "I prepare the dinner around 7 PM"
+        - "I do dinner around 7 PM"
+      answer: "I cook dinner around 7 PM"
+      explanation: "'Cook dinner' is the most natural way to express this activity"
+      translation: "Cocino la cena alrededor de las 7 PM"
+      pronunciation: "ai kuk díner aráund séven pi em"
+
+    - question: "Which describes a weekend cleaning routine?"
+      options:
+        - "I do the housework on Saturdays"
+        - "I make the housework on Saturdays"
+        - "I clean the house works on Saturdays"
+        - "I do house cleaning on Saturdays"
+      answer: "I do the housework on Saturdays"
+      explanation: "'Do the housework' is the correct phrase for general house cleaning"
+      translation: "Hago las tareas domésticas los sábados"
+      pronunciation: "ai du da jáusuork on sáturdeis"
+
+    # Difficult Level (10)
+    - question: "Which sentence correctly describes a morning routine with multiple activities?"
+      options:
+        - "After getting dressed, I pack my lunch before heading to work"
+        - "After to get dressed, I pack my lunch before to head to work"
+        - "After I get dressed, I am packing my lunch before heading to work"
+        - "After dressed, I pack my lunch before I head to work"
+      answer: "After getting dressed, I pack my lunch before heading to work"
+      explanation: "The gerund form (-ing) is used after prepositions like 'after' and 'before'"
+      translation: "Después de vestirme, preparo mi almuerzo antes de ir al trabajo"
+      pronunciation: "áfter géting drest, ai pak mai lanch bifór jéding tu uork"
+
+    - question: "How do you describe your daily routine including frequency?"
+      options:
+        - "I usually walk the dog twice a day, once in the morning and once in the evening"
+        - "I use to walk the dog two times per day, one in morning and one in evening"
+        - "I normally walk with the dog twice at day, once in morning and once in evening"
+        - "I am usually walking the dog twice a day, once in morning and once in evening"
+      answer: "I usually walk the dog twice a day, once in the morning and once in the evening"
+      explanation: "Use frequency adverbs like 'usually' before the main verb, and include specific times with articles"
+      translation: "Normalmente paseo al perro dos veces al día, una vez por la mañana y una vez por la tarde"
+      pronunciation: "ai yúzhuali uok da dog tuais a dei, uans in da mórning and uans in da ívning"
+
+    - question: "Which describes a complex morning routine correctly?"
+      options:
+        - "Before leaving for work, I make sure to feed the cat and water the plants"
+        - "Before to leave for work, I make sure feeding the cat and watering the plants"
+        - "Before I leave for work, I make sure to do feed the cat and water the plants"
+        - "Before leaving to work, I make sure for feed the cat and water the plants"
+      answer: "Before leaving for work, I make sure to feed the cat and water the plants"
+      explanation: "Use the gerund after 'before' and the infinitive after 'make sure to'"
+      translation: "Antes de irme al trabajo, me aseguro de alimentar al gato y regar las plantas"
+      pronunciation: "bifór líving for uork, ai meik shur tu fid da kat and uóter da plants"
+
+    - question: "Which sentence shows the correct use of time expressions?"
+      options:
+        - "On weekdays, I start work at 9 AM, but on weekends I sleep until late"
+        - "In weekdays, I start work at 9 AM, but in weekends I sleep until late"
+        - "At weekdays, I start work at 9 AM, but on weekends I sleep until late"
+        - "During weekdays, I start work at 9 AM, but during weekends I sleep until late"
+      answer: "On weekdays, I start work at 9 AM, but on weekends I sleep until late"
+      explanation: "Use 'on' with days and periods like weekdays/weekends"
+      translation: "Entre semana empiezo a trabajar a las 9 AM, pero los fines de semana duermo hasta tarde"
+      pronunciation: "on uíkdeis, ai start uork at náin ei em, bat on uíkends ai slip antíl leit"
+
+    - question: "How do you describe multitasking in your routine?"
+      options:
+        - "While having breakfast, I often catch up on the news"
+        - "While I have breakfast, I often catching up on the news"
+        - "While having breakfast, I often catching up on the news"
+        - "While I am having breakfast, I often catch up in the news"
+      answer: "While having breakfast, I often catch up on the news"
+      explanation: "Use gerund after 'while' and maintain consistent verb forms"
+      translation: "Mientras desayuno, a menudo me pongo al día con las noticias"
+      pronunciation: "uáil jáving brékfast, ai óften catch ap on da nius"
+
+    - question: "Which describes a weekly routine with specific details?"
+      options:
+        - "Every Tuesday and Thursday, I attend a yoga class after finishing work"
+        - "Every Tuesday and Thursday, I attend to a yoga class after finish work"
+        - "Every Tuesday and Thursday, I go to yoga class after to finish work"
+        - "Every Tuesday and Thursday, I am attending a yoga class after finishing work"
+      answer: "Every Tuesday and Thursday, I attend a yoga class after finishing work"
+      explanation: "'Attend' doesn't need 'to', and use gerund after preposition 'after'"
+      translation: "Todos los martes y jueves, asisto a una clase de yoga después de terminar el trabajo"
+      pronunciation: "évri túsdei and zérsdei, ai aténd a yóga klas áfter fínishing uork"
+
+    - question: "Which correctly describes a routine with time management?"
+      options:
+        - "I try to finish all my tasks before going home so I can relax in the evening"
+        - "I try finishing all my tasks before to go home so I can relax in the evening"
+        - "I try for finish all my tasks before going home so I can relax in the evening"
+        - "I am trying to finish all my tasks before going home so I can relax in the evening"
+      answer: "I try to finish all my tasks before going home so I can relax in the evening"
+      explanation: "Use infinitive after 'try' and gerund after 'before'"
+      translation: "Trato de terminar todas mis tareas antes de ir a casa para poder relajarme por la tarde"
+      pronunciation: "ai trai tu fínish ol mai tasks bifór góing joum so ai kan rilács in di ívning"
+
+    - question: "How do you describe a routine that varies by day?"
+      options:
+        - "Depending on my schedule, I either go to the gym in the morning or after work"
+        - "Depends on my schedule, I either go to the gym in the morning or after work"
+        - "Depending of my schedule, I either going to the gym in the morning or after work"
+        - "Depending on my schedule, I or go to the gym in the morning or after work"
+      answer: "Depending on my schedule, I either go to the gym in the morning or after work"
+      explanation: "Use 'depending on' and 'either...or' correctly for alternatives"
+      translation: "Dependiendo de mi horario, voy al gimnasio por la mañana o después del trabajo"
+      pronunciation: "dipénding on mai skédul, ai áider gou tu da yim in da mórning or áfter uork"
+
+    - question: "Which describes a preparation routine correctly?"
+      options:
+        - "I lay out my clothes the night before to save time in the morning"
+        - "I put out my clothes the night before for saving time in the morning"
+        - "I prepare my clothes the night before to saving time in the morning"
+        - "I am laying out my clothes the night before to save time in the morning"
+      answer: "I lay out my clothes the night before to save time in the morning"
+      explanation: "'Lay out' is the correct phrasal verb, and use infinitive after 'to'"
+      translation: "Preparo mi ropa la noche anterior para ahorrar tiempo por la mañana"
+      pronunciation: "ai lei áut mai clóuds da náit bifór tu seiv táim in da mórning"
+
+    - question: "Which describes a self-care routine correctly?"
+      options:
+        - "I make sure to take regular breaks throughout the day to avoid getting too stressed"
+        - "I make sure taking regular breaks throughout the day to avoid getting too stressed"
+        - "I make sure to take regular breaks through the day for avoid getting too stressed"
+        - "I am making sure to take regular breaks throughout the day to avoid getting too stressed"
+      answer: "I make sure to take regular breaks throughout the day to avoid getting too stressed"
+      explanation: "Use 'make sure to' + infinitive and 'throughout' for duration"
+      translation: "Me aseguro de tomar descansos regulares durante el día para evitar estresarme demasiado"
+      pronunciation: "ai meik shur tu teik réguler breiks zrúaut da dei tu avóid géting tu strest"

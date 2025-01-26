@@ -106,7 +106,7 @@
     <main class="p-6 overflow-y-auto">
       <!-- Breadcrumb -->
       <nav class="mb-6">
-        <ol class="flex flex-wrap items-center gap-2 text-gray-600">
+        <ul class="flex flex-wrap items-center gap-2 text-gray-600 list-none">
           <li>
             <NuxtLink to="/" class="hover:text-blue-500">Home</NuxtLink>
           </li>
@@ -114,15 +114,18 @@
             <li class="flex items-center gap-2">
               <span class="text-gray-400">/</span>
               <NuxtLink 
+                v-if="index !== breadcrumbs.length - 1"
                 :to="crumb.path" 
                 class="hover:text-blue-500"
-                :class="{ 'text-gray-900': index === breadcrumbs.length - 1 }"
               >
                 {{ crumb.name }}
               </NuxtLink>
+              <span v-else class="text-gray-900">
+                {{ crumb.name }}
+              </span>
             </li>
           </template>
-        </ol>
+        </ul>
       </nav>
 
       <!-- Page Content -->

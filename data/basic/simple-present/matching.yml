@@ -1,0 +1,103 @@
+items:
+    # NIVEL FÁCIL (5 ejercicios)
+    - left: "I play basketball"
+      right: "Every weekend with my friends"
+      translation: "Juego baloncesto"
+      pronunciation: "ai plei básketbol"
+
+    - left: "She works"
+      right: "In a big office downtown"
+      translation: "Ella trabaja en una oficina grande en el centro"
+      pronunciation: "shi werks in a big ófis dauntown"
+
+    - left: "They study"
+      right: "At the local university"
+      translation: "Estudian en la universidad local"
+      pronunciation: "zei stádi at da lókal yunivérsiti"
+
+    - left: "He cooks"
+      right: "Delicious pasta every Sunday"
+      translation: "Cocina pasta deliciosa todos los domingos"
+      pronunciation: "ji kuks delishus pásta évri sándi"
+
+    - left: "We watch movies"
+      right: "On Friday nights"
+      translation: "Vemos películas los viernes por la noche"
+      pronunciation: "ui uoch móvies on fráidei naits"
+
+    # NIVEL MEDIO (5 ejercicios)
+    - left: "The teacher explains"
+      right: "Complex math concepts to students"
+      translation: "El maestro explica conceptos matemáticos complejos a los estudiantes"
+      pronunciation: "da títcher ekspleins kompleks máz kóncepts tu stúdents"
+
+    - left: "My sister travels"
+      right: "Around the world during summer vacations"
+      translation: "Mi hermana viaja por el mundo durante las vacaciones de verano"
+      pronunciation: "mai síster trávels aráund da world dúring sámer vakéishons"
+
+    - left: "The restaurant serves"
+      right: "Authentic Mexican cuisine"
+      translation: "El restaurante sirve cocina mexicana auténtica"
+      pronunciation: "da restoran sérves auténtik meksikan kwizín"
+
+    - left: "Birds migrate"
+      right: "South during winter months"
+      translation: "Los pájaros migran hacia el sur durante los meses de invierno"
+      pronunciation: "berdz máigret sáuz dúring uínter maunts"
+
+    - left: "John practices"
+      right: "Guitar every evening after work"
+      translation: "John practica guitarra todas las tardes después del trabajo"
+      pronunciation: "yon práktises gitar évri ívning áfter werk"
+
+    # NIVEL DIFÍCIL (10 ejercicios)
+    - left: "Scientists research"
+      right: "Innovative solutions to global challenges"
+      translation: "Los científicos investigan soluciones innovadoras para desafíos globales"
+      pronunciation: "sáientists ríserdz inóvative solúshons tu glóbal chálendjes"
+
+    - left: "The company develops"
+      right: "Cutting-edge technology in artificial intelligence"
+      translation: "La empresa desarrolla tecnología de vanguardia en inteligencia artificial"
+      pronunciation: "da kómpani divélops káting-edj teknóloji in ártifishol intelídgens"
+
+    - left: "Environmental activists advocate"
+      right: "For sustainable practices and climate action"
+      translation: "Los activistas ambientales abogan por prácticas sostenibles y acción climática"
+      pronunciation: "envairánmental áktivist ádvokeit for sasteinábel práktises and kláimet ákshon"
+
+    - left: "The library offers"
+      right: "Free educational resources to the community"
+      translation: "La biblioteca ofrece recursos educativos gratuitos a la comunidad"
+      pronunciation: "da láibreri ófers fri edjukéishonal résources tu da komyúniti"
+
+    - left: "Medical professionals diagnose"
+      right: "Complex health conditions using advanced technologies"
+      translation: "Los profesionales médicos diagnostican condiciones de salud complejas usando tecnologías avanzadas"
+      pronunciation: "médical proféshonals daiagnóz kompleks jelz kondíshons yúzing advánst teknológies"
+
+    - left: "Entrepreneurs innovate"
+      right: "By creating solutions to everyday problems"
+      translation: "Los emprendedores innovan creando soluciones a problemas cotidianos"
+      pronunciation: "entrepranéurs ínnoveit bai kriéting solúshons tu évridei próblems"
+
+    - left: "Cultural institutions preserve"
+      right: "Historical artifacts and traditional knowledge"
+      translation: "Las instituciones culturales preservan artefactos históricos y conocimiento tradicional"
+      pronunciation: "kálchural institudshons prezérv jistórikal ártifakts and tradíshonal nólej"
+
+    - left: "Meteorologists predict"
+      right: "Weather patterns and climate trends"
+      translation: "Los meteorólogos predicen patrones climáticos y tendencias del clima"
+      pronunciation: "mítirolodists pridíkt uéder páterns and kláimet trénds"
+
+    - left: "Social media platforms connect"
+      right: "People across different cultures and continents"
+      translation: "Las plataformas de redes sociales conectan personas de diferentes culturas y continentes"
+      pronunciation: "sóshol mídia pláatforms konékt píple acrós diférent kálchers and kóntinents"
+
+    - left: "Educational researchers analyze"
+      right: "Learning strategies and student performance"
+      translation: "Los investigadores educativos analizan estrategias de aprendizaje y desempeño estudiantil"
+      pronunciation: "edjukéishonal risérchers ánalaiz lérning straténies and stúdent performáns"
