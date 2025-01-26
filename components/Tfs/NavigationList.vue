@@ -1,5 +1,21 @@
 <template>
   <div class="space-y-4">
+    <div class="mb-4"
+      v-if="!showList"
+    >
+      <h1 class="text-2xl font-bold">
+        Has no exercises assigned for this topic
+      </h1>
+    </div>
+    <div class="mb-4"
+      v-if="showList"
+    >
+      <h2 class="text-xl font-semibold mb-4">Practice Exercises</h2>
+      <p class="text-gray-600 mb-6">
+        Select an exercise below to practice what you've learned:
+      </p>
+    </div>
+
     <div 
       v-for="(item, index) in items" 
       :key="item.name" 
@@ -36,6 +52,10 @@ defineProps({
   items: {
     type: Array,
     required: true,
+  },
+  showList: {
+    type: Boolean,
+    default: false,
   },
 });
 

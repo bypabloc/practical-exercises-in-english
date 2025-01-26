@@ -7,8 +7,8 @@
     </div>
 
     <!-- Usar el componente NavigationList -->
-    <NavigationList 
-      :items="topics" 
+    <TfsNavigationList 
+      :items="activeTopics" 
       :showList="hasActiveTopics"
       @navigate="navigateToLevel"
     />
@@ -17,7 +17,6 @@
 
 <script setup>
 import { useExerciseStore } from '~/stores/exercises';
-import NavigationList from '~/components/Tfs/NavigationList.vue';
 
 const exerciseStore = useExerciseStore();
 
@@ -42,15 +41,19 @@ const topics = computed(() => {
       route: `/${difficulty}/${topic}`,
       order: topicsSelected[topic].order,
       isActive: topicsSelected[topic].isActive,
-      hasItems: Object.keys(topicsSelected[topic].exercises || {}).length > 0,
     };
   });
   return topicsArray.sort((a, b) => a.order - b.order);
 });
 
-// Validar si hay temas activos con ejercicios
+// Filtrar temas activos
+const activeTopics = computed(() => {
+  return topics.value.filter(topic => topic.isActive);
+});
+
+// Validar si hay temas activos
 const hasActiveTopics = computed(() => {
-  return topics.value.some(topic => topic.isActive && !topic.hasItems);
+  return activeTopics.value.length > 0;
 });
 
 const navigateToLevel = (route) => {

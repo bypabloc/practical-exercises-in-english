@@ -53,15 +53,9 @@
     </div>
 
     <!-- Available Exercises -->
-    <div class="mb-4">
-      <h2 class="text-xl font-semibold mb-4">Practice Exercises</h2>
-      <p class="text-gray-600 mb-6">
-        Select an exercise below to practice what you've learned:
-      </p>
-    </div>
-
     <TfsNavigationList
-      :items="exercises"
+      :items="filteredExercises" 
+      :showList="hasActiveExercises"
       @navigate="navigateToLevel"
     />
   </div>
@@ -103,12 +97,12 @@ const exercises = computed(() => {
   return exercisesArray.sort((a, b) => a.order - b.order);
 });
 
-// Filtrar ejercicios: solo mostrar aquellos sin items
+// Filtrar ejercicios: solo mostrar aquellos CON items
 const filteredExercises = computed(() => {
-  return exercises.value.filter(exercise => !exercise.hasItems);
+  return exercises.value.filter(exercise => exercise.hasItems); // Cambio aquí
 });
 
-// Validar si hay ejercicios activos sin items
+// Validar si hay ejercicios activos CON items
 const hasActiveExercises = computed(() => {
   return filteredExercises.value.some(exercise => exercise.isActive);
 });
