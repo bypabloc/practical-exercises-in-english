@@ -35,6 +35,9 @@ import basicNegativesMatching from '~/data/basic/negatives/matching.yml'
 import basicNegativesSentenceCompletion from '~/data/basic/negatives/sentence-completion.yml'
 import basicNegativesTrueOrFalse from '~/data/basic/negatives/true-or-false.yml'
 
+import basicPresentContinuousMultipleChoice from '~/data/basic/present-continuous/multiple-choice.yml'
+import basicPresentContinuousErrorIdentification from '~/data/basic/present-continuous/error-identification.yml'
+
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -484,7 +487,7 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicPresentContinuousMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
@@ -505,7 +508,7 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicPresentContinuousErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
