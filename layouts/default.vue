@@ -106,7 +106,7 @@
     <main class="p-6 overflow-y-auto">
       <!-- Breadcrumb -->
       <nav class="mb-6">
-        <ol class="flex flex-wrap items-center gap-2 text-gray-600">
+        <ul class="flex flex-wrap items-center gap-2 text-gray-600">
           <li>
             <NuxtLink to="/" class="hover:text-blue-500">Home</NuxtLink>
           </li>
@@ -122,7 +122,7 @@
               </NuxtLink>
             </li>
           </template>
-        </ol>
+        </ul>
       </nav>
 
       <!-- Page Content -->
