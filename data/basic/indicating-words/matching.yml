@@ -1,0 +1,194 @@
+# Ejercicios de Palabras Indicadoras - Matching
+items:
+    # NIVEL FÁCIL (7 ejercicios)
+    - left: "I need"
+      right: "some water"
+      translation: "Necesito algo de agua"
+      pronunciation: "ai níd sam uóter"
+
+    - left: "She bought"
+      right: "a few books"
+      translation: "Ella compró algunos libros"
+      pronunciation: "shi baut a fiu buks"
+
+    - left: "This is"
+      right: "my favorite pen"
+      translation: "Este es mi bolígrafo favorito"
+      pronunciation: "zis iz mai féivorit pen"
+
+    - left: "They have"
+      right: "many opportunities"
+      translation: "Ellos tienen muchas oportunidades"
+      pronunciation: "zei jav méni opportjúnities"
+
+    - left: "We need"
+      right: "a little time"
+      translation: "Necesitamos un poco de tiempo"
+      pronunciation: "ui níd a lítl taim"
+
+    - left: "Those are"
+      right: "my old notes"
+      translation: "Esos son mis apuntes antiguos"
+      pronunciation: "zous ar mai ould nouts"
+
+    - left: "Every"
+      right: "day brings challenges"
+      translation: "Cada día trae desafíos"
+      pronunciation: "évri dei bríngs chálendjes"
+
+    # NIVEL MEDIO (7 ejercicios)
+    - left: "The research"
+      right: "provides valuable insights"
+      translation: "La investigación proporciona ideas valiosas"
+      pronunciation: "da ríserdj provái des váljuabl ínsaits"
+
+    - left: "This company"
+      right: "leads innovative technologies"
+      translation: "Esta compañía lidera tecnologías innovadoras"
+      pronunciation: "zis kompáni lídz inóvative teknológies"
+
+    - left: "We have"
+      right: "few resources available"
+      translation: "Tenemos pocos recursos disponibles"
+      pronunciation: "ui jav fiu rísources aváilabel"
+
+    - left: "The data"
+      right: "shows interesting trends"
+      translation: "Los datos muestran tendencias interesantes"
+      pronunciation: "da déita shous intrésting trénds"
+
+    - left: "Some"
+      right: "technologies are changing the world"
+      translation: "Algunas tecnologías están cambiando el mundo"
+      pronunciation: "sam teknológies ar chéinying da world"
+
+    - left: "These"
+      right: "problems require immediate attention"
+      translation: "Estos problemas requieren atención inmediata"
+      pronunciation: "ziz próblems rikuáir imídiet aténshon"
+
+    - left: "Many"
+      right: "students speak multiple languages"
+      translation: "Muchos estudiantes hablan varios idiomas"
+      pronunciation: "méni stúdents spik múltiple láñguiyes"
+
+    # NIVEL DIFÍCIL (26 ejercicios)
+    - left: "Our innovative"
+      right: "approach solves complex challenges"
+      translation: "Nuestro enfoque innovador resuelve desafíos complejos"
+      pronunciation: "aur inóvative apróuch sólvz kompleks chálendjes"
+
+    - left: "The limited"
+      right: "resources pose significant constraints"
+      translation: "Los recursos limitados imponen restricciones significativas"
+      pronunciation: "da límited rísources póuz signifikánt kónstreints"
+
+    - left: "These groundbreaking"
+      right: "technologies transform modern communication"
+      translation: "Estas tecnologías revolucionarias transforman la comunicación moderna"
+      pronunciation: "ziz graundbreikíng teknológies transfórm módren komjunikéishon"
+
+    - left: "A comprehensive"
+      right: "analysis reveals unexpected insights"
+      translation: "Un análisis exhaustivo revela perspectivas inesperadas"
+      pronunciation: "a komprehénsiv análisis rívils anekspéktid ínsaits"
+
+    - left: "The emerging"
+      right: "research challenges existing paradigms"
+      translation: "La investigación emergente desafía los paradigmas existentes"
+      pronunciation: "da imérjing ríserdj chálendjes ikzísting páradiems"
+
+    - left: "Some critical"
+      right: "factors influence decision-making processes"
+      translation: "Algunos factores críticos influyen en los procesos de toma de decisiones"
+      pronunciation: "sam krítikl fáktors ínfluens desíshon-méiking próses"
+
+    - left: "Our collaborative"
+      right: "approach generates innovative solutions"
+      translation: "Nuestro enfoque colaborativo genera soluciones innovadoras"
+      pronunciation: "aur kolábrative apróuch jénereits inóvative solúshons"
+
+    - left: "These sophisticated"
+      right: "algorithms optimize complex systems"
+      translation: "Estos algoritmos sofisticados optimizan sistemas complejos"
+      pronunciation: "ziz sofistikéitid álgorizms óptimais kompleks sístems"
+
+    - left: "A strategic"
+      right: "investment drives long-term growth"
+      translation: "Una inversión estratégica impulsa el crecimiento a largo plazo"
+      pronunciation: "a strátejik invéstment dráivz long-term grouth"
+
+    - left: "The fundamental"
+      right: "principles underpin scientific research"
+      translation: "Los principios fundamentales sostienen la investigación científica"
+      pronunciation: "da fandamEntl prínsipals anderpín saientífik ríserdj"
+
+    - left: "Many innovative"
+      right: "companies are reshaping industries"
+      translation: "Muchas compañías innovadoras están redefiniendo industrias"
+      pronunciation: "méni inóvative kompánies ar rishéiping índustries"
+
+    - left: "Our dynamic"
+      right: "strategies adapt to changing environments"
+      translation: "Nuestras estrategias dinámicas se adaptan a entornos cambiantes"
+      pronunciation: "aur dainámik strátejes adápt tu chéinying envairánments"
+
+    - left: "These complex"
+      right: "problems require multidisciplinary approaches"
+      translation: "Estos problemas complejos requieren enfoques multidisciplinarios"
+      pronunciation: "ziz kompleks próblems rikuáir máltidasiplinéri apróches"
+
+    - left: "A comprehensive"
+      right: "evaluation reveals multiple perspectives"
+      translation: "Una evaluación exhaustiva revela múltiples perspectivas"
+      pronunciation: "a komprehénsiv ivalyuéishon rívels múltiple perspéktivz"
+
+    - left: "The systematic"
+      right: "approach ensures reliable results"
+      translation: "El enfoque sistemático garantiza resultados confiables"
+      pronunciation: "da sistamátik apróuch enShúrs riláyabel rízalts"
+
+    - left: "Some critical"
+      right: "insights transform our understanding"
+      translation: "Algunas ideas críticas transforman nuestra comprensión"
+      pronunciation: "sam krítikl ínsaits transfórm aur anderstánding"
+
+    - left: "These innovative"
+      right: "solutions address global challenges"
+      translation: "Estas soluciones innovadoras abordan desafíos globales"
+      pronunciation: "ziz inóvative solúshons addrés glóbal chálendjes"
+
+    - left: "A strategic"
+      right: "framework guides organizational development"
+      translation: "Un marco estratégico guía el desarrollo organizacional"
+      pronunciation: "a strátejik fréimwerk gaids orgenizéishonl divelópment"
+
+    - left: "The comprehensive"
+      right: "research highlights emerging trends"
+      translation: "La investigación exhaustiva destaca tendencias emergentes"
+      pronunciation: "da komprehénsiv ríserdj jái láits imérjing trénds"
+
+    - left: "Many advanced"
+      right: "technologies are revolutionizing industries"
+      translation: "Muchas tecnologías avanzadas están revolucionando industrias"
+      pronunciation: "méni advánst teknológies ar revoljushonáing índustries"
+
+    - left: "Our collaborative"
+      right: "efforts drive meaningful progress"
+      translation: "Nuestros esfuerzos colaborativos impulsan un progreso significativo"
+      pronunciation: "aur kolábrative éferts dráiv míningfol prógres"
+
+    - left: "These sophisticated"
+      right: "methods optimize complex processes"
+      translation: "Estos métodos sofisticados optimizan procesos complejos"
+      pronunciation: "ziz sofistikéitid méthods óptimais kompleks próses"
+
+    - left: "A strategic"
+      right: "approach ensures sustainable development"
+      translation: "Un enfoque estratégico garantiza un desarrollo sostenible"
+      pronunciation: "a strátejik apróuch enShúrs sasteinábel divelópment"
+
+    - left: "The innovative"
+      right: "solutions address critical challenges"
+      translation: "Las soluciones innovadoras abordan desafíos críticos"
+      pronunciation: "da inóvative solúshons addrés krítikl chálendjes"
