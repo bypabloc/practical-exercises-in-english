@@ -166,62 +166,68 @@ const isSidebarOpen = ref(false)
 const difficulties = computed(() => exerciseStore.difficulties)
 
 // Navigation helper
-const navigateToPage = (path) => {
-  if (path !== route.path) {  // Solo cerramos si la ruta es diferente
-    router.push(path)
-    if (isSmaller.value?.md) {
-      closeSidebar()
-    }
-  }
+const navigateToPage = path => {
+	if (path !== route.path) {
+		// Solo cerramos si la ruta es diferente
+		router.push(path)
+		if (isSmaller.value?.md) {
+			closeSidebar()
+		}
+	}
 }
 
 // Sidebar controls
 const toggleSidebar = () => {
-  isSidebarOpen.value = !isSidebarOpen.value
+	isSidebarOpen.value = !isSidebarOpen.value
 }
 
 const closeSidebar = () => {
-  isSidebarOpen.value = false
+	isSidebarOpen.value = false
 }
 
 const handleNavigation = (path, isActive) => {
-  if (isActive) {
-    navigateToPage(path)
-    isSidebarOpen.value = false
-  }
+	if (isActive) {
+		navigateToPage(path)
+		isSidebarOpen.value = false
+	}
 }
 
-watch(() => isSmaller.value?.md, (isMobile) => {
-  isSidebarOpen.value = !isMobile
-})
+watch(
+	() => isSmaller.value?.md,
+	isMobile => {
+		isSidebarOpen.value = !isMobile
+	},
+)
 
 // Breadcrumb computation
 const breadcrumbs = computed(() => {
-  const { difficulty, topic, exercise } = route.params
-  const crumbs = []
+	const { difficulty, topic, exercise } = route.params
+	const crumbs = []
 
-  if (difficulty) {
-    crumbs.push({
-      name: difficulties.value[difficulty]?.label || difficulty,
-      path: `/${difficulty}`
-    })
-  }
+	if (difficulty) {
+		crumbs.push({
+			name: difficulties.value[difficulty]?.label || difficulty,
+			path: `/${difficulty}`,
+		})
+	}
 
-  if (topic) {
-    crumbs.push({
-      name: difficulties.value[difficulty]?.topics[topic]?.label || topic,
-      path: `/${difficulty}/${topic}`
-    })
-  }
+	if (topic) {
+		crumbs.push({
+			name: difficulties.value[difficulty]?.topics[topic]?.label || topic,
+			path: `/${difficulty}/${topic}`,
+		})
+	}
 
-  if (exercise) {
-    crumbs.push({
-      name: difficulties.value[difficulty]?.topics[topic]?.exercises[exercise]?.label || exercise,
-      path: `/${difficulty}/${topic}/${exercise}`
-    })
-  }
+	if (exercise) {
+		crumbs.push({
+			name:
+				difficulties.value[difficulty]?.topics[topic]?.exercises[exercise]
+					?.label || exercise,
+			path: `/${difficulty}/${topic}/${exercise}`,
+		})
+	}
 
-  return crumbs
+	return crumbs
 })
 </script>
 

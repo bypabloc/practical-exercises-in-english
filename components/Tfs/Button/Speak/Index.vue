@@ -17,30 +17,30 @@ import { useCookieStore } from '~/stores/cookies'
 const { isMobile } = useUi()
 
 const props = defineProps({
-  text: {
-    type: String,
-    required: true
-  },
-  isDisabled: {
-    type: Boolean,
-    default: false
-  },
-  label: {
-    type: String,
-    default: ''
-  },
-  pitch: {
-    type: Number,
-    default: 1
-  },
-  rate: {
-    type: Number,
-    default: 0.7
-  },
-  voice: {
-    type: Object,
-    default: null
-  }
+	text: {
+		type: String,
+		required: true,
+	},
+	isDisabled: {
+		type: Boolean,
+		default: false,
+	},
+	label: {
+		type: String,
+		default: '',
+	},
+	pitch: {
+		type: Number,
+		default: 1,
+	},
+	rate: {
+		type: Number,
+		default: 0.7,
+	},
+	voice: {
+		type: Object,
+		default: null,
+	},
 })
 
 const nuxtApp = useNuxtApp()
@@ -50,10 +50,10 @@ const cookieStore = useCookieStore()
 const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const speak = () => {
-  $textToSpeech.speak(props.text, {
-    rate: props.rate,
-    pitch: props.pitch,
-    voice: props.voice
-  })
+	$textToSpeech.speak(props.text, {
+		rate: props.rate,
+		pitch: props.pitch,
+		voice: props.voice,
+	})
 }
 </script>

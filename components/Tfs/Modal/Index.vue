@@ -82,81 +82,81 @@
 
 <script setup>
 const props = defineProps({
-  // Modal visibility
-  isOpen: {
-    type: Boolean,
-    default: false
-  },
-  
-  // Modal title
-  title: {
-    type: String,
-    default: ''
-  },
-  
-  // Modal content (if not using slots)
-  content: {
-    type: String,
-    default: ''
-  },
-  
-  // Allow closing the modal
-  closeable: {
-    type: Boolean,
-    default: true
-  },
-  
-  // Confirm button text
-  confirmText: {
-    type: String,
-    default: ''
-  },
-  
-  // Cancel button text
-  cancelText: {
-    type: String,
-    default: ''
-  },
-  
-  // Modal size
-  size: {
-    type: String,
-    default: 'md',
-    validator: (value) => ['xs', 'sm', 'md', 'lg', 'xl'].includes(value)
-  },
-  
-  // Additional CSS classes
-  additionalClasses: {
-    type: String,
-    default: ''
-  }
+	// Modal visibility
+	isOpen: {
+		type: Boolean,
+		default: false,
+	},
+
+	// Modal title
+	title: {
+		type: String,
+		default: '',
+	},
+
+	// Modal content (if not using slots)
+	content: {
+		type: String,
+		default: '',
+	},
+
+	// Allow closing the modal
+	closeable: {
+		type: Boolean,
+		default: true,
+	},
+
+	// Confirm button text
+	confirmText: {
+		type: String,
+		default: '',
+	},
+
+	// Cancel button text
+	cancelText: {
+		type: String,
+		default: '',
+	},
+
+	// Modal size
+	size: {
+		type: String,
+		default: 'md',
+		validator: value => ['xs', 'sm', 'md', 'lg', 'xl'].includes(value),
+	},
+
+	// Additional CSS classes
+	additionalClasses: {
+		type: String,
+		default: '',
+	},
 })
 
 const emit = defineEmits(['close', 'confirm', 'cancel'])
 
 // Size classes for modal width
 const sizeClasses = {
-  xs: 'max-w-xs',
-  sm: 'max-w-sm',
-  md: 'max-w-md',
-  lg: 'max-w-lg',
-  xl: 'max-w-xl'
+	xs: 'max-w-xs',
+	sm: 'max-w-sm',
+	md: 'max-w-md',
+	lg: 'max-w-lg',
+	xl: 'max-w-xl',
 }
 
 // Close modal method
 const closeModal = () => {
-  if (props.closeable) {
-    emit('close')
-  }
+	if (props.closeable) {
+		emit('close')
+	}
 }
 
 // Confirm method
 const confirm = () => {
-  emit('confirm')
+	emit('confirm')
 }
 
 // Cancel method
 const cancel = () => {
-  emit('cancel')
+	emit('cancel')
 }
 </script>

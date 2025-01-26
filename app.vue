@@ -10,11 +10,11 @@
 <script setup>
 import { Analytics } from '@vercel/analytics/nuxt'
 
-const nuxtApp = useNuxtApp();
+const nuxtApp = useNuxtApp()
 
-const { $config, $logger } = nuxtApp;
+const { $config, $logger } = nuxtApp
 
-const { ENV } = $config?.public || {};
+const { ENV } = $config?.public || {}
 </script>
 
 <style>

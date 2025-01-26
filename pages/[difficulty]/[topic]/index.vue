@@ -63,52 +63,52 @@
 </template>
 
 <script setup>
-import { useExerciseStore } from '~/stores/exercises';
+import { useExerciseStore } from '~/stores/exercises'
 
-const exerciseStore = useExerciseStore();
+const exerciseStore = useExerciseStore()
 
 defineOptions({
-  name: 'TopicPage',
-});
+	name: 'TopicPage',
+})
 
-const router = useRouter();
-const route = useRoute();
+const router = useRouter()
+const route = useRoute()
 
-const { difficulty, topic } = route.params;
+const { difficulty, topic } = route.params
 
 const difficultySelected = computed(() => {
-  return exerciseStore.difficulties[difficulty] || {};
-});
+	return exerciseStore.difficulties[difficulty] || {}
+})
 
 const topicSelected = computed(() => {
-  return difficultySelected.value.topics?.[topic] || {};
-});
+	return difficultySelected.value.topics?.[topic] || {}
+})
 
 const exercises = computed(() => {
-  const exercisesSelected = topicSelected.value.exercises || {};
-  const exercisesArray = Object.keys(exercisesSelected).map((exercise) => {
-    return {
-      name: exercisesSelected[exercise].label,
-      route: `/${difficulty}/${topic}/${exercise}`,
-      order: exercisesSelected[exercise].order,
-      isActive: exercisesSelected[exercise].isActive,
-      hasItems: (exercisesSelected[exercise].items || []).length > 0,
-    };
-  });
-  return exercisesArray.sort((a, b) => a.order - b.order);
-});
+	const exercisesSelected = topicSelected.value.exercises || {}
+	const exercisesArray = Object.keys(exercisesSelected).map(exercise => {
+		return {
+			name: exercisesSelected[exercise].label,
+			route: `/${difficulty}/${topic}/${exercise}`,
+			order: exercisesSelected[exercise].order,
+			isActive: exercisesSelected[exercise].isActive,
+			hasItems: (exercisesSelected[exercise].items || []).length > 0,
+		}
+	})
+	return exercisesArray.sort((a, b) => a.order - b.order)
+})
 
 // Filtrar ejercicios: solo mostrar aquellos CON items
 const filteredExercises = computed(() => {
-  return exercises.value.filter(exercise => exercise.hasItems); // Cambio aquí
-});
+	return exercises.value.filter(exercise => exercise.hasItems) // Cambio aquí
+})
 
 // Validar si hay ejercicios activos CON items
 const hasActiveExercises = computed(() => {
-  return filteredExercises.value.some(exercise => exercise.isActive);
-});
+	return filteredExercises.value.some(exercise => exercise.isActive)
+})
 
-const navigateToLevel = (route) => {
-  router.push(route);
-};
+const navigateToLevel = route => {
+	router.push(route)
+}
 </script>

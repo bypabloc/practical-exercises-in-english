@@ -19,37 +19,39 @@
 </template>
 
 <script setup>
-import { defineAsyncComponent, markRaw } from 'vue';
-import { useExerciseStore } from '~/stores/exercises';
+import { defineAsyncComponent, markRaw } from 'vue'
+import { useExerciseStore } from '~/stores/exercises'
 
-const exerciseStore = useExerciseStore();
+const exerciseStore = useExerciseStore()
 
 defineOptions({
-  name: 'ExercisePage',
-});
+	name: 'ExercisePage',
+})
 
-const router = useRouter();
-const route = useRoute();
+const router = useRouter()
+const route = useRoute()
 
-const { difficulty, topic, exercise } = route.params;
+const { difficulty, topic, exercise } = route.params
 
 const difficultySelected = computed(() => {
-  return exerciseStore.difficulties[difficulty] || {};
-});
+	return exerciseStore.difficulties[difficulty] || {}
+})
 
 const topicSelected = computed(() => {
-  return difficultySelected.value.topics?.[topic] || {};
-});
+	return difficultySelected.value.topics?.[topic] || {}
+})
 
 const exerciseSelected = computed(() => {
-  return topicSelected.value.exercises?.[exercise] || {};
-});
+	return topicSelected.value.exercises?.[exercise] || {}
+})
 
 const ExerciseComponent = computed(() => {
-  if (!exerciseSelected.value.component) return null;
-  
-  return markRaw(defineAsyncComponent(() => 
-    import(`~/components/Tfs/${exerciseSelected.value.component}.vue`)
-  ));
-});
+	if (!exerciseSelected.value.component) return null
+
+	return markRaw(
+		defineAsyncComponent(
+			() => import(`~/components/Tfs/${exerciseSelected.value.component}.vue`),
+		),
+	)
+})
 </script>
