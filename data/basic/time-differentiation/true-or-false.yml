@@ -1,0 +1,231 @@
+items:
+    # NIVEL FÁCIL (7 ejercicios)
+    - sentence: "Simple present tense is only used for habitual actions."
+      isTrue: false
+      explanation: "Simple present can describe routines, general truths, and scheduled events"
+      translation: "El presente simple solo se usa para acciones habituales"
+      pronunciation: "símple présent tens is onli yuzd for jábitual ákshons"
+
+    - sentence: "We always add -s to verbs when talking about third-person singular subjects."
+      isTrue: true
+      explanation: "In simple present, verbs get -s or -es when the subject is he, she, or it"
+      translation: "Siempre añadimos -s a los verbos cuando hablamos de sujetos de tercera persona singular"
+      pronunciation: "ui olueiz ad -s tu verbs uen tóking abaut zerd-person síngular sábjects"
+
+    - sentence: "Present continuous is only used for actions happening right now."
+      isTrue: false
+      explanation: "Present continuous can also describe temporary situations and planned future actions"
+      translation: "El presente continuo solo se usa para acciones que están sucediendo en este momento"
+      pronunciation: "présent kontinuos is onli yuzd for ákshons jápening rait nau"
+
+    - sentence: "Stative verbs can be used in present continuous tense."
+      isTrue: false
+      explanation: "Stative verbs (like know, want, love) are typically not used in continuous tenses"
+      translation: "Los verbos de estado pueden usarse en tiempo presente continuo"
+      pronunciation: "stéitiv verbs kan bi yuzd in présent kontinuos tens"
+
+    - sentence: "Simple present can express future planned events."
+      isTrue: true
+      explanation: "Simple present can describe scheduled future events, especially with time expressions"
+      translation: "El presente simple puede expresar eventos futuros planeados"
+      pronunciation: "símple présent kan ékspres fjúcher pléned ivénts"
+
+    - sentence: "Frequency adverbs always go after the main verb."
+      isTrue: false
+      explanation: "Frequency adverbs typically go before the main verb"
+      translation: "Los adverbios de frecuencia siempre van después del verbo principal"
+      pronunciation: "frékuensi ádverbs olueiz gou áfter da mein verb"
+
+    - sentence: "Third-person singular subjects always require verb modification."
+      isTrue: true
+      explanation: "He/she/it subjects need -s or -es added to the verb"
+      translation: "Los sujetos de tercera persona singular siempre requieren modificación del verbo"
+      pronunciation: "zerd-person síngular sábjects olueiz rikuáir verb modifikéishon"
+
+    # NIVEL MEDIO (7 ejercicios)
+    - sentence: "Present continuous can describe temporary situations."
+      isTrue: true
+      explanation: "Present continuous is used for temporary actions or situations"
+      translation: "El presente continuo puede describir situaciones temporales"
+      pronunciation: "présent kontinuos kan desráib témporari sitjuéishons"
+
+    - sentence: "All verbs can be used in both simple present and present continuous."
+      isTrue: false
+      explanation: "Some verbs (stative verbs) cannot be used in continuous tenses"
+      translation: "Todos los verbos pueden usarse tanto en presente simple como en presente continuo"
+      pronunciation: "ol verbs kan bi yuzd in boz símple présent and présent kontinuos"
+
+    - sentence: "Verbs ending in -y always change to -ies in third-person singular."
+      isTrue: false
+      explanation: "Only verbs ending in a consonant + y change to -ies (like 'fly' to 'flies')"
+      translation: "Los verbos que terminan en -y siempre cambian a -ies en tercera persona singular"
+      pronunciation: "verbs énding in -y olueiz cheinj tu -ies in zerd-person síngular"
+
+    - sentence: "Present continuous can express future planned arrangements."
+      isTrue: true
+      explanation: "Present continuous can describe definite future arrangements"
+      translation: "El presente continuo puede expresar arreglos futuros planeados"
+      pronunciation: "présent kontinuos kan ékspres fjúcher pléned arénjments"
+
+    - sentence: "Frequency adverbs can modify actions in present continuous."
+      isTrue: false
+      explanation: "Frequency adverbs are typically used with simple present, not continuous tenses"
+      translation: "Los adverbios de frecuencia pueden modificar acciones en presente continuo"
+      pronunciation: "frékuensi ádverbs kan módifai ákshons in présent kontinuos"
+
+    - sentence: "Simple present can describe general truths."
+      isTrue: true
+      explanation: "Simple present is used to express scientific facts and general truths"
+      translation: "El presente simple puede describir verdades generales"
+      pronunciation: "símple présent kan desráib jéneral truzt"
+
+    - sentence: "Present continuous always implies an action in progress right now."
+      isTrue: false
+      explanation: "Present continuous can also describe temporary situations or future planned actions"
+      translation: "El presente continuo siempre implica una acción en progreso en este momento"
+      pronunciation: "présent kontinuos olueiz implais an ákshon in prógres rait nau"
+
+    # NIVEL DIFÍCIL (26 ejercicios)
+    - sentence: "Verbs ending in -ss always add -es in third-person singular."
+      isTrue: true
+      explanation: "Verbs like 'pass' become 'passes' for he/she/it"
+      translation: "Los verbos que terminan en -ss siempre añaden -es en tercera persona singular"
+      pronunciation: "verbs énding in -ss olueiz ad -es in zerd-person síngular"
+
+    - sentence: "Stative verbs like 'know' and 'want' change form in simple present."
+      isTrue: false
+      explanation: "Stative verbs remain in base form for third-person singular"
+      translation: "Los verbos de estado como 'know' y 'want' cambian de forma en presente simple"
+      pronunciation: "stéitiv verbs laik nou and uont cheinj form in símple présent"
+
+    - sentence: "Present continuous can describe actions happening too frequently."
+      isTrue: false
+      explanation: "Frequency is typically expressed with simple present, not continuous"
+      translation: "El presente continuo puede describir acciones que ocurren con demasiada frecuencia"
+      pronunciation: "présent kontinuos kan desráib ákshons jápening tu frékuently"
+
+    - sentence: "Simple present can express scheduled future events."
+      isTrue: true
+      explanation: "Simple present can describe future events, especially with transportation schedules"
+      translation: "El presente simple puede expresar eventos futuros programados"
+      pronunciation: "símple présent kan ékspres skejuld fjúcher ivénts"
+
+    - sentence: "Verbs ending in -ch always add -es in third-person singular."
+      isTrue: true
+      explanation: "Verbs like 'watch' become 'watches' for he/she/it"
+      translation: "Los verbos que terminan en -ch siempre añaden -es en tercera persona singular"
+      pronunciation: "verbs énding in -ch olueiz ad -es in zerd-person síngular"
+
+    - sentence: "Simple present is never used to describe future actions."
+      isTrue: false
+      explanation: "Simple present can describe scheduled future events"
+      translation: "El presente simple nunca se usa para describir acciones futuras"
+      pronunciation: "símple présent iz néver yuzd tu desráib fjúcher ákshons"
+
+    - sentence: "Irregular verbs follow different conjugation rules in simple present."
+      isTrue: true
+      explanation: "Some irregular verbs have unique forms in simple present"
+      translation: "Los verbos irregulares siguen diferentes reglas de conjugación en presente simple"
+      pronunciation: "irégular verbs fólou diférent konjugéishon ruls in símple présent"
+
+    - sentence: "Frequency adverbs can start a sentence."
+      isTrue: true
+      explanation: "Adverbs like 'Sometimes' can begin a sentence"
+      translation: "Los adverbios de frecuencia pueden comenzar una oración"
+      pronunciation: "frékuensi ádverbs kan stárt a séntence"
+
+    - sentence: "Third-person singular always requires auxiliary 'do' in questions."
+      isTrue: false
+      explanation: "Third-person singular uses 'does' in questions"
+      translation: "La tercera persona singular siempre requiere auxiliar 'do' en preguntas"
+      pronunciation: "zerd-person síngular olueiz rikuáirs oksiliéri du in kuéschons"
+
+    - sentence: "Present continuous can describe actions in the near future."
+      isTrue: true
+      explanation: "Present continuous can indicate planned near-future actions"
+      translation: "El presente continuo puede describir acciones en el futuro cercano"
+      pronunciation: "présent kontinuos kan desráib ákshons in da nir fjúcher"
+
+    - sentence: "Verbs ending in a vowel + y always add -s in third-person singular."
+      isTrue: true
+      explanation: "Verbs like 'stay' simply add -s (stays) for third-person singular"
+      translation: "Los verbos que terminan en vocal + y siempre añaden -s en tercera persona singular"
+      pronunciation: "verbs énding in a vóuel + y olueiz ad -s in zerd-person síngular"
+
+    - sentence: "Simple present is only used for permanent situations."
+      isTrue: false
+      explanation: "Simple present can describe routines, general truths, and scheduled events"
+      translation: "El presente simple solo se usa para situaciones permanentes"
+      pronunciation: "símple présent iz onli yuzd for pérmanent sitjuéishons"
+
+    - sentence: "Negative questions in simple present always use 'don't'."
+      isTrue: false
+      explanation: "Third-person singular uses 'doesn't', others use 'don't'"
+      translation: "Las preguntas negativas en presente simple siempre usan 'don't'"
+      pronunciation: "negativ kuéschons in símple présent olueiz yuz dont"
+
+    - sentence: "Present continuous implies a temporary action."
+      isTrue: true
+      explanation: "Present continuous typically describes temporary or ongoing actions"
+      translation: "El presente continuo implica una acción temporal"
+      pronunciation: "présent kontinuos implais a témporari ákshon"
+
+    - sentence: "All subjects use the same verb form in simple present."
+      isTrue: false
+      explanation: "Third-person singular requires -s or -es, others use base form"
+      translation: "Todos los sujetos usan la misma forma de verbo en presente simple"
+      pronunciation: "ol sábjects yuz da seim verb form in símple présent"
+
+    - sentence: "Stative verbs cannot be used in any continuous form."
+      isTrue: false
+      explanation: "Some stative verbs can be used in continuous form with a slightly different meaning"
+      translation: "Los verbos de estado no pueden usarse en ninguna forma continua"
+      pronunciation: "stéitiv verbs kanot bi yuzd in eni kontinuos form"
+
+    - sentence: "Frequency adverbs always modify simple present actions."
+      isTrue: true
+      explanation: "Frequency adverbs typically indicate routine actions in simple present"
+      translation: "Los adverbios de frecuencia siempre modifican acciones en presente simple"
+      pronunciation: "frékuensi ádverbs olueiz módifai ákshons in símple présent"
+
+    - sentence: "Simple present can describe habitual actions."
+      isTrue: true
+      explanation: "Simple present is commonly used to describe routines and habits"
+      translation: "El presente simple puede describir acciones habituales"
+      pronunciation: "símple présent kan desráib jábitual ákshons"
+
+    - sentence: "Present continuous always requires a time marker."
+      isTrue: false
+      explanation: "Present continuous can be used without an explicit time marker"
+      translation: "El presente continuo siempre requiere un marcador de tiempo"
+      pronunciation: "présent kontinuos olueiz rikuáirs a taim márker"
+
+    - sentence: "Verbs ending in -e simply add -d in third-person singular."
+      isTrue: false
+      explanation: "Verbs ending in -e add -s (like 'move' becomes 'moves')"
+      translation: "Los verbos que terminan en -e simplemente añaden -d en tercera persona singular"
+      pronunciation: "verbs énding in -e símply ad -d in zerd-person síngular"
+
+    - sentence: "Simple present can express emotions or states of being."
+      isTrue: true
+      explanation: "Simple present can describe emotional states or characteristics"
+      translation: "El presente simple puede expresar emociones o estados de ser"
+      pronunciation: "símple présent kan ékspres imóshons or steits ov bíing"
+
+    - sentence: "Present continuous can describe actions happening regularly."
+      isTrue: false
+      explanation: "Regular actions are typically expressed in simple present"
+      translation: "El presente continuo puede describir acciones que ocurren regularmente"
+      pronunciation: "présent kontinuos kan desráib ákshons jápening régulerli"
+
+    - sentence: "Negative questions use different auxiliary verbs."
+      isTrue: true
+      explanation: "Negative questions use 'do not' or 'does not' depending on the subject"
+      translation: "Las preguntas negativas usan diferentes verbos auxiliares"
+      pronunciation: "negativ kuéschons yuz diférent oksiliéri verbs"
+
+    - sentence: "Simple present is only used for current actions."
+      isTrue: false
+      explanation: "Simple present describes routines, general truths, and scheduled events"
+      translation: "El presente simple solo se usa para acciones actuales"
+      pronunciation: "símple présent iz onli yuzd for kárrent ákshons"

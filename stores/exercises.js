@@ -37,6 +37,10 @@ import basicNegativesTrueOrFalse from '~/data/basic/negatives/true-or-false.yml'
 
 import basicPresentContinuousMultipleChoice from '~/data/basic/present-continuous/multiple-choice.yml'
 import basicPresentContinuousErrorIdentification from '~/data/basic/present-continuous/error-identification.yml'
+import basicPresentContinuousFillInTheBlanks from '~/data/basic/present-continuous/fill-in-the-blanks.yml'
+import basicPresentContinuousMatching from '~/data/basic/present-continuous/matching.yml'
+import basicPresentContinuousSentenceCompletion from '~/data/basic/present-continuous/sentence-completion.yml'
+import basicPresentContinuousTrueOrFalse from '~/data/basic/present-continuous/true-or-false.yml'
 
 
 export const useExerciseStore = defineStore('exercises', {
@@ -494,14 +498,14 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicPresentContinuousFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicPresentContinuousMatching.items
               },
               'error-identification': {
                 label: 'Identificación de Errores',
@@ -515,14 +519,14 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicPresentContinuousSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicPresentContinuousTrueOrFalse.items,
               },
             },
             order: 60,
