@@ -42,6 +42,69 @@ import basicPresentContinuousMatching from '~/data/basic/present-continuous/matc
 import basicPresentContinuousSentenceCompletion from '~/data/basic/present-continuous/sentence-completion.yml'
 import basicPresentContinuousTrueOrFalse from '~/data/basic/present-continuous/true-or-false.yml'
 
+import basicTimeDifferentiationMultipleChoice from '~/data/basic/time-differentiation/multiple-choice.yml'
+import basicTimeDifferentiationErrorIdentification from '~/data/basic/time-differentiation/error-identification.yml'
+import basicTimeDifferentiationFillInTheBlanks from '~/data/basic/time-differentiation/fill-in-the-blanks.yml'
+import basicTimeDifferentiationMatching from '~/data/basic/time-differentiation/matching.yml'
+import basicTimeDifferentiationSentenceCompletion from '~/data/basic/time-differentiation/sentence-completion.yml'
+import basicTimeDifferentiationTrueOrFalse from '~/data/basic/time-differentiation/true-or-false.yml'
+
+import basicIndicatingWordsMultipleChoice from '~/data/basic/indicating-words/multiple-choice.yml'
+import basicIndicatingWordsErrorIdentification from '~/data/basic/indicating-words/error-identification.yml'
+import basicIndicatingWordsFillInTheBlanks from '~/data/basic/indicating-words/fill-in-the-blanks.yml'
+import basicIndicatingWordsMatching from '~/data/basic/indicating-words/matching.yml'
+import basicIndicatingWordsSentenceCompletion from '~/data/basic/indicating-words/sentence-completion.yml'
+import basicIndicatingWordsTrueOrFalse from '~/data/basic/indicating-words/true-or-false.yml'
+
+import basicSimplePastMultipleChoice from '~/data/basic/simple-past/multiple-choice.yml'
+import basicSimplePastErrorIdentification from '~/data/basic/simple-past/error-identification.yml'
+import basicSimplePastFillInTheBlanks from '~/data/basic/simple-past/fill-in-the-blanks.yml'
+import basicSimplePastMatching from '~/data/basic/simple-past/matching.yml'
+import basicSimplePastSentenceCompletion from '~/data/basic/simple-past/sentence-completion.yml'
+import basicSimplePastTrueOrFalse from '~/data/basic/simple-past/true-or-false.yml'
+
+import basicQuestionFormationMultipleChoice from '~/data/basic/question-formation/multiple-choice.yml'
+import basicQuestionFormationErrorIdentification from '~/data/basic/question-formation/error-identification.yml'
+import basicQuestionFormationFillInTheBlanks from '~/data/basic/question-formation/fill-in-the-blanks.yml'
+import basicQuestionFormationMatching from '~/data/basic/question-formation/matching.yml'
+import basicQuestionFormationSentenceCompletion from '~/data/basic/question-formation/sentence-completion.yml'
+import basicQuestionFormationTrueOrFalse from '~/data/basic/question-formation/true-or-false.yml'
+
+import basicTimeExpressionsMultipleChoice from '~/data/basic/time-expressions/multiple-choice.yml'
+import basicTimeExpressionsErrorIdentification from '~/data/basic/time-expressions/error-identification.yml'
+import basicTimeExpressionsFillInTheBlanks from '~/data/basic/time-expressions/fill-in-the-blanks.yml'
+import basicTimeExpressionsMatching from '~/data/basic/time-expressions/matching.yml'
+import basicTimeExpressionsSentenceCompletion from '~/data/basic/time-expressions/sentence-completion.yml'
+import basicTimeExpressionsTrueOrFalse from '~/data/basic/time-expressions/true-or-false.yml'
+
+import basicVerbPatternsMultipleChoice from '~/data/basic/verb-patterns/multiple-choice.yml'
+import basicVerbPatternsErrorIdentification from '~/data/basic/verb-patterns/error-identification.yml'
+import basicVerbPatternsFillInTheBlanks from '~/data/basic/verb-patterns/fill-in-the-blanks.yml'
+import basicVerbPatternsMatching from '~/data/basic/verb-patterns/matching.yml'
+import basicVerbPatternsSentenceCompletion from '~/data/basic/verb-patterns/sentence-completion.yml'
+import basicVerbPatternsTrueOrFalse from '~/data/basic/verb-patterns/true-or-false.yml'
+
+import basicShortAnswersMultipleChoice from '~/data/basic/short-answers/multiple-choice.yml'
+import basicShortAnswersErrorIdentification from '~/data/basic/short-answers/error-identification.yml'
+import basicShortAnswersFillInTheBlanks from '~/data/basic/short-answers/fill-in-the-blanks.yml'
+import basicShortAnswersMatching from '~/data/basic/short-answers/matching.yml'
+import basicShortAnswersSentenceCompletion from '~/data/basic/short-answers/sentence-completion.yml'
+import basicShortAnswersTrueOrFalse from '~/data/basic/short-answers/true-or-false.yml'
+
+import basicFrequencyAdverbsMultipleChoice from '~/data/basic/frequency-adverbs/multiple-choice.yml'
+import basicFrequencyAdverbsErrorIdentification from '~/data/basic/frequency-adverbs/error-identification.yml'
+import basicFrequencyAdverbsFillInTheBlanks from '~/data/basic/frequency-adverbs/fill-in-the-blanks.yml'
+import basicFrequencyAdverbsMatching from '~/data/basic/frequency-adverbs/matching.yml'
+import basicFrequencyAdverbsSentenceCompletion from '~/data/basic/frequency-adverbs/sentence-completion.yml'
+import basicFrequencyAdverbsTrueOrFalse from '~/data/basic/frequency-adverbs/true-or-false.yml'
+
+import basicPrepositionsOfTimeMultipleChoice from '~/data/basic/prepositions-of-time/multiple-choice.yml'
+import basicPrepositionsOfTimeErrorIdentification from '~/data/basic/prepositions-of-time/error-identification.yml'
+import basicPrepositionsOfTimeFillInTheBlanks from '~/data/basic/prepositions-of-time/fill-in-the-blanks.yml'
+import basicPrepositionsOfTimeMatching from '~/data/basic/prepositions-of-time/matching.yml'
+import basicPrepositionsOfTimeSentenceCompletion from '~/data/basic/prepositions-of-time/sentence-completion.yml'
+import basicPrepositionsOfTimeTrueOrFalse from '~/data/basic/prepositions-of-time/true-or-false.yml'
+
 
 export const useExerciseStore = defineStore('exercises', {
   state: () => ({
@@ -296,6 +359,81 @@ export const useExerciseStore = defineStore('exercises', {
               },
             },
             order: 30,
+            isActive: true,
+          },
+          'prepositions-of-time': {
+            label: 'Prepositions of Time',
+            explanation: "Prepositions of time in English are used to indicate when something happens. They are essential for constructing sentences about daily routines, schedules, and events.",
+            details: [
+              "Common prepositions of time: at, on, in",
+              "Use 'at' for specific times (at 6:00 AM)",
+              "Use 'on' for days and dates (on Monday, on January 1st)",
+              "Use 'in' for months, years, and longer periods (in July, in 2020, in the morning)",
+              "Special cases: 'at night', 'on the weekend', 'in the afternoon'",
+              "Prepositions of time often come before the time expression"
+            ],
+            examples: [
+              {
+                english: "I wake up at 6:00 AM",
+                spanish: "Me despierto a las 6:00 AM",
+                pronunciation: "ai weik ap at siks ei em"
+              },
+              {
+                english: "She has a meeting on Monday",
+                spanish: "Ella tiene una reunión el lunes",
+                pronunciation: "shi jas a miting on mandei"
+              },
+              {
+                english: "We go on vacation in July",
+                spanish: "Nos vamos de vacaciones en julio",
+                pronunciation: "wi gou on veikeishon in yulai"
+              }
+            ],
+            exercises: {
+              'multiple-choice': {
+                label: 'Selección Múltiple',
+                order: 1,
+                isActive: true,
+                component: 'MultipleChoice',
+                items: basicPrepositionsOfTimeMultipleChoice.items,
+              },
+              'fill-in-the-blanks': {
+                label: 'Rellena los Espacios',
+                order: 2,
+                isActive: true,
+                component: 'FillInTheBlanks',
+                items: basicPrepositionsOfTimeFillInTheBlanks.items,
+              },
+              'matching': {
+                label: 'Emparejamiento',
+                order: 3,
+                isActive: true,
+                component: 'Matching',
+                items: basicPrepositionsOfTimeMatching.items,
+              },
+              'error-identification': {
+                label: 'Identificación de Errores',
+                order: 4,
+                isActive: true,
+                component: 'ErrorIdentification',
+                items: basicPrepositionsOfTimeErrorIdentification.items,
+              },
+              'sentence-completion': {
+                label: 'Completar Oraciones',
+                order: 5,
+                isActive: true,
+                component: 'SentenceCompletion',
+                items: basicPrepositionsOfTimeSentenceCompletion.items,
+              },
+              'true-or-false': {
+                label: 'Verdadero o Falso',
+                order: 6,
+                isActive: true,
+                component: 'TrueOrFalse',
+                items: basicPrepositionsOfTimeTrueOrFalse.items,
+              },
+            },
+            order: 35,
             isActive: true,
           },
           'simple-present': {
@@ -569,42 +707,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicTimeDifferentiationMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicTimeDifferentiationFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicTimeDifferentiationMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicTimeDifferentiationErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicTimeDifferentiationSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicTimeDifferentiationTrueOrFalse.items,
               },
             },
             order: 70,
@@ -653,42 +791,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicIndicatingWordsMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicIndicatingWordsFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicIndicatingWordsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicIndicatingWordsErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicIndicatingWordsSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicIndicatingWordsTrueOrFalse.items,
               },
             },
             order: 80,
@@ -737,42 +875,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicSimplePastMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicSimplePastFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicSimplePastMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicSimplePastErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicSimplePastSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicSimplePastTrueOrFalse.items,
               },
             },
             order: 90,
@@ -821,42 +959,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicQuestionFormationMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicQuestionFormationFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicQuestionFormationMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicQuestionFormationErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicQuestionFormationSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicQuestionFormationTrueOrFalse.items,
               },
             },
             order: 100,
@@ -905,42 +1043,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicTimeExpressionsMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicTimeExpressionsFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicTimeExpressionsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicTimeExpressionsErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicTimeExpressionsSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicTimeExpressionsTrueOrFalse.items,
               },
             },
             order: 110,
@@ -991,42 +1129,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicVerbPatternsMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicVerbPatternsFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicVerbPatternsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicVerbPatternsErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicVerbPatternsSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicVerbPatternsTrueOrFalse.items,
               },
             },
             order: 120,
@@ -1075,42 +1213,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicShortAnswersMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicShortAnswersFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicShortAnswersMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicShortAnswersErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicShortAnswersSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicShortAnswersTrueOrFalse.items,
               },
             },
             order: 130,
@@ -1165,42 +1303,42 @@ export const useExerciseStore = defineStore('exercises', {
                 order: 1,
                 isActive: true,
                 component: 'MultipleChoice',
-                // items: x.items,
+                items: basicFrequencyAdverbsMultipleChoice.items,
               },
               'fill-in-the-blanks': {
                 label: 'Rellena los Espacios',
                 order: 2,
                 isActive: true,
                 component: 'FillInTheBlanks',
-                // items: x.items,
+                items: basicFrequencyAdverbsFillInTheBlanks.items,
               },
               'matching': {
                 label: 'Emparejamiento',
                 order: 3,
                 isActive: true,
                 component: 'Matching',
-                // items: x.items,
+                items: basicFrequencyAdverbsMatching.items,
               },
               'error-identification': {
                 label: 'Identificación de Errores',
                 order: 4,
                 isActive: true,
                 component: 'ErrorIdentification',
-                // items: x.items,
+                items: basicFrequencyAdverbsErrorIdentification.items,
               },
               'sentence-completion': {
                 label: 'Completar Oraciones',
                 order: 5,
                 isActive: true,
                 component: 'SentenceCompletion',
-                // items: x.items,
+                items: basicFrequencyAdverbsSentenceCompletion.items,
               },
               'true-or-false': {
                 label: 'Verdadero o Falso',
                 order: 6,
                 isActive: true,
                 component: 'TrueOrFalse',
-                // items: x.items,
+                items: basicFrequencyAdverbsTrueOrFalse.items,
               },
             },
             order: 140,
