@@ -60,18 +60,10 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <TfsButton
-        v-for="exercise in exercises"
-        :key="exercise.name"
-        @click="exercise.isActive ? navigateToLevel(exercise.route) : null"
-        :variant="exercise.isActive ? 'primary' : 'secondary'"
-        :disabled="!exercise.isActive"
-        class="p-4 text-lg rounded-lg"
-      >
-        {{ exercise.name }}
-      </TfsButton>
-    </div>
+    <TfsNavigationList
+      :items="exercises"
+      @navigate="navigateToLevel"
+    />
   </div>
 </template>
 
@@ -105,9 +97,20 @@ const exercises = computed(() => {
       route: `/${difficulty}/${topic}/${exercise}`,
       order: exercisesSelected[exercise].order,
       isActive: exercisesSelected[exercise].isActive,
+      hasItems: (exercisesSelected[exercise].items || []).length > 0,
     };
   });
   return exercisesArray.sort((a, b) => a.order - b.order);
+});
+
+// Filtrar ejercicios: solo mostrar aquellos sin items
+const filteredExercises = computed(() => {
+  return exercises.value.filter(exercise => !exercise.hasItems);
+});
+
+// Validar si hay ejercicios activos sin items
+const hasActiveExercises = computed(() => {
+  return filteredExercises.value.some(exercise => exercise.isActive);
 });
 
 const navigateToLevel = (route) => {

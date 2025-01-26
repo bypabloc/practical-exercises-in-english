@@ -6,33 +6,18 @@
       </h1>
     </div>
 
-    <!-- Menú de Navegación -->
-    <div class="space-y-4">
-      <div v-for="topic in topics" :key="topic.name" class="bg-white rounded-lg shadow-sm">
-        <div 
-          class="p-4 flex items-center justify-between cursor-pointer hover:bg-gray-50 transition-colors"
-          :class="{ 'opacity-50 cursor-not-allowed': !topic.isActive }"
-          @click="topic.isActive ? navigateToLevel(topic.route) : null"
-        >
-          <div class="flex items-center gap-3">
-            <!-- Icono del tema -->
-            <i class="i-mdi-book text-xl text-blue-500"></i>
-            <span class="text-lg font-medium">{{ topic.name }}</span>
-          </div>
-          
-          <!-- Flecha de navegación -->
-          <i 
-            class="i-mdi-chevron-right text-xl text-gray-400"
-            :class="{ 'text-gray-300': !topic.isActive }"
-          ></i>
-        </div>
-      </div>
-    </div>
+    <!-- Usar el componente NavigationList -->
+    <NavigationList 
+      :items="topics" 
+      :showList="hasActiveTopics"
+      @navigate="navigateToLevel"
+    />
   </div>
 </template>
 
 <script setup>
 import { useExerciseStore } from '~/stores/exercises';
+import NavigationList from '~/components/Tfs/NavigationList.vue';
 
 const exerciseStore = useExerciseStore();
 
@@ -57,31 +42,18 @@ const topics = computed(() => {
       route: `/${difficulty}/${topic}`,
       order: topicsSelected[topic].order,
       isActive: topicsSelected[topic].isActive,
+      hasItems: Object.keys(topicsSelected[topic].exercises || {}).length > 0,
     };
   });
   return topicsArray.sort((a, b) => a.order - b.order);
+});
+
+// Validar si hay temas activos con ejercicios
+const hasActiveTopics = computed(() => {
+  return topics.value.some(topic => topic.isActive && !topic.hasItems);
 });
 
 const navigateToLevel = (route) => {
   router.push(route);
 };
 </script>
-
-<style scoped>
-/* Estilos adicionales para el menú */
-.bg-white {
-  border: 1px solid #e5e7eb;
-}
-
-.hover\:bg-gray-50:hover {
-  background-color: #f9fafb;
-}
-
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-</style>
