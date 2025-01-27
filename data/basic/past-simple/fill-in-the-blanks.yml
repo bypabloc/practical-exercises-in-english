@@ -1,0 +1,253 @@
+items:
+    # NIVEL FÁCIL (10 ejercicios)
+    - question: "Yesterday, I {_____} to school."
+      answer: "went"
+      translation: "Ayer, fui a la escuela."
+      pronunciation: "yésterdei, ai uént tu skúl"
+
+    - question: "She {_____} breakfast this morning."
+      answer: "ate"
+      translation: "Ella desayunó esta mañana."
+      pronunciation: "shi éit brékfast dis mórning"
+
+    - question: "They {_____} football last weekend."
+      answer: "played"
+      translation: "Ellos jugaron fútbol el fin de semana pasado."
+      pronunciation: "dei pléid fútbol last uíkend"
+
+    - question: "He {_____} a book last night."
+      answer: "read"
+      translation: "Él leyó un libro anoche."
+      pronunciation: "ji red a buk last náit"
+
+    - question: "We {_____} to the movies."
+      answer: "went"
+      translation: "Fuimos al cine."
+      pronunciation: "ui uént tu da múvis"
+
+    - question: "The dog {_____} in the garden."
+      answer: "slept"
+      translation: "El perro durmió en el jardín."
+      pronunciation: "da dog slept in da gárden"
+
+    - question: "You {_____} your homework."
+      answer: "did"
+      translation: "Tú hiciste tu tarea."
+      pronunciation: "yu did yor jóumwerk"
+
+    - question: "The baby {_____} all night."
+      answer: "cried"
+      translation: "El bebé lloró toda la noche."
+      pronunciation: "da béibi kráid ol náit"
+
+    - question: "I {_____} my keys yesterday."
+      answer: "lost"
+      translation: "Perdí mis llaves ayer."
+      pronunciation: "ai lost mai kís yésterdei"
+
+    - question: "She {_____} the door."
+      answer: "opened"
+      translation: "Ella abrió la puerta."
+      pronunciation: "shi óupend da dór"
+
+    # NIVEL MEDIO (10 ejercicios)
+    - question: "The students {_____} the test last Monday."
+      answer: "took"
+      translation: "Los estudiantes tomaron el examen el lunes pasado."
+      pronunciation: "da stiúdents tuk da test last mándei"
+
+    - question: "We {_____} about the problem yesterday."
+      answer: "thought"
+      translation: "Pensamos sobre el problema ayer."
+      pronunciation: "ui zót abáut da próblem yésterdei"
+
+    - question: "The teacher {_____} the lesson clearly."
+      answer: "explained"
+      translation: "El profesor explicó la lección claramente."
+      pronunciation: "da tícher ekspleind da léson klírli"
+
+    - question: "They {_____} their house last year."
+      answer: "sold"
+      translation: "Ellos vendieron su casa el año pasado."
+      pronunciation: "dei sóuld der jáus last yír"
+
+    - question: "He {_____} the competition."
+      answer: "won"
+      translation: "Él ganó la competencia."
+      pronunciation: "ji uán da kompetíshon"
+
+    - question: "The plane {_____} at 3 PM."
+      answer: "landed"
+      translation: "El avión aterrizó a las 3 PM."
+      pronunciation: "da plein lánded at zrí pí em"
+
+    - question: "She {_____} English at university."
+      answer: "studied"
+      translation: "Ella estudió inglés en la universidad."
+      pronunciation: "shi stádid ínglish at yunivérsiti"
+
+    - question: "The car {_____} down on the highway."
+      answer: "broke"
+      translation: "El carro se averió en la autopista."
+      pronunciation: "da kar bróuk dáun on da jáiwei"
+
+    - question: "I {_____} the movie last night."
+      answer: "saw"
+      translation: "Vi la película anoche."
+      pronunciation: "ai só da múvi last náit"
+
+    - question: "They {_____} a new house."
+      answer: "bought"
+      translation: "Ellos compraron una casa nueva."
+      pronunciation: "dei bót a niú jáus"
+
+    # NIVEL DIFÍCIL (30 ejercicios)
+    - question: "The scientists {_____} a breakthrough in their research."
+      answer: "made"
+      translation: "Los científicos hicieron un avance en su investigación."
+      pronunciation: "da sáientists meid a brékzru in der rísorch"
+
+    - question: "The orchestra {_____} beautifully at the concert."
+      answer: "performed"
+      translation: "La orquesta actuó hermosamente en el concierto."
+      pronunciation: "di órkestra perfórmd biútifuli at da kónsert"
+
+    - question: "The author {_____} her latest novel last spring."
+      answer: "published"
+      translation: "La autora publicó su última novela la primavera pasada."
+      pronunciation: "di ózor páblishd jer léitest nóvel last spring"
+
+    - question: "The company {_____} significant growth last quarter."
+      answer: "experienced"
+      translation: "La empresa experimentó un crecimiento significativo el último trimestre."
+      pronunciation: "da kámpani ekspírienstd signíficant gróuz last kuórter"
+
+    - question: "The archaeologists {_____} ancient artifacts."
+      answer: "discovered"
+      translation: "Los arqueólogos descubrieron artefactos antiguos."
+      pronunciation: "di arkióloyists diskáverd énshent ártifakts"
+
+    - question: "The storm {_____} considerable damage to the coast."
+      answer: "caused"
+      translation: "La tormenta causó daños considerables en la costa."
+      pronunciation: "da storm kózd konsíderabl démech tu da kóust"
+
+    - question: "The government {_____} new regulations last month."
+      answer: "implemented"
+      translation: "El gobierno implementó nuevas regulaciones el mes pasado."
+      pronunciation: "da gávernment ímplementid niú reguiuléishons last manth"
+
+    - question: "The team {_____} through many challenges."
+      answer: "persevered"
+      translation: "El equipo perseveró a través de muchos desafíos."
+      pronunciation: "da tím persevírd zru méni chálenyis"
+
+    - question: "The professor {_____} an interesting theory."
+      answer: "developed"
+      translation: "El profesor desarrolló una teoría interesante."
+      pronunciation: "da profésor divélopd an íntresting zíori"
+
+    - question: "The athletes {_____} intensively for the Olympics."
+      answer: "trained"
+      translation: "Los atletas entrenaron intensamente para las Olimpiadas."
+      pronunciation: "di ázlits tréind inténsivli for di olímpiks"
+
+    - question: "The company {_____} with its main competitor."
+      answer: "merged"
+      translation: "La empresa se fusionó con su principal competidor."
+      pronunciation: "da kámpani méryd wiz its mein kompétitor"
+
+    - question: "The researchers {_____} groundbreaking results."
+      answer: "achieved"
+      translation: "Los investigadores lograron resultados revolucionarios."
+      pronunciation: "da rísérchers achívd gráundbreiking rizálts"
+
+    - question: "The negotiations {_____} for several months."
+      answer: "continued"
+      translation: "Las negociaciones continuaron durante varios meses."
+      pronunciation: "da negoshiéishons kontíniud for sévral manzs"
+
+    - question: "The artist {_____} inspiration from nature."
+      answer: "drew"
+      translation: "El artista extrajo inspiración de la naturaleza."
+      pronunciation: "di ártist drú inspiréishon from néicher"
+
+    - question: "The old building {_____} to new apartments."
+      answer: "converted"
+      translation: "El viejo edificio se convirtió en nuevos apartamentos."
+      pronunciation: "di óuld bílding konvértid tu niú apártments"
+
+    - question: "The committee {_____} the proposal unanimously."
+      answer: "approved"
+      translation: "El comité aprobó la propuesta por unanimidad."
+      pronunciation: "da komíti aprúvd da propóuzal yunánimosli"
+
+    - question: "The experiment {_____} unexpected results."
+      answer: "yielded"
+      translation: "El experimento produjo resultados inesperados."
+      pronunciation: "di ekspériment yílded anekspéktid rizálts"
+
+    - question: "The police {_____} the suspect last night."
+      answer: "arrested"
+      translation: "La policía arrestó al sospechoso anoche."
+      pronunciation: "da polís aréstid da saspékt last náit"
+
+    - question: "The technology {_____} rapidly during the decade."
+      answer: "evolved"
+      translation: "La tecnología evolucionó rápidamente durante la década."
+      pronunciation: "da teknóloyi evólvd rápidli dúring da dékeid"
+
+    - question: "The festival {_____} thousands of visitors."
+      answer: "attracted"
+      translation: "El festival atrajo a miles de visitantes."
+      pronunciation: "da féstival atrákted záusends of vísitors"
+
+    - question: "The company {_____} its global presence."
+      answer: "expanded"
+      translation: "La empresa expandió su presencia global."
+      pronunciation: "da kámpani ekspándid its glóubal présens"
+
+    - question: "The students {_____} valuable experience abroad."
+      answer: "gained"
+      translation: "Los estudiantes obtuvieron una valiosa experiencia en el extranjero."
+      pronunciation: "da stiúdents guéind váluabl ekspíriens abród"
+
+    - question: "The market {_____} significantly last year."
+      answer: "grew"
+      translation: "El mercado creció significativamente el año pasado."
+      pronunciation: "da márket grú signíficantli last yír"
+
+    - question: "The project {_____} under budget and on time."
+      answer: "finished"
+      translation: "El proyecto terminó bajo presupuesto y a tiempo."
+      pronunciation: "da próyekt fínishd ánder báyet and on táim"
+
+    - question: "The audience {_____} enthusiastically to the performance."
+      answer: "responded"
+      translation: "El público respondió con entusiasmo a la actuación."
+      pronunciation: "di ódiens respónded enziusiástikali tu da perfórmans"
+
+    - question: "The river {_____} its banks after heavy rain."
+      answer: "flooded"
+      translation: "El río inundó sus orillas después de la fuerte lluvia."
+      pronunciation: "da ríver fládid its banks áfter jévi rein"
+
+    - question: "The board {_____} important decisions last week."
+      answer: "made"
+      translation: "La junta tomó decisiones importantes la semana pasada."
+      pronunciation: "da bord meid impórtant desíshons last uík"
+
+    - question: "The investment {_____} substantial returns."
+      answer: "generated"
+      translation: "La inversión generó retornos sustanciales."
+      pronunciation: "di invéstment yénereitid sabstánshal ritérns"
+
+    - question: "The ceremony {_____} exactly as planned."
+      answer: "proceeded"
+      translation: "La ceremonia procedió exactamente según lo planeado."
+      pronunciation: "da séremoni prosídid igzáktli as plánd"
+
+    - question: "The disease {_____} rapidly through the population."
+      answer: "spread"
+      translation: "La enfermedad se propagó rápidamente a través de la población."
+      pronunciation: "da dizís spred rápidli zru da popiuléishon"

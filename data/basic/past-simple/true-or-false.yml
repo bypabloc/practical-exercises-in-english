@@ -1,0 +1,303 @@
+items:
+    # NIVEL FÁCIL (10 ejercicios)
+    - sentence: "I went to school yesterday."
+      isTrue: true
+      explanation: "This is a correct use of past simple 'went'"
+      translation: "Yo fui a la escuela ayer."
+      pronunciation: "ai uént tu skul yésterdei"
+
+    - sentence: "She eated breakfast this morning."
+      isTrue: false
+      explanation: "The past tense of 'eat' is 'ate', not 'eated'"
+      translation: "Ella desayunó esta mañana."
+      pronunciation: "shi éit brékfast dis mórning"
+
+    - sentence: "They played football last weekend."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "Ellos jugaron fútbol el fin de semana pasado."
+      pronunciation: "dei pléid fútbol last uíkend"
+
+    - sentence: "He readed a book last night."
+      isTrue: false
+      explanation: "The past tense of 'read' is 'read' (same spelling, different pronunciation)"
+      translation: "Él leyó un libro anoche."
+      pronunciation: "ji red a buk last náit"
+
+    - sentence: "We goed to the movies."
+      isTrue: false
+      explanation: "The past tense of 'go' is 'went', not 'goed'"
+      translation: "Fuimos al cine."
+      pronunciation: "ui uént tu da múvis"
+
+    - sentence: "The dog slept in the garden."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'sleep'"
+      translation: "El perro durmió en el jardín."
+      pronunciation: "da dog slept in da gárden"
+
+    - sentence: "You did your homework yesterday."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'do'"
+      translation: "Tú hiciste tu tarea ayer."
+      pronunciation: "yu did yor jóumwerk yésterdei"
+
+    - sentence: "The baby cryed all night."
+      isTrue: false
+      explanation: "The correct past tense is 'cried', not 'cryed'"
+      translation: "El bebé lloró toda la noche."
+      pronunciation: "da béibi kráid ol náit"
+
+    - sentence: "I lost my keys yesterday."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'lose'"
+      translation: "Perdí mis llaves ayer."
+      pronunciation: "ai lost mai kís yésterdei"
+
+    - sentence: "She opened the door quietly."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "Ella abrió la puerta silenciosamente."
+      pronunciation: "shi óupend da dór kuáietli"
+
+    # NIVEL MEDIO (10 ejercicios)
+    - sentence: "The students taked the test last Monday."
+      isTrue: false
+      explanation: "The past tense of 'take' is 'took', not 'taked'"
+      translation: "Los estudiantes tomaron el examen el lunes pasado."
+      pronunciation: "da stiúdents tuk da test last mándei"
+
+    - sentence: "We thought about the solution yesterday."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'think'"
+      translation: "Pensamos en la solución ayer."
+      pronunciation: "ui zót abáut da solúshon yésterdei"
+
+    - sentence: "The teacher explaned the lesson clearly."
+      isTrue: false
+      explanation: "The correct spelling is 'explained', not 'explaned'"
+      translation: "El profesor explicó la lección claramente."
+      pronunciation: "da tícher ekspleind da léson klírli"
+
+    - sentence: "They sold their old house last month."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'sell'"
+      translation: "Ellos vendieron su casa vieja el mes pasado."
+      pronunciation: "dei sóuld der óuld jáus last manz"
+
+    - sentence: "He winned the race easily."
+      isTrue: false
+      explanation: "The past tense of 'win' is 'won', not 'winned'"
+      translation: "Él ganó la carrera fácilmente."
+      pronunciation: "ji uán da réis ísili"
+
+    - sentence: "The plane landed safely at the airport."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El avión aterrizó seguro en el aeropuerto."
+      pronunciation: "da plein lánded séifli at di érport"
+
+    - sentence: "She studyed English for three years."
+      isTrue: false
+      explanation: "The correct spelling is 'studied', not 'studyed'"
+      translation: "Ella estudió inglés por tres años."
+      pronunciation: "shi stádid ínglish for zrí yírs"
+
+    - sentence: "The car broke down on the highway."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'break'"
+      translation: "El carro se averió en la autopista."
+      pronunciation: "da kar bróuk dáun on da jáiwei"
+
+    - sentence: "I seed the movie last night."
+      isTrue: false
+      explanation: "The past tense of 'see' is 'saw', not 'seed'"
+      translation: "Vi la película anoche."
+      pronunciation: "ai só da múvi last náit"
+
+    - sentence: "They bought a new house in the suburbs."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'buy'"
+      translation: "Ellos compraron una casa nueva en los suburbios."
+      pronunciation: "dei bót a niú jáus in da sáburbs"
+
+    # NIVEL DIFÍCIL (30 ejercicios)
+    - sentence: "The scientists discovered a groundbreaking solution last year."
+      isTrue: true
+      explanation: "This is a correct use of past simple with 'discovered'"
+      translation: "Los científicos descubrieron una solución revolucionaria el año pasado."
+      pronunciation: "da sáientists diskáverd a gráundbreiking solúshon last yír"
+
+    - sentence: "The company growed significantly during the past decade."
+      isTrue: false
+      explanation: "The past tense of 'grow' is 'grew', not 'growed'"
+      translation: "La empresa creció significativamente durante la última década."
+      pronunciation: "da kámpani grú signíficantli dúring da past dékeid"
+
+    - sentence: "The research team maked an important breakthrough."
+      isTrue: false
+      explanation: "The past tense of 'make' is 'made', not 'maked'"
+      translation: "El equipo de investigación hizo un importante avance."
+      pronunciation: "da rísorch tím meid an impórtant brékthru"
+
+    - sentence: "The ancient civilization left mysterious artifacts."
+      isTrue: true
+      explanation: "This is the correct past tense form of 'leave'"
+      translation: "La antigua civilización dejó artefactos misteriosos."
+      pronunciation: "di éinshent sivilaizéishon left mistírios ártifakts"
+
+    - sentence: "The government implemented new policies last month."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El gobierno implementó nuevas políticas el mes pasado."
+      pronunciation: "da gávernment ímplementid niú pólisis last manth"
+
+    - sentence: "The experiment yielded unexpected results."
+      isTrue: true
+      explanation: "This is correct use of past simple 'yielded'"
+      translation: "El experimento produjo resultados inesperados."
+      pronunciation: "di ekspériment yílded anekspéktid rizálts"
+
+    - sentence: "The financial markets falled dramatically."
+      isTrue: false
+      explanation: "The past tense of 'fall' is 'fell', not 'falled'"
+      translation: "Los mercados financieros cayeron dramáticamente."
+      pronunciation: "da fainánshal márkets fel dramátikali"
+
+    - sentence: "The archaeologists uncovered ancient ruins."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "Los arqueólogos descubrieron ruinas antiguas."
+      pronunciation: "di arkióloyists ankáverd éinshent rúins"
+
+    - sentence: "The technology evoluted rapidly."
+      isTrue: false
+      explanation: "The correct form is 'evolved', not 'evoluted'"
+      translation: "La tecnología evolucionó rápidamente."
+      pronunciation: "da teknólogi evólvd rápidli"
+
+    - sentence: "The international conference attracted many experts."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La conferencia internacional atrajo a muchos expertos."
+      pronunciation: "di internáshonal kónferens atrákted méni eksperts"
+
+    - sentence: "The quantum physicists maked a new discovery."
+      isTrue: false
+      explanation: "The past tense of 'make' is 'made', not 'maked'"
+      translation: "Los físicos cuánticos hicieron un nuevo descubrimiento."
+      pronunciation: "da kuántum físisists meid a niú diskáveri"
+
+    - sentence: "The humanitarian organization delivered essential supplies."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La organización humanitaria entregó suministros esenciales."
+      pronunciation: "da hiumániterian organizéishon dilíverd isénshal sapláis"
+
+    - sentence: "The medical researchers founded a cure."
+      isTrue: false
+      explanation: "Should be 'found' instead of 'founded' for this context"
+      translation: "Los investigadores médicos encontraron una cura."
+      pronunciation: "da médical rísérchers faund a kiur"
+
+    - sentence: "The renewable energy sector experienced unprecedented growth."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El sector de energía renovable experimentó un crecimiento sin precedentes."
+      pronunciation: "da riniúabol éneryi séktor ekspírienstd anprésidentid gróuz"
+
+    - sentence: "The international community united to address climate change."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La comunidad internacional se unió para abordar el cambio climático."
+      pronunciation: "di internáshonal komiúniti yunáitid tu adrés kláimit cheinch"
+
+    - sentence: "The artificial intelligence system generated complex solutions."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El sistema de inteligencia artificial generó soluciones complejas."
+      pronunciation: "di artifíshal intélichens sístem yénereitid kómpleks solúshons"
+
+    - sentence: "The peace negotiations brung positive results."
+      isTrue: false
+      explanation: "The past tense of 'bring' is 'brought', not 'brung'"
+      translation: "Las negociaciones de paz trajeron resultados positivos."
+      pronunciation: "da pís negoshiéishons brot pózitiv rizálts"
+
+    - sentence: "The environmental initiative received widespread support."
+      isTrue: true
+      explanation: "This is correct use of past simple 'received'"
+      translation: "La iniciativa ambiental recibió un amplio apoyo."
+      pronunciation: "di enváironmental iníshiativ risívd uáidspred sapórt"
+
+    - sentence: "The autonomous vehicle drived millions of test miles."
+      isTrue: false
+      explanation: "The past tense of 'drive' is 'drove', not 'drived'"
+      translation: "El vehículo autónomo condujo millones de millas de prueba."
+      pronunciation: "di otónomas víikol dróuv mílyons of test máils"
+
+    - sentence: "The digital transformation disrupted traditional models."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La transformación digital interrumpió los modelos tradicionales."
+      pronunciation: "da díchital transforméishon disráptid tradíshonal módels"
+
+    - sentence: "The space program sended a new satellite."
+      isTrue: false
+      explanation: "The past tense of 'send' is 'sent', not 'sended'"
+      translation: "El programa espacial envió un nuevo satélite."
+      pronunciation: "da speis próugram sent a niú sátelait"
+
+    - sentence: "The pharmaceutical company developed a new vaccine."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La compañía farmacéutica desarrolló una nueva vacuna."
+      pronunciation: "da farmásiutikal kámpani divélopd a niú vaksín"
+
+    - sentence: "The economic crisis teached valuable lessons."
+      isTrue: false
+      explanation: "The past tense of 'teach' is 'taught', not 'teached'"
+      translation: "La crisis económica enseñó lecciones valiosas."
+      pronunciation: "di ikonómik kráisis tót váluabol lésons"
+
+    - sentence: "The engineering team solved complex problems."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El equipo de ingeniería resolvió problemas complejos."
+      pronunciation: "di ényiniring tím solvd kómpleks próblems"
+
+    - sentence: "The cultural exchange program builded new relationships."
+      isTrue: false
+      explanation: "The past tense of 'build' is 'built', not 'builded'"
+      translation: "El programa de intercambio cultural construyó nuevas relaciones."
+      pronunciation: "da kálchural ekschéinch próugram bilt niú riléishonships"
+
+    - sentence: "The diplomatic mission achieved its objectives."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "La misión diplomática logró sus objetivos."
+      pronunciation: "da diplomátik míshon achívd its obyéktivs"
+
+    - sentence: "The sustainable project drawed international attention."
+      isTrue: false
+      explanation: "The past tense of 'draw' is 'drew', not 'drawed'"
+      translation: "El proyecto sostenible atrajo la atención internacional."
+      pronunciation: "da sosténibol próyekt drú internáshonal aténshon"
+
+    - sentence: "The research institute published groundbreaking findings."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "El instituto de investigación publicó hallazgos revolucionarios."
+      pronunciation: "da rísorch ínstitiut páblishd gráundbreiking fáindings"
+
+    - sentence: "The historical documents revealed important information."
+      isTrue: true
+      explanation: "This is correct - regular verb with '-ed' ending"
+      translation: "Los documentos históricos revelaron información importante."
+      pronunciation: "da histórikal dókiuments rivíld impórtant informéishon"
+
+    - sentence: "The multinational corporation catched the market opportunity."
+      isTrue: false
+      explanation: "The past tense of 'catch' is 'caught', not 'catched'"
+      translation: "La corporación multinacional aprovechó la oportunidad del mercado."
+      pronunciation: "da maltináshonal korpóreishon kót da márket oportiúniti"
