@@ -74,7 +74,10 @@
                   <TfsButtonSpeak
                     :text="exercise.answer"
                   />
-                  <TfsButtonPractice :text="exercise.answer" />
+                  <TfsButtonPractice
+                    :exercise="exercise"
+                    :text="exercise.answer"
+                  />
                 </div>
               </div>
             </div>
@@ -97,6 +100,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
 	exercises: {
@@ -104,6 +108,10 @@ const props = defineProps({
 		required: true,
 	},
 })
+
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
 
 // Component state
 const userAnswers = ref([])
@@ -121,6 +129,7 @@ onMounted(() => {
 
 // Check if all questions have been answered
 const allQuestionsAnswered = computed(() => {
+  if (canSkipValidationAllQuestionsAnswered) return true
 	return userAnswers.value.every(answer => answer !== '')
 })
 

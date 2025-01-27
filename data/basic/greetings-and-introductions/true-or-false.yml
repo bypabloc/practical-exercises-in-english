@@ -4,114 +4,133 @@ items:
       explanation: "'Good evening' is used from around 6 PM onwards"
       translation: "Es apropiado decir 'Good evening' a las 7 PM"
       pronunciation: "gud ívning"
+      example: "Good evening, welcome to our dinner party."
 
     - sentence: "'How do you do?' is an informal greeting."
       isTrue: false
       explanation: "'How do you do?' is a very formal greeting, typically used when being introduced to someone in a formal setting"
       translation: "'How do you do?' es un saludo formal"
       pronunciation: "jau du yu du"
+      example: "How do you do? I'm pleased to meet you, Mr. Anderson."
 
     - sentence: "You should respond to 'Nice to meet you' with just 'Thank you'."
       isTrue: false
       explanation: "The appropriate response is 'Nice to meet you too' or a similar phrase reciprocating the sentiment"
       translation: "Debes responder 'Nice to meet you' solo con 'Gracias'"
       pronunciation: "nais tu mit yu tu"
+      example: "Nice to meet you! - Nice to meet you too!"
 
     - sentence: "'Good night' is appropriate when greeting someone in the evening."
       isTrue: false
       explanation: "'Good night' is used when saying goodbye, not as a greeting. Use 'Good evening' for greeting in the evening"
       translation: "'Good night' es apropiado como saludo por la noche"
       pronunciation: "gud náit / gud ívning"
+      example: "Good evening! Would you like to join us for dinner?"
 
     - sentence: "It's acceptable to say 'Hey' to your university professor."
       isTrue: false
       explanation: "'Hey' is too informal for addressing a professor. Use 'Hello' or 'Good morning/afternoon' instead"
       translation: "Es aceptable decir 'Hey' a tu profesor universitario"
       pronunciation: "jei / jeló / gud mórning"
+      example: "Good morning, Professor Smith. May I ask you a question?"
 
     - sentence: "'Pleased to meet you' is more formal than 'Nice to meet you'."
       isTrue: true
       explanation: "'Pleased to meet you' is indeed slightly more formal than 'Nice to meet you'"
       translation: "'Pleased to meet you' es más formal que 'Nice to meet you'"
       pronunciation: "plisd tu mit yu / nais tu mit yu"
+      example: "I'm very pleased to meet you, Ambassador Johnson."
 
     - sentence: "You should always use 'Mr./Mrs.' when introduced to someone for the first time in a business setting."
       isTrue: true
       explanation: "Using titles in business settings shows respect and professionalism until told otherwise"
       translation: "Siempre debes usar 'Sr./Sra.' cuando te presentan a alguien por primera vez en un entorno de negocios"
       pronunciation: "míster/mísiz"
+      example: "Let me introduce you to Mrs. Thompson, our new Marketing Director."
 
     - sentence: "'Good afternoon' is appropriate at 11:30 AM."
       isTrue: false
       explanation: "'Good afternoon' is used from noon (12 PM) onwards. Before noon, use 'Good morning'"
       translation: "'Good afternoon' es apropiado a las 11:30 AM"
       pronunciation: "gud afternún / gud mórning"
+      example: "Good morning! The meeting will start at 11:30 AM."
 
     - sentence: "When someone says 'How are you?', you should always give a detailed answer about your life."
       isTrue: false
       explanation: "In most contexts, a brief response like 'Fine, thank you. And you?' is more appropriate"
       translation: "Cuando alguien dice '¿Cómo estás?', siempre debes dar una respuesta detallada sobre tu vida"
       pronunciation: "jau ar yu / fain, zenk yu, and yu"
+      example: "How are you? - I'm fine, thank you. And you?"
 
     - sentence: "It's appropriate to use first names immediately after meeting someone in a business context in English-speaking countries."
       isTrue: false
       explanation: "In business contexts, wait for an invitation to use first names or follow the lead of your counterpart"
       translation: "Es apropiado usar nombres de pila inmediatamente después de conocer a alguien en un contexto empresarial en países de habla inglesa"
       pronunciation: "férst neim"
+      example: "It's a pleasure to meet you, Dr. Williams. Please, call me Sarah."
 
     - sentence: "'What's up?' is an appropriate greeting for a job interview."
       isTrue: false
       explanation: "'What's up?' is very informal and should not be used in professional situations like job interviews"
       translation: "'What's up?' es un saludo apropiado para una entrevista de trabajo"
       pronunciation: "uáts ap"
+      example: "Hello, Mr. Smith. I'm here for the 10 AM interview."
 
     - sentence: "When introducing yourself, it's correct to say 'I'm called John' in casual situations."
       isTrue: false
       explanation: "While grammatically correct, 'I'm called John' sounds formal or outdated. 'I'm John' is more natural"
       translation: "Al presentarte, es correcto decir 'I'm called John' en situaciones informales"
       pronunciation: "aim kold yon / aim yon"
+      example: "Hi, I'm John. Nice to meet you."
 
     - sentence: "You should always shake hands when meeting someone for the first time in English-speaking countries."
       isTrue: false
       explanation: "While handshakes are common in business settings, they're not always expected in casual situations"
       translation: "Siempre debes dar la mano al conocer a alguien por primera vez en países de habla inglesa"
       pronunciation: "sheik jands"
+      example: "Nice to meet you! *extends hand for handshake*"
 
     - sentence: "It's polite to wait for someone to finish their introduction before introducing yourself."
       isTrue: true
       explanation: "Letting someone complete their introduction shows respect and good manners"
       translation: "Es educado esperar a que alguien termine su presentación antes de presentarte"
       pronunciation: "introdákshon"
+      example: "Hi, I'm Sarah. *waits for other person* Nice to meet you, Sarah. I'm Mike."
 
     - sentence: "'Good morning' can be used any time before noon."
       isTrue: true
       explanation: "'Good morning' is appropriate from early morning until 12:00 PM (noon)"
       translation: "'Good morning' se puede usar en cualquier momento antes del mediodía"
       pronunciation: "gud mórning"
+      example: "Good morning! The time is 11:45 AM."
 
     - sentence: "When someone thanks you for meeting them, 'You're welcome' is the only correct response."
       isTrue: false
       explanation: "You can say 'You're welcome', 'It's my pleasure', or 'The pleasure is mine'"
       translation: "Cuando alguien te agradece por reunirte con ellos, 'You're welcome' es la única respuesta correcta"
       pronunciation: "yur uélcom / its mai plésher / da plésher is main"
+      example: "Thanks for meeting with me. - It's my pleasure."
 
     - sentence: "It's appropriate to use 'Sir' or 'Madam' when addressing strangers in formal situations."
       isTrue: true
       explanation: "Using 'Sir' or 'Madam' shows respect when addressing strangers in formal contexts"
       translation: "Es apropiado usar 'Sir' o 'Madam' al dirigirse a extraños en situaciones formales"
       pronunciation: "ser / mádam"
+      example: "Excuse me, Sir, could you help me with directions?"
 
     - sentence: "'Hi there' is appropriate for formal business emails."
       isTrue: false
       explanation: "'Hi there' is too casual for formal business communications. Use 'Dear Mr./Ms.' or 'Hello'"
       translation: "'Hi there' es apropiado para correos electrónicos formales de negocios"
       pronunciation: "jai der"
+      example: "Dear Mr. Johnson, I am writing regarding our meeting..."
 
     - sentence: "You should always give your full name when introducing yourself casually."
       isTrue: false
       explanation: "In casual situations, first names are usually sufficient. Full names are more common in formal settings"
       translation: "Siempre debes dar tu nombre completo al presentarte informalmente"
       pronunciation: "ful neim / ferst neim"
+      example: "Hey, I'm Tom. What's your name?"
 
     - sentence: "It's appropriate to say 'Lovely to meet you' after being introduced to someone."
       isTrue: true

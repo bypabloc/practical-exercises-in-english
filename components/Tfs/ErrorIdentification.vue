@@ -83,7 +83,10 @@
                       label="Practice"
                       :text="getSentenceWithCorrection(exercise)"
                     />
-                    <TfsButtonPractice :text="exercise.answer" />
+                    <TfsButtonPractice
+                      :exercise="exercise"
+                      :text="getSentenceWithCorrection(exercise)"
+                    />
                   </div>
                 </div>
               </div>
@@ -118,6 +121,7 @@
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
 	exercises: {
@@ -126,10 +130,18 @@ const props = defineProps({
 	},
 })
 
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
+
 // Component state
 const selectedExercises = ref([])
 const userAnswers = ref(new Map()) // Map of exerciseIndex -> selected word
-const showResults = ref(false)
+const showResultsRef = ref(false)
+const showResults = computed(() => {
+  if (canSkipValidationAllQuestionsAnswered) return true
+  return showResultsRef.value
+})
 
 // Select 10 random exercises on mount
 onMounted(() => {
@@ -196,6 +208,6 @@ const getSentenceWithCorrection = exercise => {
 // Validate all answers
 const validateAnswers = () => {
 	if (!canSubmit.value) return
-	showResults.value = true
+	showResultsRef.value = true
 }
 </script>

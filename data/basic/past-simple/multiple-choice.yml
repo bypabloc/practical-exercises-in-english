@@ -442,3 +442,47 @@ items:
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "Ellos lograron un avance en la investigación médica"
       pronunciation: "dei achíved a brékzru in médical ríserdj"
+
+    - question: "The financial markets ___ dramatically after the announcement."
+      options:
+        - "felt"
+        - "fall"
+        - "fell"
+        - "falling"
+      answer: "fell"
+      explanation: "'Fall' es un verbo irregular que cambia a 'fell' en pasado"
+      translation: "Los mercados financieros cayeron dramáticamente después del anuncio"
+      pronunciation: "da fainánshal márkets fel dramátikali áfter di anáunsment"
+
+    - question: "The diplomatic delegation ___ peace negotiations last month."
+      options:
+        - "begun"
+        - "begin"
+        - "began"
+        - "beginning"
+      answer: "began"
+      explanation: "'Begin' es irregular y cambia a 'began' en pasado"
+      translation: "La delegación diplomática comenzó las negociaciones de paz el mes pasado"
+      pronunciation: "da diplomátik déligueishon bigán pís negoshiéishons last manz"
+
+    - question: "The international conference ___ experts from around the world."
+      options:
+        - "bring"
+        - "brought"
+        - "bringed"
+        - "bringing"
+      answer: "brought"
+      explanation: "'Bring' cambia a 'brought' en pasado simple"
+      translation: "La conferencia internacional trajo expertos de todo el mundo"
+      pronunciation: "di internáshonal kónferens brot eksperts from aráund da uérld"
+
+    - question: "The researchers ___ their findings in a prestigious journal."
+      options:
+        - "published"
+        - "publish"
+        - "publishing"
+        - "publishes"
+      answer: "published"
+      explanation: "Verbo regular que añade -ed en pasado"
+      translation: "Los investigadores publicaron sus hallazgos en una revista prestigiosa"
+      pronunciation: "da rísérchers páblishd der fáindings in a prestíyios yérnal"

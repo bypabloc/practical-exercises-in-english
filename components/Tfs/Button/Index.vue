@@ -10,14 +10,16 @@
       isIconOnly ? 'p-2' : sizeClasses[size],
       additionalClasses,
     ]"
-    @click="$emit('click', $event)"
+    @click="isClickable && $emit('click', $event)"
   >
     <i 
       v-if="icon" 
       :class="[
         `i-${icon}`,
         !isIconOnly && $slots.default ? 'mr-2' : '',
-        iconClasses
+        iconClasses,
+				iconAnimation,
+				iconSize,
       ]"
     ></i>
     <span 
@@ -35,6 +37,10 @@
 import { computed } from 'vue'
 
 const props = defineProps({
+	isClickable: {
+		type: Boolean,
+		default: true,
+	},
 	type: {
 		type: String,
 		default: 'button',
@@ -55,6 +61,14 @@ const props = defineProps({
 		default: false,
 	},
 	icon: {
+		type: String,
+		default: '',
+	},
+	iconAnimation: {
+		type: String,
+		default: '',
+	},
+	iconSize: {
 		type: String,
 		default: '',
 	},
@@ -80,6 +94,9 @@ const baseClasses = computed(() => {
 	// Solo agregar bordes y redondeo si no es ghost
 	if (props.variant !== 'ghost') {
 		classes += ' rounded-md'
+	}
+	if (!props.isClickable) {
+		classes += ' pointer-events-none'
 	}
 	return classes
 })
