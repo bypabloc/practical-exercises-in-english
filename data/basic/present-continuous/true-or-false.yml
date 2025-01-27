@@ -5,60 +5,70 @@ items:
       explanation: "This is a correct present continuous sentence."
       translation: "Estoy leyendo un libro ahora."
       pronunciation: "ai am ríding a buk náu"
+      example: "I am reading the newspaper at the moment."
 
     - sentence: "She is cook dinner at the moment."
       isTrue: false
       explanation: "After 'is', the verb should be in -ing form: 'cooking'."
       translation: "Ella está cocinando la cena en este momento."
       pronunciation: "shi is kúking díner at da móument"
+      example: "She is cooking breakfast right now."
 
     - sentence: "They are playing football in the park."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Ellos están jugando fútbol en el parque."
       pronunciation: "déi ar pléing fútbol in da park"
+      example: "They are playing basketball in the gym."
 
     - sentence: "We watching a movie now."
       isTrue: false
       explanation: "'watching' should be preceded by 'are'."
       translation: "Estamos viendo una película ahora."
       pronunciation: "uí ar uóching a múvi náu"
+      example: "We are watching a documentary this evening."
 
     - sentence: "He is taking a shower at the moment."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Él está tomando una ducha en este momento."
       pronunciation: "jí is téiking a sháuer at da móument"
+      example: "He is taking a bath right now."
 
     - sentence: "The dog chasing a cat."
       isTrue: false
       explanation: "The sentence should start with 'The dog is'."
       translation: "El perro está persiguiendo a un gato."
       pronunciation: "da dog is chéising a kat"
+      example: "The dog is chasing its tail."
 
     - sentence: "The children are playing in the park now."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los niños están jugando en el parque ahora."
       pronunciation: "da chíldren ar pléing in da park náu"
+      example: "The children are playing hide and seek."
 
     - sentence: "The sun is shining brightly today."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "El sol está brillando intensamente hoy."
       pronunciation: "da san is sháining bráitli tudéi"
+      example: "The sun is shining through the window."
 
     - sentence: "The birds singing in the trees."
       isTrue: false
       explanation: "The sentence should start with 'The birds are'."
       translation: "Los pájaros están cantando en los árboles."
       pronunciation: "da berds ar síging in da trís"
+      example: "The birds are singing a beautiful song."
 
     - sentence: "The baby is crying loudly."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "El bebé está llorando fuerte."
       pronunciation: "da béibi is kráing láudli"
+      example: "The baby is crying for its mother."
 
     # NIVEL MEDIO (10 ejercicios)
     - sentence: "The cake is baking in the oven."
@@ -66,60 +76,70 @@ items:
       explanation: "This is a correct present continuous sentence."
       translation: "El pastel se está horneando en el horno."
       pronunciation: "da kéik is béiking in di óven"
+      example: "The cookies are baking in the oven."
 
     - sentence: "The plane landing on the runway."
       isTrue: false
       explanation: "The sentence should start with 'The plane is'."
       translation: "El avión está aterrizando en la pista."
       pronunciation: "da pléin is lánding on da ránuei"
+      example: "The plane is taking off from the runway."
 
     - sentence: "The leaves are falling from the trees."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Las hojas están cayendo de los árboles."
       pronunciation: "da lívs ar fóling from da trís"
+      example: "The leaves are changing color."
 
     - sentence: "The flowers blooming in the garden."
       isTrue: false
       explanation: "The sentence should start with 'The flowers are'."
       translation: "Las flores están floreciendo en el jardín."
       pronunciation: "da fláuers ar blúming in da gárden"
+      example: "The flowers are wilting in the heat."
 
     - sentence: "The cat is napping on the couch."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "El gato está tomando una siesta en el sofá."
       pronunciation: "da kat is náping on da káuch"
+      example: "The cat is playing with a toy."
 
     - sentence: "The students are studying for the exam."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los estudiantes están estudiando para el examen."
       pronunciation: "da stiúdents ar stádiing for di eksám"
+      example: "The students are taking a test."
 
     - sentence: "The chef preparing a special dish."
       isTrue: false
       explanation: "The sentence should start with 'The chef is'."
       translation: "El chef está preparando un plato especial."
       pronunciation: "da shef is pripéring a spéshal dish"
+      example: "The chef is cooking a gourmet meal."
 
     - sentence: "The stars are twinkling in the sky."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Las estrellas están titilando en el cielo."
       pronunciation: "da stars ar tuínkling in da skái"
+      example: "The stars are shining brightly."
 
     - sentence: "The crowd is cheering for the team."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "La multitud está vitoreando al equipo."
       pronunciation: "da kráud is chíring for da tím"
+      example: "The crowd is booing the referee."
 
     - sentence: "The rain pouring heavily outside."
       isTrue: false
       explanation: "The sentence should start with 'The rain is'."
       translation: "La lluvia está cayendo fuertemente afuera."
       pronunciation: "da réin is póring jévili áutsaid"
+      example: "The rain is drizzling lightly."
 
     # NIVEL DIFÍCIL (30 ejercicios)
     - sentence: "The committee is discussing the new proposal."
@@ -127,177 +147,207 @@ items:
       explanation: "This is a correct present continuous sentence."
       translation: "El comité está discutiendo la nueva propuesta."
       pronunciation: "da komíti is diskásing da niú propóusel"
+      example: "The committee is voting on the proposal."
 
     - sentence: "The jury deliberating on the verdict."
       isTrue: false
       explanation: "The sentence should start with 'The jury is'."
       translation: "El jurado está deliberando sobre el veredicto."
       pronunciation: "da júri is dilíbereiting on da vérdikt"
+      example: "The jury is listening to the testimony."
 
     - sentence: "The team is practicing for the championship."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "El equipo está practicando para el campeonato."
       pronunciation: "da tím is práktising for da chámpionship"
+      example: "The team is celebrating their victory."
 
     - sentence: "The orchestra performing a symphony."
       isTrue: false
       explanation: "The sentence should start with 'The orchestra is'."
       translation: "La orquesta está interpretando una sinfonía."
       pronunciation: "di órkestra is perfórming a símfoni"
+      example: "The orchestra is tuning their instruments."
 
     - sentence: "The politicians are debating the new legislation."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los políticos están debatiendo la nueva legislación."
       pronunciation: "da políshons ar dibéiting da niú leyisléishon"
+      example: "The politicians are campaigning for votes."
 
     - sentence: "The scientists are conducting an experiment."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los científicos están realizando un experimento."
       pronunciation: "da sáientists ar kondákting an ekspériment"
+      example: "The scientists are analyzing the results."
 
     - sentence: "The leaves rustling in the wind."
       isTrue: false
       explanation: "The sentence should start with 'The leaves are'."
       translation: "Las hojas están crujiendo en el viento."
       pronunciation: "da lívs ar rásling in da uínd"
+      example: "The leaves are blowing in the breeze."
 
     - sentence: "The waves are crashing on the shore."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Las olas están rompiendo en la orilla."
       pronunciation: "da uéivs ar kráshing on da shór"
+      example: "The waves are lapping at the beach."
 
     - sentence: "The journalists are investigating the scandal."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los periodistas están investigando el escándalo."
       pronunciation: "da jérnalists ar invéstigueiting da skándal"
+      example: "The journalists are writing an article."
 
     - sentence: "The firefighters battling the blaze."
       isTrue: false
       explanation: "The sentence should start with 'The firefighters are'."
       translation: "Los bomberos están luchando contra el incendio."
       pronunciation: "da fáierfaiters ar bátling da bléiz"
+      example: "The firefighters are rescuing people."
 
     - sentence: "The actors are rehearsing for the play."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los actores están ensayando para la obra."
       pronunciation: "di áktors ar rijérsing for da pléi"
+      example: "The actors are performing on stage."
 
     - sentence: "The students collaborating on a project."
       isTrue: false
       explanation: "The sentence should start with 'The students are'."
       translation: "Los estudiantes están colaborando en un proyecto."
       pronunciation: "da stiúdents ar koláboreiting on a prójekt"
+      example: "The students are presenting their project."
 
     - sentence: "The machine is processing the data."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "La máquina está procesando los datos."
       pronunciation: "da mashín is prósesing da déita"
+      example: "The machine is printing the report."
 
     - sentence: "The audience applauding the performance."
       isTrue: false
       explanation: "The sentence should start with 'The audience is'."
       translation: "El público está aplaudiendo la actuación."
       pronunciation: "di ódiens is apláuding da perfórmans"
+      example: "The audience is watching the show."
 
     - sentence: "The artist is painting a portrait."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "El artista está pintando un retrato."
       pronunciation: "di ártist is péinting a pórtrait"
+      example: "The artist is drawing a landscape."
 
     - sentence: "The construction workers building a skyscraper."
       isTrue: false
       explanation: "The sentence should start with 'The construction workers are'."
       translation: "Los obreros están construyendo un rascacielos."
       pronunciation: "da konstrákshon uérkers ar bílding a skáiskreiper"
+      example: "The construction workers are laying bricks."
 
     - sentence: "The tourists are exploring the ancient ruins."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los turistas están explorando las ruinas antiguas."
       pronunciation: "da túrists ar eksplóring di éinshent rúins"
+      example: "The tourists are taking photos."
 
     - sentence: "The children giggling at the cartoon."
       isTrue: false
       explanation: "The sentence should start with 'The children are'."
       translation: "Los niños se están riendo del dibujo animado."
       pronunciation: "da chíldren ar gígling at da kartún"
+      example: "The children are laughing at the joke."
 
     - sentence: "The athletes are competing in the marathon."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los atletas están compitiendo en el maratón."
       pronunciation: "di ázlits ar kompíting in da márathon"
+      example: "The athletes are training for the race."
 
     - sentence: "The musicians tuning their instruments."
       isTrue: false
       explanation: "The sentence should start with 'The musicians are'."
       translation: "Los músicos están afinando sus instrumentos."
       pronunciation: "da miúsishons ar túning der ínstruments"
+      example: "The musicians are playing a concert."
 
     - sentence: "The chefs are chopping the vegetables."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los chefs están cortando las verduras."
       pronunciation: "da shefs ar chóping da védytabels"
+      example: "The chefs are preparing a salad."
 
     - sentence: "The sailors navigating the rough seas."
       isTrue: false
       explanation: "The sentence should start with 'The sailors are'."
       translation: "Los marineros están navegando por los mares agitados."
       pronunciation: "da séilors ar návigueiting da raf sís"
+      example: "The sailors are docking the ship."
 
     - sentence: "The designers are creating a new fashion line."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los diseñadores están creando una nueva línea de moda."
       pronunciation: "da disáiners ar kriéiting a niú fáshon láin"
+      example: "The designers are sketching new outfits."
 
     - sentence: "The engineers developing a new software."
       isTrue: false
       explanation: "The sentence should start with 'The engineers are'."
       translation: "Los ingenieros están desarrollando un nuevo software."
       pronunciation: "di ényineers ar divéloping a niú sóftwer"
+      example: "The engineers are testing the software."
 
     - sentence: "The doctors are performing a surgery."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los médicos están realizando una cirugía."
       pronunciation: "da dóktors ar perfórming a séryeri"
+      example: "The doctors are examining the patient."
 
     - sentence: "The lawyers arguing a case in court."
       isTrue: false
       explanation: "The sentence should start with 'The lawyers are'."
       translation: "Los abogados están argumentando un caso en la corte."
       pronunciation: "da lóyers ar árgiuing a kéis in kort"
+      example: "The lawyers are presenting evidence."
 
     - sentence: "The protesters are marching for their rights."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los manifestantes están marchando por sus derechos."
       pronunciation: "da protésters ar márching for der ráits"
+      example: "The protesters are chanting slogans."
 
     - sentence: "The gardeners planting new flowers."
       isTrue: false
       explanation: "The sentence should start with 'The gardeners are'."
       translation: "Los jardineros están plantando nuevas flores."
       pronunciation: "da gárdeners ar plánting niú fláuers"
+      example: "The gardeners are watering the plants."
 
     - sentence: "The astronomers are observing the stars."
       isTrue: true
       explanation: "This is a correct present continuous sentence."
       translation: "Los astrónomos están observando las estrellas."
       pronunciation: "di astrónomers ar obsérving da stars"
+      example: "The astronomers are studying the galaxy."
 
     - sentence: "The archaeologists excavating an ancient site."
       isTrue: false
       explanation: "The sentence should start with 'The archaeologists are'."
       translation: "Los arqueólogos están excavando un sitio antiguo."
       pronunciation: "di arkiólogists ar ékskaveiting an éinshent sáit"
+      example: "The archaeologists are discovering artifacts."

@@ -1,0 +1,253 @@
+items:
+    # NIVEL FÁCIL (10 ejercicios)
+    - left: "I"
+      right: "went to school"
+      translation: "Yo fui a la escuela"
+      pronunciation: "ai uént tu skul"
+
+    - left: "She"
+      right: "ate breakfast"
+      translation: "Ella desayunó"
+      pronunciation: "shi éit brékfast"
+
+    - left: "They"
+      right: "played football"
+      translation: "Ellos jugaron fútbol"
+      pronunciation: "dei pléid fútbol"
+
+    - left: "He"
+      right: "read a book"
+      translation: "Él leyó un libro"
+      pronunciation: "ji red a buk"
+
+    - left: "We"
+      right: "watched TV"
+      translation: "Nosotros vimos televisión"
+      pronunciation: "ui uócht tívi"
+
+    - left: "The dog"
+      right: "slept in the garden"
+      translation: "El perro durmió en el jardín"
+      pronunciation: "da dog slept in da gárden"
+
+    - left: "You"
+      right: "did your homework"
+      translation: "Tú hiciste tu tarea"
+      pronunciation: "yu did yor jóumwerk"
+
+    - left: "The baby"
+      right: "cried all night"
+      translation: "El bebé lloró toda la noche"
+      pronunciation: "da béibi kráid ol náit"
+
+    - left: "I"
+      right: "lost my keys"
+      translation: "Perdí mis llaves"
+      pronunciation: "ai lost mai kís"
+
+    - left: "She"
+      right: "opened the door"
+      translation: "Ella abrió la puerta"
+      pronunciation: "shi óupend da dór"
+
+    # NIVEL MEDIO (10 ejercicios)
+    - left: "The students"
+      right: "took the test"
+      translation: "Los estudiantes tomaron el examen"
+      pronunciation: "da stiúdents tuk da test"
+
+    - left: "We"
+      right: "thought about it"
+      translation: "Pensamos en ello"
+      pronunciation: "ui zót abáut it"
+
+    - left: "The teacher"
+      right: "explained the lesson"
+      translation: "El profesor explicó la lección"
+      pronunciation: "da tícher ekspleind da léson"
+
+    - left: "They"
+      right: "sold their house"
+      translation: "Ellos vendieron su casa"
+      pronunciation: "dei sóuld der jáus"
+
+    - left: "He"
+      right: "won the competition"
+      translation: "Él ganó la competencia"
+      pronunciation: "ji uán da kompetíshon"
+
+    - left: "The plane"
+      right: "landed safely"
+      translation: "El avión aterrizó con seguridad"
+      pronunciation: "da plein lánded séifli"
+
+    - left: "She"
+      right: "studied English"
+      translation: "Ella estudió inglés"
+      pronunciation: "shi stádid ínglish"
+
+    - left: "The car"
+      right: "broke down"
+      translation: "El carro se averió"
+      pronunciation: "da kar bróuk dáun"
+
+    - left: "I"
+      right: "saw the movie"
+      translation: "Vi la película"
+      pronunciation: "ai só da múvi"
+
+    - left: "They"
+      right: "bought a house"
+      translation: "Ellos compraron una casa"
+      pronunciation: "dei bót a jáus"
+
+    # NIVEL DIFÍCIL (30 ejercicios)
+    - left: "The scientists"
+      right: "made a discovery"
+      translation: "Los científicos hicieron un descubrimiento"
+      pronunciation: "da sáientists meid a diskáveri"
+
+    - left: "The orchestra"
+      right: "performed beautifully"
+      translation: "La orquesta actuó hermosamente"
+      pronunciation: "di órkestra perfórmd biútifuli"
+
+    - left: "The author"
+      right: "published her novel"
+      translation: "La autora publicó su novela"
+      pronunciation: "di ózor páblishd jer nóvel"
+
+    - left: "The company"
+      right: "experienced growth"
+      translation: "La empresa experimentó crecimiento"
+      pronunciation: "da kámpani ekspírienstd gróuz"
+
+    - left: "The archaeologists"
+      right: "discovered artifacts"
+      translation: "Los arqueólogos descubrieron artefactos"
+      pronunciation: "di arkióloyists diskáverd ártifakts"
+
+    - left: "The storm"
+      right: "caused damage"
+      translation: "La tormenta causó daños"
+      pronunciation: "da storm kózd démech"
+
+    - left: "The government"
+      right: "implemented changes"
+      translation: "El gobierno implementó cambios"
+      pronunciation: "da gávernment ímplementid chéinyes"
+
+    - left: "The team"
+      right: "persevered through challenges"
+      translation: "El equipo perseveró a través de los desafíos"
+      pronunciation: "da tím persevírd zru chálenyis"
+
+    - left: "The professor"
+      right: "developed a theory"
+      translation: "El profesor desarrolló una teoría"
+      pronunciation: "da profésor divélopd a zíori"
+
+    - left: "The athletes"
+      right: "trained intensively"
+      translation: "Los atletas entrenaron intensamente"
+      pronunciation: "di ázlits tréind inténsivli"
+
+    - left: "The companies"
+      right: "merged successfully"
+      translation: "Las empresas se fusionaron exitosamente"
+      pronunciation: "da kámpaniz méryd saksésfully"
+
+    - left: "The researchers"
+      right: "achieved results"
+      translation: "Los investigadores lograron resultados"
+      pronunciation: "da rísérchers achívd rizálts"
+
+    - left: "The negotiations"
+      right: "continued for months"
+      translation: "Las negociaciones continuaron por meses"
+      pronunciation: "da negoshiéishons kontíniud for manzs"
+
+    - left: "The artist"
+      right: "drew inspiration"
+      translation: "El artista extrajo inspiración"
+      pronunciation: "di ártist drú inspiréishon"
+
+    - left: "The building"
+      right: "converted to apartments"
+      translation: "El edificio se convirtió en apartamentos"
+      pronunciation: "da bílding konvértid tu apártments"
+
+    - left: "The committee"
+      right: "approved the proposal"
+      translation: "El comité aprobó la propuesta"
+      pronunciation: "da komíti aprúvd da propóuzal"
+
+    - left: "The experiment"
+      right: "yielded results"
+      translation: "El experimento produjo resultados"
+      pronunciation: "di ekspériment yílded rizálts"
+
+    - left: "The police"
+      right: "arrested the suspect"
+      translation: "La policía arrestó al sospechoso"
+      pronunciation: "da polís aréstid da saspékt"
+
+    - left: "The technology"
+      right: "evolved rapidly"
+      translation: "La tecnología evolucionó rápidamente"
+      pronunciation: "da teknóloyi evólvd rápidli"
+
+    - left: "The festival"
+      right: "attracted visitors"
+      translation: "El festival atrajo visitantes"
+      pronunciation: "da féstival atrákted vísitors"
+
+    - left: "The company"
+      right: "expanded globally"
+      translation: "La empresa se expandió globalmente"
+      pronunciation: "da kámpani ekspándid glóubali"
+
+    - left: "The students"
+      right: "gained experience"
+      translation: "Los estudiantes obtuvieron experiencia"
+      pronunciation: "da stiúdents guéind ekspíriens"
+
+    - left: "The market"
+      right: "grew significantly"
+      translation: "El mercado creció significativamente"
+      pronunciation: "da márket grú signíficantli"
+
+    - left: "The project"
+      right: "finished on time"
+      translation: "El proyecto terminó a tiempo"
+      pronunciation: "da próyekt fínishd on táim"
+
+    - left: "The audience"
+      right: "responded enthusiastically"
+      translation: "El público respondió con entusiasmo"
+      pronunciation: "di ódiens respónded enziusiástikali"
+
+    - left: "The river"
+      right: "flooded its banks"
+      translation: "El río inundó sus orillas"
+      pronunciation: "da ríver fládid its banks"
+
+    - left: "The board"
+      right: "made decisions"
+      translation: "La junta tomó decisiones"
+      pronunciation: "da bord meid desíshons"
+
+    - left: "The investment"
+      right: "generated returns"
+      translation: "La inversión generó retornos"
+      pronunciation: "di invéstment yénereitid ritérns"
+
+    - left: "The ceremony"
+      right: "proceeded as planned"
+      translation: "La ceremonia procedió según lo planeado"
+      pronunciation: "da séremoni prosídid as plánd"
+
+    - left: "The disease"
+      right: "spread rapidly"
+      translation: "La enfermedad se propagó rápidamente"
+      pronunciation: "da dizís spred rápidli"

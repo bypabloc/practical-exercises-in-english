@@ -83,6 +83,10 @@
                       label="Practice"
                       :text="getSentenceWithCorrection(exercise)"
                     />
+                    <TfsButtonPractice
+                      :exercise="exercise"
+                      :text="getSentenceWithCorrection(exercise)"
+                    />
                   </div>
                 </div>
               </div>
@@ -116,83 +120,94 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
-  exercises: {
-    type: Array,
-    required: true
-  }
-});
+	exercises: {
+		type: Array,
+		required: true,
+	},
+})
+
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
 
 // Component state
-const selectedExercises = ref([]);
-const userAnswers = ref(new Map()); // Map of exerciseIndex -> selected word
-const showResults = ref(false);
+const selectedExercises = ref([])
+const userAnswers = ref(new Map()) // Map of exerciseIndex -> selected word
+const showResultsRef = ref(false)
+const showResults = computed(() => {
+  if (canSkipValidationAllQuestionsAnswered) return true
+  return showResultsRef.value
+})
 
 // Select 10 random exercises on mount
 onMounted(() => {
-  const shuffled = [...props.exercises]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 10);
-  selectedExercises.value = shuffled;
-});
+	const shuffled = [...props.exercises]
+		.sort(() => Math.random() - 0.5)
+		.slice(0, 10)
+	selectedExercises.value = shuffled
+})
 
 // Split sentence into words while preserving spacing and punctuation
-const splitSentence = (sentence) => {
-  // First split the sentence into tokens, preserving spaces and punctuation
-  const matches = sentence?.match && (sentence.match(/[\w']+|[.,!?;]|\s+/g) || []);
-  
-  // Map each token to an object with properties indicating if it's selectable
-  return matches.map((token, index) => {
-    // Check if token is a word (contains letters or apostrophes)
-    const isWord = /[\w']+/.test(token);
-    
-    return {
-      text: token,
-      id: `${token}-${index}`,
-      selectable: isWord // Only true for actual words
-    };
-  });
-};
+const splitSentence = sentence => {
+	// First split the sentence into tokens, preserving spaces and punctuation
+	const matches =
+		sentence?.match && (sentence.match(/[\w']+|[.,!?;]|\s+/g) || [])
+
+	// Map each token to an object with properties indicating if it's selectable
+	return matches.map((token, index) => {
+		// Check if token is a word (contains letters or apostrophes)
+		const isWord = /[\w']+/.test(token)
+
+		return {
+			text: token,
+			id: `${token}-${index}`,
+			selectable: isWord, // Only true for actual words
+		}
+	})
+}
 
 // Handle word selection
 const isWordSelected = (exerciseIndex, wordObj) => {
-  return userAnswers.value.get(exerciseIndex) === wordObj.id;
-};
+	return userAnswers.value.get(exerciseIndex) === wordObj.id
+}
 
 const toggleWordSelection = (exerciseIndex, wordObj) => {
-  if (isWordSelected(exerciseIndex, wordObj)) {
-    userAnswers.value.delete(exerciseIndex);
-  } else {
-    userAnswers.value.set(exerciseIndex, wordObj.id);
-  }
-};
+	if (isWordSelected(exerciseIndex, wordObj)) {
+		userAnswers.value.delete(exerciseIndex)
+	} else {
+		userAnswers.value.set(exerciseIndex, wordObj.id)
+	}
+}
 
 // Check if user has answered all questions
 const canSubmit = computed(() => {
-  return userAnswers.value.size === selectedExercises.value.length;
-});
+	return userAnswers.value.size === selectedExercises.value.length
+})
 
 // Check if an answer is correct
-const isCorrect = (index) => {
-  const selectedWordId = userAnswers.value.get(index);
-  const selectedWordObj = splitSentence(selectedExercises.value[index].sentence)
-    .find(w => w.id === selectedWordId);
-  return selectedWordObj && selectedWordObj.text === selectedExercises.value[index].error_position;
-};
+const isCorrect = index => {
+	const selectedWordId = userAnswers.value.get(index)
+	const selectedWordObj = splitSentence(
+		selectedExercises.value[index].sentence,
+	).find(w => w.id === selectedWordId)
+	return (
+		selectedWordObj &&
+		selectedWordObj.text === selectedExercises.value[index].error_position
+	)
+}
 
 // Get sentence with correction applied
-const getSentenceWithCorrection = (exercise) => {
-  return exercise.sentence.replace(
-    exercise.error_position,
-    exercise.correction
-  );
-};
+const getSentenceWithCorrection = exercise => {
+	return exercise.sentence.replace(exercise.error_position, exercise.correction)
+}
 
 // Validate all answers
 const validateAnswers = () => {
-  if (!canSubmit.value) return;
-  showResults.value = true;
-};
+	if (!canSubmit.value) return
+	showResultsRef.value = true
+}
 </script>

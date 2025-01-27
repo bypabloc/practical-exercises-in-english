@@ -115,6 +115,10 @@
                     <TfsButtonSpeak
                       :text="`${exercise.left} - ${exercise.right}`"
                     />
+                    <TfsButtonPractice
+                      :exercise="exercise"
+                      :text="`${exercise.left} - ${exercise.right}`"
+                    />
                   </div>
                 </div>
               </div>
@@ -148,93 +152,100 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
-  exercises: {
-    type: Array,
-    required: true
-  }
-});
+	exercises: {
+		type: Array,
+		required: true,
+	},
+})
+
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
 
 // Component state
-const selectedExercises = ref([]);
-const userAnswers = ref([]);
-const showResults = ref(false);
-const dropZoneClasses = ref([]);
+const selectedExercises = ref([])
+const userAnswers = ref([])
+const showResults = ref(false)
+const dropZoneClasses = ref([])
 
 // Select 10 random exercises on mount
 onMounted(() => {
-  const shuffled = [...props.exercises]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 10);
-  selectedExercises.value = shuffled;
-  userAnswers.value = Array(shuffled.length).fill(null);
-  dropZoneClasses.value = Array(shuffled.length).fill('');
-});
+	const shuffled = [...props.exercises]
+		.sort(() => Math.random() - 0.5)
+		.slice(0, 10)
+	selectedExercises.value = shuffled
+	userAnswers.value = Array(shuffled.length).fill(null)
+	dropZoneClasses.value = Array(shuffled.length).fill('')
+})
 
 const allAnswered = computed(() => {
-  return userAnswers.value.every(answer => answer !== null);
-});
+  if (canSkipValidationAllQuestionsAnswered) return true
+	return userAnswers.value.every(answer => answer !== null)
+})
 
 // Compute shuffled right options
 const shuffledRightOptions = computed(() => {
-  return [...selectedExercises.value.map(ex => ex.right)]
-    .sort(() => Math.random() - 0.5);
-});
+	return [...selectedExercises.value.map(ex => ex.right)].sort(
+		() => Math.random() - 0.5,
+	)
+})
 
 // Check if an answer is used
-const isAnswerUsed = (answer) => {
-  return userAnswers.value.includes(answer);
-};
+const isAnswerUsed = answer => {
+	return userAnswers.value.includes(answer)
+}
 
 // Get the text of a right option
-const getRightText = (answer) => {
-  return answer;
-};
+const getRightText = answer => {
+	return answer
+}
 
 // Drag and drop handlers
 const handleDragStart = (event, answer) => {
-  event.dataTransfer.setData('text/plain', answer);
-};
+	event.dataTransfer.setData('text/plain', answer)
+}
 
-const handleDragEnter = (index) => {
-  dropZoneClasses.value[index] = 'border-blue-500 bg-blue-50';
-};
+const handleDragEnter = index => {
+	dropZoneClasses.value[index] = 'border-blue-500 bg-blue-50'
+}
 
-const handleDragLeave = (index) => {
-  dropZoneClasses.value[index] = '';
-};
+const handleDragLeave = index => {
+	dropZoneClasses.value[index] = ''
+}
 
 const handleDrop = (event, index) => {
-  const answer = event.dataTransfer.getData('text/plain');
-  
-  // Remove the answer from its previous position if it exists
-  const previousIndex = userAnswers.value.indexOf(answer);
-  if (previousIndex !== -1) {
-    userAnswers.value[previousIndex] = null;
-  }
-  
-  // Add the answer to the new position
-  userAnswers.value[index] = answer;
-  dropZoneClasses.value[index] = '';
-};
+	const answer = event.dataTransfer.getData('text/plain')
+
+	// Remove the answer from its previous position if it exists
+	const previousIndex = userAnswers.value.indexOf(answer)
+	if (previousIndex !== -1) {
+		userAnswers.value[previousIndex] = null
+	}
+
+	// Add the answer to the new position
+	userAnswers.value[index] = answer
+	dropZoneClasses.value[index] = ''
+}
 
 // Check if an answer is correct
-const isCorrect = (index) => {
-  return userAnswers.value[index] === selectedExercises.value[index].right;
-};
+const isCorrect = index => {
+	return userAnswers.value[index] === selectedExercises.value[index].right
+}
 
 // Get user's score
 const getScore = () => {
-  return selectedExercises.value.reduce((score, _, index) => {
-    return score + (isCorrect(index) ? 1 : 0);
-  }, 0);
-};
+	return selectedExercises.value.reduce((score, _, index) => {
+		return score + (isCorrect(index) ? 1 : 0)
+	}, 0)
+}
 
 // Validate all answers
 const validateAnswers = () => {
-  if (!allAnswered.value) return;
-  showResults.value = true;
-};
+	if (!allAnswered.value) return
+	showResults.value = true
+}
 </script>

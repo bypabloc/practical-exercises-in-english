@@ -81,10 +81,16 @@
                 </p>
               </div>
 
-              <!-- Practice Button -->
-              <TfsButtonSpeak
-                :text="getCompleteSentence(exercise)"
-              />
+              <!-- Practice Buttons -->
+              <div class="flex items-center gap-2">
+                <TfsButtonSpeak
+                  :text="getCompleteSentence(exercise)"
+                />
+                <TfsButtonPractice
+                  :exercise="exercise"
+                  :text="getCompleteSentence(exercise)"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -107,58 +113,66 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
   exercises: {
     type: Array,
-    required: true
-  }
-});
+    required: true,
+  },
+})
+
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
 
 // Component state
-const userAnswers = ref([]);
-const showResults = ref(false);
-const selectedExercises = ref([]);
+const userAnswers = ref([])
+const showResults = ref(false)
+const selectedExercises = ref([])
 
 // Select 10 random exercises on mount
 onMounted(() => {
   const shuffled = [...props.exercises]
     .sort(() => Math.random() - 0.5)
-    .slice(0, 10);
-  selectedExercises.value = shuffled;
-  userAnswers.value = Array(shuffled.length).fill('');
-});
+    .slice(0, 10)
+  selectedExercises.value = shuffled
+  userAnswers.value = Array(shuffled.length).fill('')
+})
 
 const allFieldsFilled = computed(() => {
-  return userAnswers.value.every(answer => answer?.trim() !== '');
-});
+  if (canSkipValidationAllQuestionsAnswered) return true
+  return userAnswers.value.every(answer => answer?.trim() !== '')
+})
 
 // Helper functions to split question around blank
-const getBeforeBlanks = (question) => {
-  return question.split('{_____}')[0];
-};
+const getBeforeBlanks = question => {
+  return question.split('{_____}')[0]
+}
 
-const getAfterBlanks = (question) => {
-  return question.split('{_____}')[1];
-};
+const getAfterBlanks = question => {
+  return question.split('{_____}')[1]
+}
 
 // Get complete sentence with answer filled in
-const getCompleteSentence = (exercise) => {
-  return exercise.question.replace('{_____}', exercise.answer);
-};
+const getCompleteSentence = exercise => {
+  return exercise.question.replace('{_____}', exercise.answer)
+}
 
 // Check if an answer is correct
-const isCorrect = (index) => {
-  if (!userAnswers.value[index]) return false;
-  return userAnswers.value[index].toLowerCase().trim() === 
-    selectedExercises.value[index].answer.toLowerCase().trim();
-};
+const isCorrect = index => {
+  if (!userAnswers.value[index]) return false
+  return (
+    userAnswers.value[index].toLowerCase().trim() ===
+    selectedExercises.value[index].answer.toLowerCase().trim()
+  )
+}
 
 // Validate all answers
 const validateAnswers = () => {
   if (allFieldsFilled.value) {
-    showResults.value = true;
+    showResults.value = true
   }
-};
+}
 </script>

@@ -49,17 +49,17 @@
 
 <script setup>
 defineProps({
-  items: {
-    type: Array,
-    required: true,
-  },
-  showList: {
-    type: Boolean,
-    default: false,
-  },
-});
+	items: {
+		type: Array,
+		required: true,
+	},
+	showList: {
+		type: Boolean,
+		default: false,
+	},
+})
 
-defineEmits(['navigate']);
+defineEmits(['navigate'])
 </script>
 
 <style scoped>

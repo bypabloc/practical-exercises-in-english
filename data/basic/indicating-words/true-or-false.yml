@@ -1,0 +1,226 @@
+# Ejercicios de Palabras Indicadoras - True or False
+items:
+    # NIVEL FÁCIL (7 ejercicios)
+    - sentence: "We always use an article before a noun."
+      isTrue: false
+      explanation: "No siempre se necesita un artículo. Los sustantivos no contables y plurales pueden no requerir artículo"
+      translation: "Siempre usamos un artículo antes de un sustantivo"
+      pronunciation: "ui olueiz yuz an ártikl bifór a náun"
+
+    - sentence: "'Some' is used only in affirmative sentences."
+      isTrue: false
+      explanation: "'Some' se puede usar en oraciones afirmativas y en preguntas"
+      translation: "'Some' se usa solo en oraciones afirmativas"
+      pronunciation: "sam iz yuzd onli in afirmétiv séntences"
+
+    - sentence: "We use 'a' before words starting with a vowel sound."
+      isTrue: false
+      explanation: "Usamos 'an' antes de palabras que comienzan con sonido vocálico"
+      translation: "Usamos 'a' antes de palabras que comienzan con sonido vocálico"
+      pronunciation: "ui yuz an bifór werds stárting uiz a váuel saund"
+
+    - sentence: "'This' is used for singular items nearby."
+      isTrue: true
+      explanation: "'This' se usa para elementos singulares cercanos"
+      translation: "'This' se usa para elementos singulares cercanos"
+      pronunciation: "zis iz yuzd for síngular áitems níerbi"
+
+    - sentence: "Uncountable nouns always require an article."
+      isTrue: false
+      explanation: "Los sustantivos no contables no siempre requieren un artículo"
+      translation: "Los sustantivos no contables siempre requieren un artículo"
+      pronunciation: "ankauntábel náuns olueiz rikuáir an ártikl"
+
+    - sentence: "'Few' and 'a few' mean the same thing."
+      isTrue: false
+      explanation: "'Few' indica un número muy pequeño, 'a few' indica un número pequeño pero positivo"
+      translation: "'Few' y 'a few' significan lo mismo"
+      pronunciation: "fiu and a fiu mín da seim zing"
+
+    - sentence: "Demonstrative words show location or time."
+      isTrue: true
+      explanation: "Las palabras demostrativas indican ubicación o tiempo"
+      translation: "Las palabras demostrativas muestran ubicación o tiempo"
+      pronunciation: "demánstreitiv werds shou lokéishon or taim"
+
+    # NIVEL MEDIO (7 ejercicios)
+    - sentence: "'Any' is used only in negative sentences."
+      isTrue: false
+      explanation: "'Any' se usa en oraciones negativas y preguntas"
+      translation: "'Any' se usa solo en oraciones negativas"
+      pronunciation: "eni iz yuzd onli in negátiv séntences"
+
+    - sentence: "Plural nouns always require an article."
+      isTrue: false
+      explanation: "Los sustantivos plurales no siempre requieren un artículo"
+      translation: "Los sustantivos plurales siempre requieren un artículo"
+      pronunciation: "plúrol náuns olueiz rikuáir an ártikl"
+
+    - sentence: "'Little' and 'a little' express the same quantity."
+      isTrue: false
+      explanation: "'Little' indica casi nada, 'a little' indica una pequeña cantidad positiva"
+      translation: "'Little' y 'a little' expresan la misma cantidad"
+      pronunciation: "lítl and a lítl iksprés da seim kwóntiti"
+
+    - sentence: "Demonstrative pronouns change based on distance and number."
+      isTrue: true
+      explanation: "Los pronombres demostrativos cambian según distancia y número"
+      translation: "Los pronombres demostrativos cambian según distancia y número"
+      pronunciation: "demánstreitiv prónáuns cheinj béisd on distens and número"
+
+    - sentence: "'The' is used only with specific or known items."
+      isTrue: true
+      explanation: "'The' se usa con elementos específicos o conocidos"
+      translation: "'The' se usa solo con elementos específicos o conocidos"
+      pronunciation: "da iz yuzd onli uiz spesífik or nóun áitems"
+
+    - sentence: "We never use articles with proper nouns."
+      isTrue: false
+      explanation: "Algunos nombres propios pueden llevar artículo (ej. The United States)"
+      translation: "Nunca usamos artículos con nombres propios"
+      pronunciation: "ui néver yuz ártikls uiz próper náuns"
+
+    - sentence: "'Many' and 'much' can be used interchangeably."
+      isTrue: false
+      explanation: "'Many' se usa con sustantivos contables, 'much' con no contables"
+      translation: "'Many' y 'much' pueden usarse indistintamente"
+      pronunciation: "méni and mach kan bi yuzd intérchéinjeobli"
+
+    # NIVEL DIFÍCIL (26 ejercicios)
+    - sentence: "Uncountable nouns can never take a plural form."
+      isTrue: false
+      explanation: "Algunos sustantivos no contables pueden tener formas plurales en contextos específicos"
+      translation: "Los sustantivos no contables nunca pueden tener forma plural"
+      pronunciation: "ankauntábel náuns kan néver teik a plúrol form"
+
+    - sentence: "'Some' can be used in questions about offers or requests."
+      isTrue: true
+      explanation: "'Some' se puede usar en preguntas sobre ofertas o solicitudes"
+      translation: "'Some' puede usarse en preguntas sobre ofertas o solicitudes"
+      pronunciation: "sam kan bi yuzd in kuéschons abaut óffers or rikwésts"
+
+    - sentence: "All abstract nouns are uncountable."
+      isTrue: false
+      explanation: "Algunos sustantivos abstractos pueden ser contables"
+      translation: "Todos los sustantivos abstractos son no contables"
+      pronunciation: "ol abstrákt náuns ar ankauntábel"
+
+    - sentence: "Quantity words always modify the noun directly after them."
+      isTrue: false
+      explanation: "Las palabras de cantidad no siempre modifican directamente al siguiente sustantivo"
+      translation: "Las palabras de cantidad siempre modifican directamente al sustantivo que les sigue"
+      pronunciation: "kwóntiti werds olueiz módifai da náun diréktli áfter zem"
+
+    - sentence: "We can use 'a' with plural countable nouns."
+      isTrue: false
+      explanation: "'A' solo se usa con sustantivos contables singulares"
+      translation: "Podemos usar 'a' con sustantivos contables plurales"
+      pronunciation: "ui kan yuz a uiz plúrol kauntábel náuns"
+
+    - sentence: "Demonstrative words always precede the noun they modify."
+      isTrue: true
+      explanation: "Las palabras demostrativas siempre preceden al sustantivo que modifican"
+      translation: "Las palabras demostrativas siempre preceden al sustantivo que modifican"
+      pronunciation: "demánstreitiv werds olueiz prisíd da náun zei módifai"
+
+    - sentence: "'Few' always implies a negative connotation."
+      isTrue: true
+      explanation: "'Few' generalmente implica una connotación negativa"
+      translation: "'Few' siempre implica una connotación negativa"
+      pronunciation: "fiu olueiz implái a negátiv konoteishon"
+
+    - sentence: "Articles can change the meaning of a noun."
+      isTrue: true
+      explanation: "Los artículos pueden cambiar el significado de un sustantivo"
+      translation: "Los artículos pueden cambiar el significado de un sustantivo"
+      pronunciation: "ártikls kan cheinj da míning ov a náun"
+
+    - sentence: "We always use 'an' before words starting with a consonant."
+      isTrue: false
+      explanation: "Usamos 'a' antes de palabras que comienzan con consonante"
+      translation: "Siempre usamos 'an' antes de palabras que comienzan con consonante"
+      pronunciation: "ui olueiz yuz an bifór werds stárting uiz a kónsonant"
+
+    - sentence: "Quantity words can function as determiners."
+      isTrue: true
+      explanation: "Las palabras de cantidad pueden funcionar como determinantes"
+      translation: "Las palabras de cantidad pueden funcionar como determinantes"
+      pronunciation: "kwóntiti werds kan fánkshon az ditermináns"
+
+    - sentence: "'Some' is never used in negative sentences."
+      isTrue: false
+      explanation: "'Some' puede usarse en oraciones negativas en ciertos contextos"
+      translation: "'Some' nunca se usa en oraciones negativas"
+      pronunciation: "sam iz néver yuzd in negátiv séntences"
+
+    - sentence: "Proper nouns always require an article."
+      isTrue: false
+      explanation: "Los nombres propios no siempre requieren un artículo"
+      translation: "Los nombres propios siempre requieren un artículo"
+      pronunciation: "próper náuns olueiz rikuáir an ártikl"
+
+    - sentence: "Demonstrative words can show emotional distance."
+      isTrue: true
+      explanation: "Las palabras demostrativas pueden mostrar distancia emocional"
+      translation: "Las palabras demostrativas pueden mostrar distancia emocional"
+      pronunciation: "demánstreitiv werds kan shou imóshonl distens"
+
+    - sentence: "'Little' can be used as both an adjective and a determiner."
+      isTrue: true
+      explanation: "'Little' puede usarse como adjetivo y determinante"
+      translation: "'Little' puede usarse como adjetivo y determinante"
+      pronunciation: "lítl kan bi yuzd az bóth an ájektiv and a ditermináner"
+
+    - sentence: "All determiners can be used with all types of nouns."
+      isTrue: false
+      explanation: "Algunos determinantes son específicos para sustantivos contables o no contables"
+      translation: "Todos los determinantes pueden usarse con todos los tipos de sustantivos"
+      pronunciation: "ol ditermináns kan bi yuzd uiz ol táips ov náuns"
+
+    - sentence: "Quantity words reflect precise numerical values."
+      isTrue: false
+      explanation: "Las palabras de cantidad son generalmente imprecisas"
+      translation: "Las palabras de cantidad reflejan valores numéricos precisos"
+      pronunciation: "kwóntiti werds riflekt prasái njúmerikl válues"
+
+    - sentence: "Demonstrative words can replace nouns entirely."
+      isTrue: true
+      explanation: "Las palabras demostrativas pueden reemplazar sustantivos completamente"
+      translation: "Las palabras demostrativas pueden reemplazar sustantivos completamente"
+      pronunciation: "demánstreitiv werds kan ripleis náuns antaírli"
+
+    - sentence: "'Any' implies a specific or known quantity."
+      isTrue: false
+      explanation: "'Any' implica una cantidad indeterminada o no específica"
+      translation: "'Any' implica una cantidad específica o conocida"
+      pronunciation: "eni implái az spesífik or nóun kwóntiti"
+
+    - sentence: "Uncountable nouns can never take an indefinite article."
+      isTrue: true
+      explanation: "Los sustantivos no contables no pueden llevar un artículo indefinido"
+      translation: "Los sustantivos no contables nunca pueden llevar un artículo indefinido"
+      pronunciation: "ankauntábel náuns kan néver teik an indifínit ártikl"
+
+    - sentence: "Determiners always precede adjectives."
+      isTrue: true
+      explanation: "Los determinantes siempre preceden a los adjetivos"
+      translation: "Los determinantes siempre preceden a los adjetivos"
+      pronunciation: "ditermináns olueiz prisíd ájektivs"
+
+    - sentence: "'Much' can be used with plural countable nouns."
+      isTrue: false
+      explanation: "'Much' solo se usa con sustantivos no contables"
+      translation: "'Much' puede usarse con sustantivos contables plurales"
+      pronunciation: "mach kan bi yuzd uiz plúrol kauntábel náuns"
+
+    - sentence: "Demonstrative words can show temporal relationships."
+      isTrue: true
+      explanation: "Las palabras demostrativas pueden mostrar relaciones temporales"
+      translation: "Las palabras demostrativas pueden mostrar relaciones temporales"
+      pronunciation: "demánstreitiv werds kan shou témporal riléshonsheps"
+
+    - sentence: "All nouns require a determiner in English."
+      isTrue: false
+      explanation: "No todos los sustantivos requieren un determinante en inglés"
+      translation: "Todos los sustantivos requieren un determinante en inglés"
+      pronunciation: "ol náuns rikuáir a ditermináner in ínglish"

@@ -4,117 +4,137 @@ items:
     explanation: "Para rutinas diarias usamos el presente simple sin 'am/is/are'. La forma correcta sería 'I go to work every day'."
     translation: "En inglés, usamos 'am/is/are' con verbos para hablar de rutinas diarias (ej: 'I am go to work every day')."
     pronunciation: "ai gou tu work evri dei"
+    example: "I go to work at 8 AM every day."
 
   - sentence: "When talking about daily routines, we add -s or -es to verbs after he/she/it."
     isTrue: true
     explanation: "En tercera persona singular (he/she/it), siempre añadimos -s o -es al verbo en presente simple."
     translation: "Cuando hablamos de rutinas diarias, añadimos -s o -es a los verbos después de he/she/it."
     pronunciation: "ji/shi/it + verb + s/es"
+    example: "She wakes up early every morning."
 
   - sentence: "We can say 'I having breakfast every morning' to talk about daily routines."
     isTrue: false
     explanation: "No usamos el gerundio (-ing) para rutinas diarias. La forma correcta es 'I have breakfast every morning'."
     translation: "Podemos decir 'I having breakfast every morning' para hablar de rutinas diarias."
     pronunciation: "ai jav brekfast evri morning"
+    example: "I have breakfast at 7 AM every day."
 
   - sentence: "The word 'usually' goes before the main verb but after the verb 'to be' in daily routines."
     isTrue: true
     explanation: "Los adverbios de frecuencia como 'usually' van antes del verbo principal (usually work) pero después de 'be' (am usually)."
     translation: "La palabra 'usually' va antes del verbo principal pero después del verbo 'to be' en rutinas diarias."
     pronunciation: "yusuali + verb / am/is/are + yusuali"
+    example: "He usually drinks coffee in the morning. / She is usually late."
 
   - sentence: "In English, you can omit the subject pronoun (I, you, he, etc.) when talking about routines."
     isTrue: false
     explanation: "En inglés, a diferencia del español, siempre necesitamos usar el pronombre sujeto. No podemos decir 'work every day' sino 'I work every day'."
     translation: "En inglés, puedes omitir el pronombre sujeto (I, you, he, etc.) cuando hablas de rutinas."
     pronunciation: "ai work evri dei"
+    example: "I brush my teeth every morning and night."
 
   - sentence: "The expression 'have breakfast' is more common than 'eat breakfast' in daily routine descriptions."
     isTrue: true
     explanation: "Aunque ambas formas son correctas, 'have breakfast/lunch/dinner' es más común y natural que 'eat breakfast/lunch/dinner'."
     translation: "La expresión 'have breakfast' es más común que 'eat breakfast' en descripciones de rutinas diarias."
     pronunciation: "jav brekfast / it brekfast"
+    example: "I have breakfast with my family every morning."
 
   - sentence: "After prepositions like 'before' and 'after', we use the -ing form of the verb."
     isTrue: true
     explanation: "Después de preposiciones como 'before' y 'after', el verbo debe ir en gerundio (-ing). Ejemplo: 'before going to bed', 'after taking a shower'."
     translation: "Después de preposiciones como 'before' y 'after', usamos la forma -ing del verbo."
     pronunciation: "bifor going tu bed / after teiking a shauer"
+    example: "After taking a shower, I get dressed."
 
   - sentence: "We use 'at' with specific times, 'in' with parts of the day, and 'on' with days of the week."
     isTrue: true
     explanation: "Cada momento temporal usa una preposición específica: 'at 3:00', 'in the morning', 'on Monday'."
     translation: "Usamos 'at' con horas específicas, 'in' con partes del día, y 'on' con días de la semana."
     pronunciation: "at thri oklok / in da morning / on mandei"
+    example: "I wake up at 6:00, study in the morning, and have classes on Monday."
 
   - sentence: "You can say 'I am going to work every day' to describe your daily routine."
     isTrue: false
     explanation: "No usamos presente continuo (am going) para rutinas diarias. La forma correcta es presente simple: 'I go to work every day'."
     translation: "Puedes decir 'I am going to work every day' para describir tu rutina diaria."
     pronunciation: "ai gou tu work evri dei"
+    example: "I go to work by bus every day."
 
   - sentence: "The expression 'take a shower' is more common than 'have a shower' in American English."
     isTrue: true
     explanation: "Aunque ambas formas son correctas, 'take a shower' es más común en inglés americano, mientras que 'have a shower' es más común en inglés británico."
     translation: "La expresión 'take a shower' es más común que 'have a shower' en inglés americano."
     pronunciation: "teik a shauer / jav a shauer"
+    example: "I take a shower every morning before work."
 
   - sentence: "We use 'do homework' without 'the' when talking about the general activity."
     isTrue: true
     explanation: "Cuando hablamos de la actividad en general, no usamos 'the': 'I do homework'. Solo usamos 'the' cuando nos referimos a una tarea específica."
     translation: "Usamos 'do homework' sin 'the' cuando hablamos de la actividad en general."
     pronunciation: "du jomwork"
+    example: "I do homework after dinner every day."
 
   - sentence: "The verb 'sleep' changes to 'sleeps' after he/she/it in daily routines."
     isTrue: true
     explanation: "Como cualquier otro verbo en presente simple, 'sleep' añade -s en tercera persona singular: he/she/it sleeps."
     translation: "El verbo 'sleep' cambia a 'sleeps' después de he/she/it en rutinas diarias."
     pronunciation: "ji/shi/it slips"
+    example: "My baby sleeps eight hours every night."
 
   - sentence: "We can say 'make exercise' to describe a daily fitness routine."
     isTrue: false
     explanation: "La expresión correcta es 'do exercise' o 'exercise' (como verbo). 'Make exercise' no es correcto en inglés."
     translation: "Podemos decir 'make exercise' para describir una rutina diaria de ejercicio."
     pronunciation: "du eksersais / eksersais"
+    example: "I do exercise for an hour every morning."
 
   - sentence: "Time expressions like 'every day' and 'twice a week' require present simple tense."
     isTrue: true
     explanation: "Las expresiones de frecuencia y rutina como 'every day', 'once a week', 'twice a month' siempre van con presente simple."
     translation: "Expresiones de tiempo como 'every day' y 'twice a week' requieren tiempo presente simple."
     pronunciation: "evri dei / twais a wik"
+    example: "She goes to the gym twice a week."
 
   - sentence: "You can use 'usually am' instead of 'am usually' when describing routines."
     isTrue: false
     explanation: "El adverbio 'usually' siempre va después del verbo 'to be': 'I am usually', nunca 'I usually am'."
     translation: "Puedes usar 'usually am' en lugar de 'am usually' cuando describes rutinas."
     pronunciation: "am yusuali"
+    example: "I am usually tired in the evening."
 
   - sentence: "The verb 'go' changes to 'goes' only after he/she/it in daily routines."
     isTrue: true
     explanation: "El verbo 'go' sigue la regla normal de tercera persona singular y cambia a 'goes' solo con he/she/it."
     translation: "El verbo 'go' cambia a 'goes' solo después de he/she/it en rutinas diarias."
     pronunciation: "gou / gous"
+    example: "He goes to work by car every morning."
 
   - sentence: "We can use 'everyday' and 'every day' interchangeably in all situations."
     isTrue: false
     explanation: "'Everyday' es un adjetivo (everyday clothes), mientras que 'every day' es una expresión de frecuencia (I work every day)."
     translation: "Podemos usar 'everyday' y 'every day' indistintamente en todas las situaciones."
     pronunciation: "evrydei / evri dei"
+    example: "I wear everyday clothes to work. / I exercise every day."
 
   - sentence: "When describing morning routines, we always need to use 'in the morning' not just 'in morning'."
     isTrue: true
     explanation: "Siempre necesitamos el artículo 'the' en esta expresión: 'in the morning'. 'In morning' es incorrecto."
     translation: "Cuando describimos rutinas matutinas, siempre necesitamos usar 'in the morning' no solo 'in morning'."
     pronunciation: "in da morning"
+    example: "I drink coffee in the morning."
 
   - sentence: "The verb 'study' changes to 'studys' after he/she/it in daily routines."
     isTrue: false
     explanation: "Los verbos que terminan en consonante + y cambian la y por i y añaden -es: study → studies, no 'studys'."
     translation: "El verbo 'study' cambia a 'studys' después de he/she/it en rutinas diarias."
     pronunciation: "stadi / stadis"
+    example: "She studies English for two hours every day."
 
   - sentence: "You should always use a.m./p.m. when telling time in English daily routines."
     isTrue: false
     explanation: "Puedes usar tanto el formato de 12 horas (con a.m./p.m.) como el de 24 horas, aunque en el habla informal es más común usar a.m./p.m."
     translation: "Debes usar siempre a.m./p.m. cuando dices la hora en rutinas diarias en inglés."
     pronunciation: "ei em / pi em"
+    example: "I start work at 9:00 AM and finish at 5:00 PM."

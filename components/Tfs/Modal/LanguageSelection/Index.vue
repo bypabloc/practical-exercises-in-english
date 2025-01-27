@@ -97,10 +97,10 @@
 import { onMounted, ref } from 'vue'
 
 const props = defineProps({
-  isOpen: {
-    type: Boolean,
-    default: false
-  }
+	isOpen: {
+		type: Boolean,
+		default: false,
+	},
 })
 
 const emit = defineEmits(['close'])
@@ -117,13 +117,13 @@ const pitch = ref(1)
 
 // Populate voices on component mount
 onMounted(() => {
-  // Get available voices 
-  const voices = $textToSpeech.getVoices()
-  processedVoices.value = voices
+	// Get available voices
+	const voices = $textToSpeech.getVoices()
+	processedVoices.value = voices
 
-  // Auto-select first voice if available
-  if (voices.length > 0) {
-    selectedVoice.value = voices[0]
-  }
+	// Auto-select first voice if available
+	if (voices.length > 0) {
+		selectedVoice.value = voices[0]
+	}
 })
 </script>

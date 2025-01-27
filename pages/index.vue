@@ -50,26 +50,28 @@ const textToSpeechStatus = cookieStore.get('text-to-speech')
 const isVoiceModalOpen = ref(false)
 
 const difficulties = computed(() => {
-  const difficulties = Object.keys(exerciseStore.difficulties).map((difficulty) => {
-    return {
-      name: exerciseStore.difficulties[difficulty].label,
-      route: `/${difficulty}`,
-      order: exerciseStore.difficulties[difficulty].order,
-      isActive: exerciseStore.difficulties[difficulty].isActive,
-    };
-  });
-  return difficulties.sort((a, b) => a.order - b.order);
-});
+	const difficulties = Object.keys(exerciseStore.difficulties).map(
+		difficulty => {
+			return {
+				name: exerciseStore.difficulties[difficulty].label,
+				route: `/${difficulty}`,
+				order: exerciseStore.difficulties[difficulty].order,
+				isActive: exerciseStore.difficulties[difficulty].isActive,
+			}
+		},
+	)
+	return difficulties.sort((a, b) => a.order - b.order)
+})
 
-const navigateToLevel = (route) => {
-  router.push(route);
-};
+const navigateToLevel = route => {
+	router.push(route)
+}
 
 const openVoiceModal = () => {
-  isVoiceModalOpen.value = true
+	isVoiceModalOpen.value = true
 }
 
 const closeVoiceModal = () => {
-  isVoiceModalOpen.value = false
+	isVoiceModalOpen.value = false
 }
 </script>

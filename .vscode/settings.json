@@ -1,52 +1,52 @@
 {
-  "cSpell.words": ["unocss", "vueuse"],
-  "faststruct.config": {
-    "debug": true,
-    "exclude": {
-      "folders": [
-        ".nuxt",
-        ".output",
-        "public",
-        ".ruff_cache",
-        "venv",
-        ".vscode",
-        "__pycache__",
-        "node_modules",
-        ".git",
-        "dist",
-        "build",
-        ".tmp",
-        "out",
-        ".env",
-        ".serverless",
-        "__pycache__",
-        ".pytest_cache",
-        "data"
-      ],
-      "files": [
-        "*.log",
-        "*.lock",
-        "package-lock.json",
-        "pnpm-lock.yaml",
-        ".gitignore"
-      ],
-      "advanced": {
-        "patterns": ["**/*.min.js", "**/*.generated.*"],
-        "specificFiles": ["src/config/sensitive.json"],
-        "specificFolders": ["src/utils/", "tests/fixtures/"],
-        "regexPatterns": ["src/.*\\.md$", "docs/.*\\.temp\\.*"]
-      }
-    },
-    "excludeContent": {
-      "files": ["*.env", "*.env"],
-      "folders": [],
-      "patterns": [
-        "*.vsix",
-        "**/*.secret.*",
-        "**/.secrets**",
-        "**/*/.env**",
-        ".*env/"
-      ]
-    }
-  }
+	"cSpell.words": ["unocss", "vueuse"],
+	"faststruct.config": {
+		"debug": true,
+		"exclude": {
+			"folders": [
+				".nuxt",
+				".output",
+				"public",
+				".ruff_cache",
+				"venv",
+				".vscode",
+				"__pycache__",
+				"node_modules",
+				".git",
+				"dist",
+				"build",
+				".tmp",
+				"out",
+				".env",
+				".serverless",
+				"__pycache__",
+				".pytest_cache",
+				"data"
+			],
+			"files": [
+				"*.log",
+				"*.lock",
+				"package-lock.json",
+				"pnpm-lock.yaml",
+				".gitignore"
+			],
+			"advanced": {
+				"patterns": ["**/*.min.js", "**/*.generated.*"],
+				"specificFiles": ["src/config/sensitive.json"],
+				"specificFolders": ["src/utils/", "tests/fixtures/"],
+				"regexPatterns": ["src/.*\\.md$", "docs/.*\\.temp\\.*"]
+			}
+		},
+		"excludeContent": {
+			"files": ["*.env", "*.env"],
+			"folders": [],
+			"patterns": [
+				"*.vsix",
+				"**/*.secret.*",
+				"**/.secrets**",
+				"**/*/.env**",
+				".*env/"
+			]
+		}
+	}
 }

@@ -1,12 +1,12 @@
 // unocss.config.ts
 import {
-  defineConfig,
-  presetAttributify,
-  presetIcons,
-  presetMini,
-  presetUno,
-  presetWebFonts,
-} from "unocss";
+	defineConfig,
+	presetAttributify,
+	presetIcons,
+	presetMini,
+	presetUno,
+	presetWebFonts,
+} from 'unocss'
 
 export default defineConfig({
   presets: [
@@ -51,5 +51,16 @@ export default defineConfig({
       },
     }),
   ],
-  safelist: [],
+  safelist: [
+    "i-mdi-speakerphone",
+    "i-mdi-check-circle",
+    "i-mdi-close-circle",
+    "i-mdi-book",
+    "i-mdi-chevron-right",
+    "i-mdi-account-voice",
+    "i-mdi-volume-high",
+    "i-mdi-microphone",
+    "i-mdi-menu",
+    "i-mdi-close",
+  ],
 });

@@ -16,47 +16,47 @@
 </template>
 
 <script setup>
-import { useExerciseStore } from '~/stores/exercises';
+import { useExerciseStore } from '~/stores/exercises'
 
-const exerciseStore = useExerciseStore();
+const exerciseStore = useExerciseStore()
 
 defineOptions({
-  name: 'DifficultyPage',
-});
+	name: 'DifficultyPage',
+})
 
-const router = useRouter();
-const route = useRoute();
+const router = useRouter()
+const route = useRoute()
 
-const { difficulty } = route.params;
+const { difficulty } = route.params
 
 const difficultySelected = computed(() => {
-  return exerciseStore.difficulties[difficulty] || {};
-});
+	return exerciseStore.difficulties[difficulty] || {}
+})
 
 const topics = computed(() => {
-  const topicsSelected = difficultySelected.value.topics || {};
-  const topicsArray = Object.keys(topicsSelected).map((topic) => {
-    return {
-      name: topicsSelected[topic].label,
-      route: `/${difficulty}/${topic}`,
-      order: topicsSelected[topic].order,
-      isActive: topicsSelected[topic].isActive,
-    };
-  });
-  return topicsArray.sort((a, b) => a.order - b.order);
-});
+	const topicsSelected = difficultySelected.value.topics || {}
+	const topicsArray = Object.keys(topicsSelected).map(topic => {
+		return {
+			name: topicsSelected[topic].label,
+			route: `/${difficulty}/${topic}`,
+			order: topicsSelected[topic].order,
+			isActive: topicsSelected[topic].isActive,
+		}
+	})
+	return topicsArray.sort((a, b) => a.order - b.order)
+})
 
 // Filtrar temas activos
 const activeTopics = computed(() => {
-  return topics.value.filter(topic => topic.isActive);
-});
+	return topics.value.filter(topic => topic.isActive)
+})
 
 // Validar si hay temas activos
 const hasActiveTopics = computed(() => {
-  return activeTopics.value.length > 0;
-});
+	return activeTopics.value.length > 0
+})
 
-const navigateToLevel = (route) => {
-  router.push(route);
-};
+const navigateToLevel = route => {
+	router.push(route)
+}
 </script>

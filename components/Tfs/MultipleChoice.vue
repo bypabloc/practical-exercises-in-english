@@ -74,6 +74,10 @@
                   <TfsButtonSpeak
                     :text="exercise.answer"
                   />
+                  <TfsButtonPractice
+                    :exercise="exercise"
+                    :text="exercise.answer"
+                  />
                 </div>
               </div>
             </div>
@@ -95,42 +99,48 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue'
+import { useCookieStore } from '~/stores/cookies'
 
 const props = defineProps({
-  exercises: {
-    type: Array,
-    required: true
-  }
-});
+	exercises: {
+		type: Array,
+		required: true,
+	},
+})
+
+const cookieStore = useCookieStore()
+
+const canSkipValidationAllQuestionsAnswered = cookieStore.get('can-skip-validation-all-questions-answered')
 
 // Component state
-const userAnswers = ref([]);
-const showResults = ref(false);
-const selectedExercises = ref([]);
+const userAnswers = ref([])
+const showResults = ref(false)
+const selectedExercises = ref([])
 
 // Select 10 random exercises on mount
 onMounted(() => {
-  const shuffled = [...props.exercises]
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 10);
-  selectedExercises.value = shuffled;
-  userAnswers.value = Array(shuffled.length).fill('');
-});
+	const shuffled = [...props.exercises]
+		.sort(() => Math.random() - 0.5)
+		.slice(0, 10)
+	selectedExercises.value = shuffled
+	userAnswers.value = Array(shuffled.length).fill('')
+})
 
 // Check if all questions have been answered
 const allQuestionsAnswered = computed(() => {
-  return userAnswers.value.every(answer => answer !== '');
-});
+  if (canSkipValidationAllQuestionsAnswered) return true
+	return userAnswers.value.every(answer => answer !== '')
+})
 
 // Check if an answer is correct
-const isCorrect = (index) => {
-  return userAnswers.value[index] === selectedExercises.value[index].answer;
-};
+const isCorrect = index => {
+	return userAnswers.value[index] === selectedExercises.value[index].answer
+}
 
 // Validate all answers
 const validateAnswers = () => {
-  if (!allQuestionsAnswered.value) return;
-  showResults.value = true;
-};
+	if (!allQuestionsAnswered.value) return
+	showResults.value = true
+}
 </script>
