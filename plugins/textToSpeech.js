@@ -44,8 +44,12 @@ export default defineNuxtPlugin({
 	name: '$textToSpeech',
 	enforce: 'pre',
 	async setup(nuxtApp) {
+		const { $config } = nuxtApp
+		const { ENV } = $config?.public || {}
+
 		const textToSpeech = {
 			speak: (text, options = {}) => {
+
 				// Ensure voices are up to date
 				voices = synth.getVoices()
 
@@ -55,7 +59,7 @@ export default defineNuxtPlugin({
 				const utterance = new SpeechSynthesisUtterance(text)
 
 				// Set rate (speed) - default is 1, range is 0.1 to 10
-				utterance.rate = options.rate || 1
+				utterance.rate = options.rate || 0.7
 
 				// Pitch: 0 to 2, 1 is default
 				utterance.pitch = options.pitch || 1
@@ -80,7 +84,7 @@ export default defineNuxtPlugin({
 					utterance.volume = options.volume || 1 // Full volume
 
 					// Debugging for development
-					if (process.env.NODE_ENV === 'development') {
+					if (ENV === 'dev') {
 						console.log('Selected voice:', {
 							name: utterance.voice?.name,
 							lang: utterance.voice?.lang,
@@ -88,10 +92,18 @@ export default defineNuxtPlugin({
 						})
 					}
 
-					// Speak the text
 					synth.speak(utterance)
+
+					// Speak the text
+					const speakPromise = new Promise((resolve, reject) => {
+						utterance.onend = resolve
+						utterance.onerror = reject
+					})
+
+					return speakPromise
 				} catch (error) {
 					console.error('Text-to-Speech Error:', error)
+					return Promise.reject(error)
 				}
 			},
 
