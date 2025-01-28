@@ -60,7 +60,11 @@ const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const speak = async () => {
 	console.log('Speaking text', props.text)
-	$logger.info('Speaking text', props.text)
+	try {
+		$logger.info('Speaking text', props.text)
+	} catch (error) {
+		console.error('Error speaking text', error)
+	}
 	isPlaying.value = true
 	try {
 		await $textToSpeech.speak(props.text, {
