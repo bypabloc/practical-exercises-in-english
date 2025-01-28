@@ -49,10 +49,6 @@ const props = defineProps({
 		type: Number,
 		default: 0.7,
 	},
-	voice: {
-		type: Object,
-		default: null,
-	},
 })
 
 const nuxtApp = useNuxtApp()
@@ -70,7 +66,6 @@ const speak = async () => {
 		await $textToSpeech.speak(props.text, {
 			rate: props.rate,
 			pitch: props.pitch,
-			voice: props.voice,
 		})
 	} catch (error) {
 		$logger.error('Error speaking text', error)
