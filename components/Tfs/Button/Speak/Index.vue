@@ -72,6 +72,5 @@ const speak = async () => {
 	} finally {
 		isPlaying.value = false
 	}
-	isPlaying.value = false
 }
 </script>

@@ -65,47 +65,57 @@ export default defineNuxtPlugin({
     const textToSpeech = {
       // Enhanced speak method with more voice control
       speak: async (text, options = {}) => {
-        // Cancel any ongoing speech
-        synth.cancel();
+        try {
+          console.log('textToSpeech.speak:', text, options);
+          // Cancel any ongoing speech
+          synth.cancel();
 
-        const utterance = new SpeechSynthesisUtterance(text);
-        
-        // Set rate (speed) - default is 1, range is 0.1 to 10
-        utterance.rate = options.rate || 1;
+          const utterance = new SpeechSynthesisUtterance(text);
+          
+          // Set rate (speed) - default is 1, range is 0.1 to 10
+          utterance.rate = options.rate || 1;
 
-        // pitch: 0 to 2, 1 is default
-        utterance.pitch = options.pitch || 1;
+          // pitch: 0 to 2, 1 is default
+          utterance.pitch = options.pitch || 1;
 
-        // Use provided voice or fall back to default selection method
-        if (options.voice) {
-          utterance.voice = options.voice;
-        } else {
-          utterance.voice = findEnglishVoice();
+          // Use provided voice or fall back to default selection method
+          if (options.voice) {
+            utterance.voice = options.voice;
+          } else {
+            utterance.voice = findEnglishVoice();
+          }
+
+          // Additional settings for consistency
+          utterance.pitch = options.pitch || 1;  // Default pitch
+          utterance.volume = options.volume || 1; // Full volume
+
+          // Log voice selection in development
+          if (ENVIRONMENTS_ALLOWED.includes(ENV)) {
+            nuxtApp.$logger.info('Selected voice:', {
+              name: utterance.voice?.name,
+              lang: utterance.voice?.lang,
+              localService: utterance.voice?.localService,
+            })
+          }
+
+          // Speak the text
+          synth.speak(utterance);
+          
+          return new Promise((resolve, reject) => {
+            utterance.onend = () => {
+              resolve({
+                name: utterance.voice?.name,
+                lang: utterance.voice?.lang,
+                localService: utterance.voice?.localService,
+              });
+            };
+            utterance.onerror = (err) => {
+              reject(err);
+            };
+          });
+        } catch (err) {
+          console.error(err);
         }
-
-        // Additional settings for consistency
-        utterance.pitch = options.pitch || 1;  // Default pitch
-        utterance.volume = options.volume || 1; // Full volume
-
-        // Log voice selection in development
-        if (ENVIRONMENTS_ALLOWED.includes(ENV)) {
-          nuxtApp.$logger.info('Selected voice:', {
-            name: utterance.voice?.name,
-            lang: utterance.voice?.lang,
-            localService: utterance.voice?.localService,
-          })
-        }
-
-        // Speak the text
-        synth.speak(utterance);
-
-        // Speak the text
-        const speakPromise = new Promise((resolve, reject) => {
-          utterance.onend = resolve
-          utterance.onerror = reject
-        })
-
-        return speakPromise
       },
 
       // Expose method to get all available voices
