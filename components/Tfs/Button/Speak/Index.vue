@@ -26,7 +26,6 @@
 
 <script setup>
 import { useCookieStore } from '~/stores/cookies'
-const { isMobile } = useUi()
 
 const props = defineProps({
 	text: {
@@ -51,8 +50,8 @@ const props = defineProps({
 	},
 })
 
-const nuxtApp = useNuxtApp()
-const { $textToSpeech, $logger } = nuxtApp
+const { isMobile } = useUi()
+const { $textToSpeech, $logger } = useNuxtApp()
 
 const isPlaying = ref(false)
 
@@ -60,6 +59,7 @@ const cookieStore = useCookieStore()
 const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const speak = async () => {
+	console.log('Speaking text', props.text)
 	$logger.info('Speaking text', props.text)
 	isPlaying.value = true
 	try {

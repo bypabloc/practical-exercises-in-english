@@ -58,7 +58,7 @@ export default defineNuxtPlugin({
   name: "$textToSpeech",
   enforce: "pre",
   async setup(nuxtApp) {
-    const { $config, $logger } = nuxtApp
+    const { $config } = nuxtApp
     const { ENV } = $config?.public || {}
     const ENVIRONMENTS_ALLOWED = ['local', 'dev']
 
