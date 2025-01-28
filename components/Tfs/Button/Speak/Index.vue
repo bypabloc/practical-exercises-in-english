@@ -13,7 +13,7 @@
 			class="flex items-center space-x-2"
 		>
       <i class="text-xl animate-bounce"></i>
-      <span class="text-sm">Recording audio...</span>
+      <span class="text-sm">Speaking...</span>
     </div>
 		<div
 			v-else
@@ -66,6 +66,7 @@ const textToSpeechStatus = cookieStore.get('text-to-speech')
 const speak = async () => {
 	isPlaying.value = true
 	try {
+		$logger.info('Speaking text', props.text)
 		await $textToSpeech.speak(props.text, {
 			rate: props.rate,
 			pitch: props.pitch,
