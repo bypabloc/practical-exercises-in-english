@@ -63,10 +63,11 @@ const speak = async () => {
 	console.log('$textToSpeech', $textToSpeech)
 	isPlaying.value = true
 	try {
-		await $textToSpeech.speak(props.text, {
+		const res = await $textToSpeech.speak(props.text, {
 			rate: props.rate,
 			pitch: props.pitch,
 		})
+		console.log('res', res)
 	} catch (error) {
 		console.log('Error speaking text', error)
 	} finally {
