@@ -60,9 +60,9 @@ const cookieStore = useCookieStore()
 const textToSpeechStatus = cookieStore.get('text-to-speech')
 
 const speak = async () => {
+	$logger.info('Speaking text', props.text)
 	isPlaying.value = true
 	try {
-		$logger.info('Speaking text', props.text)
 		await $textToSpeech.speak(props.text, {
 			rate: props.rate,
 			pitch: props.pitch,
