@@ -10,7 +10,7 @@ items:
       answer: "Simple present"
       explanation: "Simple present is used to describe habitual actions and routines"
       translation: "¿Qué tiempo verbal usamos para hablar de hábitos?"
-      pronunciation: "uát tens du ui yuz tu tok abaut jábits"
+      pronunciationES: "uát tens du ui yuz tu tok abaut jábits"
 
     - question: "I {_____} TV every evening, but right now I {_____} a movie."
       options:
@@ -21,7 +21,7 @@ items:
       answer: "watch, am watching"
       explanation: "Simple present for routine, present continuous for current action"
       translation: "Veo TV todas las tardes, pero ahora mismo estoy viendo una película"
-      pronunciation: "ai uoch tivi évri ívning, bat rait nau ai am uóching a móvie"
+      pronunciationES: "ai uoch tivi évri ívning, bat rait nau ai am uóching a móvie"
 
     - question: "Which tense describes actions happening right now?"
       options:
@@ -32,7 +32,7 @@ items:
       answer: "Present continuous"
       explanation: "Present continuous describes actions happening at the moment of speaking"
       translation: "¿Qué tiempo verbal describe acciones que están sucediendo ahora mismo?"
-      pronunciation: "uích tens desráibs ákshons jápening rait nau"
+      pronunciationES: "uích tens desráibs ákshons jápening rait nau"
 
     - question: "She {_____} to work every day, but today she {_____} late."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "goes, is going"
       explanation: "Simple present for routine, present continuous for current/temporary action"
       translation: "Ella va al trabajo todos los días, pero hoy va tarde"
-      pronunciation: "shi gouz tu uork évri dei, bat tudei shi is gouing leit"
+      pronunciationES: "shi gouz tu uork évri dei, bat tudei shi is gouing leit"
 
     - question: "Which time expression indicates a routine?"
       options:
@@ -54,7 +54,7 @@ items:
       answer: "every day"
       explanation: "'Every day' signals a habitual action in simple present"
       translation: "¿Qué expresión de tiempo indica una rutina?"
-      pronunciation: "uích taim ekspréshen indikeis a rútin"
+      pronunciationES: "uích taim ekspréshen indikeis a rútin"
 
     - question: "I {_____} basketball on Saturdays, but I {_____} a game now."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "play, am playing"
       explanation: "Simple present for routine, present continuous for current action"
       translation: "Juego baloncesto los sábados, pero ahora estoy jugando un partido"
-      pronunciation: "ai plei básketbol on sáterdeis, bat ai am pléiing a geim nau"
+      pronunciationES: "ai plei básketbol on sáterdeis, bat ai am pléiing a geim nau"
 
     - question: "Which word suggests a current, temporary action?"
       options:
@@ -76,7 +76,7 @@ items:
       answer: "currently"
       explanation: "'Currently' indicates an action happening right now"
       translation: "¿Qué palabra sugiere una acción actual y temporal?"
-      pronunciation: "uích uerd sagésts a kárrent témporer ákshon"
+      pronunciationES: "uích uerd sagésts a kárrent témporer ákshon"
 
     # NIVEL MEDIO (7 ejercicios)
     - question: "The company {_____} new strategies, but they {_____} changes every quarter."
@@ -88,7 +88,7 @@ items:
       answer: "is developing, implement"
       explanation: "Present continuous for current action, simple present for routine"
       translation: "La empresa está desarrollando nuevas estrategias, pero implementan cambios cada trimestre"
-      pronunciation: "da kómpani is divéloping niu straténies, bat zei implémenet chéinjes évri kuórter"
+      pronunciationES: "da kómpani is divéloping niu straténies, bat zei implémenet chéinjes évri kuórter"
 
     - question: "Which context requires present continuous?"
       options:
@@ -99,7 +99,7 @@ items:
       answer: "Describing temporary actions"
       explanation: "Present continuous is used for actions happening now or temporary situations"
       translation: "¿Qué contexto requiere presente continuo?"
-      pronunciation: "uích kóntekst rikuáirs présent kontinuos"
+      pronunciationES: "uích kóntekst rikuáirs présent kontinuos"
 
     - question: "Students {_____} for exams this week, but they {_____} hard every semester."
       options:
@@ -110,7 +110,7 @@ items:
       answer: "are studying, study"
       explanation: "Present continuous for current period, simple present for general habit"
       translation: "Los estudiantes están estudiando para exámenes esta semana, pero estudian duro cada semestre"
-      pronunciation: "stúdents ar stádying for égzams dis uik, bat zei stádi jard évri sémester"
+      pronunciationES: "stúdents ar stádying for égzams dis uik, bat zei stádi jard évri sémester"
 
     - question: "Which time marker suggests a temporary situation?"
       options:
@@ -121,7 +121,7 @@ items:
       answer: "these days"
       explanation: "'These days' indicates a temporary or current period"
       translation: "¿Qué marcador de tiempo sugiere una situación temporal?"
-      pronunciation: "uích taim márker sagésts a témporer sitjuéishon"
+      pronunciationES: "uích taim márker sagésts a témporer sitjuéishon"
 
     - question: "The team {_____} a new project now, but they {_____} multiple projects every year."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "is working, manage"
       explanation: "Present continuous for current action, simple present for routine"
       translation: "El equipo está trabajando en un nuevo proyecto ahora, pero manejan múltiples proyectos cada año"
-      pronunciation: "da tim is uórking on a niu próyekt nau, bat zei mánech múltiple próyekts évri yir"
+      pronunciationES: "da tim is uórking on a niu próyekt nau, bat zei mánech múltiple próyekts évri yir"
 
     - question: "When do we use present continuous?"
       options:
@@ -143,7 +143,7 @@ items:
       answer: "For actions happening right now"
       explanation: "Present continuous describes actions in progress at the moment of speaking"
       translation: "¿Cuándo usamos el presente continuo?"
-      pronunciation: "uen du ui yuz présent kontinuos"
+      pronunciationES: "uen du ui yuz présent kontinuos"
 
     - question: "Scientists {_____} research data now, but they {_____} experiments regularly."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "are analyzing, conduct"
       explanation: "Present continuous for current action, simple present for routine"
       translation: "Los científicos están analizando datos de investigación ahora, pero realizan experimentos regularmente"
-      pronunciation: "sáientists ar ánalaizing ríserdj déita nau, bat zei kondákt éksperiments régulerly"
+      pronunciationES: "sáientists ar ánalaizing ríserdj déita nau, bat zei kondákt éksperiments régulerly"
 
     # NIVEL DIFÍCIL (26 ejercicios)
     # (I'll continue with the same pattern for the remaining 26 exercises)
@@ -168,7 +168,7 @@ items:
       answer: "is experiencing, react"
       explanation: "Present continuous for current trend, simple present for general behavior"
       translation: "La economía global está experimentando cambios significativos mientras los mercados individuales reaccionan de manera diferente"
-      pronunciation: "da glóbal ékénomi is ekspiriéncing signifikant shifts uail índividjual márkets riákt diférently"
+      pronunciationES: "da glóbal ékénomi is ekspiriéncing signifikant shifts uail índividjual márkets riákt diférently"
 
     - question: "Technology {_____} rapidly while companies {_____} to adapt."
       options:
@@ -179,7 +179,7 @@ items:
       answer: "is advancing, struggle"
       explanation: "Present continuous for current trend, simple present for general action"
       translation: "La tecnología está avanzando rápidamente mientras las empresas luchan por adaptarse"
-      pronunciation: "teknóloji is advánsing rápidly uail kámpenies strágel tu adápt"
+      pronunciationES: "teknóloji is advánsing rápidly uail kámpenies strágel tu adápt"
 
     - question: "Universities {_____} curriculum while students {_____} new skills."
       options:
@@ -190,7 +190,7 @@ items:
       answer: "are updating, learn"
       explanation: "Present continuous for current process, simple present for ongoing action"
       translation: "Las universidades están actualizando el plan de estudios mientras los estudiantes aprenden nuevas habilidades"
-      pronunciation: "yunivérsities ar apdéiting kerikulam uail stúdents lern niu skils"
+      pronunciationES: "yunivérsities ar apdéiting kerikulam uail stúdents lern niu skils"
 
     # Continued Difficult Level Exercises
     - question: "Climate change {_____} global patterns while governments {_____} solutions."
@@ -202,7 +202,7 @@ items:
       answer: "is altering, discuss"
       explanation: "Present continuous for ongoing trend, simple present for general action"
       translation: "El cambio climático está alterando patrones globales mientras los gobiernos discuten soluciones"
-      pronunciation: "kláimet cheinj is óltering glóbal páterns uail gávermants diskás solúshons"
+      pronunciationES: "kláimet cheinj is óltering glóbal páterns uail gávermants diskás solúshons"
 
     - question: "Social media {_____} communication patterns while people {_____} new ways to connect."
       options:
@@ -213,7 +213,7 @@ items:
       answer: "is transforming, explore"
       explanation: "Present continuous for ongoing trend, simple present for general action"
       translation: "Las redes sociales están transformando los patrones de comunicación mientras las personas exploran nuevas formas de conectarse"
-      pronunciation: "sóshol mídia is transforming komyunikéishon páterns uail píple eksplór niu ueis tu konékt"
+      pronunciationES: "sóshol mídia is transforming komyunikéishon páterns uail píple eksplór niu ueis tu konékt"
 
     - question: "Artificial intelligence {_____} multiple industries while researchers {_____} its potential."
       options:
@@ -224,7 +224,7 @@ items:
       answer: "is disrupting, investigate"
       explanation: "Present continuous for current trend, simple present for ongoing research"
       translation: "La inteligencia artificial está disrumpiendo múltiples industrias mientras los investigadores investigan su potencial"
-      pronunciation: "ártifishol intelídgens is distrápeting múltiple índustries uail risiárdyers invéstigeit its potenshol"
+      pronunciationES: "ártifishol intelídgens is distrápeting múltiple índustries uail risiárdyers invéstigeit its potenshol"
 
     - question: "Global markets {_____} unprecedented changes while investors {_____} opportunities."
       options:
@@ -235,7 +235,7 @@ items:
       answer: "are experiencing, seek"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "Los mercados globales están experimentando cambios sin precedentes mientras los inversores buscan oportunidades"
-      pronunciation: "glóbal márkets ar eksperiéncing anpresedénted chéinjes uail ínvestors sik oppertunities"
+      pronunciationES: "glóbal márkets ar eksperiéncing anpresedénted chéinjes uail ínvestors sik oppertunities"
 
     - question: "Environmental sustainability {_____} corporate strategies while companies {_____} green solutions."
       options:
@@ -246,7 +246,7 @@ items:
       answer: "is transforming, develop"
       explanation: "Present continuous for ongoing trend, simple present for general action"
       translation: "La sostenibilidad ambiental está transformando las estrategias corporativas mientras las empresas desarrollan soluciones ecológicas"
-      pronunciation: "envairánmental sasteinebíliti is transforming korporeit straténies uail kámpenies divélop grin solúshons"
+      pronunciationES: "envairánmental sasteinebíliti is transforming korporeit straténies uail kámpenies divélop grin solúshons"
 
     - question: "Digital education {_____} traditional learning models while students {_____} new skills."
       options:
@@ -257,7 +257,7 @@ items:
       answer: "is challenging, acquire"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La educación digital está desafiando los modelos de aprendizaje tradicionales mientras los estudiantes adquieren nuevas habilidades"
-      pronunciation: "dídyital edjukéishon is chálendying tradíshonal lérning módels uail stúdents akuáir niu skils"
+      pronunciationES: "dídyital edjukéishon is chálendying tradíshonal lérning módels uail stúdents akuáir niu skils"
 
     - question: "Remote work {_____} traditional office structures while employees {_____} flexibility."
       options:
@@ -268,7 +268,7 @@ items:
       answer: "is transforming, embrace"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "El trabajo remoto está transformando las estructuras de oficina tradicionales mientras los empleados abrazan la flexibilidad"
-      pronunciation: "rimóut uork is transforming tradíshonal ófis strúkchors uail empleíis embréis fleksibiliti"
+      pronunciationES: "rimóut uork is transforming tradíshonal ófis strúkchors uail empleíis embréis fleksibiliti"
 
     - question: "Renewable energy {_____} global power systems while countries {_____} sustainable alternatives."
       options:
@@ -279,7 +279,7 @@ items:
       answer: "is revolutionizing, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La energía renovable está revolucionando los sistemas de energía globales mientras los países desarrollan alternativas sostenibles"
-      pronunciation: "rinuébal énerdyi is revolushonáizing glóbal páuer sístems uail kántries divélop sasteinábel altérnatives"
+      pronunciationES: "rinuébal énerdyi is revolushonáizing glóbal páuer sístems uail kántries divélop sasteinábel altérnatives"
 
     - question: "Quantum computing {_____} technological boundaries while scientists {_____} breakthrough applications."
       options:
@@ -290,7 +290,7 @@ items:
       answer: "is expanding, explore"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La computación cuántica está expandiendo las fronteras tecnológicas mientras los científicos exploran aplicaciones revolucionarias"
-      pronunciation: "kuántam kompyúting is ekspánding teknológical báundaries uail sáientists eksplór brékzru aplekéishons"
+      pronunciationES: "kuántam kompyúting is ekspánding teknológical báundaries uail sáientists eksplór brékzru aplekéishons"
 
     - question: "Genetic research {_____} medical possibilities while scientists {_____} ethical boundaries."
       options:
@@ -301,7 +301,7 @@ items:
       answer: "is expanding, examine"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La investigación genética está expandiendo las posibilidades médicas mientras los científicos examinan los límites éticos"
-      pronunciation: "jenétik ríserdj is ekspánding médical posibilités uail sáientists egzámin ézical báundaries"
+      pronunciationES: "jenétik ríserdj is ekspánding médical posibilités uail sáientists egzámin ézical báundaries"
 
     - question: "Urban agriculture {_____} food production models while communities {_____} sustainable solutions."
       options:
@@ -312,7 +312,7 @@ items:
       answer: "is transforming, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La agricultura urbana está transformando los modelos de producción alimentaria mientras las comunidades desarrollan soluciones sostenibles"
-      pronunciation: "árban agrikulchur is transforming fud prodákshon módels uail komyúnities divélop sasteinábel solúshons"
+      pronunciationES: "árban agrikulchur is transforming fud prodákshon módels uail komyúnities divélop sasteinábel solúshons"
 
     - question: "Blockchain technology {_____} financial systems while innovators {_____} new applications."
       options:
@@ -323,7 +323,7 @@ items:
       answer: "is disrupting, explore"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La tecnología blockchain está disrumpiendo los sistemas financieros mientras los innovadores exploran nuevas aplicaciones"
-      pronunciation: "blókcein teknóloji is distrápeting fainánshol sístems uail ínoveitors eksplór niu aplekéishons"
+      pronunciationES: "blókcein teknóloji is distrápeting fainánshol sístems uail ínoveitors eksplór niu aplekéishons"
 
     - question: "Global connectivity {_____} communication paradigms while individuals {_____} cross-cultural understanding."
       options:
@@ -334,7 +334,7 @@ items:
       answer: "is reshaping, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La conectividad global está redesarrollando los paradigmas de comunicación mientras los individuos desarrollan un entendimiento intercultural"
-      pronunciation: "glóbal konektíviti is rísheipeing komyunikéishon páradigms uail índividjuals divélop kros-kálchural anderstánding"
+      pronunciationES: "glóbal konektíviti is rísheipeing komyunikéishon páradigms uail índividjuals divélop kros-kálchural anderstánding"
 
     - question: "Space exploration {_____} human knowledge while scientists {_____} new frontiers."
       options:
@@ -345,7 +345,7 @@ items:
       answer: "is expanding, investigate"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La exploración espacial está expandiendo el conocimiento humano mientras los científicos investigan nuevas fronteras"
-      pronunciation: "speis eksploréishon is ekspánding hjúman nólej uail sáientists invéstigeit niu fróntiers"
+      pronunciationES: "speis eksploréishon is ekspánding hjúman nólej uail sáientists invéstigeit niu fróntiers"
 
     - question: "Virtual reality {_____} entertainment industries while developers {_____} immersive experiences."
       options:
@@ -356,7 +356,7 @@ items:
       answer: "is transforming, create"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La realidad virtual está transformando las industrias del entretenimiento mientras los desarrolladores crean experiencias inmersivas"
-      pronunciation: "vérdyual reáliti is transforming entreteinméent índustries uail divélopers kriéit inmersiv eksperiénses"
+      pronunciationES: "vérdyual reáliti is transforming entreteinméent índustries uail divélopers kriéit inmersiv eksperiénses"
 
     - question: "Global health initiatives {_____} medical access while organizations {_____} innovative solutions."
       options:
@@ -367,7 +367,7 @@ items:
       answer: "are expanding, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "Las iniciativas de salud global están expandiendo el acceso médico mientras las organizaciones desarrollan soluciones innovadoras"
-      pronunciation: "glóbal jelz inishiétives ar ekspánding médical ákses uail organeizéishons divélop inóvative solúshons"
+      pronunciationES: "glóbal jelz inishiétives ar ekspánding médical ákses uail organeizéishons divélop inóvative solúshons"
 
     - question: "Sustainable tourism {_____} travel experiences while communities {_____} local resources."
       options:
@@ -378,7 +378,7 @@ items:
       answer: "is reshaping, preserve"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "El turismo sostenible está redefiniendo las experiencias de viaje mientras las comunidades preservan los recursos locales"
-      pronunciation: "sasteinábel túrism is rísheipeing trávl eksperiénses uail komyúnities prezérv lókal résources"
+      pronunciationES: "sasteinábel túrism is rísheipeing trávl eksperiénses uail komyúnities prezérv lókal résources"
 
     - question: "Machine learning {_____} data analysis while researchers {_____} new algorithms."
       options:
@@ -389,7 +389,7 @@ items:
       answer: "is transforming, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "El aprendizaje automático está transformando el análisis de datos mientras los investigadores desarrollan nuevos algoritmos"
-      pronunciation: "mashín lérning is transforming déita analísis uail risiárdyers divélop niu álgorízms"
+      pronunciationES: "mashín lérning is transforming déita analísis uail risiárdyers divélop niu álgorízms"
 
     - question: "Global migration {_____} demographic patterns while societies {_____} cultural diversity."
       options:
@@ -400,7 +400,7 @@ items:
       answer: "is reshaping, embrace"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La migración global está redefiniendo los patrones demográficos mientras las sociedades abrazan la diversidad cultural"
-      pronunciation: "glóbal maigreíshon is rísheipeing démografik páterns uail sosáieties embréis kálchural divirsiti"
+      pronunciationES: "glóbal maigreíshon is rísheipeing démografik páterns uail sosáieties embréis kálchural divirsiti"
 
     - question: "Telemedicine {_____} healthcare delivery while doctors {_____} remote diagnostics."
       options:
@@ -411,7 +411,7 @@ items:
       answer: "is revolutionizing, develop"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La telemedicina está revolucionando la prestación de servicios de salud mientras los médicos desarrollan diagnósticos remotos"
-      pronunciation: "télimidisn is revolushonáizing jelzkéir diliveri uail dóktors divélop rimóut diagnóstiks"
+      pronunciationES: "télimidisn is revolushonáizing jelzkéir diliveri uail dóktors divélop rimóut diagnóstiks"
 
     - question: "Circular economy {_____} industrial practices while businesses {_____} sustainable models."
       options:
@@ -423,7 +423,7 @@ items:
       answer: "is transforming, adopt"
       explanation: "Present continuous for current trend, simple present for ongoing action"
       translation: "La economía circular está transformando las prácticas industriales mientras las empresas adoptan modelos sostenibles"
-      pronunciation: "sérkyular ékénomi is transforming índustrial práktises uail bízneses adópt sasteinábel módels"
+      pronunciationES: "sérkyular ékénomi is transforming índustrial práktises uail bízneses adópt sasteinábel módels"
 
     - question: "Artificial neural networks {_____} technological capabilities while engineers {_____} complex solutions."
       options:

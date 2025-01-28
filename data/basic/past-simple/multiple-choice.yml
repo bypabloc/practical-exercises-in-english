@@ -10,7 +10,7 @@ items:
       answer: "went"
       explanation: "Use the past tense form 'went' for past actions"
       translation: "Yo fui a la escuela ayer"
-      pronunciation: "ai uént tu skul yésterdei"
+      pronunciationES: "ai uént tu skul yésterdei"
 
     - question: "She ___ breakfast this morning."
       options:
@@ -21,7 +21,7 @@ items:
       answer: "ate"
       explanation: "The past tense of 'eat' is 'ate'"
       translation: "Ella desayunó esta mañana"
-      pronunciation: "shi éit brékfast dis mórning"
+      pronunciationES: "shi éit brékfast dis mórning"
 
     - question: "They ___ football last weekend."
       options:
@@ -32,7 +32,7 @@ items:
       answer: "played"
       explanation: "Add -ed to regular verbs to form past tense"
       translation: "Ellos jugaron fútbol el fin de semana pasado"
-      pronunciation: "dei pléid fútbol last uíkend"
+      pronunciationES: "dei pléid fútbol last uíkend"
 
     - question: "He ___ a book last night."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "read"
       explanation: "'Read' is irregular and looks the same in past tense"
       translation: "Él leyó un libro anoche"
-      pronunciation: "ji red a buk last náit"
+      pronunciationES: "ji red a buk last náit"
 
     - question: "We ___ to the movies last week."
       options:
@@ -54,7 +54,7 @@ items:
       answer: "went"
       explanation: "Use 'went' as the past tense of 'go'"
       translation: "Fuimos al cine la semana pasada"
-      pronunciation: "ui uént tu da múvis last uík"
+      pronunciationES: "ui uént tu da múvis last uík"
 
     - question: "The dog ___ in the garden."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "slept"
       explanation: "The past tense of 'sleep' is 'slept'"
       translation: "El perro durmió en el jardín"
-      pronunciation: "da dog slept in da gárden"
+      pronunciationES: "da dog slept in da gárden"
 
     - question: "You ___ your homework yesterday."
       options:
@@ -76,7 +76,7 @@ items:
       answer: "did"
       explanation: "The past tense of 'do' is 'did'"
       translation: "Tú hiciste tu tarea ayer"
-      pronunciation: "yu did yor jóumwerk yésterdei"
+      pronunciationES: "yu did yor jóumwerk yésterdei"
 
     - question: "The baby ___ all night."
       options:
@@ -87,7 +87,7 @@ items:
       answer: "cried"
       explanation: "Add -ed to 'cry' to form past tense"
       translation: "El bebé lloró toda la noche"
-      pronunciation: "da béibi kráid ol náit"
+      pronunciationES: "da béibi kráid ol náit"
 
     - question: "I ___ my keys yesterday."
       options:
@@ -98,7 +98,7 @@ items:
       answer: "lost"
       explanation: "The past tense of 'lose' is 'lost'"
       translation: "Perdí mis llaves ayer"
-      pronunciation: "ai lost mai kís yésterdei"
+      pronunciationES: "ai lost mai kís yésterdei"
 
     - question: "She ___ the door."
       options:
@@ -109,7 +109,7 @@ items:
       answer: "opened"
       explanation: "Add -ed to 'open' to form past tense"
       translation: "Ella abrió la puerta"
-      pronunciation: "shi óupend da dór"
+      pronunciationES: "shi óupend da dór"
 
     # NIVEL MEDIO (10 ejercicios)
     - question: "The students ___ the test last Monday."
@@ -121,7 +121,7 @@ items:
       answer: "took"
       explanation: "The past tense of 'take' is 'took'"
       translation: "Los estudiantes tomaron el examen el lunes pasado"
-      pronunciation: "da stiúdents tuk da test last mándei"
+      pronunciationES: "da stiúdents tuk da test last mándei"
 
     - question: "We ___ about the problem yesterday."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "thought"
       explanation: "The past tense of 'think' is 'thought'"
       translation: "Pensamos sobre el problema ayer"
-      pronunciation: "ui zót abáut da próblem yésterdei"
+      pronunciationES: "ui zót abáut da próblem yésterdei"
 
     - question: "The teacher ___ the lesson clearly."
       options:
@@ -143,7 +143,7 @@ items:
       answer: "explained"
       explanation: "Add -ed to 'explain' to form past tense"
       translation: "El profesor explicó la lección claramente"
-      pronunciation: "da tícher ekspleind da léson klírli"
+      pronunciationES: "da tícher ekspleind da léson klírli"
 
     - question: "They ___ their house last year."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "sold"
       explanation: "The past tense of 'sell' is 'sold'"
       translation: "Ellos vendieron su casa el año pasado"
-      pronunciation: "dei sóuld der jáus last yír"
+      pronunciationES: "dei sóuld der jáus last yír"
 
     - question: "He ___ the competition last week."
       options:
@@ -165,7 +165,7 @@ items:
       answer: "won"
       explanation: "The past tense of 'win' is 'won'"
       translation: "Él ganó la competencia la semana pasada"
-      pronunciation: "ji uán da kompetíshon last uík"
+      pronunciationES: "ji uán da kompetíshon last uík"
 
     - question: "The plane ___ at 3 PM yesterday."
       options:
@@ -176,7 +176,7 @@ items:
       answer: "landed"
       explanation: "Add -ed to 'land' to form past tense"
       translation: "El avión aterrizó a las 3 PM ayer"
-      pronunciation: "da plein lánded at zrí pí em yésterdei"
+      pronunciationES: "da plein lánded at zrí pí em yésterdei"
 
     - question: "She ___ English at university."
       options:
@@ -187,7 +187,7 @@ items:
       answer: "studied"
       explanation: "Change 'y' to 'i' and add -ed"
       translation: "Ella estudió inglés en la universidad"
-      pronunciation: "shi stádid ínglish at yunivérsiti"
+      pronunciationES: "shi stádid ínglish at yunivérsiti"
 
     - question: "The car ___ down on the highway."
       options:
@@ -198,7 +198,7 @@ items:
       answer: "broke"
       explanation: "The past tense of 'break' is 'broke'"
       translation: "El carro se averió en la autopista"
-      pronunciation: "da kar bróuk dáun on da jáiwei"
+      pronunciationES: "da kar bróuk dáun on da jáiwei"
 
     - question: "I ___ the movie last night."
       options:
@@ -209,7 +209,7 @@ items:
       answer: "saw"
       explanation: "The past tense of 'see' is 'saw'"
       translation: "Vi la película anoche"
-      pronunciation: "ai só da múvi last náit"
+      pronunciationES: "ai só da múvi last náit"
 
     - question: "They ___ a new house last month."
       options:
@@ -220,7 +220,7 @@ items:
       answer: "bought"
       explanation: "The past tense of 'buy' is 'bought'"
       translation: "Ellos compraron una casa nueva el mes pasado"
-      pronunciation: "dei bót a niú jáus last manz"
+      pronunciationES: "dei bót a niú jáus last manz"
 
     # NIVEL DIFÍCIL (30 ejercicios)
     - question: "The scientists ___ a breakthrough in their research last month."
@@ -232,7 +232,7 @@ items:
       answer: "made"
       explanation: "El verbo 'make' es un verbo irregular en pasado simple"
       translation: "Los científicos hicieron un avance en su investigación el mes pasado"
-      pronunciation: "da sáientists meid a brékzru in jor ríserdj last manth"
+      pronunciationES: "da sáientists meid a brékzru in jor ríserdj last manth"
 
     - question: "Which team ___ the championship last year?"
       options:
@@ -243,7 +243,7 @@ items:
       answer: "won"
       explanation: "El verbo 'win' cambia completamente en pasado simple"
       translation: "¿Qué equipo ganó el campeonato el año pasado?"
-      pronunciation: "uich tím wan da chámpienshep last yir"
+      pronunciationES: "uich tím wan da chámpienshep last yir"
 
     - question: "She ___ to three different countries during her vacation."
       options:
@@ -254,7 +254,7 @@ items:
       answer: "traveled"
       explanation: "Verbos terminados en consonante + -l duplican la l"
       translation: "Ella viajó a tres países diferentes durante sus vacaciones"
-      pronunciation: "shi tráveled tu zri diférent kántris dúring jor vakéishon"
+      pronunciationES: "shi tráveled tu zri diférent kántris dúring jor vakéishon"
 
     - question: "The museum ___ an important exhibition last summer."
       options:
@@ -265,7 +265,7 @@ items:
       answer: "organized"
       explanation: "Verbos que terminan en -e solo añaden -d"
       translation: "El museo organizó una exposición importante el verano pasado"
-      pronunciation: "da mjúziem órganized an impórtant ekspozishan last sámer"
+      pronunciationES: "da mjúziem órganized an impórtant ekspozishan last sámer"
 
     - question: "I ___ the entire book in one night."
       options:
@@ -276,7 +276,7 @@ items:
       answer: "read"
       explanation: "El verbo 'read' se escribe igual en presente y pasado simple"
       translation: "Leí todo el libro en una noche"
-      pronunciation: "ai red da antáir buk in uan nait"
+      pronunciationES: "ai red da antáir buk in uan nait"
 
     - question: "They ___ their annual meeting last week."
       options:
@@ -287,7 +287,7 @@ items:
       answer: "held"
       explanation: "El verbo 'hold' es irregular en pasado simple"
       translation: "Celebraron su reunión anual la semana pasada"
-      pronunciation: "dei held jor ánual míting last uík"
+      pronunciationES: "dei held jor ánual míting last uík"
 
     - question: "The company ___ significant profits last quarter."
       options:
@@ -298,7 +298,7 @@ items:
       answer: "generated"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "La empresa generó ganancias significativas el trimestre pasado"
-      pronunciation: "da kámpani jénerated signifikánt prófits last kuórter"
+      pronunciationES: "da kámpani jénerated signifikánt prófits last kuórter"
 
     - question: "She ___ her first novel during the pandemic."
       options:
@@ -309,7 +309,7 @@ items:
       answer: "wrote"
       explanation: "El verbo 'write' es irregular en pasado simple"
       translation: "Ella escribió su primera novela durante la pandemia"
-      pronunciation: "shi rout jor férst nóvel dúring da pandémia"
+      pronunciationES: "shi rout jor férst nóvel dúring da pandémia"
 
     - question: "We ___ a challenging project last semester."
       options:
@@ -320,7 +320,7 @@ items:
       answer: "completed"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "Completamos un proyecto desafiante el semestre pasado"
-      pronunciation: "ui komplítid a chálenyng próyekt last sémestar"
+      pronunciationES: "ui komplítid a chálenyng próyekt last sémestar"
 
     - question: "The students ___ their final exams last week."
       options:
@@ -331,7 +331,7 @@ items:
       answer: "finished"
       explanation: "Verbos regulares añaden -ed en pasado simple"
       translation: "Los estudiantes terminaron sus exámenes finales la semana pasada"
-      pronunciation: "da stiúdents fínished jor fáinal ézams last uík"
+      pronunciationES: "da stiúdents fínished jor fáinal ézams last uík"
 
     - question: "He ___ a new job in a tech company."
       options:
@@ -342,7 +342,7 @@ items:
       answer: "found"
       explanation: "El verbo 'find' es irregular en pasado simple"
       translation: "Él encontró un nuevo trabajo en una empresa tecnológica"
-      pronunciation: "ji faund a niu yob in a tek kámpani"
+      pronunciationES: "ji faund a niu yob in a tek kámpani"
 
     - question: "The restaurant ___ a special menu for the festival."
       options:
@@ -353,7 +353,7 @@ items:
       answer: "created"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "El restaurante creó un menú especial para el festival"
-      pronunciation: "da restoran kriéited a spéshel ménu for da féstival"
+      pronunciationES: "da restoran kriéited a spéshel ménu for da féstival"
 
     - question: "They ___ the entire day exploring the city."
       options:
@@ -364,7 +364,7 @@ items:
       answer: "spent"
       explanation: "El verbo 'spend' es irregular en pasado simple"
       translation: "Ellos pasaron todo el día explorando la ciudad"
-      pronunciation: "dei spent da antáir dei eksplóring da síti"
+      pronunciationES: "dei spent da antáir dei eksplóring da síti"
 
     - question: "I ___ my friend in the park yesterday."
       options:
@@ -375,7 +375,7 @@ items:
       answer: "met"
       explanation: "El verbo 'meet' es irregular en pasado simple"
       translation: "Me encontré con mi amigo en el parque ayer"
-      pronunciation: "ai met mai frend in da park yesterdei"
+      pronunciationES: "ai met mai frend in da park yesterdei"
 
     - question: "The team ___ first place in the competition."
       options:
@@ -386,7 +386,7 @@ items:
       answer: "won"
       explanation: "El verbo 'win' es irregular en pasado simple"
       translation: "El equipo ganó el primer lugar en la competencia"
-      pronunciation: "da tím uan férst pleis in da kompetíshon"
+      pronunciationES: "da tím uan férst pleis in da kompetíshon"
 
     - question: "She ___ her entire savings on a new car."
       options:
@@ -397,7 +397,7 @@ items:
       answer: "spent"
       explanation: "El verbo 'spend' cambia a 'spent' en pasado simple"
       translation: "Ella gastó todos sus ahorros en un auto nuevo"
-      pronunciation: "shi spent jor antáir sévings on a niu kar"
+      pronunciationES: "shi spent jor antáir sévings on a niu kar"
 
     - question: "The company ___ a significant merger last year."
       options:
@@ -408,7 +408,7 @@ items:
       answer: "completed"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "La empresa completó una fusión significativa el año pasado"
-      pronunciation: "da kámpani komplítid a signifikánt méryer last yir"
+      pronunciationES: "da kámpani komplítid a signifikánt méryer last yir"
 
     - question: "We ___ an incredible journey through the mountains."
       options:
@@ -419,7 +419,7 @@ items:
       answer: "took"
       explanation: "El verbo 'take' es irregular en pasado simple"
       translation: "Nosotros tomamos un viaje increíble a través de las montañas"
-      pronunciation: "ui tuk an inkrédibel yúrney zru da máuntens"
+      pronunciationES: "ui tuk an inkrédibel yúrney zru da máuntens"
 
     - question: "The museum ___ a rare collection last month."
       options:
@@ -430,7 +430,7 @@ items:
       answer: "acquired"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "El museo adquirió una colección rara el mes pasado"
-      pronunciation: "da mjúziem akuáired a rér kolékshon last manth"
+      pronunciationES: "da mjúziem akuáired a rér kolékshon last manth"
 
     - question: "They ___ a breakthrough in medical research."
       options:
@@ -441,7 +441,7 @@ items:
       answer: "achieved"
       explanation: "Verbos que terminan en -e añaden solo -d"
       translation: "Ellos lograron un avance en la investigación médica"
-      pronunciation: "dei achíved a brékzru in médical ríserdj"
+      pronunciationES: "dei achíved a brékzru in médical ríserdj"
 
     - question: "The financial markets ___ dramatically after the announcement."
       options:
@@ -452,7 +452,7 @@ items:
       answer: "fell"
       explanation: "'Fall' es un verbo irregular que cambia a 'fell' en pasado"
       translation: "Los mercados financieros cayeron dramáticamente después del anuncio"
-      pronunciation: "da fainánshal márkets fel dramátikali áfter di anáunsment"
+      pronunciationES: "da fainánshal márkets fel dramátikali áfter di anáunsment"
 
     - question: "The diplomatic delegation ___ peace negotiations last month."
       options:
@@ -463,7 +463,7 @@ items:
       answer: "began"
       explanation: "'Begin' es irregular y cambia a 'began' en pasado"
       translation: "La delegación diplomática comenzó las negociaciones de paz el mes pasado"
-      pronunciation: "da diplomátik déligueishon bigán pís negoshiéishons last manz"
+      pronunciationES: "da diplomátik déligueishon bigán pís negoshiéishons last manz"
 
     - question: "The international conference ___ experts from around the world."
       options:
@@ -474,7 +474,7 @@ items:
       answer: "brought"
       explanation: "'Bring' cambia a 'brought' en pasado simple"
       translation: "La conferencia internacional trajo expertos de todo el mundo"
-      pronunciation: "di internáshonal kónferens brot eksperts from aráund da uérld"
+      pronunciationES: "di internáshonal kónferens brot eksperts from aráund da uérld"
 
     - question: "The researchers ___ their findings in a prestigious journal."
       options:
@@ -485,4 +485,4 @@ items:
       answer: "published"
       explanation: "Verbo regular que añade -ed en pasado"
       translation: "Los investigadores publicaron sus hallazgos en una revista prestigiosa"
-      pronunciation: "da rísérchers páblishd der fáindings in a prestíyios yérnal"
+      pronunciationES: "da rísérchers páblishd der fáindings in a prestíyios yérnal"

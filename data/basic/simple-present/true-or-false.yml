@@ -4,35 +4,35 @@ items:
       isTrue: true
       explanation: "In simple present, verbs get -s or -es when the subject is he, she, or it"
       translation: "Añadimos -s a los verbos para sujetos de tercera persona singular"
-      pronunciation: "ui ad -s tu verbs for zerd-person síngular sábjects"
+      pronunciationES: "ui ad -s tu verbs for zerd-person síngular sábjects"
       example: "She walks to school every day. / He drinks coffee in the morning."
 
     - sentence: "All verbs look the same in simple present, regardless of the subject."
       isTrue: false
       explanation: "Verbs change form for third-person singular subjects (he/she/it)"
       translation: "Todos los verbos se ven igual en presente simple, independientemente del sujeto"
-      pronunciation: "ol verbs luk zei seem in símple présent"
+      pronunciationES: "ol verbs luk zei seem in símple présent"
       example: "I play tennis. / She plays tennis. (verbs change with third person)"
 
     - sentence: "We use 'does not' for third-person singular negative sentences."
       isTrue: true
       explanation: "With he/she/it, we use 'does not' to create negative sentences"
       translation: "Usamos 'does not' para oraciones negativas con sujetos de tercera persona singular"
-      pronunciation: "ui yuz daz not for zerd-person síngular negativ séntences"
+      pronunciationES: "ui yuz daz not for zerd-person síngular negativ séntences"
       example: "She does not like pizza. / He does not work on Sundays."
 
     - sentence: "Verbs ending in -y always change to -ies in third-person singular."
       isTrue: false
       explanation: "Only verbs ending in a consonant + y change to -ies (like 'fly' to 'flies')"
       translation: "Los verbos que terminan en -y siempre cambian a -ies en tercera persona singular"
-      pronunciation: "verbs énding in -y olueiz cheinj tu -ies in zerd-person síngular"
+      pronunciationES: "verbs énding in -y olueiz cheinj tu -ies in zerd-person síngular"
       example: "He plays (from play) / She studies (from study)"
 
     - sentence: "The simple present tense describes habitual actions."
       isTrue: true
       explanation: "Simple present is used to talk about routines, habits, and general truths"
       translation: "El presente simple describe acciones habituales"
-      pronunciation: "da símple présent tens desráibs jábitual ákshons"
+      pronunciationES: "da símple présent tens desráibs jábitual ákshons"
       example: "I go to the gym every Monday. / She takes the bus to work."
 
     # NIVEL MEDIO (5 ejercicios)
@@ -40,35 +40,35 @@ items:
       isTrue: true
       explanation: "'Have' is an irregular verb that becomes 'has' with he/she/it"
       translation: "'Have' cambia a 'has' para sujetos de tercera persona singular"
-      pronunciation: "hav cheinjes tu jaz for zerd-person síngular sábjects"
+      pronunciationES: "hav cheinjes tu jaz for zerd-person síngular sábjects"
       example: "I have a car. / She has a car."
 
     - sentence: "Questions in simple present always use 'do'."
       isTrue: false
       explanation: "Third-person singular questions use 'does', others use 'do'"
       translation: "Las preguntas en presente simple siempre usan 'do'"
-      pronunciation: "kuéschons in símple présent olueiz yuz du"
+      pronunciationES: "kuéschons in símple présent olueiz yuz du"
       example: "Do you work here? / Does she work here?"
 
     - sentence: "Verbs ending in -ss always add -es in third-person singular."
       isTrue: true
       explanation: "Verbs like 'pass' become 'passes' for he/she/it"
       translation: "Los verbos que terminan en -ss siempre añaden -es en tercera persona singular"
-      pronunciation: "verbs énding in -ss olueiz ad -es in zerd-person síngular"
+      pronunciationES: "verbs énding in -ss olueiz ad -es in zerd-person síngular"
       example: "He passes the ball. / She misses the train."
 
     - sentence: "Simple present can express future planned actions."
       isTrue: true
       explanation: "Simple present can describe scheduled future events"
       translation: "El presente simple puede expresar acciones futuras planeadas"
-      pronunciation: "símple présent kan ékspres fjúcher pléned ákshons"
+      pronunciationES: "símple présent kan ékspres fjúcher pléned ákshons"
       example: "The train leaves at 5 PM tomorrow. / The movie starts next week."
 
     - sentence: "Adverbs of frequency always go after the main verb."
       isTrue: false
       explanation: "Adverbs of frequency typically go before the main verb"
       translation: "Los adverbios de frecuencia siempre van después del verbo principal"
-      pronunciation: "ádverbs ov frékuensi olueiz gou áfter da mein verb"
+      pronunciationES: "ádverbs ov frékuensi olueiz gou áfter da mein verb"
       example: "I usually eat breakfast. / He always arrives early."
 
     # NIVEL DIFÍCIL (10 ejercicios)
@@ -76,68 +76,68 @@ items:
       isTrue: true
       explanation: "He/she/it subjects need -s or -es added to the verb"
       translation: "Los sujetos de tercera persona singular siempre requieren modificación del verbo"
-      pronunciation: "zerd-person síngular sábjects olueiz rikuáir verb modifikéishon"
+      pronunciationES: "zerd-person síngular sábjects olueiz rikuáir verb modifikéishon"
       example: "I sing / She sings / He watches / It runs"
 
     - sentence: "Stative verbs like 'know' and 'want' don't change in simple present."
       isTrue: false
       explanation: "Stative verbs still follow the -s rule for third-person singular"
       translation: "Los verbos estáticos como 'know' y 'want' no cambian en presente simple"
-      pronunciation: "stéitiv verbs laik nou and uont dont cheinj in símple présent"
+      pronunciationES: "stéitiv verbs laik nou and uont dont cheinj in símple présent"
       example: "I know the answer. / She knows the answer."
 
     - sentence: "Simple present can express permanent situations."
       isTrue: true
       explanation: "Simple present describes ongoing states and general truths"
       translation: "El presente simple puede expresar situaciones permanentes"
-      pronunciation: "símple présent kan ékspres pérmanent sitjuéishons"
+      pronunciationES: "símple présent kan ékspres pérmanent sitjuéishons"
       example: "The Earth revolves around the Sun. / Water boils at 100°C."
 
     - sentence: "Negative questions in simple present always use 'don't'."
       isTrue: false
       explanation: "Third-person singular uses 'doesn't', others use 'don't'"
       translation: "Las preguntas negativas en presente simple siempre usan 'don't'"
-      pronunciation: "negativ kuéschons in símple présent olueiz yuz dont"
+      pronunciationES: "negativ kuéschons in símple présent olueiz yuz dont"
       example: "Don't you like coffee? / Doesn't she work here?"
 
     - sentence: "Verbs ending in -ch always add -es in third-person singular."
       isTrue: true
       explanation: "Verbs like 'watch' become 'watches' for he/she/it"
       translation: "Los verbos que terminan en -ch siempre añaden -es en tercera persona singular"
-      pronunciation: "verbs énding in -ch olueiz ad -es in zerd-person síngular"
+      pronunciationES: "verbs énding in -ch olueiz ad -es in zerd-person síngular"
       example: "She teaches English. / He watches TV."
 
     - sentence: "Simple present can only describe current actions."
       isTrue: false
       explanation: "Simple present describes habits, routines, and general truths"
       translation: "El presente simple solo puede describir acciones actuales"
-      pronunciation: "símple présent kan onli desráib kárrent ákshons"
+      pronunciationES: "símple présent kan onli desráib kárrent ákshons"
       example: "The sun rises in the east. / She works at a bank."
 
     - sentence: "All irregular verbs follow different conjugation rules."
       isTrue: true
       explanation: "Some irregular verbs have unique forms in simple present"
       translation: "Todos los verbos irregulares siguen diferentes reglas de conjugación"
-      pronunciation: "ol irégular verbs fólou diférent konjugéishon ruls"
+      pronunciationES: "ol irégular verbs fólou diférent konjugéishon ruls"
       example: "I have / She has / I do / She does"
 
     - sentence: "Frequency adverbs can go at the beginning of a sentence."
       isTrue: true
       explanation: "Adverbs like 'Sometimes' can start a sentence"
       translation: "Los adverbios de frecuencia pueden ir al principio de una oración"
-      pronunciation: "frékuensi ádverbs kan gou at da bigíning ov a séntence"
+      pronunciationES: "frékuensi ádverbs kan gou at da bigíning ov a séntence"
       example: "Usually, I wake up at 7 AM. / Sometimes, she visits her grandmother."
 
     - sentence: "Third-person singular always requires auxiliary 'do' in questions."
       isTrue: false
       explanation: "Third-person singular uses 'does' in questions"
       translation: "La tercera persona singular siempre requiere auxiliar 'do' en preguntas"
-      pronunciation: "zerd-person síngular olueiz rikuáirs oksiliéri du in kuéschons"
+      pronunciationES: "zerd-person síngular olueiz rikuáirs oksiliéri du in kuéschons"
       example: "Does he like pizza? / Does she work here?"
 
     - sentence: "Simple present can describe future arrangements."
       isTrue: true
       explanation: "With time expressions, simple present can indicate future plans"
       translation: "El presente simple puede describir arreglos futuros"
-      pronunciation: "símple présent kan desráib fjúcher arénjments"
+      pronunciationES: "símple présent kan desráib fjúcher arénjments"
       example: "The plane departs at 10 PM tonight. / The semester starts next Monday."

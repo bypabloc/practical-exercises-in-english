@@ -3,58 +3,58 @@ items:
     isTrue: false
     explanation: "'Me' es un pronombre objeto y nunca puede ser usado como sujeto de una oración. El pronombre sujeto correcto sería 'I' ('I am happy')."
     translation: "El pronombre 'me' puede usarse como sujeto de una oración (ej: 'Me am happy')."
-    pronunciation: "mi am japi"
+    pronunciationES: "mi am japi"
 
   - sentence: "When referring to a car or a computer in English, we use the pronoun 'it' regardless of gender in Spanish."
     isTrue: true
     explanation: "En inglés, todos los objetos inanimados usan el pronombre 'it', sin importar si en español son masculinos ('el carro') o femeninos ('la computadora')."
     translation: "Cuando nos referimos a un carro o una computadora en inglés, usamos el pronombre 'it' sin importar el género en español."
-    pronunciation: "it"
+    pronunciationES: "it"
 
   - sentence: "In English, you can say 'am tired' without using the pronoun 'I'."
     isTrue: false
     explanation: "En inglés, a diferencia del español, siempre es necesario usar el pronombre sujeto. No podemos omitirlo como en español ('estoy cansado')."
     translation: "En inglés, puedes decir 'am tired' sin usar el pronombre 'I'."
-    pronunciation: "ai am taird"
+    pronunciationES: "ai am taird"
 
   - sentence: "After prepositions like 'between', 'with', or 'for', we should use object pronouns (me, him, her) instead of subject pronouns (I, he, she)."
     isTrue: true
     explanation: "Después de cualquier preposición, siempre debemos usar pronombres objeto, nunca pronombres sujeto. Por ejemplo: 'between you and me' (no 'between you and I')."
     translation: "Después de preposiciones como 'between', 'with', o 'for', debemos usar pronombres objeto (me, him, her) en lugar de pronombres sujeto (I, he, she)."
-    pronunciation: "bitwin, wid, for, mi, jim, jer, ai, ji, shi"
+    pronunciationES: "bitwin, wid, for, mi, jim, jer, ai, ji, shi"
 
   - sentence: "We can use 'they' to refer to a single company or organization."
     isTrue: false
     explanation: "Para una sola compañía u organización, usamos 'it', no 'they'. 'They' solo se usa cuando nos referimos a la compañía como grupo de personas."
     translation: "Podemos usar 'they' para referirnos a una sola compañía u organización."
-    pronunciation: "dei, it"
+    pronunciationES: "dei, it"
 
   - sentence: "The pronouns 'his' and 'her' can be used directly before a noun to show possession."
     isTrue: true
     explanation: "Los pronombres posesivos 'his' y 'her' pueden usarse directamente antes de un sustantivo para mostrar posesión (his book, her car)."
     translation: "Los pronombres 'his' y 'her' pueden usarse directamente antes de un sustantivo para mostrar posesión."
-    pronunciation: "jis, jer"
+    pronunciationES: "jis, jer"
 
   - sentence: "You can say 'Is raining' without using 'it' in English."
     isTrue: false
     explanation: "En inglés, siempre necesitamos un sujeto. Para fenómenos meteorológicos, usamos 'it': 'It is raining'. No podemos omitir el 'it' como en español."
     translation: "Puedes decir 'Is raining' sin usar 'it' en inglés."
-    pronunciation: "it is reining"
+    pronunciationES: "it is reining"
 
   - sentence: "When talking about two people including yourself, it's correct to put yourself last: 'me and John are going'."
     isTrue: false
     explanation: "En inglés, es cortés mencionar a la otra persona primero y usar el pronombre correcto: 'John and I are going'. Además, se usa 'I', no 'me', como sujeto."
     translation: "Cuando hablas de dos personas incluyéndote, es correcto ponerte último: 'me and John are going'."
-    pronunciation: "yon and ai ar going"
+    pronunciationES: "yon and ai ar going"
 
   - sentence: "The pronoun 'you' can be used both as a subject and an object pronoun."
     isTrue: true
     explanation: "'You' es único porque tiene la misma forma como pronombre sujeto y como pronombre objeto: 'You are here' (sujeto) / 'I see you' (objeto)."
     translation: "El pronombre 'you' puede usarse tanto como pronombre sujeto como pronombre objeto."
-    pronunciation: "yu ar jir / ai si yu"
+    pronunciationES: "yu ar jir / ai si yu"
 
   - sentence: "When referring to animals as pets, we should always use 'it' instead of 'he' or 'she'."
     isTrue: false
     explanation: "Para mascotas y animales con los que tenemos una conexión personal, podemos usar 'he' o 'she'. 'It' se usa más comúnmente para animales en general o cuando no conocemos su género."
     translation: "Cuando nos referimos a animales como mascotas, siempre debemos usar 'it' en lugar de 'he' o 'she'."
-    pronunciation: "it, ji, shi"
+    pronunciationES: "it, ji, shi"

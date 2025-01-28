@@ -39,7 +39,7 @@
             </div>
             <div class="text-sm text-gray-600 pl-4 border-l-2 border-gray-200 space-y-1">
               <p><span class="font-medium">Translation:</span> {{ example.spanish }}</p>
-              <p><span class="font-medium">Pronunciation:</span> {{ example.pronunciation }}</p>
+              <p><span class="font-medium">Pronunciation:</span> {{ example.pronunciationES }}</p>
               <p v-if="example.note"><span class="font-medium">Note:</span> {{ example.note }}</p>
 
               <!-- Practice Button -->

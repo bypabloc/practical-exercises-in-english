@@ -10,7 +10,7 @@ items:
       answer: "does not"
       explanation: "Para tercera persona singular, usamos 'does not' o 'doesn't'"
       translation: "Ella no le gusta el café"
-      pronunciation: "shi daz not laik cofi"
+      pronunciationES: "shi daz not laik cofi"
 
     - question: "I ___ watch TV every day."
       options:
@@ -21,7 +21,7 @@ items:
       answer: "do not"
       explanation: "Con 'I', usamos 'do not' para formar la negativa"
       translation: "No veo televisión todos los días"
-      pronunciation: "ai du not uoch tivi évri dei"
+      pronunciationES: "ai du not uoch tivi évri dei"
 
     - question: "They ___ play football on weekends."
       options:
@@ -32,7 +32,7 @@ items:
       answer: "do not"
       explanation: "Con 'they', usamos 'do not' para formar la negativa"
       translation: "Ellos no juegan fútbol los fines de semana"
-      pronunciation: "zei du not plei futbol on uíkends"
+      pronunciationES: "zei du not plei futbol on uíkends"
 
     - question: "He ___ study on Sundays."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "does not"
       explanation: "Con 'he', usamos 'does not' para formar la negativa"
       translation: "Él no estudia los domingos"
-      pronunciation: "ji daz not stadi on sandeis"
+      pronunciationES: "ji daz not stadi on sandeis"
 
     - question: "We ___ eat fast food."
       options:
@@ -54,7 +54,7 @@ items:
       answer: "do not"
       explanation: "Con 'we', usamos 'do not' para formar la negativa"
       translation: "No comemos comida rápida"
-      pronunciation: "ui du not it fast fud"
+      pronunciationES: "ui du not it fast fud"
 
     - question: "It ___ rain in the desert."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "does not"
       explanation: "Con 'it', usamos 'does not' para formar la negativa"
       translation: "No llueve en el desierto"
-      pronunciation: "it daz not rein in da désert"
+      pronunciationES: "it daz not rein in da désert"
 
     - question: "You ___ speak French."
       options:
@@ -76,7 +76,7 @@ items:
       answer: "do not"
       explanation: "Con 'you', usamos 'do not' para formar la negativa"
       translation: "No hablas francés"
-      pronunciation: "yu du not spik frens"
+      pronunciationES: "yu du not spik frens"
 
     # NIVEL MEDIO (7 ejercicios)
     - question: "The students ___ always complete their homework on time."
@@ -88,7 +88,7 @@ items:
       answer: "do not"
       explanation: "Con 'students' (plural), usamos 'do not'"
       translation: "Los estudiantes no siempre completan su tarea a tiempo"
-      pronunciation: "da stiúdents du not kompleit zir jómwerk on taim"
+      pronunciationES: "da stiúdents du not kompleit zir jómwerk on taim"
 
     - question: "The company ___ produce high-quality products this month."
       options:
@@ -99,7 +99,7 @@ items:
       answer: "does not"
       explanation: "Con 'company' (singular), usamos 'does not'"
       translation: "La empresa no produce productos de alta calidad este mes"
-      pronunciation: "da kómpani daz not prodius hai-kuóliti pródakts zis manth"
+      pronunciationES: "da kómpani daz not prodius hai-kuóliti pródakts zis manth"
 
     - question: "My friend ___ like spicy food."
       options:
@@ -110,7 +110,7 @@ items:
       answer: "does not"
       explanation: "Con 'friend' (singular), usamos 'does not'"
       translation: "Mi amigo no le gusta la comida picante"
-      pronunciation: "mai frend daz not laik spaisi fud"
+      pronunciationES: "mai frend daz not laik spaisi fud"
 
     - question: "Neither of the solutions ___ work perfectly."
       options:
@@ -121,7 +121,7 @@ items:
       answer: "does not"
       explanation: "'Neither' se trata como singular, así que usamos 'does not'"
       translation: "Ninguna de las soluciones funciona perfectamente"
-      pronunciation: "náider of da solúshons daz not werk pérfektli"
+      pronunciationES: "náider of da solúshons daz not werk pérfektli"
 
     - question: "Everyone in the class ___ understand the lesson."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "does not"
       explanation: "'Everyone' se trata como singular, así que usamos 'does not'"
       translation: "Nadie en la clase entiende la lección"
-      pronunciation: "évriwuan in da klas daz not anderstánd da léson"
+      pronunciationES: "évriwuan in da klas daz not anderstánd da léson"
 
     - question: "The team ___ always win their matches."
       options:
@@ -143,7 +143,7 @@ items:
       answer: "does not"
       explanation: "'Team' como entidad singular usa 'does not'"
       translation: "El equipo no siempre gana sus partidos"
-      pronunciation: "da tim daz not uin zair máches"
+      pronunciationES: "da tim daz not uin zair máches"
 
     - question: "A number of students ___ study on weekends."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "do not"
       explanation: "'A number of' se trata como plural, así que usamos 'do not'"
       translation: "Un número de estudiantes no estudia los fines de semana"
-      pronunciation: "a námber of stiúdents du not stadi on uíkends"
+      pronunciationES: "a námber of stiúdents du not stadi on uíkends"
 
     # NIVEL DIFÍCIL (26 ejercicios)
     - question: "The research team ___ investigate the complex issue thoroughly."
@@ -166,7 +166,7 @@ items:
       answer: "does not"
       explanation: "'Research team' como entidad singular usa 'does not'"
       translation: "El equipo de investigación no investiga el problema complejo a fondo"
-      pronunciation: "da ríserdj tim daz not invéstigeit da kompleks íshu zórougli"
+      pronunciationES: "da ríserdj tim daz not invéstigeit da kompleks íshu zórougli"
 
     - question: "None of the evidence ___ support the initial hypothesis."
       options:
@@ -177,7 +177,7 @@ items:
       answer: "does"
       explanation: "'None' generalmente se trata como singular, así que usamos 'does'"
       translation: "Ninguna de las evidencias respalda la hipótesis inicial"
-      pronunciation: "nan of da évidence daz not sapórt da inishol haipózesis"
+      pronunciationES: "nan of da évidence daz not sapórt da inishol haipózesis"
 
     - question: "Meteorologists ___ always predict the weather accurately."
       options:
@@ -188,7 +188,7 @@ items:
       answer: "do not"
       explanation: "Con 'meteorologists' (plural), usamos 'do not'"
       translation: "Los meteorólogos no siempre predicen el clima con precisión"
-      pronunciation: "mítirolodists du not pridíkt da uéder akiurétli"
+      pronunciationES: "mítirolodists du not pridíkt da uéder akiurétli"
 
     - question: "The majority of employees ___ agree with the new policy."
       options:
@@ -199,7 +199,7 @@ items:
       answer: "do not"
       explanation: "'Majority' cuando implica grupo usa 'do not'"
       translation: "La mayoría de los empleados no están de acuerdo con la nueva política"
-      pronunciation: "da mayóriti of emploíis du not agrí uiz da niu pólisi"
+      pronunciationES: "da mayóriti of emploíis du not agrí uiz da niu pólisi"
 
     - question: "Mathematics ___ always seem easy to students."
       options:
@@ -210,7 +210,7 @@ items:
       answer: "does not"
       explanation: "'Mathematics' se trata como singular"
       translation: "Las matemáticas no siempre parecen fáciles para los estudiantes"
-      pronunciation: "mazamátiks daz not sim olueiz ísi tu stiúdents"
+      pronunciationES: "mazamátiks daz not sim olueiz ísi tu stiúdents"
 
     - question: "A variety of factors ___ contribute to the problem."
       options:
@@ -221,7 +221,7 @@ items:
       answer: "do not"
       explanation: "'A variety of' implica pluralidad, usa 'do not'"
       translation: "Una variedad de factores no contribuyen al problema"
-      pronunciation: "a veráieti of fáktors du not kontribiut tu da próblem"
+      pronunciationES: "a veráieti of fáktors du not kontribiut tu da próblem"
 
     - question: "Either of the solutions ___ solve the entire problem."
       options:
@@ -232,7 +232,7 @@ items:
       answer: "does not"
       explanation: "'Either' se trata como singular"
       translation: "Ninguna de las soluciones resuelve completamente el problema"
-      pronunciation: "áider of da solúshons daz not solv da entáir próblem"
+      pronunciationES: "áider of da solúshons daz not solv da entáir próblem"
 
     - question: "The United States ___ always support every international agreement."
       options:
@@ -243,7 +243,7 @@ items:
       answer: "does not"
       explanation: "'United States' se trata como entidad singular"
       translation: "Estados Unidos no siempre apoya todos los acuerdos internacionales"
-      pronunciation: "da yunáited steits daz not sapórt évri intarnáshonal agrímant"
+      pronunciationES: "da yunáited steits daz not sapórt évri intarnáshonal agrímant"
 
     - question: "His primary means of transportation ___ include a bicycle."
       options:
@@ -254,7 +254,7 @@ items:
       answer: "does not"
       explanation: "'Means' cuando se refiere a método se trata como singular"
       translation: "Su principal medio de transporte no incluye una bicicleta"
-      pronunciation: "jis práimeri mínz of transportéishon daz not inklúd a báisikol"
+      pronunciationES: "jis práimeri mínz of transportéishon daz not inklúd a báisikol"
 
     - question: "The complex nature of the problem ___ allow for simple solutions."
       options:
@@ -265,7 +265,7 @@ items:
       answer: "does not"
       explanation: "'Nature' es un sustantivo singular"
       translation: "La naturaleza compleja del problema no permite soluciones simples"
-      pronunciation: "da kompleks néicher of da próblem daz not alóu for símple solúshons"
+      pronunciationES: "da kompleks néicher of da próblem daz not alóu for símple solúshons"
 
     - question: "Multiple factors ___ contribute to successful learning."
       options:
@@ -276,7 +276,7 @@ items:
       answer: "do not"
       explanation: "'Multiple factors' implica pluralidad"
       translation: "Múltiples factores no contribuyen al aprendizaje exitoso"
-      pronunciation: "múltiple fáktors du not kontribiut tu saksésful lérning"
+      pronunciationES: "múltiple fáktors du not kontribiut tu saksésful lérning"
 
     - question: "The total number of attempts ___ guarantee success."
       options:
@@ -287,7 +287,7 @@ items:
       answer: "does not"
       explanation: "'Total number' se trata como singular"
       translation: "El número total de intentos no garantiza el éxito"
-      pronunciation: "da tótal námbir of atémpts daz not gárantí saksés"
+      pronunciationES: "da tótal námbir of atémpts daz not gárantí saksés"
 
     - question: "Scientific evidence ___ always support popular beliefs."
       options:
@@ -298,7 +298,7 @@ items:
       answer: "does not"
       explanation: "'Evidence' se trata como sustantivo singular"
       translation: "La evidencia científica no siempre respalda las creencias populares"
-      pronunciation: "sáientifik évidence daz not sapórt pópyular biliífs"
+      pronunciationES: "sáientifik évidence daz not sapórt pópyular biliífs"
 
     - question: "The collective wisdom of experts ___ guarantee absolute certainty."
       options:
@@ -309,7 +309,7 @@ items:
       answer: "does not"
       explanation: "'Collective wisdom' se trata como entidad singular"
       translation: "La sabiduría colectiva de los expertos no garantiza certeza absoluta"
-      pronunciation: "da kolektiv uísdom of éksperts daz not gárantí absoliut sertéinty"
+      pronunciationES: "da kolektiv uísdom of éksperts daz not gárantí absoliut sertéinty"
 
     - question: "Cultural differences ___ always lead to misunderstandings."
       options:
@@ -320,7 +320,7 @@ items:
       answer: "do not"
       explanation: "'Cultural differences' implica pluralidad"
       translation: "Las diferencias culturales no siempre llevan a malentendidos"
-      pronunciation: "kálchural diférences du not lid tu misánderstándings"
+      pronunciationES: "kálchural diférences du not lid tu misánderstándings"
 
     - question: "An increasing number of students ___ pursue traditional career paths."
       options:
@@ -331,7 +331,7 @@ items:
       answer: "do not"
       explanation: "'An increasing number' implica pluralidad"
       translation: "Un número creciente de estudiantes no sigue trayectorias profesionales tradicionales"
-      pronunciation: "an inkríesing námbir of stiúdents du not parsú tradíshonal káreer páths"
+      pronunciationES: "an inkríesing námbir of stiúdents du not parsú tradíshonal káreer páths"
 
     - question: "The ethical implications of technology ___ always remain clear."
       options:
@@ -342,7 +342,7 @@ items:
       answer: "do not"
       explanation: "'Ethical implications' implica pluralidad"
       translation: "Las implicaciones éticas de la tecnología no siempre permanecen claras"
-      pronunciation: "di ézical implikiéishons of teknóloji du not rimein klir"
+      pronunciationES: "di ézical implikiéishons of teknóloji du not rimein klir"
 
     - question: "Artificial intelligence ___ necessarily replace human decision-making."
       options:
@@ -353,7 +353,7 @@ items:
       answer: "does not"
       explanation: "'Artificial intelligence' se trata como entidad singular"
       translation: "La inteligencia artificial no necesariamente reemplaza la toma de decisiones humanas"
-      pronunciation: "ártifishol inteligens daz not nesésarili ripleis hjúman disishon-méiking"
+      pronunciationES: "ártifishol inteligens daz not nesésarili ripleis hjúman disishon-méiking"
 
     - question: "The rapid pace of technological innovation ___ slow down."
       options:
@@ -364,7 +364,7 @@ items:
       answer: "does not"
       explanation: "'Pace' es un sustantivo singular"
       translation: "El rápido ritmo de la innovación tecnológica no se desacelera"
-      pronunciation: "da rápid peis of teknológikal inoveishon daz not slau daun"
+      pronunciationES: "da rápid peis of teknológikal inoveishon daz not slau daun"
 
     - question: "A critical analysis of the data ___ reveal the entire picture."
       options:
@@ -375,7 +375,7 @@ items:
       answer: "does not"
       explanation: "'Critical analysis' se trata como entidad singular"
       translation: "Un análisis crítico de los datos no revela todo el panorama"
-      pronunciation: "a krítical análisis of da déita daz not rivíl da entáir píkcher"
+      pronunciationES: "a krítical análisis of da déita daz not rivíl da entáir píkcher"
 
     - question: "The interconnected nature of global systems ___ allow simple solutions."
       options:
@@ -386,7 +386,7 @@ items:
       answer: "does not"
       explanation: "'Nature' es un sustantivo singular"
       translation: "La naturaleza interconectada de los sistemas globales no permite soluciones simples"
-      pronunciation: "da interkónektid néicher of glóbal sístems daz not alóu símple solúshons"
+      pronunciationES: "da interkónektid néicher of glóbal sístems daz not alóu símple solúshons"
 
     - question: "Empirical research ___ always provide definitive answers."
       options:
@@ -397,7 +397,7 @@ items:
       answer: "does not"
       explanation: "'Empirical research' se trata como entidad singular"
       translation: "La investigación empírica no siempre proporciona respuestas definitivas"
-      pronunciation: "empírikal ríserdj daz not provái defináitiv ánswers"
+      pronunciationES: "empírikal ríserdj daz not provái defináitiv ánswers"
 
     - question: "The theoretical framework ___ completely explain complex phenomena."
       options:
@@ -408,7 +408,7 @@ items:
       answer: "does not"
       explanation: "'Theoretical framework' es un sustantivo singular"
       translation: "El marco teórico no explica completamente los fenómenos complejos"
-      pronunciation: "da zioretikal fréimwerk daz not komplítli eksplein kompleks fenómena"
+      pronunciationES: "da zioretikal fréimwerk daz not komplítli eksplein kompleks fenómena"
 
     - question: "Cross-cultural communication ___ always prevent misunderstandings."
       options:
@@ -419,7 +419,7 @@ items:
       answer: "does not"
       explanation: "'Cross-cultural communication' se trata como entidad singular"
       translation: "La comunicación intercultural no siempre previene malentendidos"
-      pronunciation: "kros-kálchural komyunikéishon daz not priveín misánderstándings"
+      pronunciationES: "kros-kálchural komyunikéishon daz not priveín misánderstándings"
 
     - question: "Innovative approaches ___ guarantee immediate success."
       options:
@@ -430,7 +430,7 @@ items:
       answer: "do not"
       explanation: "'Innovative approaches' implica pluralidad"
       translation: "Los enfoques innovadores no garantizan éxito inmediato"
-      pronunciation: "inóvative aprouchis du not gárantí inmédiate saksés"
+      pronunciationES: "inóvative aprouchis du not gárantí inmédiate saksés"
 
     - question: "Sustainable development ___ occur without comprehensive planning."
       options:
@@ -441,7 +441,7 @@ items:
       answer: "does not"
       explanation: "'Sustainable development' se trata como entidad singular"
       translation: "El desarrollo sostenible no ocurre sin una planificación exhaustiva"
-      pronunciation: "sasteinábel divélopment daz not okár uizáut komprijénsiv pláning"
+      pronunciationES: "sasteinábel divélopment daz not okár uizáut komprijénsiv pláning"
 
     - question: "The philosophical debate ___ provide absolute certainty."
       options:
@@ -452,7 +452,7 @@ items:
       answer: "does not"
       explanation: "'Philosophical debate' es un sustantivo singular"
       translation: "El debate filosófico no proporciona certeza absoluta"
-      pronunciation: "da filósofical dibéit daz not provái absoliut sertéinty"
+      pronunciationES: "da filósofical dibéit daz not provái absoliut sertéinty"
 
     - question: "Global environmental challenges ___ have simple solutions."
       options:
@@ -463,4 +463,4 @@ items:
       answer: "do not"
       explanation: "'Global environmental challenges' implica pluralidad"
       translation: "Los desafíos ambientales globales no tienen soluciones simples"
-      pronunciation: "glóbal envairánmental chálendjes du not jav símple solúshons"
+      pronunciationES: "glóbal envairánmental chálendjes du not jav símple solúshons"

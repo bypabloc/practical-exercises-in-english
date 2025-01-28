@@ -110,7 +110,7 @@
                   <div class="flex items-center gap-2">
                     <p class="flex gap-2">
                       <span class="font-medium">Pronunciation:</span>
-                      <span>{{ exercise.pronunciation }}</span>
+                      <span>{{ exercise.pronunciationES }}</span>
                     </p>
                     <TfsButtonSpeak
                       :text="`${exercise.left} - ${exercise.right}`"

@@ -10,7 +10,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa con sustantivos no contables como water"
       translation: "Quiero algo de agua"
-      pronunciation: "ai uant sam uóter"
+      pronunciationES: "ai uant sam uóter"
 
     - sentence: "{_____} students speak two languages."
       options:
@@ -21,7 +21,7 @@ items:
       answer: "Many"
       explanation: "'Many' se usa con sustantivos contables plurales"
       translation: "Muchos estudiantes hablan dos idiomas"
-      pronunciation: "méni stúdents spik tu láñguiyes"
+      pronunciationES: "méni stúdents spik tu láñguiyes"
 
     - sentence: "This is {_____} book."
       options:
@@ -32,7 +32,7 @@ items:
       answer: "a"
       explanation: "Se usa 'a' para un sustantivo singular indefinido"
       translation: "Este es un libro"
-      pronunciation: "zis iz a buk"
+      pronunciationES: "zis iz a buk"
 
     - sentence: "We need {_____} time to finish."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "little"
       explanation: "'Little' se usa con sustantivos no contables como time"
       translation: "Necesitamos poco tiempo para terminar"
-      pronunciation: "ui níd lítl taim tu fínish"
+      pronunciationES: "ui níd lítl taim tu fínish"
 
     - sentence: "{_____} day brings new challenges."
       options:
@@ -54,7 +54,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica repetición diaria"
       translation: "Cada día trae nuevos desafíos"
-      pronunciation: "évri dei bríngs niu chálendjes"
+      pronunciationES: "évri dei bríngs niu chálendjes"
 
     - sentence: "She bought {_____} apples."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "a few"
       explanation: "'A few' se usa con sustantivos contables plurales"
       translation: "Ella compró algunas manzanas"
-      pronunciation: "shi baut a fiu áples"
+      pronunciationES: "shi baut a fiu áples"
 
     - sentence: "I saw {_____} interesting movie."
       options:
@@ -76,7 +76,7 @@ items:
       answer: "an"
       explanation: "Se usa 'an' antes de palabras que comienzan con sonido vocálico"
       translation: "Vi una película interesante"
-      pronunciation: "ai sou an intrésting móvie"
+      pronunciationES: "ai sou an intrésting móvie"
 
     # NIVEL MEDIO (7 ejercicios)
     - sentence: "The {_____} research provides valuable insights."
@@ -88,7 +88,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para indicar una cantidad indeterminada"
       translation: "La investigación proporciona ideas valiosas"
-      pronunciation: "da sam ríserdj provái des váljuabl ínsaits"
+      pronunciationES: "da sam ríserdj provái des váljuabl ínsaits"
 
     - sentence: "{_____} technologies are changing the world."
       options:
@@ -99,7 +99,7 @@ items:
       answer: "Some"
       explanation: "'Some' indica un número indeterminado de tecnologías"
       translation: "Algunas tecnologías están cambiando el mundo"
-      pronunciation: "sam teknológies ar chéinying da world"
+      pronunciationES: "sam teknológies ar chéinying da world"
 
     - sentence: "We have {_____} time to complete the project."
       options:
@@ -110,7 +110,7 @@ items:
       answer: "little"
       explanation: "'Little' se usa con sustantivos no contables"
       translation: "Tenemos poco tiempo para completar el proyecto"
-      pronunciation: "ui jav lítl taim tu komplít da próyekt"
+      pronunciationES: "ui jav lítl taim tu komplít da próyekt"
 
     - sentence: "{_____} companies are investing in innovation."
       options:
@@ -121,7 +121,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de compañías"
       translation: "Muchas compañías están invirtiendo en innovación"
-      pronunciation: "méni kompánies ar invérting in inóveshon"
+      pronunciationES: "méni kompánies ar invérting in inóveshon"
 
     - sentence: "I read {_____} interesting article about technology."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "an"
       explanation: "Se usa 'an' antes de palabras que comienzan con sonido vocálico"
       translation: "Leí un artículo interesante sobre tecnología"
-      pronunciation: "ai red an intrésting ártikl abaut teknóloji"
+      pronunciationES: "ai red an intrésting ártikl abaut teknóloji"
 
     - sentence: "We need {_____} more information."
       options:
@@ -143,7 +143,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar información adicional"
       translation: "Necesitamos algo más de información"
-      pronunciation: "ui níd sam mor ínformeshon"
+      pronunciationES: "ui níd sam mor ínformeshon"
 
     - sentence: "{_____} students understand the complex concept."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "Few"
       explanation: "'Few' indica un número pequeño de estudiantes"
       translation: "Pocos estudiantes entienden el concepto complejo"
-      pronunciation: "fiu stúdents anderstánd da kompleks kónsept"
+      pronunciationES: "fiu stúdents anderstánd da kompleks kónsept"
 
     # NIVEL DIFÍCIL (26 ejercicios)
     - sentence: "A {_____} research provides unique insights."
@@ -166,7 +166,7 @@ items:
       answer: "comprehensive"
       explanation: "Se usa un adjetivo descriptivo con un artículo indefinido"
       translation: "Una investigación exhaustiva proporciona ideas únicas"
-      pronunciation: "a komprehénsiv ríserdj provái des yúnik ínsaits"
+      pronunciationES: "a komprehénsiv ríserdj provái des yúnik ínsaits"
 
     - sentence: "The {_____} technologies are transforming industries."
       options:
@@ -177,7 +177,7 @@ items:
       answer: "many"
       explanation: "'Many' indica un número grande de tecnologías"
       translation: "Las muchas tecnologías están transformando industrias"
-      pronunciation: "da méni teknológies ar transfórming índustries"
+      pronunciationES: "da méni teknológies ar transfórming índustries"
 
     - sentence: "We have {_____} progress in our research."
       options:
@@ -188,7 +188,7 @@ items:
       answer: "a little"
       explanation: "'A little' indica una pequeña cantidad de progreso"
       translation: "Tenemos un poco de progreso en nuestra investigación"
-      pronunciation: "ui jav a lítl prógres in aur ríserdj"
+      pronunciationES: "ui jav a lítl prógres in aur ríserdj"
 
     - sentence: "{_____} innovative solutions address complex challenges."
       options:
@@ -199,7 +199,7 @@ items:
       answer: "Some"
       explanation: "'Some' indica un número indeterminado de soluciones"
       translation: "Algunas soluciones innovadoras abordan desafíos complejos"
-      pronunciation: "sam inóvative solúshons addrés kompleks chálendjes"
+      pronunciationES: "sam inóvative solúshons addrés kompleks chálendjes"
 
     - sentence: "He has {_____} experience in this field."
       options:
@@ -210,7 +210,7 @@ items:
       answer: "little"
       explanation: "'Little' se usa con sustantivos no contables como experience"
       translation: "Él tiene muy poca experiencia en este campo"
-      pronunciation: "ji jav lítl ikspíriins in zis fild"
+      pronunciationES: "ji jav lítl ikspíriins in zis fild"
 
     - sentence: "A {_____} approach ensures better results."
       options:
@@ -221,7 +221,7 @@ items:
       answer: "strategic"
       explanation: "Se usa un adjetivo descriptivo con un artículo indefinido"
       translation: "Un enfoque estratégico garantiza mejores resultados"
-      pronunciation: "a strátejik apróuch enShúrs béter rízalts"
+      pronunciationES: "a strátejik apróuch enShúrs béter rízalts"
 
     - sentence: "The {_____} data reveals interesting patterns."
       options:
@@ -232,7 +232,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para indicar una cantidad indeterminada de datos"
       translation: "Los algunos datos revelan patrones interesantes"
-      pronunciation: "da sam déita rívels intrésting páterns"
+      pronunciationES: "da sam déita rívels intrésting páterns"
 
     - sentence: "We need {_____} more resources."
       options:
@@ -243,7 +243,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar recursos adicionales"
       translation: "Necesitamos algunos recursos más"
-      pronunciation: "ui níd sam mor rísources"
+      pronunciationES: "ui níd sam mor rísources"
 
     - sentence: "{_____} companies are leading innovation."
       options:
@@ -254,7 +254,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de compañías"
       translation: "Muchas compañías están liderando la innovación"
-      pronunciation: "méni kompánies ar lídering inóveshon"
+      pronunciationES: "méni kompánies ar lídering inóveshon"
 
     - sentence: "She has {_____} understanding of the complex issue."
       options:
@@ -265,7 +265,7 @@ items:
       answer: "little"
       explanation: "'Little' se usa con sustantivos no contables como understanding"
       translation: "Ella tiene muy poca comprensión del problema complejo"
-      pronunciation: "shi jav lítl anderstánding ov da kompleks ísiu"
+      pronunciationES: "shi jav lítl anderstánding ov da kompleks ísiu"
 
     - sentence: "A {_____} evaluation reveals multiple perspectives."
       options:
@@ -276,7 +276,7 @@ items:
       answer: "comprehensive"
       explanation: "Se usa un adjetivo descriptivo con un artículo indefinido"
       translation: "Una evaluación exhaustiva revela múltiples perspectivas"
-      pronunciation: "a komprehénsiv ivalyuéishon rívels múltiple perspéktivz"
+      pronunciationES: "a komprehénsiv ivalyuéishon rívels múltiple perspéktivz"
 
     - sentence: "The {_____} research project is groundbreaking."
       options:
@@ -287,7 +287,7 @@ items:
       answer: "innovative"
       explanation: "Se usa un adjetivo descriptivo con un artículo definido"
       translation: "El proyecto de investigación innovador es revolucionario"
-      pronunciation: "da inóvative ríserdj próyekt iz graundbreiking"
+      pronunciationES: "da inóvative ríserdj próyekt iz graundbreiking"
 
     - sentence: "We have {_____} creativity in our approach."
       options:
@@ -298,7 +298,7 @@ items:
       answer: "a little"
       explanation: "'A little' indica una pequeña cantidad de creatividad"
       translation: "Tenemos un poco de creatividad en nuestro enfoque"
-      pronunciation: "ui jav a lítl krieitíviti in aur apróuch"
+      pronunciationES: "ui jav a lítl krieitíviti in aur apróuch"
 
     - sentence: "{_____} technologies address global challenges."
       options:
@@ -309,7 +309,7 @@ items:
       answer: "Some"
       explanation: "'Some' indica un número indeterminado de tecnologías"
       translation: "Algunas tecnologías abordan desafíos globales"
-      pronunciation: "sam teknológies addrés glóbal chálendjes"
+      pronunciationES: "sam teknológies addrés glóbal chálendjes"
 
     - sentence: "A {_____} solution could solve the problem."
       options:
@@ -320,7 +320,7 @@ items:
       answer: "strategic"
       explanation: "Se usa un adjetivo descriptivo con un artículo indefinido"
       translation: "Una solución estratégica podría resolver el problema"
-      pronunciation: "a strátejik solúshon kud sólv da próblem"
+      pronunciationES: "a strátejik solúshon kud sólv da próblem"
 
     - sentence: "He has {_____} money to invest."
       options:
@@ -331,7 +331,7 @@ items:
       answer: "little"
       explanation: "'Little' se usa con sustantivos no contables como money"
       translation: "Él tiene muy poco dinero para invertir"
-      pronunciation: "ji jav lítl máni tu invért"
+      pronunciationES: "ji jav lítl máni tu invért"
 
     - sentence: "The {_____} approach ensures better results."
       options:
@@ -342,7 +342,7 @@ items:
       answer: "innovative"
       explanation: "Se usa un adjetivo descriptivo con un artículo definido"
       translation: "El enfoque innovador garantiza mejores resultados"
-      pronunciation: "da inóvative apróuch enShúrs béter rízalts"
+      pronunciationES: "da inóvative apróuch enShúrs béter rízalts"
 
     - sentence: "We need {_____} additional information."
       options:
@@ -353,7 +353,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar información adicional"
       translation: "Necesitamos algo de información adicional"
-      pronunciation: "ui níd sam adiShonl ínformeshon"
+      pronunciationES: "ui níd sam adiShonl ínformeshon"
 
     - sentence: "{_____} attempts to solve the problem have failed."
       options:
@@ -364,7 +364,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de intentos"
       translation: "Muchos intentos de resolver el problema han fallado"
-      pronunciation: "méni atémpts tu sólv da próblem jav féild"
+      pronunciationES: "méni atémpts tu sólv da próblem jav féild"
 
     - sentence: "A {_____} framework guides organizational development."
       options:
@@ -375,7 +375,7 @@ items:
       answer: "strategic"
       explanation: "Se usa un adjetivo descriptivo con un artículo indefinido"
       translation: "Un marco estratégico guía el desarrollo organizacional"
-      pronunciation: "a strátejik fréimwerk gaids orgenizéishonl divelópment"
+      pronunciationES: "a strátejik fréimwerk gaids orgenizéishonl divelópment"
 
     - sentence: "The {_____} research highlights emerging trends."
       options:
@@ -386,7 +386,7 @@ items:
       answer: "comprehensive"
       explanation: "Se usa un adjetivo descriptivo con un artículo definido"
       translation: "La investigación exhaustiva destaca tendencias emergentes"
-      pronunciation: "da komprehénsiv ríserdj jái láits imérjing trénds"
+      pronunciationES: "da komprehénsiv ríserdj jái láits imérjing trénds"
 
     - sentence: "{_____} advanced technologies are revolutionizing industries."
       options:
@@ -397,4 +397,4 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de tecnologías avanzadas"
       translation: "Muchas tecnologías avanzadas están revolucionando industrias"
-      pronunciation: "méni advánst teknológies ar revoljushonáing índustries"
+      pronunciationES: "méni advánst teknológies ar revoljushonáing índustries"

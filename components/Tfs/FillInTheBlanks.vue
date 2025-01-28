@@ -77,7 +77,7 @@
                 </p>
                 <p class="flex gap-2">
                   <span class="font-medium">Pronunciation:</span>
-                  <span>{{ exercise.pronunciation }}</span>
+                  <span>{{ exercise.pronunciationES }}</span>
                 </p>
               </div>
 

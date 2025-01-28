@@ -8,7 +8,7 @@ items:
       answer: "Nice to meet you too"
       explanation: "Es educado responder con 'too' (también) cuando alguien dice que está encantado de conocerte"
       translation: "Encantado de conocerte también"
-      pronunciation: "nais tu mit yu tu"
+      pronunciationES: "nais tu mit yu tu"
 
     - sentence: "When introducing yourself formally, you should say '_____'"
       options:
@@ -19,7 +19,7 @@ items:
       answer: "Hello, I'm [name]"
       explanation: "La forma correcta y formal de presentarse es usando la contracción 'I'm' (I am)"
       translation: "Hola, soy [nombre]"
-      pronunciation: "jeló, aim [neim]"
+      pronunciationES: "jeló, aim [neim]"
 
     - sentence: "To ask someone's name politely, say '_____'"
       options:
@@ -30,7 +30,7 @@ items:
       answer: "May I ask your name?"
       explanation: "Esta es la forma más educada de preguntar el nombre de alguien"
       translation: "¿Puedo preguntarle su nombre?"
-      pronunciation: "mei ai ask yor neim?"
+      pronunciationES: "mei ai ask yor neim?"
 
     - sentence: "In a business meeting, you would greet everyone with '_____'"
       options:
@@ -41,7 +41,7 @@ items:
       answer: "Good morning, everyone"
       explanation: "En situaciones formales de negocios, usamos saludos formales como 'Good morning'"
       translation: "Buenos días a todos"
-      pronunciation: "gud mórning, évriuan"
+      pronunciationES: "gud mórning, évriuan"
 
     - sentence: "When someone says 'How are you?', a natural response is '_____'"
       options:
@@ -52,7 +52,7 @@ items:
       answer: "I'm fine, thank you. And you?"
       explanation: "Es cortés agradecer y devolver la pregunta"
       translation: "Estoy bien, gracias. ¿Y tú?"
-      pronunciation: "aim fain, zenk yu. and yu?"
+      pronunciationES: "aim fain, zenk yu. and yu?"
 
     - sentence: "The formal response to 'How do you do?' is '_____'"
       options:
@@ -63,7 +63,7 @@ items:
       answer: "How do you do?"
       explanation: "En situaciones formales, se responde con la misma frase"
       translation: "¿Cómo está usted?"
-      pronunciation: "jau du yu du?"
+      pronunciationES: "jau du yu du?"
 
     - sentence: "To introduce a colleague, you can say '_____'"
       options:
@@ -74,7 +74,7 @@ items:
       answer: "I'd like you to meet..."
       explanation: "Esta es una forma profesional y educada de presentar a alguien"
       translation: "Me gustaría presentarte a..."
-      pronunciation: "aid laik yu tu mit..."
+      pronunciationES: "aid laik yu tu mit..."
 
     - sentence: "When leaving a formal meeting, it's appropriate to say '_____'"
       options:
@@ -85,7 +85,7 @@ items:
       answer: "It was a pleasure meeting you"
       explanation: "Esta es una despedida formal y profesional"
       translation: "Fue un placer conocerle"
-      pronunciation: "it uós a plésher míting yu"
+      pronunciationES: "it uós a plésher míting yu"
 
     - sentence: "If someone introduces themselves, you can say '_____'"
       options:
@@ -96,7 +96,7 @@ items:
       answer: "Pleased to meet you"
       explanation: "Esta es una respuesta educada cuando te presentan a alguien"
       translation: "Encantado de conocerte"
-      pronunciation: "plisd tu mit yu"
+      pronunciationES: "plisd tu mit yu"
 
     - sentence: "At 7 PM, the appropriate greeting is '_____'"
       options:
@@ -107,7 +107,7 @@ items:
       answer: "Good evening"
       explanation: "'Good evening' se usa después de las 6 PM aproximadamente"
       translation: "Buenas noches (como saludo)"
-      pronunciation: "gud ívning"
+      pronunciationES: "gud ívning"
 
     - sentence: "To politely end a conversation, you can say '_____'"
       options:
@@ -118,7 +118,7 @@ items:
       answer: "It was lovely chatting with you"
       explanation: "Esta es una forma educada de terminar una conversación"
       translation: "Fue agradable charlar contigo"
-      pronunciation: "it uós lávli cháting uiz yu"
+      pronunciationES: "it uós lávli cháting uiz yu"
 
     - sentence: "When meeting someone for the first time, it's common to say '_____'"
       options:
@@ -129,7 +129,7 @@ items:
       answer: "It's great to finally meet you"
       explanation: "Esta frase expresa entusiasmo por conocer a alguien en persona"
       translation: "Es genial finalmente conocerte"
-      pronunciation: "its greit tu fáinali mit yu"
+      pronunciationES: "its greit tu fáinali mit yu"
 
     - sentence: "In a job interview, you should begin with '_____'"
       options:
@@ -140,7 +140,7 @@ items:
       answer: "Good morning, thank you for having me"
       explanation: "Esta es una forma profesional de comenzar una entrevista"
       translation: "Buenos días, gracias por recibirme"
-      pronunciation: "gud mórning, zenk yu for jáving mi"
+      pronunciationES: "gud mórning, zenk yu for jáving mi"
 
     - sentence: "When introducing yourself to a group, start with '_____'"
       options:
@@ -151,7 +151,7 @@ items:
       answer: "Hello everyone, I'm [name]"
       explanation: "Esta es una forma profesional de presentarte a un grupo"
       translation: "Hola a todos, soy [nombre]"
-      pronunciation: "jeló évriuan, aim [neim]"
+      pronunciationES: "jeló évriuan, aim [neim]"
 
     - sentence: "To greet someone in the early afternoon, say '_____'"
       options:
@@ -162,7 +162,7 @@ items:
       answer: "Good afternoon"
       explanation: "'Good afternoon' se usa después del mediodía"
       translation: "Buenas tardes"
-      pronunciation: "gud afternún"
+      pronunciationES: "gud afternún"
 
     - sentence: "When someone thanks you for meeting, respond with '_____'"
       options:
@@ -173,7 +173,7 @@ items:
       answer: "It's my pleasure"
       explanation: "Esta es una respuesta cortés cuando alguien agradece tu tiempo"
       translation: "Es un placer"
-      pronunciation: "its mai plésher"
+      pronunciationES: "its mai plésher"
 
     - sentence: "To greet a business client formally, say '_____'"
       options:
@@ -184,7 +184,7 @@ items:
       answer: "Good morning, Mr./Ms. [name]"
       explanation: "En situaciones de negocios, usamos títulos formales"
       translation: "Buenos días, Sr./Sra. [nombre]"
-      pronunciation: "gud mórning, míster/miz [neim]"
+      pronunciationES: "gud mórning, míster/miz [neim]"
 
     - sentence: "When joining a meeting late, you should say '_____'"
       options:
@@ -195,7 +195,7 @@ items:
       answer: "I apologize for being late"
       explanation: "Esta es la forma más formal de disculparse por llegar tarde"
       translation: "Me disculpo por llegar tarde"
-      pronunciation: "ai apóloyais for bíing leit"
+      pronunciationES: "ai apóloyais for bíing leit"
 
     - sentence: "To welcome someone to your office, say '_____'"
       options:
@@ -206,7 +206,7 @@ items:
       answer: "Welcome, please come in"
       explanation: "Esta es una forma educada de invitar a alguien a entrar"
       translation: "Bienvenido, por favor pase"
-      pronunciation: "uélcam, plis kam in"
+      pronunciationES: "uélcam, plis kam in"
 
     - sentence: "When meeting a friend's family, you might say '_____'"
       options:
@@ -217,7 +217,7 @@ items:
       answer: "It's wonderful to meet you all"
       explanation: "Esta es una forma amable de saludar a la familia de un amigo"
       translation: "Es maravilloso conocerlos a todos"
-      pronunciation: "its uánderful tu mit yu ol"
+      pronunciationES: "its uánderful tu mit yu ol"
 
     - sentence: "To acknowledge a formal introduction, say '_____'"
       options:
@@ -228,7 +228,7 @@ items:
       answer: "The pleasure is mine"
       explanation: "Esta es una respuesta formal y educada a una presentación"
       translation: "El placer es mío"
-      pronunciation: "da plésher is main"
+      pronunciationES: "da plésher is main"
 
     - sentence: "When someone wishes you a good day, respond with '_____'"
       options:
@@ -239,7 +239,7 @@ items:
       answer: "Thank you, you too"
       explanation: "Es cortés devolver el buen deseo"
       translation: "Gracias, igualmente"
-      pronunciation: "zenk yu, yu tu"
+      pronunciationES: "zenk yu, yu tu"
 
     - sentence: "To start a formal telephone conversation, say '_____'"
       options:
@@ -250,7 +250,7 @@ items:
       answer: "Good morning, this is [name] speaking"
       explanation: "Esta es la forma profesional de identificarte por teléfono"
       translation: "Buenos días, le habla [nombre]"
-      pronunciation: "gud mórning, dis is [neim] spíking"
+      pronunciationES: "gud mórning, dis is [neim] spíking"
 
     - sentence: "When meeting a teacher, it's appropriate to say '_____'"
       options:
@@ -261,7 +261,7 @@ items:
       answer: "Good morning, Professor [name]"
       explanation: "Usamos títulos formales para mostrar respeto"
       translation: "Buenos días, Profesor [nombre]"
-      pronunciation: "gud mórning, profésor [neim]"
+      pronunciationES: "gud mórning, profésor [neim]"
 
     - sentence: "To politely interrupt a conversation, say '_____'"
       options:
@@ -272,7 +272,7 @@ items:
       answer: "Excuse me, may I interrupt?"
       explanation: "Esta es una forma educada de interrumpir"
       translation: "Disculpe, ¿puedo interrumpir?"
-      pronunciation: "ekskyús mi, mei ai intérapt?"
+      pronunciationES: "ekskyús mi, mei ai intérapt?"
 
     - sentence: "When saying goodbye to a group, use '_____'"
       options:
@@ -283,7 +283,7 @@ items:
       answer: "Goodbye everyone, have a great day"
       explanation: "Esta es una despedida formal y amable para un grupo"
       translation: "Adiós a todos, que tengan un buen día"
-      pronunciation: "gudbái évriuan, jav a greit dei"
+      pronunciationES: "gudbái évriuan, jav a greit dei"
 
     - sentence: "To ask how someone's day is going, say '_____'"
       options:
@@ -294,7 +294,7 @@ items:
       answer: "How is your day going so far?"
       explanation: "Esta es una forma natural de preguntar sobre el día de alguien"
       translation: "¿Cómo va tu día hasta ahora?"
-      pronunciation: "jau is yor dei góing so far?"
+      pronunciationES: "jau is yor dei góing so far?"
 
     - sentence: "When introducing a guest speaker, begin with '_____'"
       options:
@@ -305,7 +305,7 @@ items:
       answer: "I'm delighted to introduce..."
       explanation: "Esta es una introducción formal y entusiasta"
       translation: "Me complace presentar a..."
-      pronunciation: "aim diláited tu introdius..."
+      pronunciationES: "aim diláited tu introdius..."
 
     - sentence: "To invite someone into your home, say '_____'"
       options:
@@ -316,7 +316,7 @@ items:
       answer: "Please, make yourself at home"
       explanation: "Esta es una forma amable de hacer sentir cómodo a un invitado"
       translation: "Por favor, siéntase como en casa"
-      pronunciation: "plis, meik yorself at joum"
+      pronunciationES: "plis, meik yorself at joum"
 
     - sentence: "When meeting an old friend, you might say '_____'"
       options:
@@ -327,7 +327,7 @@ items:
       answer: "It's so wonderful to see you again!"
       explanation: "Esta frase expresa alegría al reencontrarse con alguien"
       translation: "¡Es maravilloso verte de nuevo!"
-      pronunciation: "its sou uánderful tu si yu agén!"
+      pronunciationES: "its sou uánderful tu si yu agén!"
 
     - sentence: "To ask someone's preference for their name, say '_____'"
       options:
@@ -338,7 +338,7 @@ items:
       answer: "What would you like me to call you?"
       explanation: "Esta es una forma respetuosa de preguntar cómo prefiere que lo llamen"
       translation: "¿Cómo le gustaría que le llame?"
-      pronunciation: "uát ud yu laik mi tu kol yu?"
+      pronunciationES: "uát ud yu laik mi tu kol yu?"
 
     - sentence: "When someone introduces their spouse, respond with '_____'"
       options:
@@ -349,14 +349,14 @@ items:
       answer: "It's a pleasure to meet you"
       explanation: "Esta es una respuesta educada al conocer al cónyuge de alguien"
       translation: "Es un placer conocerle"
-      pronunciation: "its a plésher tu mit yu"
+      pronunciationES: "its a plésher tu mit yu"
 
     - sentence: "To begin a presentation, start with '_____'"
       options:
         - "Good morning, ladies and gentlemen"
       explanation: "Este es el saludo más formal para comenzar una presentación"
       translation: "Buenos días, damas y caballeros"
-      pronunciation: "gud mórning, léidis and yéntelmen"
+      pronunciationES: "gud mórning, léidis and yéntelmen"
 
     - sentence: "When arriving at a scheduled appointment, say '_____'"
       options:
@@ -367,7 +367,7 @@ items:
       answer: "I have an appointment with..."
       explanation: "Esta es la forma correcta de anunciar tu llegada a una cita"
       translation: "Tengo una cita con..."
-      pronunciation: "ai jav an apóintment uiz..."
+      pronunciationES: "ai jav an apóintment uiz..."
 
     - sentence: "To offer assistance to someone, say '_____'"
       options:
@@ -378,7 +378,7 @@ items:
       answer: "How may I help you?"
       explanation: "Esta es la forma más profesional de ofrecer ayuda"
       translation: "¿En qué puedo ayudarle?"
-      pronunciation: "jau mei ai jelp yu?"
+      pronunciationES: "jau mei ai jelp yu?"
 
     - sentence: "When someone compliments your work, respond with '_____'"
       options:
@@ -389,7 +389,7 @@ items:
       answer: "Thank you, I appreciate that"
       explanation: "Esta es una forma educada de agradecer un cumplido"
       translation: "Gracias, lo aprecio"
-      pronunciation: "zenk yu, ai aprícheit dat"
+      pronunciationES: "zenk yu, ai aprícheit dat"
 
     - sentence: "To ask about someone's well-being formally, say '_____'"
       options:
@@ -400,7 +400,7 @@ items:
       answer: "How are you today?"
       explanation: "Esta es la forma más apropiada de preguntar por el bienestar de alguien"
       translation: "¿Cómo está usted hoy?"
-      pronunciation: "jau ar yu tudéi?"
+      pronunciationES: "jau ar yu tudéi?"
 
     - sentence: "When congratulating someone, say '_____'"
       options:
@@ -411,7 +411,7 @@ items:
       answer: "Congratulations on your achievement"
       explanation: "Esta es una felicitación formal y específica"
       translation: "Felicitaciones por tu logro"
-      pronunciation: "congráchuléishons on yor achívment"
+      pronunciationES: "congráchuléishons on yor achívment"
 
     - sentence: "To excuse yourself from a conversation, say '_____'"
       options:
@@ -422,7 +422,7 @@ items:
       answer: "Please excuse me for a moment"
       explanation: "Esta es una forma educada de disculparse al retirarse brevemente"
       translation: "Discúlpeme un momento por favor"
-      pronunciation: "plis ekskyús mi for a móument"
+      pronunciationES: "plis ekskyús mi for a móument"
 
     - sentence: "When someone thanks you for your time, respond with '_____'"
       options:
@@ -433,7 +433,7 @@ items:
       answer: "You're very welcome"
       explanation: "Esta es una respuesta cortés a un agradecimiento"
       translation: "De nada"
-      pronunciation: "yur véri uélcam"
+      pronunciationES: "yur véri uélcam"
 
     - sentence: "To begin a formal email greeting, write '_____'"
       options:
@@ -444,7 +444,7 @@ items:
       answer: "Dear Mr./Ms. [name]"
       explanation: "Este es el formato estándar para comenzar un correo formal"
       translation: "Estimado/a Sr./Sra. [nombre]"
-      pronunciation: "dir míster/miz [neim]"
+      pronunciationES: "dir míster/miz [neim]"
 
     - sentence: "When receiving guests at home, say '_____'"
       options:
@@ -455,7 +455,7 @@ items:
       answer: "Welcome to our home"
       explanation: "Esta es una forma cálida de recibir invitados"
       translation: "Bienvenidos a nuestra casa"
-      pronunciation: "uélcam tu aur joum"
+      pronunciationES: "uélcam tu aur joum"
 
     - sentence: "To ask for someone's contact information politely, say '_____'"
       options:
@@ -466,7 +466,7 @@ items:
       answer: "May I have your contact information?"
       explanation: "Esta es una forma educada de pedir información de contacto"
       translation: "¿Me podría dar su información de contacto?"
-      pronunciation: "mei ai jav yor cóntact informéishon?"
+      pronunciationES: "mei ai jav yor cóntact informéishon?"
 
     - sentence: "When acknowledging a mistake, say '_____'"
       options:
@@ -477,7 +477,7 @@ items:
       answer: "I apologize for the mistake"
       explanation: "Esta es una disculpa formal por un error"
       translation: "Me disculpo por el error"
-      pronunciation: "ai apóloyais for da mistéik"
+      pronunciationES: "ai apóloyais for da mistéik"
 
     - sentence: "To begin a networking conversation, try '_____'"
       options:
@@ -488,7 +488,7 @@ items:
       answer: "I don't believe we've met before"
       explanation: "Esta es una forma educada de iniciar una conversación con alguien nuevo"
       translation: "Creo que no nos hemos conocido antes"
-      pronunciation: "ai dont bilív uiv met bifór"
+      pronunciationES: "ai dont bilív uiv met bifór"
 
     - sentence: "When requesting a meeting, start with '_____'"
       options:
@@ -499,7 +499,7 @@ items:
       answer: "Would it be possible to schedule a meeting?"
       explanation: "Esta es una forma cortés de solicitar una reunión"
       translation: "¿Sería posible programar una reunión?"
-      pronunciation: "ud it bi pósibol tu skéyul a míting?"
+      pronunciationES: "ud it bi pósibol tu skéyul a míting?"
 
     - sentence: "To welcome someone back, say '_____'"
       options:
@@ -510,7 +510,7 @@ items:
       answer: "Welcome back, it's good to see you"
       explanation: "Esta es una forma amable de dar la bienvenida a alguien que regresa"
       translation: "Bienvenido de vuelta, me alegro de verte"
-      pronunciation: "uélcam bak, its gud tu si yu"
+      pronunciationES: "uélcam bak, its gud tu si yu"
 
     - sentence: "When introducing yourself in a casual setting, say '_____'"
       options:
@@ -521,7 +521,7 @@ items:
       answer: "Hey there, I'm [name]"
       explanation: "Esta es una forma informal pero apropiada de presentarse"
       translation: "Hola, soy [nombre]"
-      pronunciation: "jei der, aim [neim]"
+      pronunciationES: "jei der, aim [neim]"
 
     - sentence: "To respond to 'How was your weekend?', say '_____'"
       options:
@@ -532,7 +532,7 @@ items:
       answer: "It was great, thanks for asking"
       explanation: "Esta es una respuesta completa y educada"
       translation: "Estuvo genial, gracias por preguntar"
-      pronunciation: "it uós greit, zenks for ásking"
+      pronunciationES: "it uós greit, zenks for ásking"
 
     - sentence: "When asking about someone's family politely, say '_____'"
       options:
@@ -543,7 +543,7 @@ items:
       answer: "How is your family doing?"
       explanation: "Esta es una forma educada de preguntar por la familia de alguien"
       translation: "¿Cómo está tu familia?"
-      pronunciation: "jau is yor fámili dúing?"
+      pronunciationES: "jau is yor fámili dúing?"
 
     - sentence: "To excuse yourself from a meeting, say '_____'"
       options:
@@ -554,7 +554,7 @@ items:
       answer: "I'm afraid I have to leave now"
       explanation: "Esta es una forma educada de retirarse de una reunión"
       translation: "Me temo que debo irme ahora"
-      pronunciation: "aim afréid ai jav tu liv nau"
+      pronunciationES: "aim afréid ai jav tu liv nau"
 
     - sentence: "When receiving a business card, say '_____'"
       options:
@@ -565,7 +565,7 @@ items:
       answer: "Thank you, let me give you mine"
       explanation: "Esta es una respuesta profesional al recibir una tarjeta de presentación"
       translation: "Gracias, permítame darle la mía"
-      pronunciation: "zenk yu, let mi giv yu main"
+      pronunciationES: "zenk yu, let mi giv yu main"
 
     - sentence: "To begin a formal presentation of yourself, say '_____'"
       options:
@@ -576,7 +576,7 @@ items:
       answer: "Allow me to introduce myself"
       explanation: "Esta es una forma formal de comenzar una presentación personal"
       translation: "Permítanme presentarme"
-      pronunciation: "alau mi tu introdius maiself"
+      pronunciationES: "alau mi tu introdius maiself"
 
     - sentence: "When someone asks if you need help, respond with '_____'"
       options:
@@ -587,4 +587,4 @@ items:
       answer: "Yes, please, that would be very kind"
       explanation: "Esta es una forma educada de aceptar ayuda"
       translation: "Sí, por favor, sería muy amable"
-      pronunciation: "yes plis, dat ud bi véri kaind"
+      pronunciationES: "yes plis, dat ud bi véri kaind"

@@ -7,7 +7,7 @@ items:
         - "Yes, very nice"
       answer: "Nice to meet you too"
       translation: "¿Cuál es una respuesta apropiada a 'Encantado de conocerte'?: Encantado de conocerte también"
-      pronunciation: "nais tu mit yu tu"
+      pronunciationES: "nais tu mit yu tu"
 
     - question: "How would you naturally respond to 'How are you?'"
       options:
@@ -17,7 +17,7 @@ items:
         - "How are you too"
       answer: "I'm fine, thanks. And you?"
       translation: "¿Cómo responderías naturalmente a '¿Cómo estás?'?: Estoy bien, gracias. ¿Y tú?"
-      pronunciation: "aim fain, zanks. And yu?"
+      pronunciationES: "aim fain, zanks. And yu?"
 
     - question: "Which is a formal greeting?"
       options:
@@ -27,7 +27,7 @@ items:
         - "What's up?"
       answer: "How do you do?"
       translation: "¿Cuál es un saludo formal?: ¿Cómo está usted?"
-      pronunciation: "jau du yu du?"
+      pronunciationES: "jau du yu du?"
 
     - question: "What's the best response to 'Good morning'?"
       options:
@@ -37,7 +37,7 @@ items:
         - "See you"
       answer: "Good morning"
       translation: "¿Cuál es la mejor respuesta a 'Buenos días'?: Buenos días"
-      pronunciation: "gud mórning"
+      pronunciationES: "gud mórning"
 
     - question: "Select the most natural response to 'It's great to finally meet you'"
       options:
@@ -47,7 +47,7 @@ items:
         - "How do you do"
       answer: "It's great to meet you too"
       translation: "Selecciona la respuesta más natural a 'Es genial finalmente conocerte': Es genial conocerte también"
-      pronunciation: "its greit tu mit yu tu"
+      pronunciationES: "its greit tu mit yu tu"
 
     - question: "Which is a correct way to introduce yourself?"
       options:
@@ -57,7 +57,7 @@ items:
         - "Hi, John I am"
       answer: "Hi, I'm John"
       translation: "¿Cuál es una forma correcta de presentarte?: Hola, soy John"
-      pronunciation: "jai, aim yon"
+      pronunciationES: "jai, aim yon"
 
     - question: "What's a polite response to 'How are you doing?'"
       options:
@@ -67,7 +67,7 @@ items:
         - "Doing you too"
       answer: "I'm doing well, thanks"
       translation: "¿Cuál es una respuesta educada a '¿Cómo te va?'?: Estoy bien, gracias"
-      pronunciation: "aim duing uel, zanks"
+      pronunciationES: "aim duing uel, zanks"
 
     - question: "Choose the most appropriate evening greeting:"
       options:
@@ -77,7 +77,7 @@ items:
         - "Good noon"
       answer: "Good evening"
       translation: "Elige el saludo más apropiado para la noche: Buenas noches"
-      pronunciation: "gud ívning"
+      pronunciationES: "gud ívning"
 
     - question: "What's the best way to greet someone at 1 PM?"
       options:
@@ -87,7 +87,7 @@ items:
         - "Good night"
       answer: "Good afternoon"
       translation: "¿Cuál es la mejor manera de saludar a alguien a la 1 PM?: Buenas tardes"
-      pronunciation: "gud afternún"
+      pronunciationES: "gud afternún"
 
     - question: "Select the most natural way to ask someone's name:"
       options:
@@ -97,7 +97,7 @@ items:
         - "What name you?"
       answer: "What's your name?"
       translation: "Selecciona la forma más natural de preguntar el nombre de alguien: ¿Cómo te llamas?"
-      pronunciation: "uats yor neim?"
+      pronunciationES: "uats yor neim?"
 
     - question: "Choose the best response to 'Pleased to meet you'"
       options:
@@ -107,7 +107,7 @@ items:
         - "You too pleased"
       answer: "Pleased to meet you too"
       translation: "Elige la mejor respuesta a 'Encantado de conocerte': Encantado de conocerte también"
-      pronunciation: "plisd tu mit yu tu"
+      pronunciationES: "plisd tu mit yu tu"
 
     - question: "What's the most appropriate response to 'Good evening, how are you?'"
       options:
@@ -117,7 +117,7 @@ items:
         - "Evening well"
       answer: "Good evening, I'm fine, thank you"
       translation: "¿Cuál es la respuesta más apropiada a 'Buenas noches, ¿cómo estás?'?: Buenas noches, estoy bien, gracias"
-      pronunciation: "gud ívning, aim fain, zenk yu"
+      pronunciationES: "gud ívning, aim fain, zenk yu"
 
     - question: "Select the best way to ask how someone is doing formally:"
       options:
@@ -127,7 +127,7 @@ items:
         - "Are you good?"
       answer: "How are you today?"
       translation: "Selecciona la mejor manera de preguntar formalmente cómo está alguien: ¿Cómo estás hoy?"
-      pronunciation: "jau ar yu tudéi?"
+      pronunciationES: "jau ar yu tudéi?"
 
     - question: "Which is a correct response to 'Nice to meet you, I'm Sarah'?"
       options:
@@ -137,7 +137,7 @@ items:
         - "I too Sarah"
       answer: "Nice to meet you too, I'm John"
       translation: "¿Cuál es una respuesta correcta a 'Encantado de conocerte, soy Sarah'?: Encantado de conocerte también, soy John"
-      pronunciation: "nais tu mit yu tu, aim yon"
+      pronunciationES: "nais tu mit yu tu, aim yon"
 
     - question: "What's the most natural way to say goodbye in the evening?"
       options:
@@ -147,7 +147,7 @@ items:
         - "Evening bye"
       answer: "Good night"
       translation: "¿Cuál es la forma más natural de despedirse en la noche?: Buenas noches"
-      pronunciation: "gud náit"
+      pronunciationES: "gud náit"
 
     - question: "Choose the correct response to 'How do you do?'"
       options:
@@ -157,7 +157,7 @@ items:
         - "I'm doing"
       answer: "How do you do?"
       translation: "Elige la respuesta correcta a '¿Cómo está usted?': ¿Cómo está usted?"
-      pronunciation: "jau du yu du?"
+      pronunciationES: "jau du yu du?"
 
     - question: "What's the best way to introduce a friend?"
       options:
@@ -167,7 +167,7 @@ items:
         - "My friend is being John"
       answer: "This is my friend, John"
       translation: "¿Cuál es la mejor manera de presentar a un amigo?: Este es mi amigo, John"
-      pronunciation: "dis is mai frend, yon"
+      pronunciationES: "dis is mai frend, yon"
 
     - question: "Select the appropriate response to 'Good afternoon, sir'"
       options:
@@ -177,7 +177,7 @@ items:
         - "Afternoon too"
       answer: "Good afternoon"
       translation: "Selecciona la respuesta apropiada a 'Buenas tardes, señor': Buenas tardes"
-      pronunciation: "gud afternún"
+      pronunciationES: "gud afternún"
 
     - question: "What's a natural way to greet a friend informally?"
       options:
@@ -187,7 +187,7 @@ items:
         - "How do you do?"
       answer: "Hey, how's it going?"
       translation: "¿Cuál es una forma natural de saludar a un amigo informalmente?: ¡Hola, ¿cómo va todo?"
-      pronunciation: "jei, jaus it góing?"
+      pronunciationES: "jei, jaus it góing?"
 
     - question: "Choose the best way to introduce yourself in a business meeting:"
       options:
@@ -197,7 +197,7 @@ items:
         - "John Smith I am"
       answer: "Hello, I'm John Smith from Marketing"
       translation: "Elige la mejor manera de presentarte en una reunión de negocios: Hola, soy John Smith de Marketing"
-      pronunciation: "jeló, aim yon smiz from márketing"
+      pronunciationES: "jeló, aim yon smiz from márketing"
 
     - question: "What's the appropriate response to 'It was nice meeting you'?"
       options:
@@ -207,7 +207,7 @@ items:
         - "Meeting nice"
       answer: "It was nice meeting you too"
       translation: "¿Cuál es la respuesta apropiada a 'Fue un placer conocerte'? Fue un placer conocerte también"
-      pronunciation: "it uás nais míting yu tu"
+      pronunciationES: "it uás nais míting yu tu"
 
     - question: "Select the best greeting for early morning:"
       options:
@@ -217,7 +217,7 @@ items:
         - "Good night"
       answer: "Good morning"
       translation: "Selecciona el mejor saludo para temprano en la mañana: Buenos días"
-      pronunciation: "gud mórning"
+      pronunciationES: "gud mórning"
 
     - question: "What's a polite way to respond when introduced to someone?"
       options:
@@ -227,7 +227,7 @@ items:
         - "Nice you"
       answer: "It's a pleasure to meet you"
       translation: "¿Cuál es una forma educada de responder cuando te presentan a alguien?: Es un placer conocerte"
-      pronunciation: "its a pléshur tu mit yu"
+      pronunciationES: "its a pléshur tu mit yu"
 
     - question: "Choose the most natural way to say goodbye to a group:"
       options:
@@ -237,7 +237,7 @@ items:
         - "Day great to all"
       answer: "Goodbye everyone, have a great day"
       translation: "Elige la forma más natural de despedirse de un grupo: Adiós a todos, que tengan un gran día"
-      pronunciation: "gudbái évriwuan, jav a greit dei"
+      pronunciationES: "gudbái évriwuan, jav a greit dei"
 
     - question: "What's the best response to 'How's everything?'"
       options:
@@ -247,7 +247,7 @@ items:
         - "All is being"
       answer: "Everything's going well, thanks"
       translation: "¿Cuál es la mejor respuesta a '¿Cómo va todo?'? Todo va bien, gracias"
-      pronunciation: "évrizing is góing uel, zanks"
+      pronunciationES: "évrizing is góing uel, zanks"
 
     - question: "Select the appropriate greeting for 7 PM:"
       options:
@@ -257,7 +257,7 @@ items:
         - "Good noon"
       answer: "Good evening"
       translation: "Selecciona el saludo apropiado para las 7 PM: Buenas noches"
-      pronunciation: "gud ívning"
+      pronunciationES: "gud ívning"
 
     - question: "What's a proper way to greet a teacher?"
       options:
@@ -267,7 +267,7 @@ items:
         - "Morning teacher"
       answer: "Good morning, Mr. Johnson"
       translation: "¿Cuál es una forma apropiada de saludar a un profesor? Buenos días, Sr. Johnson"
-      pronunciation: "gud mórning, míster yónson"
+      pronunciationES: "gud mórning, míster yónson"
 
     - question: "Choose the best response to 'How have you been?'"
       options:
@@ -277,7 +277,7 @@ items:
         - "Been fine thanks"
       answer: "I've been good, thanks for asking"
       translation: "Elige la mejor respuesta a '¿Cómo has estado?': He estado bien, gracias por preguntar"
-      pronunciation: "aiv bin gud, zanks for ásking"
+      pronunciationES: "aiv bin gud, zanks for ásking"
 
     - question: "What's a polite way to greet someone you're meeting for the first time?"
       options:
@@ -287,7 +287,7 @@ items:
         - "Hello to first time"
       answer: "It's wonderful to meet you"
       translation: "¿Cuál es una forma educada de saludar a alguien que conoces por primera vez?: Es maravilloso conocerte"
-      pronunciation: "its uánderful tu mit yu"
+      pronunciationES: "its uánderful tu mit yu"
 
     - question: "Select the best response to 'Good afternoon, welcome to our office'"
       options:
@@ -297,7 +297,7 @@ items:
         - "Afternoon welcome"
       answer: "Thank you, good afternoon"
       translation: "Selecciona la mejor respuesta a 'Buenas tardes, bienvenido a nuestra oficina': Gracias, buenas tardes"
-      pronunciation: "zenk yu, gud afternún"
+      pronunciationES: "zenk yu, gud afternún"
 
     - question: "What's the most appropriate morning greeting for a business email?"
       options:
@@ -307,7 +307,7 @@ items:
         - "Good morning to you Smith"
       answer: "Dear Mr. Smith, Good morning"
       translation: "¿Cuál es el saludo matutino más apropiado para un correo de negocios?: Estimado Sr. Smith, Buenos días"
-      pronunciation: "dir míster smiz, gud mórning"
+      pronunciationES: "dir míster smiz, gud mórning"
 
     - question: "Choose the best way to ask someone's name in a formal situation:"
       options:
@@ -317,7 +317,7 @@ items:
         - "Your name is?"
       answer: "May I ask your name?"
       translation: "Elige la mejor manera de preguntar el nombre de alguien en una situación formal: ¿Puedo preguntar tu nombre?"
-      pronunciation: "mei ai ask yor neim?"
+      pronunciationES: "mei ai ask yor neim?"
 
     - question: "What's a natural response to 'Hi, how's your day going?'"
       options:
@@ -327,7 +327,7 @@ items:
         - "Yes, very day"
       answer: "Pretty good, thanks. How about yours?"
       translation: "¿Cuál es una respuesta natural a 'Hola, ¿cómo va tu día?'?: Bastante bien, gracias. ¿Y el tuyo?"
-      pronunciation: "príti gud, zanks. jau abáut yors?"
+      pronunciationES: "príti gud, zanks. jau abáut yors?"
 
     - question: "Select the most appropriate way to greet an elderly person:"
       options:
@@ -337,7 +337,7 @@ items:
         - "Morning elder"
       answer: "Good morning, sir/ma'am"
       translation: "Selecciona la forma más apropiada de saludar a una persona mayor: Buenos días, señor/señora"
-      pronunciation: "gud mórning ser/mam"
+      pronunciationES: "gud mórning ser/mam"
 
     - question: "What's the best way to introduce yourself in a job interview?"
       options:
@@ -347,7 +347,7 @@ items:
         - "Interview me please"
       answer: "Hello, I'm [name], thank you for meeting with me"
       translation: "¿Cuál es la mejor manera de presentarte en una entrevista de trabajo?: Hola, soy [nombre], gracias por reunirte conmigo"
-      pronunciation: "jeló, aim [neim], zenk yu for míting uiz mi"
+      pronunciationES: "jeló, aim [neim], zenk yu for míting uiz mi"
 
 
     - question: "What's a polite way to end a conversation?"
@@ -358,7 +358,7 @@ items:
         - "Finish talking"
       answer: "It was lovely chatting with you"
       translation: "¿Cuál es una forma educada de terminar una conversación?: Fue encantador charlar contigo"
-      pronunciation: "it uás lávli cháting uiz yu"
+      pronunciationES: "it uás lávli cháting uiz yu"
 
     - question: "Select the best response to 'Let me introduce myself'"
       options:
@@ -368,7 +368,7 @@ items:
         - "You can"
       answer: "Please, go ahead"
       translation: "Selecciona la mejor respuesta a 'Permíteme presentarme': Por favor, adelante"
-      pronunciation: "plis, gou ajéd"
+      pronunciationES: "plis, gou ajéd"
 
     - question: "What's the appropriate response to 'How do you do?' in a formal setting?"
       options:
@@ -378,7 +378,7 @@ items:
         - "Good, thanks"
       answer: "How do you do?"
       translation: "¿Cuál es la respuesta apropiada a 'How do you do?' en un entorno formal?: ¿Cómo está usted?"
-      pronunciation: "jau du yu du?"
+      pronunciationES: "jau du yu du?"
 
     - question: "Choose the best way to greet a group of people formally:"
       options:
@@ -388,7 +388,7 @@ items:
         - "Morning all"
       answer: "Ladies and gentlemen, good morning"
       translation: "Elige la mejor manera de saludar formalmente a un grupo de personas: Damas y caballeros, buenos días"
-      pronunciation: "léidis and yéntelmen, gud mórning"
+      pronunciationES: "léidis and yéntelmen, gud mórning"
 
     - question: "What's the most natural way to respond to 'How's your family?'"
       options:
@@ -398,7 +398,7 @@ items:
         - "Well family"
       answer: "They're all doing well, thanks for asking"
       translation: "¿Cuál es la forma más natural de responder a '¿Cómo está tu familia?'?: Todos están bien, gracias por preguntar"
-      pronunciation: "zéir ol dúing uel, zanks for ásking"
+      pronunciationES: "zéir ol dúing uel, zanks for ásking"
 
     - question: "Select the appropriate response to 'I must be going now'"
       options:
@@ -408,7 +408,7 @@ items:
         - "Must you go"
       answer: "It was nice seeing you"
       translation: "Selecciona la respuesta apropiada a 'Debo irme ahora': Fue un placer verte"
-      pronunciation: "it uás nais síing yu"
+      pronunciationES: "it uás nais síing yu"
 
     - question: "What's a polite response when someone introduces their spouse?"
       options:
@@ -418,7 +418,7 @@ items:
         - "Yes, spouse"
       answer: "It's a pleasure to meet you"
       translation: "¿Cuál es una respuesta educada cuando alguien presenta a su cónyuge?: Es un placer conocerte"
-      pronunciation: "its a plésher tu mit yu"
+      pronunciationES: "its a plésher tu mit yu"
 
     - question: "Choose the best way to greet someone at midnight:"
       options:
@@ -428,7 +428,7 @@ items:
         - "Good day"
       answer: "Good night"
       translation: "Elige la mejor manera de saludar a alguien a medianoche: Buenas noches"
-      pronunciation: "gud náit"
+      pronunciationES: "gud náit"
 
     - question: "What's the appropriate way to respond to 'Thank you for having me'?"
       options:
@@ -438,7 +438,7 @@ items:
         - "Having good"
       answer: "It's our pleasure"
       translation: "¿Cuál es la forma apropiada de responder a 'Gracias por recibirme'?: Es un placer para nosotros"
-      pronunciation: "its áur plésher"
+      pronunciationES: "its áur plésher"
 
     - question: "Select the best way to introduce a colleague:"
       options:
@@ -448,7 +448,7 @@ items:
         - "John is colleague"
       answer: "I'd like you to meet my colleague, John"
       translation: "Selecciona la mejor manera de presentar a un colega: Me gustaría que conocieras a mi colega, John"
-      pronunciation: "aid láik yu tu mit mai cólig, yon"
+      pronunciationES: "aid láik yu tu mit mai cólig, yon"
 
     - question: "What's a natural way to ask how someone's weekend was?"
       options:
@@ -458,7 +458,7 @@ items:
         - "You had good weekend?"
       answer: "How was your weekend?"
       translation: "¿Cuál es una forma natural de preguntar cómo estuvo el fin de semana de alguien?: ¿Cómo estuvo tu fin de semana?"
-      pronunciation: "jau uás yor uíkend?"
+      pronunciationES: "jau uás yor uíkend?"
 
     - question: "Choose the most appropriate response to 'Pleased to make your acquaintance'"
       options:
@@ -468,7 +468,7 @@ items:
         - "Make pleasure too"
       answer: "Likewise, it's a pleasure"
       translation: "Elige la respuesta más apropiada a 'Encantado de conocerle': Igualmente, es un placer"
-      pronunciation: "láikuais, its a plésher"
+      pronunciationES: "láikuais, its a plésher"
 
     - question: "What's the best way to ask for someone's name politely?"
       options:
@@ -478,7 +478,7 @@ items:
         - "What name you have?"
       answer: "Could I have your name, please?"
       translation: "¿Cuál es la mejor manera de pedir el nombre de alguien educadamente?: ¿Podría tener su nombre, por favor?"
-      pronunciation: "kud ai jav yor neim, plis?"
+      pronunciationES: "kud ai jav yor neim, plis?"
 
     - question: "Select the appropriate response to 'See you tomorrow'"
       options:
@@ -488,7 +488,7 @@ items:
         - "You see"
       answer: "See you then!"
       translation: "Selecciona la respuesta apropiada a 'Nos vemos mañana': ¡Hasta mañana!"
-      pronunciation: "si yu den!"
+      pronunciationES: "si yu den!"
 
     - question: "What's a polite way to greet someone you haven't seen in a long time?"
       options:
@@ -498,7 +498,7 @@ items:
         - "Where were you?"
       answer: "It's so wonderful to see you again!"
       translation: "¿Cuál es una forma educada de saludar a alguien que no has visto en mucho tiempo?: ¡Es tan maravilloso verte de nuevo!"
-      pronunciation: "its sou uánderful tu si yu agén!"
+      pronunciationES: "its sou uánderful tu si yu agén!"
 
     - question: "Choose the best response to 'Take care!'"
       options:
@@ -508,7 +508,7 @@ items:
         - "Care good"
       answer: "You too, thanks!"
       translation: "Elige la mejor respuesta a '¡Cuídate!': ¡Tú también, gracias!"
-      pronunciation: "yu tu, zanks!"
+      pronunciationES: "yu tu, zanks!"
 
     - question: "What's a natural way to say goodbye for the night?"
       options:
@@ -518,7 +518,7 @@ items:
         - "Rest good night"
       answer: "Have a good night's rest"
       translation: "¿Cuál es una forma natural de despedirse por la noche?: Que tengas un buen descanso nocturno"
-      pronunciation: "jav a gud náits rest"
+      pronunciationES: "jav a gud náits rest"
 
     - question: "Select the most appropriate way to introduce yourself in a casual setting:"
       options:
@@ -528,7 +528,7 @@ items:
         - "Sarah is me"
       answer: "Hey there, I'm Sarah"
       translation: "Selecciona la forma más apropiada de presentarte en un ambiente informal: Hola, soy Sarah"
-      pronunciation: "jei der, aim sára"
+      pronunciationES: "jei der, aim sára"
 
     - question: "What's the best response to 'It was great seeing you again'?"
       options:
@@ -538,4 +538,4 @@ items:
         - "Again we see"
       answer: "You too, let's keep in touch!"
       translation: "¿Cuál es la mejor respuesta a 'Fue genial verte de nuevo'?: ¡Tú también, ¡mantengámonos en contacto!"
-      pronunciation: "yu tu, lets kip in tach!"
+      pronunciationES: "yu tu, lets kip in tach!"

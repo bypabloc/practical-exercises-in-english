@@ -10,7 +10,7 @@ items:
       answer: "are, doing"
       explanation: "Use 'are' with 'you' and the verb ends in -ing for present continuous"
       translation: "¿Qué estás haciendo ahora mismo?"
-      pronunciation: "uát ar yu dúing ráit náu"
+      pronunciationES: "uát ar yu dúing ráit náu"
 
     - question: "She ___ ___ dinner at the moment."
       options:  
@@ -21,7 +21,7 @@ items:
       answer: "is, cooking"
       explanation: "Use 'is' with 'she' and the verb ends in -ing"  
       translation: "Ella está cocinando la cena en este momento"
-      pronunciation: "shi is kúking díner at da móument"
+      pronunciationES: "shi is kúking díner at da móument"
 
     - question: "They ___ ___ in the park."
       options:
@@ -32,7 +32,7 @@ items:
       answer: "are, playing"
       explanation: "Use 'are' with 'they' and the verb ends in -ing"
       translation: "Están jugando en el parque"  
-      pronunciation: "dei ar pléing in da park"
+      pronunciationES: "dei ar pléing in da park"
 
     - question: "We ___ ___ a movie now."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "are, watching"
       explanation: "Use 'are' with 'we' and the verb ends in -ing" 
       translation: "Estamos viendo una película ahora"
-      pronunciation: "uí ar uóching a múvi náu" 
+      pronunciationES: "uí ar uóching a múvi náu" 
 
     - question: "I ___ ___ to music right now."
       options: 
@@ -54,7 +54,7 @@ items:
       answer: "am, listening" 
       explanation: "Use 'am' with 'I' and the verb ends in -ing"
       translation: "Estoy escuchando música ahora mismo"
-      pronunciation: "ai am lísening tu miúsik ráit náu"
+      pronunciationES: "ai am lísening tu miúsik ráit náu"
 
     - question: "He ___ ___ his homework at the moment."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "is, doing"
       explanation: "Use 'is' with 'he' and the verb ends in -ing" 
       translation: "Él está haciendo su tarea en este momento"
-      pronunciation: "jí is dúing jis jóumwork at da móument"
+      pronunciationES: "jí is dúing jis jóumwork at da móument"
 
     - question: "It ___ ___ outside."
       options:  
@@ -76,7 +76,7 @@ items:
       answer: "is, raining" 
       explanation: "Use 'is' with 'it' and the verb ends in -ing"
       translation: "Está lloviendo afuera"
-      pronunciation: "it is réining áutsaid"
+      pronunciationES: "it is réining áutsaid"
 
     - question: "You ___ ___ too fast."
       options:
@@ -87,7 +87,7 @@ items:
       answer: "are, driving"
       explanation: "Use 'are' with 'you' and the verb ends in -ing"
       translation: "Estás conduciendo demasiado rápido"  
-      pronunciation: "yu ar dráiving tu fast"
+      pronunciationES: "yu ar dráiving tu fast"
 
     - question: "The baby ___ ___."
       options:
@@ -98,7 +98,7 @@ items:
       answer: "is, crying"
       explanation: "Use 'is' with 'baby' and the verb ends in -ing"
       translation: "El bebé está llorando"
-      pronunciation: "da béibi is kráing"  
+      pronunciationES: "da béibi is kráing"  
 
     - question: "My parents ___ ___ TV now."
       options: 
@@ -109,7 +109,7 @@ items:
       answer: "are, watching"
       explanation: "Use 'are' with 'parents' and the verb ends in -ing"
       translation: "Mis padres están viendo televisión ahora"  
-      pronunciation: "mai péirents ar uóching tívi náu"
+      pronunciationES: "mai péirents ar uóching tívi náu"
 
     # NIVEL MEDIO (10 ejercicios)  
     - question: "What ___ your sister ___ at the moment?"
@@ -121,7 +121,7 @@ items:
       answer: "is, doing"
       explanation: "Use 'is' for third person singular (sister) and the verb ends in -ing"
       translation: "¿Qué está haciendo tu hermana en este momento?"
-      pronunciation: "uát is yor síster dúing at da móument" 
+      pronunciationES: "uát is yor síster dúing at da móument" 
       
     - question: "Our team ___ ___ the project now."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "is, developing" 
       explanation: "Use 'is' for singular nouns like 'team' and the verb ends in -ing" 
       translation: "Nuestro equipo está desarrollando el proyecto ahora"
-      pronunciation: "áuar tím is devéloping da prójekt náu"
+      pronunciationES: "áuar tím is devéloping da prójekt náu"
 
     - question: "The kids ___ ___ up for school."
       options: 
@@ -143,7 +143,7 @@ items:
       answer: "are, getting"
       explanation: "Use 'are' for plural nouns like 'kids' and the verb ends in -ing"
       translation: "Los niños se están preparando para la escuela"
-      pronunciation: "da kids ar géting ap for skul"
+      pronunciationES: "da kids ar géting ap for skul"
 
     - question: "The cat ___ ___ on the sofa."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "is, sleeping"
       explanation: "Use 'is' for singular nouns like 'cat' and the verb ends in -ing"
       translation: "El gato está durmiendo en el sofá" 
-      pronunciation: "da kat is slíping on da sóufa" 
+      pronunciationES: "da kat is slíping on da sóufa" 
 
     - question: "The moon ___ ___ bright tonight."
       options:
@@ -165,7 +165,7 @@ items:
       answer: "is, shining" 
       explanation: "Use 'is' for singular nouns like 'moon' and the verb ends in -ing"
       translation: "La luna está brillando intensamente esta noche"  
-      pronunciation: "da mun is sháining bráit tunáit"
+      pronunciationES: "da mun is sháining bráit tunáit"
 
     - question: "The birds ___ ___ in the trees."
       options: 
@@ -176,7 +176,7 @@ items:
       answer: "are, singing"
       explanation: "Use 'are' for plural nouns like 'birds' and the verb ends in -ing" 
       translation: "Los pájaros están cantando en los árboles"
-      pronunciation: "da berds ar síging in da tris"
+      pronunciationES: "da berds ar síging in da tris"
 
     - question: "My dog ___ ___ in the garden."
       options: 
@@ -187,7 +187,7 @@ items:
       answer: "is, playing"
       explanation: "Use 'is' for singular nouns like 'dog' and the verb ends in -ing"
       translation: "Mi perro está jugando en el jardín"
-      pronunciation: "mai dog is pléing in da gárden"
+      pronunciationES: "mai dog is pléing in da gárden"
 
     - question: "The flowers ___ ___ beautifully."
       options: 
@@ -198,7 +198,7 @@ items:
       answer: "are, blooming"
       explanation: "Use 'are' for plural nouns like 'flowers' and the verb ends in -ing"
       translation: "Las flores están floreciendo bellamente" 
-      pronunciation: "da fláuers ar blúming biútifuli" 
+      pronunciationES: "da fláuers ar blúming biútifuli" 
       
     - question: "Her hair ___ ___ in the wind."
       options:
@@ -209,7 +209,7 @@ items:
       answer: "is, blowing"
       explanation: "Use 'is' for singular nouns like 'hair' and the verb ends in -ing" 
       translation: "Su cabello está volando en el viento"
-      pronunciation: "jer jéir is blóuing in da uínd"
+      pronunciationES: "jer jéir is blóuing in da uínd"
 
     - question: "The leaves ___ ___ from the trees."
       options:
@@ -220,7 +220,7 @@ items:
       answer: "are, falling"
       explanation: "Use 'are' for plural nouns like 'leaves' and the verb ends in -ing"  
       translation: "Las hojas están cayendo de los árboles"
-      pronunciation: "da livs ar fóling from da tris"
+      pronunciationES: "da livs ar fóling from da tris"
 
     # NIVEL DIFÍCIL (30 ejercicios)
     - question: "The committee ___ ___ the issue right now."
@@ -232,7 +232,7 @@ items:
       answer: "is, discussing"
       explanation: "Use 'is' for collective nouns like 'committee' and the verb ends in -ing"
       translation: "El comité está discutiendo el tema ahora mismo"
-      pronunciation: "da komíti is diskásing di íshu ráit náu"  
+      pronunciationES: "da komíti is diskásing di íshu ráit náu"  
 
     - question: "Mathematics ___ ___ to be a difficult subject for many."
       options:
@@ -243,7 +243,7 @@ items:
       answer: "is, proving"
       explanation: "Use 'is' because 'mathematics' is considered singular and the verb ends in -ing"
       translation: "Las matemáticas están demostrando ser una materia difícil para muchos"  
-      pronunciation: "mazamátiks is prúving tu bi a dífikalt sábdjekt for méni"
+      pronunciationES: "mazamátiks is prúving tu bi a dífikalt sábdjekt for méni"
 
     - question: "Several books ___ ___ on the shelf."
       options:
@@ -254,7 +254,7 @@ items:
       answer: "are, lying"
       explanation: "Use 'are' for plural nouns like 'books' and the verb ends in -ing" 
       translation: "Varios libros están tendidos en el estante"
-      pronunciation: "sévral buks ar láing on da shelf" 
+      pronunciationES: "sévral buks ar láing on da shelf" 
 
     - question: "The majority of the students ___ ___ the lecture."
       options: 
@@ -265,7 +265,7 @@ items:
       answer: "are, understanding"  
       explanation: "Use 'are' because 'majority' is referring to the plural 'students' and the verb ends in -ing"
       translation: "La mayoría de los estudiantes están entendiendo la conferencia"
-      pronunciation: "da mayóriti ov da stiúdents ar anderstánding da lékchor" 
+      pronunciationES: "da mayóriti ov da stiúdents ar anderstánding da lékchor" 
 
     - question: "Statistics ___ ___ that crime rates are dropping."
       options:
@@ -276,7 +276,7 @@ items:
       answer: "are, showing"
       explanation: "Use 'are' because 'statistics' is plural and the verb ends in -ing" 
       translation: "Las estadísticas están mostrando que las tasas de criminalidad están bajando"
-      pronunciation: "statístiks ar shóuing dat kraim reit ar dróping"
+      pronunciationES: "statístiks ar shóuing dat kraim reit ar dróping"
 
     - question: "Everybody at the party ___ ___ a great time."
       options:
@@ -287,7 +287,7 @@ items:
       answer: "is, having"
       explanation: "Use 'is' because 'everybody' is singular and the verb ends in -ing"  
       translation: "Todos en la fiesta se están divirtiendo" 
-      pronunciation: "évribadi at da párti is jáving a greit taim"
+      pronunciationES: "évribadi at da párti is jáving a greit taim"
 
     - question: "The number of students ___ ___ every year."
       options: 
@@ -298,7 +298,7 @@ items:
       answer: "is, increasing"
       explanation: "Use 'is' because 'number' is singular and the verb ends in -ing" 
       translation: "El número de estudiantes está aumentando cada año"
-      pronunciation: "da námber ov stiúdents is inkrísing évri yir"  
+      pronunciationES: "da námber ov stiúdents is inkrísing évri yir"  
 
     - question: "A large quantity of oil ___ ___ into the ocean."
       options:
@@ -309,7 +309,7 @@ items:
       answer: "is, spilling"
       explanation: "Use 'is' because 'quantity' is singular and the verb ends in -ing"  
       translation: "Una gran cantidad de petróleo se está derramando en el océano"
-      pronunciation: "a lardj kuóntiti ov óil is spíling íntú di óushan"
+      pronunciationES: "a lardj kuóntiti ov óil is spíling íntú di óushan"
 
     - question: "The United States ___ ___ new trade agreements."
       options: 
@@ -320,7 +320,7 @@ items:
       answer: "is, negotiating"
       explanation: "Use 'is' because 'United States' is considered singular and the verb ends in -ing"  
       translation: "Estados Unidos está negociando nuevos acuerdos comerciales"
-      pronunciation: "da yunáited steits is negóushieiting niu tréid agriments"
+      pronunciationES: "da yunáited steits is negóushieiting niu tréid agriments"
 
     - question: "Neither of the candidates ___ ___ the debate."
       options:  
@@ -331,7 +331,7 @@ items:
       answer: "is, winning"
       explanation: "Use 'is' because 'neither' takes a singular verb and it ends in -ing"
       translation: "Ninguno de los candidatos está ganando el debate"
-      pronunciation: "níder ov da kándideits is uíning da dibéit"  
+      pronunciationES: "níder ov da kándideits is uíning da dibéit"  
 
     - question: "Physics ___ ___ to be a challenging subject."
       options:
@@ -342,7 +342,7 @@ items:
       answer: "is, continuing"  
       explanation: "Use 'is' because physics is considered singular and the verb ends in -ing"
       translation: "La física continúa siendo una materia desafiante"
-      pronunciation: "físiks is kontíniuing tu bi a chálenyijing sábjekt" 
+      pronunciationES: "físiks is kontíniuing tu bi a chálenyijing sábjekt" 
 
     - question: "The police ___ ___ the crime scene."
       options:
@@ -353,7 +353,7 @@ items:
       answer: "are, investigating"
       explanation: "Use 'are' because 'police' is plural and the verb ends in -ing"
       translation: "La policía está investigando la escena del crimen"
-      pronunciation: "da políce ar invéstigueiting da craim sin"  
+      pronunciationES: "da políce ar invéstigueiting da craim sin"  
 
     - question: "The audience ___ ___ the performance."
       options:
@@ -364,7 +364,7 @@ items:
       answer: "is, enjoying"
       explanation: "Use 'is' because 'audience' is considered singular and the verb ends in -ing"
       translation: "El público está disfrutando la actuación"  
-      pronunciation: "di ódiens is enyóing da perfórmans"
+      pronunciationES: "di ódiens is enyóing da perfórmans"
 
     - question: "His clothes ___ ___ after the long run."
       options:
@@ -375,7 +375,7 @@ items:
       answer: "are, smelling"
       explanation: "Use 'are' because 'clothes' is plural and the verb ends in -ing"
       translation: "Su ropa está oliendo después de la larga carrera" 
-      pronunciation: "jis klouz ar sméling áfter da long ran"
+      pronunciationES: "jis klouz ar sméling áfter da long ran"
 
     - question: "The jury ___ ___ on a verdict."
       options: 
@@ -386,7 +386,7 @@ items:
       answer: "is, deliberating"
       explanation: "Use 'is' because 'jury' is considered singular and the verb ends in -ing"
       translation: "El jurado está deliberando sobre un veredicto"
-      pronunciation: "da yúri is dilíbereiting on a vérdikt" 
+      pronunciationES: "da yúri is dilíbereiting on a vérdikt" 
 
     - question: "Either of the plans ___ ___ well."
       options:
@@ -397,7 +397,7 @@ items:
       answer: "is, working"
       explanation: "Use 'is' because 'either' takes a singular verb and it ends in -ing"
       translation: "Cualquiera de los planes está funcionando bien"
-      pronunciation: "íder ov da plans is uérking uel"
+      pronunciationES: "íder ov da plans is uérking uel"
       
     - question: "Each of the students ___ ___ hard."
       options:
@@ -408,7 +408,7 @@ items:
       answer: "is, working"
       explanation: "Use 'is' because 'each' takes a singular verb and it ends in -ing"  
       translation: "Cada uno de los estudiantes está trabajando duro"
-      pronunciation: "ich ov da stiúdents is uérking jard" 
+      pronunciationES: "ich ov da stiúdents is uérking jard" 
 
     - question: "Every member of the team ___ ___ their best."
       options:
@@ -419,7 +419,7 @@ items:
       answer: "is, trying"
       explanation: "Use 'is' because 'every' takes a singular verb and it ends in -ing"
       translation: "Cada miembro del equipo está haciendo su mejor esfuerzo"  
-      pronunciation: "évri mémber ov da tim is traiing der best"
+      pronunciationES: "évri mémber ov da tim is traiing der best"
 
     - question: "Politics ___ ___ more divisive these days."
       options:
@@ -430,7 +430,7 @@ items:
       answer: "is, becoming"
       explanation: "Use 'is' because 'politics' is considered singular and the verb ends in -ing"
       translation: "La política se está volviendo más divisiva en estos días"
-      pronunciation: "póulitíks is bikáming mor diváisiv diz deis"
+      pronunciationES: "póulitíks is bikáming mor diváisiv diz deis"
 
     - question: "None of the options ___ ___ sense."
       options:
@@ -441,7 +441,7 @@ items:
       answer: "is, making" 
       explanation: "Use 'is' because 'none' takes a singular verb and it ends in -ing"
       translation: "Ninguna de las opciones tiene sentido"  
-      pronunciation: "nan ov di ópshons is méiking sens"
+      pronunciationES: "nan ov di ópshons is méiking sens"
        
     - question: "The criteria he ___ ___ are too strict."
       options:
@@ -452,7 +452,7 @@ items:
       answer: "is, using"
       explanation: "Use 'is' because 'criteria' is considered singular in this context and the verb ends in -ing"
       translation: "Los criterios que está usando son demasiado estrictos"
-      pronunciation: "da kraitíria ji is yúsing ar tu strikt"  
+      pronunciationES: "da kraitíria ji is yúsing ar tu strikt"  
 
     - question: "The data ___ ___ a clear trend."
       options:
@@ -463,7 +463,7 @@ items:
       answer: "are, showing"
       explanation: "Use 'are' because 'data' is plural and the verb ends in -ing" 
       translation: "Los datos están mostrando una tendencia clara"
-      pronunciation: "da déita ar shóuing a klir trend"
+      pronunciationES: "da déita ar shóuing a klir trend"
 
     - question: "My luggage ___ ___ too much space."
       options:
@@ -474,7 +474,7 @@ items:
       answer: "is, taking" 
       explanation: "Use 'is' because 'luggage' is uncountable and considered singular, and the verb ends in -ing"
       translation: "Mi equipaje está ocupando demasiado espacio"
-      pronunciation: "mai lágij is téiking tu mach speis" 
+      pronunciationES: "mai lágij is téiking tu mach speis" 
 
     - question: "The couple ___ ___ their wedding vows."
       options:
@@ -485,7 +485,7 @@ items:
       answer: "are, exchanging"
       explanation: "Use 'are' because 'couple' is referring to two people and the verb ends in -ing"
       translation: "La pareja está intercambiando sus votos matrimoniales"  
-      pronunciation: "da kápol ar ikschéinying der uéding váus"
+      pronunciationES: "da kápol ar ikschéinying der uéding váus"
    
     - question: "Everybody ___ ___ the new policy."
       options:
@@ -496,7 +496,7 @@ items:
       answer: "is, discussing"
       explanation: "Use 'is' because 'everybody' is singular and the verb ends in -ing" 
       translation: "Todo el mundo está discutiendo la nueva política"
-      pronunciation: "évrybadi is diskásing da niu pólisi" 
+      pronunciationES: "évrybadi is diskásing da niu pólisi" 
       
     - question: "The flock of birds ___ ___ south."
       options:
@@ -507,7 +507,7 @@ items:
       answer: "is, flying"   
       explanation: "Use 'is' because 'flock' is singular and the verb ends in -ing"
       translation: "La bandada de pájaros está volando hacia el sur"
-      pronunciation: "da flok ov berds is fláing sauz"
+      pronunciationES: "da flok ov berds is fláing sauz"
       
     - question: "The fleet of ships ___ ___ the harbor."
       options:
@@ -518,7 +518,7 @@ items:
       answer: "is, entering"
       explanation: "Use 'is' because 'fleet' is singular and the verb ends in -ing"
       translation: "La flota de barcos está entrando al puerto"  
-      pronunciation: "da flit ov ships is entering da járbor"
+      pronunciationES: "da flit ov ships is entering da járbor"
 
     - question: "My pants ___ ___ in the wash."
       options: 
@@ -529,7 +529,7 @@ items:
       answer: "are, shrinking"
       explanation: "Use 'are' because 'pants' are plural and the verb ends in -ing"  
       translation: "Mis pantalones se están encogiendo en el lavado"
-      pronunciation: "mai pants ar shrínking in da uash"
+      pronunciationES: "mai pants ar shrínking in da uash"
       
     - question: "The cattle ___ ___ in the pasture."
       options:
@@ -540,7 +540,7 @@ items:
       answer: "are, grazing" 
       explanation: "Use 'are' because 'cattle' is plural and the verb ends in -ing"
       translation: "El ganado está pastando en el pasto"
-      pronunciation: "da kátol ar gréising in da páschor"
+      pronunciationES: "da kátol ar gréising in da páschor"
 
     - question: "The crew ___ ___ the stage for the concert."
       options:
@@ -551,4 +551,4 @@ items:
       answer: "is, setting"
       explanation: "Use 'is' because 'crew' is singular and the verb ends in -ing" 
       translation: "El equipo está preparando el escenario para el concierto"
-      pronunciation: "da kru is séting da steidj for da kónsert"
+      pronunciationES: "da kru is séting da steidj for da kónsert"

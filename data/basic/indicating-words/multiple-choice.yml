@@ -10,7 +10,7 @@ items:
       answer: "Whose"
       explanation: "Usamos 'whose' para preguntar sobre posesión"
       translation: "¿De quién es el libro?"
-      pronunciation: "juz buk iz on da téibel"
+      pronunciationES: "juz buk iz on da téibel"
 
     - question: "I want ___ apple from the basket."
       options:
@@ -21,7 +21,7 @@ items:
       answer: "an"
       explanation: "Usamos 'an' antes de palabras que empiezan con vocal"
       translation: "Quiero una manzana de la canasta"
-      pronunciation: "ai uant an ápel fram da básket"
+      pronunciationES: "ai uant an ápel fram da básket"
 
     - question: "___ is my favorite color."
       options:
@@ -32,7 +32,7 @@ items:
       answer: "This"
       explanation: "'This' se usa para algo cercano en singular"
       translation: "Este es mi color favorito"
-      pronunciation: "zis iz mai feivorit kálor"
+      pronunciationES: "zis iz mai feivorit kálor"
 
     - question: "I saw ___ movie last night."
       options:
@@ -43,7 +43,7 @@ items:
       answer: "a"
       explanation: "Usamos 'a' antes de palabras que empiezan con consonante"
       translation: "Vi una película anoche"
-      pronunciation: "ai sou a móvie last nait"
+      pronunciationES: "ai sou a móvie last nait"
 
     - question: "___ students are studying in the library."
       options:
@@ -54,7 +54,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a un grupo específico"
       translation: "Los estudiantes están estudiando en la biblioteca"
-      pronunciation: "da stúdents ar stádying in da láibreri"
+      pronunciationES: "da stúdents ar stádying in da láibreri"
 
     - question: "Give me ___ water, please."
       options:
@@ -65,7 +65,7 @@ items:
       answer: "some"
       explanation: "Usamos 'some' con sustantivos no contables"
       translation: "Dame agua, por favor"
-      pronunciation: "giv mi sam uóter, pliz"
+      pronunciationES: "giv mi sam uóter, pliz"
 
     - question: "___ car is very expensive."
       options:
@@ -76,7 +76,7 @@ items:
       answer: "This"
       explanation: "'This' se usa para algo cercano en singular"
       translation: "Este carro es muy caro"
-      pronunciation: "zis kar iz véri ikspénsiv"
+      pronunciationES: "zis kar iz véri ikspénsiv"
 
     # NIVEL MEDIO (7 ejercicios)
     - question: "I see ___ students over there studying."
@@ -88,7 +88,7 @@ items:
       answer: "a few"
       explanation: "'A few' indica un número pequeño pero positivo de estudiantes"
       translation: "Veo algunos estudiantes estudiando allá"
-      pronunciation: "ai si a fiu stúdents óver der stádying"
+      pronunciationES: "ai si a fiu stúdents óver der stádying"
 
     - question: "___ books on the shelf belong to me."
       options:
@@ -99,7 +99,7 @@ items:
       answer: "Those"
       explanation: "'Those' se usa para algo lejano en plural"
       translation: "Esos libros en el estante me pertenecen"
-      pronunciation: "zous buks on da shelf bilóng tu mi"
+      pronunciationES: "zous buks on da shelf bilóng tu mi"
 
     - question: "He has ___ money to buy a car."
       options:
@@ -110,7 +110,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña, casi insignificante"
       translation: "Él tiene muy poco dinero para comprar un carro"
-      pronunciation: "ji jas lítl máni tu bai a kar"
+      pronunciationES: "ji jas lítl máni tu bai a kar"
 
     - question: "I drink ___ coffee every morning."
       options:
@@ -121,7 +121,7 @@ items:
       answer: "some"
       explanation: "Usamos 'some' en oraciones afirmativas con sustantivos no contables"
       translation: "Tomo algo de café cada mañana"
-      pronunciation: "ai drink sam kófi évri mórning"
+      pronunciationES: "ai drink sam kófi évri mórning"
 
     - question: "___ time I visit the museum, I learn something new."
       options:
@@ -132,7 +132,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica repetición o frecuencia"
       translation: "Cada vez que visito el museo, aprendo algo nuevo"
-      pronunciation: "évri taim ai vízit da miúsium, ai lern sámzing niu"
+      pronunciationES: "évri taim ai vízit da miúsium, ai lern sámzing niu"
 
     - question: "Is there ___ milk in the refrigerator?"
       options:
@@ -143,7 +143,7 @@ items:
       answer: "any"
       explanation: "Usamos 'any' en preguntas y oraciones negativas"
       translation: "¿Hay algo de leche en el refrigerador?"
-      pronunciation: "iz der eni milk in da refrídjeréitor"
+      pronunciationES: "iz der eni milk in da refrídjeréitor"
 
     - question: "___ problem is more complex than we thought."
       options:
@@ -154,7 +154,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a un problema específico"
       translation: "El problema es más complejo de lo que pensamos"
-      pronunciation: "da próblem iz mor kompleks zan ui zaut"
+      pronunciationES: "da próblem iz mor kompleks zan ui zaut"
 
     # NIVEL DIFÍCIL (26 ejercicios)
     - question: "She has ___ time to complete the project."
@@ -166,7 +166,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de tiempo"
       translation: "Ella tiene muy poco tiempo para completar el proyecto"
-      pronunciation: "shi jas lítl taim tu komplít da próyekt"
+      pronunciationES: "shi jas lítl taim tu komplít da próyekt"
 
     - question: "___ information we have is not enough."
       options:
@@ -177,7 +177,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a información específica"
       translation: "La información que tenemos no es suficiente"
-      pronunciation: "da ínformeshon ui jav iz not inaf"
+      pronunciationES: "da ínformeshon ui jav iz not inaf"
 
     - question: "I can see ___ problems in the current strategy."
       options:
@@ -188,7 +188,7 @@ items:
       answer: "many"
       explanation: "'Many' indica un número grande de problemas"
       translation: "Puedo ver muchos problemas en la estrategia actual"
-      pronunciation: "ai kan si méni próblems in da kárrent strátegi"
+      pronunciationES: "ai kan si méni próblems in da kárrent strátegi"
 
     - question: "___ students in the class speak three languages."
       options:
@@ -199,7 +199,7 @@ items:
       answer: "Few"
       explanation: "'Few' indica un número pequeño y casi insignificante"
       translation: "Pocos estudiantes en la clase hablan tres idiomas"
-      pronunciation: "fiu stúdents in da klas spik zri láñguiyes"
+      pronunciationES: "fiu stúdents in da klas spik zri láñguiyes"
 
     - question: "Give me ___ water, I'm very thirsty."
       options:
@@ -210,7 +210,7 @@ items:
       answer: "some"
       explanation: "Usamos 'some' con sustantivos no contables"
       translation: "Dame un poco de agua, tengo mucha sed"
-      pronunciation: "giv mi sam uóter, aim véri zérsti"
+      pronunciationES: "giv mi sam uóter, aim véri zérsti"
 
     - question: "___ of the students passed the exam."
       options:
@@ -221,7 +221,7 @@ items:
       answer: "Few"
       explanation: "'Few' indica un número pequeño de estudiantes"
       translation: "Pocos estudiantes aprobaron el examen"
-      pronunciation: "fiu ov da stúdents pásd da igzám"
+      pronunciationES: "fiu ov da stúdents pásd da igzám"
 
     - question: "We have ___ time to solve this problem."
       options:
@@ -232,7 +232,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de tiempo"
       translation: "Tenemos muy poco tiempo para resolver este problema"
-      pronunciation: "ui jav lítl taim tu sólv dis próblem"
+      pronunciationES: "ui jav lítl taim tu sólv dis próblem"
 
     - question: "___ day I spend in this city, the more I love it."
       options:
@@ -243,7 +243,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica repetición o frecuencia"
       translation: "Cada día que paso en esta ciudad, más la amo"
-      pronunciation: "évri dei ai spend in zis síti, mor ai láv it"
+      pronunciationES: "évri dei ai spend in zis síti, mor ai láv it"
 
     - question: "Is there ___ bread left in the kitchen?"
       options:
@@ -254,7 +254,7 @@ items:
       answer: "any"
       explanation: "Usamos 'any' en preguntas sobre cantidades"
       translation: "¿Queda algo de pan en la cocina?"
-      pronunciation: "iz der eni bred left in da kítchen"
+      pronunciationES: "iz der eni bred left in da kítchen"
 
     - question: "___ attempt to solve the problem failed."
       options:
@@ -265,7 +265,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica totalidad o repetición"
       translation: "Cada intento de resolver el problema falló"
-      pronunciation: "évri atémpt tu sólv da próblem féild"
+      pronunciationES: "évri atémpt tu sólv da próblem féild"
 
     - question: "She bought ___ apples from the market."
       options:
@@ -276,7 +276,7 @@ items:
       answer: "a few"
       explanation: "'A few' indica un número pequeño pero positivo de manzanas"
       translation: "Ella compró algunas manzanas del mercado"
-      pronunciation: "shi baut a fiu áples fram da márket"
+      pronunciationES: "shi baut a fiu áples fram da márket"
 
     - question: "___ project requires more funding."
       options:
@@ -287,7 +287,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a un proyecto específico"
       translation: "El proyecto requiere más financiamiento"
-      pronunciation: "da próyekt rikuáirs mor fándling"
+      pronunciationES: "da próyekt rikuáirs mor fándling"
 
     - question: "I have ___ understanding of the situation."
       options:
@@ -298,7 +298,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de comprensión"
       translation: "Tengo muy poca comprensión de la situación"
-      pronunciation: "ai jav lítl anderstánding ov da sitjuéishon"
+      pronunciationES: "ai jav lítl anderstánding ov da sitjuéishon"
 
     - question: "___ people understand this complex theory."
       options:
@@ -309,7 +309,7 @@ items:
       answer: "Few"
       explanation: "'Few' indica un número pequeño de personas"
       translation: "Pocas personas entienden esta teoría compleja"
-      pronunciation: "fiu píple anderstánd zis kompleks zióri"
+      pronunciationES: "fiu píple anderstánd zis kompleks zióri"
 
     - question: "She has ___ money to travel this summer."
       options:
@@ -320,7 +320,7 @@ items:
       answer: "a little"
       explanation: "'A little' indica una pequeña cantidad positiva de dinero"
       translation: "Ella tiene un poco de dinero para viajar este verano"
-      pronunciation: "shi jas a lítl máni tu trávl zis sámer"
+      pronunciationES: "shi jas a lítl máni tu trávl zis sámer"
 
     - question: "___ students in the class speak two languages."
       options:
@@ -331,7 +331,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de estudiantes"
       translation: "Muchos estudiantes en la clase hablan dos idiomas"
-      pronunciation: "méni stúdents in da klas spik tu láñguiyes"
+      pronunciationES: "méni stúdents in da klas spik tu láñguiyes"
 
     - question: "We need ___ more information to make a decision."
       options:
@@ -342,7 +342,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar una cantidad de información"
       translation: "Necesitamos algo más de información para tomar una decisión"
-      pronunciation: "ui níd sam mor ínformeshon tu meik a desíshon"
+      pronunciationES: "ui níd sam mor ínformeshon tu meik a desíshon"
 
     - question: "___ day brings new challenges."
       options:
@@ -353,7 +353,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica repetición o frecuencia"
       translation: "Cada día trae nuevos desafíos"
-      pronunciation: "évri dei bríngs niu chálendjes"
+      pronunciationES: "évri dei bríngs niu chálendjes"
 
     - question: "Can you give me ___ advice?"
       options:
@@ -364,7 +364,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa con sustantivos no contables en solicitudes"
       translation: "¿Puedes darme algo de consejo?"
-      pronunciation: "kan yu giv mi sam advái"
+      pronunciationES: "kan yu giv mi sam advái"
 
     - question: "___ suggestion might solve the problem."
       options:
@@ -375,7 +375,7 @@ items:
       answer: "A"
       explanation: "Usamos 'a' para introducir una sugerencia no específica"
       translation: "Una sugerencia podría resolver el problema"
-      pronunciation: "a sagéshon mait sólv da próblem"
+      pronunciationES: "a sagéshon mait sólv da próblem"
 
     - question: "He has ___ money in his bank account."
       options:
@@ -386,7 +386,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de dinero"
       translation: "Él tiene muy poco dinero en su cuenta bancaria"
-      pronunciation: "ji jas lítl máni in jis bank akáunt"
+      pronunciationES: "ji jas lítl máni in jis bank akáunt"
 
     - question: "___ problem seems unsolvable."
       options:
@@ -397,7 +397,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a un problema específico"
       translation: "El problema parece irresolvible"
-      pronunciation: "da próblem sims ansolváble"
+      pronunciationES: "da próblem sims ansolváble"
 
     - question: "She read an interesting article about ___ technology."
       options:
@@ -408,7 +408,7 @@ items:
       answer: "a"
       explanation: "Usamos 'a' antes de palabras que empiezan con consonante"
       translation: "Ella leyó un artículo interesante sobre tecnología"
-      pronunciation: "shi red a intrésting ártikl abaut teknóloji"
+      pronunciationES: "shi red a intrésting ártikl abaut teknóloji"
 
     - question: "___ results were unexpected."
       options:
@@ -419,7 +419,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a resultados específicos"
       translation: "Los resultados fueron inesperados"
-      pronunciation: "da rízalts wer anekspéktid"
+      pronunciationES: "da rízalts wer anekspéktid"
 
     - question: "Do you have ___ time to help me?"
       options:
@@ -430,7 +430,7 @@ items:
       answer: "any"
       explanation: "Usamos 'any' en preguntas"
       translation: "¿Tienes algo de tiempo para ayudarme?"
-      pronunciation: "du yu jav eni taim tu jelp mi"
+      pronunciationES: "du yu jav eni taim tu jelp mi"
 
     - question: "I saw ___ interesting documentary last night."
       options:
@@ -441,7 +441,7 @@ items:
       answer: "an"
       explanation: "Usamos 'an' antes de palabras que empiezan con vocal"
       translation: "Vi un documental interesante anoche"
-      pronunciation: "ai sou an intrésting dokjumEntéri last nait"
+      pronunciationES: "ai sou an intrésting dokjumEntéri last nait"
 
     - question: "___ research shows promising results."
       options:
@@ -452,7 +452,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a investigación específica"
       translation: "La investigación muestra resultados prometedores"
-      pronunciation: "da ríserdj shous prómising rízalts"
+      pronunciationES: "da ríserdj shous prómising rízalts"
 
     - question: "We don't have ___ evidence to support the claim."
       options:
@@ -463,7 +463,7 @@ items:
       answer: "any"
       explanation: "Usamos 'any' en oraciones negativas"
       translation: "No tenemos ninguna evidencia para respaldar la afirmación"
-      pronunciation: "ui dont jav eni évdins tu sapórt da kléim"
+      pronunciationES: "ui dont jav eni évdins tu sapórt da kléim"
 
     - question: "I read ___ book about artificial intelligence."
       options:
@@ -474,7 +474,7 @@ items:
       answer: "a"
       explanation: "Usamos 'a' antes de palabras que empiezan con consonante"
       translation: "Leí un libro sobre inteligencia artificial"
-      pronunciation: "ai red a buk abaut ártifishol intelídgens"
+      pronunciationES: "ai red a buk abaut ártifishol intelídgens"
 
     - question: "___ technology is changing the world rapidly."
       options:
@@ -485,7 +485,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a tecnología específica"
       translation: "La tecnología está cambiando el mundo rápidamente"
-      pronunciation: "da teknóloji iz chéinying da world rápidli"
+      pronunciationES: "da teknóloji iz chéinying da world rápidli"
 
     - question: "Can you give me ___ advice?"
       options:
@@ -496,7 +496,7 @@ items:
       answer: "some"
       explanation: "Usamos 'some' en solicitudes de sustantivos no contables"
       translation: "¿Puedes darme algo de consejo?"
-      pronunciation: "kan yu giv mi sam advái"
+      pronunciationES: "kan yu giv mi sam advái"
 
     - question: "___ companies are investing in renewable energy."
       options:
@@ -507,7 +507,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de compañías"
       translation: "Muchas compañías están invirtiendo en energía renovable"
-      pronunciation: "méni kompánies ar invérting in rinúvable énerdji"
+      pronunciationES: "méni kompánies ar invérting in rinúvable énerdji"
 
     - question: "She has ___ understanding of the complex issue."
       options:
@@ -518,7 +518,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de comprensión"
       translation: "Ella tiene muy poca comprensión del problema complejo"
-      pronunciation: "shi jas lítl anderstánding ov da kompleks ísiu"
+      pronunciationES: "shi jas lítl anderstánding ov da kompleks ísiu"
 
     - question: "___ students in the advanced class speak multiple languages."
       options:
@@ -529,7 +529,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de estudiantes"
       translation: "Muchos estudiantes en la clase avanzada hablan varios idiomas"
-      pronunciation: "méni stúdents in da advánst klas spik múltiple láñguiyes"
+      pronunciationES: "méni stúdents in da advánst klas spik múltiple láñguiyes"
 
     - question: "We need ___ more time to complete the project."
       options:
@@ -540,7 +540,7 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar una cantidad de tiempo"
       translation: "Necesitamos algo más de tiempo para completar el proyecto"
-      pronunciation: "ui níd sam mor taim tu komplít da próyekt"
+      pronunciationES: "ui níd sam mor taim tu komplít da próyekt"
 
     - question: "___ data provides valuable insights into the problem."
       options:
@@ -551,7 +551,7 @@ items:
       answer: "The"
       explanation: "Usamos 'the' para referirse a datos específicos"
       translation: "Los datos proporcionan valiosas perspectivas sobre el problema"
-      pronunciation: "da déita provái des váljuabl ínsaits intu da próblem"
+      pronunciationES: "da déita provái des váljuabl ínsaits intu da próblem"
 
     - question: "He has ___ experience in this field."
       options:
@@ -562,7 +562,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de experiencia"
       translation: "Él tiene muy poca experiencia en este campo"
-      pronunciation: "ji jas lítl ikspíriins in zis fild"
+      pronunciationES: "ji jas lítl ikspíriins in zis fild"
 
     - question: "___ suggestions might improve the current system."
       options:
@@ -573,7 +573,7 @@ items:
       answer: "Some"
       explanation: "'Some' indica un número indeterminado de sugerencias"
       translation: "Algunas sugerencias podrían mejorar el sistema actual"
-      pronunciation: "sam sagéshons mait imprúv da kárrent sístem"
+      pronunciationES: "sam sagéshons mait imprúv da kárrent sístem"
 
     - question: "We received ___ interesting proposals."
       options:
@@ -584,7 +584,7 @@ items:
       answer: "a few"
       explanation: "'A few' indica un número pequeño pero positivo de propuestas"
       translation: "Recibimos algunas propuestas interesantes"
-      pronunciation: "ui risívd a fiu intrésting propózals"
+      pronunciationES: "ui risívd a fiu intrésting propózals"
 
     - question: "___ day brings new opportunities."
       options:
@@ -595,7 +595,7 @@ items:
       answer: "Every"
       explanation: "'Every' indica repetición o frecuencia"
       translation: "Cada día trae nuevas oportunidades"
-      pronunciation: "évri dei bríngs niu opportjúnities"
+      pronunciationES: "évri dei bríngs niu opportjúnities"
 
     - question: "Is there ___ milk left in the refrigerator?"
       options:
@@ -606,7 +606,7 @@ items:
       answer: "any"
       explanation: "Usamos 'any' en preguntas sobre cantidades"
       translation: "¿Queda algo de leche en el refrigerador?"
-      pronunciation: "iz der eni milk left in da refrídjeréitor"
+      pronunciationES: "iz der eni milk left in da refrídjeréitor"
 
     - question: "___ scientific breakthrough could change everything."
       options:
@@ -617,7 +617,7 @@ items:
       answer: "A"
       explanation: "Usamos 'a' para introducir una novedad no específica"
       translation: "Un descubrimiento científico podría cambiarlo todo"
-      pronunciation: "a saientífik brékzru kud cheinj évriing"
+      pronunciationES: "a saientífik brékzru kud cheinj évriing"
 
     - question: "He has ___ money to invest in the project."
       options:
@@ -628,7 +628,7 @@ items:
       answer: "little"
       explanation: "'Little' indica una cantidad muy pequeña de dinero"
       translation: "Él tiene muy poco dinero para invertir en el proyecto"
-      pronunciation: "ji jas lítl máni tu invért in da próyekt"
+      pronunciationES: "ji jas lítl máni tu invért in da próyekt"
 
     - question: "___ attempts to solve the problem have failed."
       options:
@@ -639,7 +639,7 @@ items:
       answer: "Many"
       explanation: "'Many' indica un número grande de intentos"
       translation: "Muchos intentos de resolver el problema han fallado"
-      pronunciation: "méni atémpts tu sólv da próblem jav féild"
+      pronunciationES: "méni atémpts tu sólv da próblem jav féild"
 
     - question: "We need ___ additional information."
       options:
@@ -650,4 +650,4 @@ items:
       answer: "some"
       explanation: "'Some' se usa para solicitar información adicional"
       translation: "Necesitamos algo de información adicional"
-      pronunciation: "ui níd sam adiShonl ínformeshon"
+      pronunciationES: "ui níd sam adiShonl ínformeshon"

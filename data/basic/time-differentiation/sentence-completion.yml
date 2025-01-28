@@ -9,7 +9,7 @@ items:
       answer: "play"
       explanation: "Para rutinas con 'my friends' (they), se usa la forma base del verbo"
       translation: "Cada fin de semana, mis amigos juegan voleibol"
-      pronunciation: "évri uíkend, mai frends plei völeibol"
+      pronunciationES: "évri uíkend, mai frends plei völeibol"
 
     - sentence: "She {_____} to work every morning."
       options:
@@ -20,7 +20,7 @@ items:
       answer: "goes"
       explanation: "Con tercera persona singular, se añade -s al verbo"
       translation: "Ella va al trabajo todas las mañanas"
-      pronunciation: "shi gouz tu werk évri mórning"
+      pronunciationES: "shi gouz tu werk évri mórning"
 
     - sentence: "I {_____} coffee in the morning."
       options:
@@ -31,7 +31,7 @@ items:
       answer: "drink"
       explanation: "Con 'I', el verbo permanece en su forma base para rutinas"
       translation: "Tomo café en la mañana"
-      pronunciation: "ai drink cofi in da mórning"
+      pronunciationES: "ai drink cofi in da mórning"
 
     - sentence: "They {_____} English at the local university."
       options:
@@ -42,7 +42,7 @@ items:
       answer: "study"
       explanation: "Con 'they', el verbo permanece en su forma base"
       translation: "Estudian inglés en la universidad local"
-      pronunciation: "zei stádi ínglish at da lókal yunivérsiti"
+      pronunciationES: "zei stádi ínglish at da lókal yunivérsiti"
 
     - sentence: "He {_____} tennis on weekends."
       options:
@@ -53,7 +53,7 @@ items:
       answer: "plays"
       explanation: "Con tercera persona singular, se añade -s al verbo"
       translation: "Él juega tenis los fines de semana"
-      pronunciation: "ji pleis ténis on uíkends"
+      pronunciationES: "ji pleis ténis on uíkends"
 
     - sentence: "We {_____} to the gym regularly."
       options:
@@ -64,7 +64,7 @@ items:
       answer: "go"
       explanation: "Con 'we', el verbo permanece en su forma base"
       translation: "Vamos al gimnasio regularmente"
-      pronunciation: "ui gou tu da yim régulerli"
+      pronunciationES: "ui gou tu da yim régulerli"
 
     - sentence: "The team {_____} new technologies."
       options:
@@ -75,7 +75,7 @@ items:
       answer: "develops"
       explanation: "Con sujetos de tercera persona singular, se añade -s"
       translation: "El equipo desarrolla nuevas tecnologías"
-      pronunciation: "da tim divélops niu teknológies"
+      pronunciationES: "da tim divélops niu teknológies"
 
     # NIVEL MEDIO (7 ejercicios)
     - sentence: "Researchers currently {_____} complex scientific problems."
@@ -87,7 +87,7 @@ items:
       answer: "are investigating"
       explanation: "Para acciones en progreso, se usa presente continuo"
       translation: "Los investigadores actualmente están investigando problemas científicos complejos"
-      pronunciation: "risérchers ar invéstigeting kompleks sayéntifik próblems"
+      pronunciationES: "risérchers ar invéstigeting kompleks sayéntifik próblems"
 
     - sentence: "The company {_____} innovative solutions to global challenges."
       options:
@@ -98,7 +98,7 @@ items:
       answer: "develops"
       explanation: "Para rutinas y verdades generales, se usa presente simple"
       translation: "La empresa desarrolla soluciones innovadoras para desafíos globales"
-      pronunciation: "da kómpani divélops inóvative solúshons tu glóbal chálendjes"
+      pronunciationES: "da kómpani divélops inóvative solúshons tu glóbal chálendjes"
 
     - sentence: "Urban planners {_____} sustainable city development strategies."
       options:
@@ -109,7 +109,7 @@ items:
       answer: "analyze"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Urbanistas analizan estrategias de desarrollo urbano sostenible"
-      pronunciation: "árben pláners ánalaiz sasteinábel siti divélopment straténies"
+      pronunciationES: "árben pláners ánalaiz sasteinábel siti divélopment straténies"
 
     - sentence: "The technology team {_____} a new project right now."
       options:
@@ -120,7 +120,7 @@ items:
       answer: "is developing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "El equipo de tecnología está desarrollando un nuevo proyecto en este momento"
-      pronunciation: "da teknóloji tim is divéloping a niu próyekt rait nau"
+      pronunciationES: "da teknóloji tim is divéloping a niu próyekt rait nau"
 
     - sentence: "Environmental activists {_____} sustainable practices globally."
       options:
@@ -131,7 +131,7 @@ items:
       answer: "promote"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Activistas ambientales promueven prácticas sostenibles globalmente"
-      pronunciation: "envairánmental áktivist promóut sasteinábel práktises glóbali"
+      pronunciationES: "envairánmental áktivist promóut sasteinábel práktises glóbali"
 
     - sentence: "Medical professionals {_____} complex health conditions this week."
       options:
@@ -142,7 +142,7 @@ items:
       answer: "are diagnosing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Profesionales médicos están diagnosticando condiciones de salud complejas esta semana"
-      pronunciation: "médical proféshonals ar daiagnózing kompleks jelz kondíshons dis uík"
+      pronunciationES: "médical proféshonals ar daiagnózing kompleks jelz kondíshons dis uík"
 
     - sentence: "Social entrepreneurs {_____} innovative solutions to community challenges."
       options:
@@ -153,7 +153,7 @@ items:
       answer: "create"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Emprendedores sociales crean soluciones innovadoras para desafíos comunitarios"
-      pronunciation: "sóshol entreprenérs kriéit inóvative solúshons tu komyúniti chálendjes"
+      pronunciationES: "sóshol entreprenérs kriéit inóvative solúshons tu komyúniti chálendjes"
 
     # NIVEL DIFÍCIL (26 ejercicios)
     - sentence: "Scientists currently {_____} groundbreaking research in artificial intelligence."
@@ -165,7 +165,7 @@ items:
       answer: "are conducting"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Científicos actualmente están realizando investigaciones revolucionarias en inteligencia artificial"
-      pronunciation: "sáientists ar kandákting graundbreiking ríserdj in ártifishol intelídgens"
+      pronunciationES: "sáientists ar kandákting graundbreiking ríserdj in ártifishol intelídgens"
 
     - sentence: "The technology company {_____} cutting-edge solutions to global challenges."
       options:
@@ -176,7 +176,7 @@ items:
       answer: "develops"
       explanation: "Para rutinas y verdades generales, se usa presente simple"
       translation: "La empresa tecnológica desarrolla soluciones de vanguardia para desafíos globales"
-      pronunciation: "da teknóloji kómpani divélops kating-edj solúshons tu glóbal chálendjes"
+      pronunciationES: "da teknóloji kómpani divélops kating-edj solúshons tu glóbal chálendjes"
 
     - sentence: "Urban planners {_____} sustainable development strategies for modern cities."
       options:
@@ -187,7 +187,7 @@ items:
       answer: "analyze"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Urbanistas analizan estrategias de desarrollo sostenible para ciudades modernas"
-      pronunciation: "árben pláners ánalaiz sasteinábel divélopment straténies for módren sities"
+      pronunciationES: "árben pláners ánalaiz sasteinábel divélopment straténies for módren sities"
 
     - sentence: "Medical professionals currently {_____} advanced treatment methodologies."
       options:
@@ -198,7 +198,7 @@ items:
       answer: "are investigating"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Profesionales médicos actualmente están investigando metodologías de tratamiento avanzadas"
-      pronunciation: "médical proféshonals ar invéstigeting advánst trítment metodológies"
+      pronunciationES: "médical proféshonals ar invéstigeting advánst trítment metodológies"
 
     - sentence: "Environmental organizations {_____} climate change impacts globally."
       options:
@@ -209,7 +209,7 @@ items:
       answer: "monitor"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Organizaciones ambientales monitorean impactos del cambio climático globalmente"
-      pronunciation: "envairánmental órganaizéishons mónitore kláimet cheinj ímpakts glóbali"
+      pronunciationES: "envairánmental órganaizéishons mónitore kláimet cheinj ímpakts glóbali"
 
     - sentence: "Educational researchers {_____} innovative learning strategies and student performance patterns."
       options:
@@ -220,7 +220,7 @@ items:
       answer: "analyze"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Investigadores educativos analizan estrategias de aprendizaje innovadoras y patrones de desempeño estudiantil"
-      pronunciation: "edjukéishonal risérchers ánalaiz inóvative lérning straténies and stúdent performáns páterns"
+      pronunciationES: "edjukéishonal risérchers ánalaiz inóvative lérning straténies and stúdent performáns páterns"
 
     - sentence: "Cultural anthropologists currently {_____} societal transformation processes."
       options:
@@ -231,7 +231,7 @@ items:
       answer: "are studying"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Antropólogos culturales actualmente están estudiando procesos de transformación social"
-      pronunciation: "kálchural antropológists ar stádying sosáietal transforméishon próses"
+      pronunciationES: "kálchural antropológists ar stádying sosáietal transforméishon próses"
 
     - sentence: "Technology experts {_____} emerging digital trends and future innovations."
       options:
@@ -242,7 +242,7 @@ items:
       answer: "explore"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Investigadores de computación cuántica exploran enfoques computacionales revolucionarios"
-      pronunciation: "kuántum komputíng risérchers éksplorz brékzru kompjutashonal aprócjes"
+      pronunciationES: "kuántum komputíng risérchers éksplorz brékzru kompjutashonal aprócjes"
 
     - sentence: "Space exploration teams currently {_____} astronomical phenomena."
       options:
@@ -253,7 +253,7 @@ items:
       answer: "are investigating"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Equipos de exploración espacial actualmente están investigando fenómenos astronómicos"
-      pronunciation: "speis éksplorashon tims ar invéstigeting astronómikl fenómena"
+      pronunciationES: "speis éksplorashon tims ar invéstigeting astronómikl fenómena"
 
     - sentence: "Climate adaptation specialists {_____} resilience strategies for vulnerable communities."
       options:
@@ -264,7 +264,7 @@ items:
       answer: "develop"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Especialistas en adaptación climática desarrollan estrategias de resiliencia para comunidades vulnerables"
-      pronunciation: "kláimet adapteishon spéshalists divélop rezíliens straténies for válnerebel komyúnities"
+      pronunciationES: "kláimet adapteishon spéshalists divélop rezíliens straténies for válnerebel komyúnities"
 
     - sentence: "Neuroscience researchers currently {_____} brain function patterns."
       options:
@@ -275,7 +275,7 @@ items:
       answer: "are analyzing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Investigadores de neurociencia actualmente están analizando patrones de función cerebral"
-      pronunciation: "njurósciens risérchers ar ánalaizing brein fánkshon páterns"
+      pronunciationES: "njurósciens risérchers ar ánalaizing brein fánkshon páterns"
 
     - sentence: "Cybersecurity experts {_____} emerging digital threats and protection technologies."
       options:
@@ -286,7 +286,7 @@ items:
       answer: "investigate"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Expertos en ciberseguridad investigan amenazas digitales emergentes y tecnologías de protección"
-      pronunciation: "sáibersekjúriti éksperts invéstigeit imérjing dídyital zreits and protékshon teknológies"
+      pronunciationES: "sáibersekjúriti éksperts invéstigeit imérjing dídyital zreits and protékshon teknológies"
 
     - sentence: "Sustainable agriculture innovators currently {_____} eco-friendly farming techniques."
       options:
@@ -297,7 +297,7 @@ items:
       answer: "are developing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Innovadores de agricultura sostenible actualmente están desarrollando técnicas de cultivo ecológicas"
-      pronunciation: "sasteinábel ágrikulcher inóvators ar divéloping íko-frendli fárming tékniks"
+      pronunciationES: "sasteinábel ágrikulcher inóvators ar divéloping íko-frendli fárming tékniks"
 
     - sentence: "Human rights organizations {_____} global social justice trends."
       options:
@@ -308,7 +308,7 @@ items:
       answer: "monitor"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Organizaciones de derechos humanos monitorean tendencias de justicia social global"
-      pronunciation: "hjúman raits órganizéishons mónitore glóbal sóshol jástis trénds"
+      pronunciationES: "hjúman raits órganizéishons mónitore glóbal sóshol jástis trénds"
 
     - sentence: "Biotechnology researchers currently {_____} genetic modification possibilities."
       options:
@@ -319,7 +319,7 @@ items:
       answer: "are investigating"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Investigadores de biotecnología actualmente están investigando posibilidades de modificación genética"
-      pronunciation: "baioteknóloji risérchers ar invéstigeting jenétik modifikéishon posibílities"
+      pronunciationES: "baioteknóloji risérchers ar invéstigeting jenétik modifikéishon posibílities"
 
     - sentence: "Urban mobility experts {_____} transportation infrastructure solutions."
       options:
@@ -330,7 +330,7 @@ items:
       answer: "analyze"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Expertos en tecnología exploran tendencias digitales emergentes e innovaciones futuras"
-      pronunciation: "teknóloji éksperts éksplorz imérjing dídyital trénds and fjúcher inovéishons"
+      pronunciationES: "teknóloji éksperts éksplorz imérjing dídyital trénds and fjúcher inovéishons"
 
     - sentence: "Social media platforms {_____} user behavior and communication dynamics."
       options:
@@ -341,7 +341,7 @@ items:
       answer: "analyze"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Plataformas de redes sociales analizan comportamiento de usuarios y dinámicas de comunicación"
-      pronunciation: "sóshol mídia pláatforms ánalaiz yúzer bejéivior and komyunikéishon daiámiks"
+      pronunciationES: "sóshol mídia pláatforms ánalaiz yúzer bejéivior and komyunikéishon daiámiks"
 
     - sentence: "Entrepreneurial innovators currently {_____} disruptive market solutions."
       options:
@@ -352,7 +352,7 @@ items:
       answer: "are developing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Innovadores emprendedores actualmente están desarrollando soluciones de mercado disruptivas"
-      pronunciation: "entrepranéurial inóvators ar divéloping disráptiv márket solúshons"
+      pronunciationES: "entrepranéurial inóvators ar divéloping disráptiv márket solúshons"
 
     - sentence: "Global research teams {_____} interconnected challenges across multiple disciplines."
       options:
@@ -363,7 +363,7 @@ items:
       answer: "investigate"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Equipos de investigación global investigan desafíos interconectados a través de múltiples disciplinas"
-      pronunciation: "glóbal ríserdj tims invéstigeit interkónekted chálendjes acrós múltipol disipláins"
+      pronunciationES: "glóbal ríserdj tims invéstigeit interkónekted chálendjes acrós múltipol disipláins"
 
     - sentence: "Artificial intelligence systems currently {_____} complex predictive models."
       options:
@@ -374,7 +374,7 @@ items:
       answer: "are developing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Sistemas de inteligencia artificial actualmente están desarrollando modelos predictivos complejos"
-      pronunciation: "ártifishol intelídgens sístems ar divéloping kompleks pridíktiv módels"
+      pronunciationES: "ártifishol intelídgens sístems ar divéloping kompleks pridíktiv módels"
 
     - sentence: "International policy makers {_____} sustainable global governance strategies."
       options:
@@ -385,7 +385,7 @@ items:
       answer: "address"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Formuladores de políticas internacionales abordan estrategias de gobernanza global sostenible"
-      pronunciation: "intérnashonal pólisi meikors adréses sasteinábel glóbal govérnans straténies"
+      pronunciationES: "intérnashonal pólisi meikors adréses sasteinábel glóbal govérnans straténies"
 
     - sentence: "Biodiversity researchers currently {_____} ecosystem adaptation patterns."
       options:
@@ -396,7 +396,7 @@ items:
       answer: "are monitoring"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Investigadores de biodiversidad actualmente están monitoreando patrones de adaptación de ecosistemas"
-      pronunciation: "baiodivérsiti risérchers ar mónitoring ékosistem adapteishon páterns"
+      pronunciationES: "baiodivérsiti risérchers ar mónitoring ékosistem adapteishon páterns"
 
     - sentence: "Renewable energy innovators {_____} sustainable technologies for clean energy solutions."
       options:
@@ -407,7 +407,7 @@ items:
       answer: "develop"
       explanation: "Con 'they', el verbo permanece en forma base"
       translation: "Innovadores de energía renovable desarrollan tecnologías sostenibles para soluciones de energía limpia"
-      pronunciation: "rinúeable énerdji inóvators divélop sasteinábel teknológies for klín énerdji solúshons"
+      pronunciationES: "rinúeable énerdji inóvators divélop sasteinábel teknológies for klín énerdji solúshons"
 
     - sentence: "Digital transformation experts currently {_____} organizational change processes."
       options:
@@ -418,4 +418,4 @@ items:
       answer: "are analyzing"
       explanation: "Para acciones en progreso en este momento, se usa presente continuo"
       translation: "Expertos en transformación digital actualmente están analizando procesos de cambio organizacional"
-      pronunciation: "dídyital transforméishon éksperts ar ánalaizing órganizashonal cheinj próses"
+      pronunciationES: "dídyital transforméishon éksperts ar ánalaizing órganizashonal cheinj próses"
