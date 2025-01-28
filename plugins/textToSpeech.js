@@ -38,7 +38,7 @@ function findEnglishVoice() {
 // Initialize voices and handle the onvoiceschanged event
 function initVoices() {
   voices = synth.getVoices();
-  if (process.env.NODE_ENV === 'development') {
+  if (process.env.ENV === 'dev') {
     console.log('Available voices:', voices.map(v => ({
       name: v.name,
       lang: v.lang
@@ -66,26 +66,18 @@ export default defineNuxtPlugin({
       // Enhanced speak method with more voice control
       speak: (text, options = {}) => {
         try {
-          console.log('textToSpeech.speak:', text, options);
-
           // Cancel any ongoing speech
           synth.cancel();
 
-          console.log('cancel');
-
           const utterance = new SpeechSynthesisUtterance(text);
 
-          console.log('utterance');
-          
           // Set rate (speed) - default is 1, range is 0.1 to 10
           utterance.rate = options.rate || 1;
 
-          console.log('rate');
+          utterance.volume = options.volume || 1;
 
           // pitch: 0 to 2, 1 is default
           utterance.pitch = options.pitch || 1;
-
-          console.log('pitch');
 
           // Use provided voice or fall back to default selection method
           if (options.voice) {
@@ -94,13 +86,9 @@ export default defineNuxtPlugin({
             utterance.voice = findEnglishVoice();
           }
 
-          console.log('if (options.voice) {');
-
           // Additional settings for consistency
           utterance.pitch = options.pitch || 1;  // Default pitch
           utterance.volume = options.volume || 1; // Full volume
-
-          console.log('utterance.pitch = options.pitch || 1;');
 
           // Log voice selection in development
           if (ENVIRONMENTS_ALLOWED.includes(ENV)) {
@@ -111,16 +99,11 @@ export default defineNuxtPlugin({
             })
           }
 
-          console.log('if (ENVIRONMENTS_ALLOWED.includes(ENV)) {');
-
           // Speak the text
           synth.speak(utterance);
-
-          console.log('synth.speak(utterance);');
           
           return new Promise((resolve, reject) => {
             utterance.onend = () => {
-              console.log('onend');
               resolve({
                 name: utterance.voice?.name,
                 lang: utterance.voice?.lang,
