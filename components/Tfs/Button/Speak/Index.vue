@@ -68,7 +68,7 @@ const speak = async () => {
 			pitch: props.pitch,
 		})
 	} catch (error) {
-		$logger.error('Error speaking text', error)
+		console.log('Error speaking text', error)
 	} finally {
 		isPlaying.value = false
 	}

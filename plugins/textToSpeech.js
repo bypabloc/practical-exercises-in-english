@@ -64,7 +64,7 @@ export default defineNuxtPlugin({
 
     const textToSpeech = {
       // Enhanced speak method with more voice control
-      speak: (text, options = {}) => {
+      speak: async (text, options = {}) => {
         // Cancel any ongoing speech
         synth.cancel();
 
